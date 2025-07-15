@@ -9,6 +9,26 @@
 						</value>
 					</li>
 					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilityMin</xpath>
+						<value>
+							<fertilityMin>0</fertilityMin>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilitySensitivity</xpath>
+						<value>
+							<fertilitySensitivity>0</fertilitySensitivity>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/growDays</xpath>
+						<value>
+							<growDays>10</growDays>
+						</value>
+					</li>     
+      
+      
 				</operations>
 			</Operation>
 </Patch>
