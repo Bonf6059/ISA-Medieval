@@ -3,7 +3,7 @@
 		<Operation Class="PatchOperationSequence">
 				<operations>
 					<li Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="Plant_Glowstool"]/plant/sowTags</xpath>
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
 						<value>
 							<li>VPE_Mushroom</li>
 						</value>
