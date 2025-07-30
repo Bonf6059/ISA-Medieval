@@ -5,7 +5,7 @@
 		<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
 		<value>
 			<li>DA_PressGoldfortProcess</li>
-			<li>DA_PressMufftonCheeseProcess</li>
+			<li>ISA_MufftonMilkIntoCheese</li>
 		</value>
 	</Operation>
   
