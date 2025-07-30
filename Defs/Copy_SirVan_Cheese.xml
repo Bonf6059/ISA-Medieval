@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MealBase">
+		<defName>ISA_MealMufftonCheese</defName>
+		<label>muffton cheese</label>
+		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
+		<graphicData>
+			<texPath>Item/Meal/MufftonCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Nutrition>0.18</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>VCE_Cheese</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>VCE_AteCheese</ingestedThought>
+			</li>
+			<li Class="VEF.Things.CompProperties_LabelByIngredients">
+				<exclusions><li>DA_MufftonMilk</li></exclusions>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>
