@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!-- Muffton Cheese -->
+	
 	<PipeSystem.ProcessDef>
 		<defName>ISA_MufftonMilkIntoCheese</defName>
 		<label>Muffton milk into cheese</label>
@@ -33,4 +35,41 @@
 		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
 		<autoExtract>false</autoExtract>
 	</PipeSystem.ProcessDef>
+
+<!-- Goldilox Cheese -->
+
+	<PipeSystem.ProcessDef>
+		<defName>ISA_GoldiloxMilkIntoCheese</defName>
+		<label>Goldilox milk into cheese</label>
+		<description>Turns 50 Goldilox milk into 25 cheese.</description>
+		<labelOverride>Turn 50 Goldilox milk into 25 cheese.</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<useIngredients>true</useIngredients>
+		<ingredients>
+			<li>
+				<thing>DA_GoldiloxMilk</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticksQuality>
+			<li>600000</li>
+			<li>900000</li>
+			<li>1500000</li>
+			<li>2100000</li>
+			<li>2400000</li>
+			<li>2700000</li>
+			<li>4500000</li>
+		</ticksQuality>
+		<results>
+			<li>
+				<thing>ISA_MealGoldiloxCheese</thing>
+				<count>25</count>
+			</li>
+		</results>
+		<stopAtQuality>true</stopAtQuality>
+		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+		<autoExtract>false</autoExtract>
+	</PipeSystem.ProcessDef>
+
 </Defs>
