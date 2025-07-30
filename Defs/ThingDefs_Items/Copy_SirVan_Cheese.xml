@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+<!-- Muffton Cheese -->
+	
 	<ThingDef ParentName="MealBase">
 		<defName>ISA_MealMufftonCheese</defName>
 		<label>muffton cheese</label>
@@ -12,8 +15,8 @@
 		<tradeability>Sellable</tradeability>
 		<stackLimit>75</stackLimit>
 		<statBases>
-			<MarketValue>15</MarketValue>
-			<Nutrition>0.18</Nutrition>
+			<MarketValue>12</MarketValue>
+			<Nutrition>0.5</Nutrition>
 		</statBases>
 		<thingCategories>
 			<li>VCE_Cheese</li>
@@ -51,4 +54,79 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+<!-- Goldilox Cheese -->
+	
+	<ThingDef ParentName="MealBase">
+		<defName>ISA_MealGoldiloxCheese</defName>
+		<label>goldilox cheese</label>
+		<description>A sharp-tasting wheel of soft cheese, created by a special process of purposely curdling goldilox milk. Its golden rind and soft core which melts in the mouth it is a cheese fit for kings, as well as a versatile ingredient in meals.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Item/Meal/GoldfortCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MarketValue>16</MarketValue>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>VCE_Cheese</li>
+		</thingCategories>
+		<ingestible>
+		
+      	<outcomeDoers>
+        	<li Class="IngestionOutcomeDoer_GiveHediff">
+        	  <hediffDef>DA_MilkTolerance</hediffDef>
+        	  <toleranceChemical>DA_RegalMilk</toleranceChemical>
+        	  <severity>0.052</severity>
+        	  <divideByBodySize>true</divideByBodySize>
+        	  <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+        	</li>
+      	</outcomeDoers>
+	  
+		<joy>0.20</joy>
+		<joyKind>Gluttonous</joyKind>
+		<foodType>Processed</foodType>
+		<preferability>MealLavish</preferability>
+		<optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
+		<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+	</ingestible>
+		<comps>
+		    <li Class="CompProperties_Drug">
+                 <chemical>DA_RegalMilk</chemical>
+                  <addictiveness>0.010</addictiveness>
+                  <minToleranceToAddict>0.15</minToleranceToAddict>
+                  <existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+                  <needLevelOffset>0.9</needLevelOffset>
+                  <listOrder>30</listOrder>
+            </li>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>45</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>DA_AteGoldfortCheese</ingestedThought>
+			</li>
+			<li MayRequire="vanillaexpanded.vcooke" Class="VanillaCookingExpanded.CompProperties_StackByQuality"/>
+			<li Class="VEF.Things.CompProperties_LabelByIngredients">
+				<overrides>
+					
+					<li>
+						<key>InsectJelly</key>
+						<value>Insect</value>
+					</li>
+				</overrides>
+				<exclusions><li>DA_MufftonMilk</li></exclusions>
+			</li>
+		</comps>
+	</ThingDef>
+
 </Defs>
