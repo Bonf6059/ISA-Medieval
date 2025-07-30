@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="MealBase">
 		<defName>ISA_MealMufftonCheese</defName>
@@ -40,6 +40,13 @@
 				<ingestedThought>VCE_AteCheese</ingestedThought>
 			</li>
 			<li Class="VEF.Things.CompProperties_LabelByIngredients">
+				<overrides>
+					
+					<li>
+						<key>InsectJelly</key>
+						<value>Insect</value>
+					</li>
+				</overrides>
 				<exclusions><li>DA_MufftonMilk</li></exclusions>
 			</li>
 		</comps>
