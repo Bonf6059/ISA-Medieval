@@ -106,16 +106,19 @@
                   <listOrder>30</listOrder>
             </li>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>45</daysToRotStart>
+				<daysToRotStart>150</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
 			</li>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
-				<ingestedThought>DA_AteGoldfortCheese</ingestedThought>
+				<ingestedThought>VCE_AteCheese</ingestedThought>
 			</li>
-			<li MayRequire="vanillaexpanded.vcooke" Class="VanillaCookingExpanded.CompProperties_StackByQuality"/>
 			<li Class="VEF.Things.CompProperties_LabelByIngredients">
 				<overrides>
 					
@@ -124,7 +127,7 @@
 						<value>Insect</value>
 					</li>
 				</overrides>
-				<exclusions><li>DA_MufftonMilk</li></exclusions>
+				<exclusions><li>DA_RegalMilk</li></exclusions>
 			</li>
 		</comps>
 	</ThingDef>
