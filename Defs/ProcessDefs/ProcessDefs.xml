@@ -48,7 +48,7 @@
 		<useIngredients>true</useIngredients>
 		<ingredients>
 			<li>
-				<thing>DA_GoldiloxMilk</thing>
+				<thing>DA_RegalMilk</thing>
 				<countNeeded>50</countNeeded>
 			</li>
 		</ingredients>
