@@ -2,7 +2,7 @@
 <Patch>
 		<Operation Class="PatchOperationSequence">
 				<operations>
-					<li Class="PatchOperationAdd">
+					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
 						<value>
 							<li>VPE_Mushroom</li>
