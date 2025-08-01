@@ -7,12 +7,6 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
 	<modDependencies>
 		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-		<li>
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
@@ -22,7 +16,12 @@
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>VanillaExpanded.VPlantsE</li>
-    <li>VanillaExpanded.VPlantsEMushrooms</li>
+   		<li>VanillaExpanded.VPlantsEMushrooms</li>
+		<li>VanillaExpanded.VCookE</li>
+		<li>det.epochspottery</li>
+		<li>det.epochspyrinth</li>
+		<li>det.epochstallow</li>
+		<!-- <li>Dark ages beasts and monster by sirvan</li> -->
 	</loadAfter>
 	<packageId>ISARandomPatches</packageId>
 	<description>Just a bunch of patches and addons to various mods.
