@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		<Operation Class="PatchOperationSequence">
+				<operations>
+
+					<li MayRequire="OskarPotocki.VFE.Medieval2" Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="VFEM2_AlchemicalWorkbench"]/comps</xpath>
+		          <comps>
+	          		<li Class="CompProperties_Refuelable">
+	        			  <fuelConsumptionRate>80.0</fuelConsumptionRate>
+	        		  	<fuelCapacity>50.0</fuelCapacity>
+	        		  	<fuelFilter>
+				          	<thingDefs>
+					          	<li>WoodLog</li>
+				          	</thingDefs>
+			            </fuelFilter>
+				          <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				          <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+		          	</li>
+			          <li Class="CompProperties_AffectedByFacilities">
+				          <linkableFacilities>
+					          <li>ToolCabinet</li>
+				          </linkableFacilities>
+			          </li>
+		          </comps>
+					</li>
+
+				</operations>
+			</Operation>
+</Patch>
