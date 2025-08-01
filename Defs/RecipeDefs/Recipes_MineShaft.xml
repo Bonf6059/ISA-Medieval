@@ -159,7 +159,7 @@
     		</products>
     	</RecipeDef>
 
-<!-- With Epochs Pottery loaded -->
+<!-- With Epochs Pottery loaded 
 	
       <RecipeDef MayRequire="det.epochspottery" ParentName="DankPyon_MineShaftBase">
 		<defName>ISA_MakeClay</defName>
@@ -181,5 +181,5 @@
     		<products>
     			<DankPyon_Clay>10</DankPyon_Clay>
     		</products>
-    	</RecipeDef>
+    	</RecipeDef>	-->
 </Defs>
