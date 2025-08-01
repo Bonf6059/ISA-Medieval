@@ -132,7 +132,7 @@
 		<description>A wood-fueled oven with an attached countertop for preparing meals.</description>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<graphicData>
-			<texPath>Production/RusticCookingTable</texPath>
+			<texPath>Production/RusticCookingTable/RusticCookingTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.5,1.5)</drawSize>
@@ -205,7 +205,7 @@
 		<description>A sturdy platform equipped with a primitive elevator built on top of a vertical tunnel. Can be used for mining resources and chunks.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Production/MineShaft</texPath>
+			<texPath>Production/MineShaft/MineShaft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.8,3.8)</drawSize>
@@ -270,7 +270,7 @@
 		<thingClass>Building_PlantGrower</thingClass>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-			<texPath>Production/GardeningBox</texPath>
+			<texPath>Production/GardeningBox/GardeningBox</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1,4)</drawSize>
