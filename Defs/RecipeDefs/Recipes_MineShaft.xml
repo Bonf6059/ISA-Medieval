@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Stone Chunks Base Class -->
+	<RecipeDef Name="ISA_MineShaftBase" Abstract="True">
+		<description>Mine deep down underground to obtain rock chunks.</description>
+		<workSpeedStat>MiningSpeed</workSpeedStat>
+		<workSkill>Mining</workSkill>
+		<workSkillLearnFactor>0.50</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<recipeUsers>
+			<li>ISA_MineShaft</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Stone Chunks: Sandstone -->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeStoneChunks_Sandstone</defName>
+		<workAmount>2250</workAmount>
+		<label>gather sandstone chunk</label>
+		<jobString>Mining 1 sandstone chunk.</jobString>
+		<products>
+			<ChunkSandstone>1</ChunkSandstone>
+		</products>
+	</RecipeDef>
+
+	<!-- Stone Chunks: Granite -->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeStoneChunks_Granite</defName>
+		<workAmount>2975</workAmount>
+		<label>gather granite chunk</label>
+		<jobString>Mining 1 granite chunk.</jobString>
+		<products>
+			<ChunkGranite>1</ChunkGranite>
+		</products>
+	</RecipeDef>
+
+	<!-- Stone Chunks: Limestone -->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeStoneChunks_Limestone</defName>
+		<workAmount>2700</workAmount>
+		<label>gather limestone chunk</label>
+		<jobString>Mining 1 limestone chunk.</jobString>
+		<products>
+			<ChunkLimestone>1</ChunkLimestone>
+		</products>
+	</RecipeDef>
+
+	<!-- Stone Chunks: Slate -->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeStoneChunks_Slate</defName>
+		<workAmount>2275</workAmount>
+		<label>gather slate chunk</label>
+		<jobString>Mining 1 slate chunk.</jobString>
+		<products>
+			<ChunkSlate>1</ChunkSlate>
+		</products>
+	</RecipeDef>
+
+	<!-- Stone Chunks: Marble -->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeStoneChunks_Marble</defName>
+		<workAmount>2100</workAmount>
+		<label>gather marble chunk</label>
+		<jobString>Mining 1 marble chunk.</jobString>
+		<products>
+			<ChunkMarble>1</ChunkMarble>
+		</products>
+	</RecipeDef>
+
+	<!-- ========== Ores ==========-->
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeSteel</defName>
+		<description>Mine deep down underground to obtain steel</description>
+		<workAmount>900</workAmount>
+		<label>mine a piece of steel</label>
+		<jobString>Mining 1 steel.</jobString>
+		<products>
+			<Steel>1</Steel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeSteelBulk</defName>
+		<description>Mine deep down underground to obtain steel</description>
+		<workAmount>4500</workAmount>
+		<label>mine steel x5</label>
+		<jobString>Mining 5 steel.</jobString>
+		<products>
+			<Steel>5</Steel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeSilver</defName>
+		<description>Mine deep down underground to obtain silver</description>
+		<workAmount>600</workAmount>
+		<label>mine a silver piece</label>
+		<jobString>Mining 1 silver.</jobString>
+		<products>
+			<Silver>1</Silver>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeSilverBulk</defName>
+		<description>Mine deep down underground to obtain silver</description>
+		<workAmount>3000</workAmount>
+		<label>mine silver x5</label>
+		<jobString>Mining 5 silver.</jobString>
+		<products>
+			<Silver>5</Silver>
+		</products>
+	</RecipeDef>
+
+  <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakePlasteel</defName>
+		<description>Mine deep down underground to obtain plasteel</description>
+		<workAmount>1000</workAmount>
+		<label>mine a piece of plasteel</label>
+		<jobString>Mining 1 plasteel.</jobString>
+		<products>
+			<Plasteel>1</Plasteel>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakePlasteelBulk</defName>
+		<description>Mine deep down underground to obtain plasteel</description>
+		<workAmount>5000</workAmount>
+		<label>mine plasteel x5</label>
+		<jobString>Mining 5 plasteel.</jobString>
+		<products>
+			<Plasteel>5</Plasteel>
+		</products>
+	</RecipeDef>
+</Defs>
