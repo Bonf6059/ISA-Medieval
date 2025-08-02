@@ -2,7 +2,7 @@
 <Defs>
 <!-- Muffton Cheese -->
 	
-	<PipeSystem.ProcessDef <!--MayRequire="VanillaExpanded.VCookE,mod di sirvan"-->>
+	<PipeSystem.ProcessDef MayRequire="VanillaExpanded.VCookE,Van.Beasts">
 		<defName>ISA_MufftonMilkIntoCheese</defName>
 		<label>Muffton milk into cheese</label>
 		<description>Turns 50 muffton milk into 25 cheese.</description>
@@ -38,7 +38,7 @@
 
 <!-- Goldilox Cheese -->
 
-	<PipeSystem.ProcessDef <!--MayRequire="VanillaExpanded.VCookE,mod di sirvan"-->>
+	<PipeSystem.ProcessDef MayRequire="VanillaExpanded.VCookE,Van.Beasts">
 		<defName>ISA_GoldiloxMilkIntoCheese</defName>
 		<label>Goldilox milk into cheese</label>
 		<description>Turns 50 Goldilox milk into 25 cheese.</description>
