@@ -23,7 +23,7 @@
 		<li>det.epochstallow</li>
 		<!-- <li>Dark ages beasts and monster by sirvan</li> -->
 	</loadAfter>
-	<packageId>ISARandomPatches</packageId>
+	<packageId>ISA.RandomPatches</packageId>
 	<description>Just a bunch of patches and addons to various mods.
 </description>
 </ModMetaData>
