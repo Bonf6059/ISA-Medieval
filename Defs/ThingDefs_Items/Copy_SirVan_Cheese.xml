@@ -3,7 +3,7 @@
 
 <!-- Muffton Cheese -->
 	
-	<ThingDef <!--MayRequire="VanillaExpanded.VCookE,mod di sirvan"--> ParentName="MealBase">
+	<ThingDef MayRequire="VanillaExpanded.VCookE,Van.Beasts" ParentName="MealBase">
 		<defName>ISA_MealMufftonCheese</defName>
 		<label>muffton cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
@@ -57,7 +57,7 @@
 
 <!-- Goldilox Cheese -->
 	
-	<ThingDef <!--MayRequire="VanillaExpanded.VCookE,mod di sirvan"--> ParentName="MealBase">
+	<ThingDef MayRequire="VanillaExpanded.VCookE,Van.Beasts" ParentName="MealBase">
 		<defName>ISA_MealGoldiloxCheese</defName>
 		<label>goldilox cheese</label>
 		<description>A sharp-tasting wheel of soft cheese, created by a special process of purposely curdling goldilox milk. Its golden rind and soft core which melts in the mouth it is a cheese fit for kings, as well as a versatile ingredient in meals.</description>
