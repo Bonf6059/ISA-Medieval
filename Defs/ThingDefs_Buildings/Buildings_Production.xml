@@ -69,11 +69,11 @@
 
 <!-- Butcher's block from medieval overhaul -->
 
-	<ThingDef ParentName="BenchBase">
+	  <ThingDef ParentName="BenchBase">
 		<defName>ISA_ButchersBlock</defName>
 		<label>butcher's block</label>
 		<description>A wooden stump for butchering dead creatures into pieces of raw meat.</description>
-		<thingClass>Building_WorkTable</thingClass>
+  		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Production/ButcherBlock/ButcherBlock</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -90,23 +90,22 @@
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.2</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<statBases>
-			<WorkToBuild>1500</WorkToBuild>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<Cleanliness>-15</Cleanliness>
-			<WorkTableWorkSpeedFactor>0.85</WorkTableWorkSpeedFactor>
-		</statBases>
-		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.2</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-15</Cleanliness>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
 		<recipes>
 			<li>ButcherCorpseFlesh</li>
 			<li>Make_Kibble</li>
@@ -117,18 +116,27 @@
 			<li MayRequire="det.epochstallow">DV_Make_TallowBulk</li>
 		
 		</recipes>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
-		<designationHotKey>Misc3</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
-		</placeWorkers>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <workTableRoomRole />
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
 		<techLevel>Medieval</techLevel>
-	</ThingDef>
+  </ThingDef>
 
 <!-- Rustic cooking table from medieval overhaul -->
   
