@@ -137,7 +137,7 @@
 
 <!-- With Epochs Pyrinth loaded -->
 	
-      <RecipeDef MayRequire="det.epochspyrinth" ParentName="DankPyon_MineShaftBase">
+      <RecipeDef MayRequire="det.epochspyrinth" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakePyrinth</defName>
 		<description>Mine deep down underground to obtain pyrinth</description>
 	    	<workAmount>300</workAmount>
@@ -148,7 +148,7 @@
 	    	</products>
 	</RecipeDef>
 
-      <RecipeDef MayRequire="det.epochspyrinth" ParentName="DankPyon_MineShaftBase">
+      <RecipeDef MayRequire="det.epochspyrinth" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakePyrinthBulk</defName>
     		<description>Mine deep down underground to obtain pyrinth</description>
 	    	<workAmount>3000</workAmount>
@@ -161,25 +161,25 @@
 
 <!-- With Epochs Pottery loaded 
 	
-      <RecipeDef MayRequire="det.epochspottery" ParentName="DankPyon_MineShaftBase">
+      <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeClay</defName>
 		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>200</workAmount>
 	    	<label>gather clay</label>
 	    	<jobString>Mining 1 clay</jobString>
 	    	<products>
-	    		<DankPyon_Clay>1</DankPyon_Clay>
+	    		<DV_Clay>1</DV_Clay>
 	    	</products>
 	</RecipeDef>
 
-      <RecipeDef MayRequire="det.epochspottery" ParentName="DankPyon_MineShaftBase">
+      <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakeClayBulk</defName>
     		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>2000</workAmount>
 	    	<label>gather clay x10</label>
     		<jobString>Mining 10 clay</jobString>
     		<products>
-    			<DankPyon_Clay>10</DankPyon_Clay>
+    			<DV_Clay>10</DV_Clay>
     		</products>
     	</RecipeDef>	-->
 </Defs>
