@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	
-	<Operation MayRequire="VanillaExpanded.VCookE" Class="PatchOperationAdd">
+	<Operation MayRequire="VanillaExpanded.VCookE,Van.Beasts" Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
 		<value>
 			<li>ISA_GoldiloxMilkIntoCheese</li>
