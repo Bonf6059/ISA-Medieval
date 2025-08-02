@@ -223,7 +223,7 @@
 			</damageData>
 		</graphicData>
 		<costList>
-			<Steel>60</Steel>    <!-- se crea problemi toglilo e basta -->
+			<Steel>60</Steel>    
 		</costList>
 		<stuffCategories>
 			<li>Woody</li>
