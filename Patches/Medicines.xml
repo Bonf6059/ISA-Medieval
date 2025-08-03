@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-	<Operation MayRequire="det.battlemeds,OskarPotocki.VFE.Medieval2" Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="HerbalPowder"]/recipeMaker/recipeUsers</xpath>
-			<value>
-				<li>VFEM2_AlchemicalWorkbench</li>
-			</value>
-	</Operation>
-</Patch>
