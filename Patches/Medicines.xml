@@ -1,1 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation MayRequire="det.battlemeds" Class="PatchOperationAdd">
+	  <xpath>/Defs/ThingDef[defName="HerbalPowder"]/recipeMaker/recipeUsers/li</xpath>
+		  <value>
+			  <li>VFEM2_AlchemicalWorkbench</li>
+			</value>
+		</li>
 
+			</Operation>
+</Patch>
