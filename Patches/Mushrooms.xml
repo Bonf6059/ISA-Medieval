@@ -6,6 +6,7 @@
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
 						<value>
 							<li>VPE_Mushroom</li>
+							<li>Ground</li>
 						</value>
 					</li>
 					
@@ -14,7 +15,7 @@
 						<value>
 							<fertilityMin>0</fertilityMin>
 						</value>
-					</li>
+					</li>	
 					<li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilitySensitivity</xpath>
 						<value>
@@ -31,4 +32,5 @@
       
 				</operations>
 			</Operation>
+	
 </Patch>
