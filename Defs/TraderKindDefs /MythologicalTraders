@@ -118,7 +118,7 @@
         <countRange>-50~420</countRange>
       </li>
 
-      <li Class="StockGenerator_Category">
+      <li MayRequire="Van.Beasts" Class="StockGenerator_Category">
         <categoryDef>ISA_MithycalAnimals</categoryDef>
         <thingDefCountRange>1~5</thingDefCountRange>
         <totalPriceRange>10~25</totalPriceRange>
