@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!--========== TRADERS ==========-->
+  
+  <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+    <li>ISA_Caravan_Mythological</li>
+    </value>
+  </Operation>
+
+</Patch>
