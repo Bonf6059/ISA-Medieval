@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Caravan -->
+    
+<TraderKindDef>
+    <defName>ISA_Caravan_Mythological</defName>
+    <label>mythological supplier</label>
+    <stockGenerators>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3500~5000</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>15~20</countRange>
+      </li>
+      
+      <li MayRequire="det.battlemeds" Class="StockGenerator_SingleDef">
+        <thingDef>HerbalPowder</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>100~250</countRange>
+      </li>
+      
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_DrogTusk</thingDef>
+        <countRange>-3~7</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_GoldiloxHorn</thingDef>
+        <countRange>-3~3</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_PetrifyingGland</thingDef>
+        <countRange>-3~15</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_LarpahAntlers</thingDef>
+        <countRange>-3~23</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_TrollMeat</thingDef>
+        <countRange>-10~42</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_GiantBone</thingDef>
+        <countRange>-25~140</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Sangonite</thingDef>
+        <countRange>-10~2</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Drog</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Drog</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Crestel</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_RockTroll</thingDef>
+        <countRange>-50~120</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Troll</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Larpah</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_Barog</thingDef>
+        <countRange>-50~120</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_WoolMuffton</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_WoolGoldilox</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_BlackChitin</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_BlackChitin</thingDef>
+        <countRange>-50~420</countRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>ISA_MithycalAnimals</categoryDef>
+        <thingDefCountRange>1~5</thingDefCountRange>
+        <totalPriceRange>10~25</totalPriceRange>
+      </li>
+
+      </li>
+      <!-- Buying -->
+      
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ResourcesRaw</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>
