@@ -119,11 +119,20 @@
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_Category">
-        <categoryDef>AnimalExotic</categoryDef>
-        <thingDefCountRange>1~5</thingDefCountRange>
-        <totalPriceRange>10~25</totalPriceRange>
+      <li Class="StockGenerator_Animals">
+        <maxWildness>1</maxWildness>
+        <tradeTagsSell>
+          <li>ISA_MythicalAnimal</li>
+      	  <li>AnimalExotic</li>
+        </tradeTagsSell>
+        <kindCountRange>-1~3</kindCountRange>
+        <countRange>3~4</countRange>
+        <createMatingPair>
+          <li>ISA_MythicalAnimal</li>
+        </createMatingPair>
       </li>
+
+
 
       <!-- Buying -->
       
@@ -132,7 +141,12 @@
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ResourcesRaw</tag></li>
-
+      <li Class="StockGenerator_Animals">
+      	<tradeTagsBuy>
+      		<li>AnimalExotic</li>
+      		<li>ISA_MythicalAnimal</li>
+      	</tradeTagsBuy>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 
