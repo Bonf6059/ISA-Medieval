@@ -1949,7 +1949,7 @@
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<leatherDef>Leather_Lizard</leatherDef>
-			<useMeatFrom>Quinkana</useMeatFrom>
+			<useMeatFrom>Megalania</useMeatFrom>
 			<wildBiomes>
 				<TemperateSwamp>0.007</TemperateSwamp>
 				<TropicalSwamp>0.007</TropicalSwamp>
