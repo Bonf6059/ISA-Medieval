@@ -136,7 +136,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<drawSize>1</drawSize>
 					<color>(177,161,132)</color>
 					<shadowData>
@@ -145,18 +145,18 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<drawSize>1</drawSize>
 					<color>(177,161,132)</color>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<drawSize>2</drawSize>
 					<color>(177,161,132)</color>
 					<shadowData>
@@ -165,18 +165,18 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<color>(177,161,132)</color>
 					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<drawSize>3</drawSize>
 					<color>(177,161,132)</color>
 					<shadowData>
@@ -185,12 +185,12 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_doedicurus</texPath>
 					<drawSize>3</drawSize>
 					<color>(177,161,132)</color>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
+					<texPath>Megafauna/Doedicurus/megafauna_Dessicated_Doedicurus</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -325,7 +325,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>2.1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -333,17 +333,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -351,17 +351,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>4.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -369,11 +369,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_elasmotherium</texPath>
 					<drawSize>4</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
+					<texPath>Megafauna/Elasmotherium/megafauna_Dessicated_Elasmotherium</texPath>
 					<drawSize>4</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -509,7 +509,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -517,17 +517,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>1</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_Dessicated_Smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_Dessicated_Smilodon</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>2.1</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -535,17 +535,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_Dessicated_Smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_Dessicated_Smilodon</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>3.1</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -553,11 +553,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_smilodon</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Smilodon/megafauna_Dessicated_Smilodon</texPath>
+					<texPath>Megafauna/Smilodon/megafauna_Dessicated_Smilodon</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -686,7 +686,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosMale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosMale</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -694,17 +694,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosFemale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosFemale</texPath>
 					<drawSize>1.2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosMale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosMale</texPath>
 					<drawSize>2.2</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -712,17 +712,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosFemale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosFemale</texPath>
 					<drawSize>2.2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosMale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosMale</texPath>
 					<drawSize>3.7</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -730,11 +730,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_megalocerosFemale</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_megalocerosFemale</texPath>
 					<drawSize>3.7</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
+					<texPath>Megafauna/Megaloceros/megafauna_Dessicated_Megaloceros</texPath>
 					<drawSize>3.7</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -880,7 +880,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>2</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -888,17 +888,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_Dessicated_Megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_Dessicated_Megalania</texPath>
 					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>3.6</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -906,17 +906,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>3.6</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_Dessicated_Megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_Dessicated_Megalania</texPath>
 					<drawSize>3.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>4.6</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -924,11 +924,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_megalania</texPath>
 					<drawSize>4.6</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Megalania/megafauna_Dessicated_Megalania</texPath>
+					<texPath>Megafauna/Megalania/megafauna_Dessicated_Megalania</texPath>
 					<drawSize>4.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1055,7 +1055,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -1063,17 +1063,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>1.6</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>2.3</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -1081,17 +1081,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>2.4</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
 					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>3.1</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -1099,11 +1099,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_dinocrocuta</texPath>
 					<drawSize>3.3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
+					<texPath>Megafauna/Dinocrocuta/megafauna_Dessicated_Dinocrocuta</texPath>
 					<drawSize>3.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1246,7 +1246,7 @@
 				<label>sivatherium calf</label>
 				<labelPlural>sivatherium calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>3.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -1254,17 +1254,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>3.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
 					<drawSize>3.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>4.2</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -1272,17 +1272,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>4.2</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
 					<drawSize>4.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>5.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -1290,11 +1290,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_sivatherium</texPath>
 					<drawSize>5.1</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
+					<texPath>Megafauna/Sivatherium/megafauna_Dessicated_Sivatherium</texPath>
 					<drawSize>5.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1427,7 +1427,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>2.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -1435,17 +1435,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>2.6</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
 					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -1453,17 +1453,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>3.6</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -1471,11 +1471,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_andrewsarchus</texPath>
 					<drawSize>3.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
+					<texPath>Megafauna/Andrewsarchus/megafauna_Dessicated_Andrewsarchus</texPath>
 					<drawSize>3.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1606,7 +1606,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisMale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisMale</texPath>
 					<drawSize>1.75</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -1614,17 +1614,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisFemale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisFemale</texPath>
 					<drawSize>1.9</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_Dessicated_Dinornis</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_Dessicated_Dinornis</texPath>
 					<drawSize>1.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisMale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisMale</texPath>
 					<drawSize>2.75</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -1632,17 +1632,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisFemale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisFemale</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_Dessicated_Dinornis</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_Dessicated_Dinornis</texPath>
 					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisMale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisMale</texPath>
 					<drawSize>2.9</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -1650,11 +1650,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_dinornisFemale</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_dinornisFemale</texPath>
 					<drawSize>3.9</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dinornis/megafauna_Dessicated_Dinornis</texPath>
+					<texPath>Megafauna/Dinornis/megafauna_Dessicated_Dinornis</texPath>
 					<drawSize>2.9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1801,7 +1801,7 @@
 				<label>aurochs calf</label>
 				<labelPlural>aurochs calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsMale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsMale</texPath>
 					<drawSize>1.8</drawSize>
 					<color>(170,170,170)</color>
 					<shadowData>
@@ -1810,7 +1810,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsFemale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsFemale</texPath>
 					<drawSize>1.5</drawSize>
 					<color>(200,200,200)</color>
 					<shadowData>
@@ -1819,13 +1819,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_Dessicated_Aurochs</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_Dessicated_Aurochs</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsMale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsMale</texPath>
 					<drawSize>2.6</drawSize>
 					<color>(170,170,170)</color>
 					<shadowData>
@@ -1834,7 +1834,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsFemale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsFemale</texPath>
 					<drawSize>2.4</drawSize>
 					<color>(200,200,200)</color>
 					<shadowData>
@@ -1843,13 +1843,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_Dessicated_Aurochs</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_Dessicated_Aurochs</texPath>
 					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsMale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsMale</texPath>
 					<drawSize>4</drawSize>
 					<color>(170,170,170)</color>
 					<shadowData>
@@ -1858,7 +1858,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_aurochsFemale</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_aurochsFemale</texPath>
 					<drawSize>3.8</drawSize>
 					<color>(200,200,200)</color>
 					<shadowData>
@@ -1867,7 +1867,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Aurochs/megafauna_Dessicated_Aurochs</texPath>
+					<texPath>Megafauna/Aurochs/megafauna_Dessicated_Aurochs</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -2007,7 +2007,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -2015,17 +2015,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -2033,17 +2033,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>4.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
 					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>6.5</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -2051,11 +2051,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_purussaurus</texPath>
 					<drawSize>6.5</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
+					<texPath>Megafauna/Purussaurus/megafauna_Dessicated_Purussaurus</texPath>
 					<drawSize>6.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -2194,7 +2194,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -2202,17 +2202,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>1</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_Dessicated_Castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_Dessicated_Castoroides</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -2220,17 +2220,17 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>1.7</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_Dessicated_Castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_Dessicated_Castoroides</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
@@ -2238,11 +2238,11 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_castoroides</texPath>
 					<drawSize>3</drawSize>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Castoroides/megafauna_Dessicated_Castoroides</texPath>
+					<texPath>Megafauna/Castoroides/megafauna_Dessicated_Castoroides</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
