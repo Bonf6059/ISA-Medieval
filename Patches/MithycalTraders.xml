@@ -15,7 +15,7 @@
   <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Barog"]/tradeTags</xpath>
     <value>
-    <li>ISA_Caravan_Mythological</li>
+    <li>ISA_MithycalAnimals</li>
     </value>
   </Operation>
 
