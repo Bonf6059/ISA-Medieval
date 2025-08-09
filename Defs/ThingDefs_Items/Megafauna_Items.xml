@@ -226,7 +226,7 @@
 		<label>sivatherium milk</label>
 		<description>Very nutritious milk from a sivatherium.</description>
 		<graphicData>
-			<texPath>Items/Megafauna/Milk</texPath>
+			<texPath>Things/Item/Resource/Milk</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
