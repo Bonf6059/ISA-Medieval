@@ -125,7 +125,6 @@
         <totalPriceRange>10~25</totalPriceRange>
       </li>
 
-      </li>
       <!-- Buying -->
       
       <li Class="StockGenerator_BuyExpensiveSimple" />
@@ -136,4 +135,5 @@
 
     </stockGenerators>
   </TraderKindDef>
+
 </Defs>
