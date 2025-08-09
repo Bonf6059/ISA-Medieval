@@ -125,7 +125,7 @@
 				<label>mammoth calf</label>
 				<labelPlural>calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/WoollyMammothCalf</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/WoollyMammothCalf</texPath>
 					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -133,13 +133,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/dessicated_WoollyMammothCalf</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/dessicated_WoollyMammothCalf</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/WoollyMammothM</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/WoollyMammothM</texPath>
 					<drawSize>2.6</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -147,7 +147,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/WoollyMammothF</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/WoollyMammothF</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -155,11 +155,11 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/dessicated_WoollyMammothM</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/dessicated_WoollyMammothM</texPath>
 					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/dessicated_WoollyMammothF</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/dessicated_WoollyMammothF</texPath>
 					<drawSize>2.4</drawSize>
 				</femaleDessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -170,7 +170,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/WoollyMammothM</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/WoollyMammothM</texPath>
 					<drawSize>3.85</drawSize>
 					<shadowData>
 						<volume>(1.0, 0.8, 0.8)</volume>
@@ -178,7 +178,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/WoollyMammothF</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/WoollyMammothF</texPath>
 					<drawSize>3.6</drawSize>
 					<shadowData>
 						<volume>(1.0, 0.8, 0.8)</volume>
@@ -186,11 +186,11 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/dessicated_WoollyMammothM</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/dessicated_WoollyMammothM</texPath>
 					<drawSize>3.85</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyMammoth/dessicated_WoollyMammothF</texPath>
+					<texPath>Regrowth_extinct/WoollyMammoth/dessicated_WoollyMammothF</texPath>
 					<drawSize>3.6</drawSize>
 				</femaleDessicatedBodyGraphicData>
 				<butcherBodyPart>
@@ -339,7 +339,7 @@
 			<li>
 				<label>hatchling</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/WoollyStegosaurus</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.4, 0.25)</volume>
@@ -347,13 +347,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/WoollyStegosaurus</texPath>
 					<drawSize>3.2</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.35)</volume>
@@ -361,13 +361,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
 					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/WoollyStegosaurus</texPath>
 					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(1.0, 0.8, 0.6)</volume>
@@ -375,7 +375,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
+					<texPath>Regrowth_extinct/WoollyStegosaurus/dessicated_WoollyStegosaurus</texPath>
 					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -506,17 +506,17 @@
 			<li>
 				<label>chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/Dodo</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/dessicated_Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/dessicated_Dodo</texPath>
 					<drawSize>0.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/Dodo</texPath>
 					<drawSize>0.75</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.1, 0.1)</volume>
@@ -524,13 +524,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/dessicated_Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/dessicated_Dodo</texPath>
 					<drawSize>0.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/Dodo</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.15, 0.15)</volume>
@@ -538,7 +538,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Dodo/dessicated_Dodo</texPath>
+					<texPath>Regrowth_extinct/Dodo/dessicated_Dodo</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -672,17 +672,17 @@
 			<li>
 				<label>chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/TerrorBird</texPath>
 					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/dessicated_TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/dessicated_TerrorBird</texPath>
 					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/TerrorBird</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -690,13 +690,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/dessicated_TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/dessicated_TerrorBird</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/TerrorBird</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -704,7 +704,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/TerrorBird/dessicated_TerrorBird</texPath>
+					<texPath>Regrowth_extinct/TerrorBird/dessicated_TerrorBird</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -851,7 +851,7 @@
 			<li>
 				<label>hatchling</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakM</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakM</texPath>
 					<drawSize>1.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.15, 0.3)</volume>
@@ -859,7 +859,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakF</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakF</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.15, 0.3)</volume>
@@ -867,13 +867,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/dessicated_ArcticDrak</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/dessicated_ArcticDrak</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakM</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakM</texPath>
 					<drawSize>2.6</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.2, 0.4)</volume>
@@ -881,7 +881,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakF</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakF</texPath>
 					<drawSize>2.4</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.2, 0.4)</volume>
@@ -889,13 +889,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/dessicated_ArcticDrak</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/dessicated_ArcticDrak</texPath>
 					<drawSize>2.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakM</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakM</texPath>
 					<drawSize>3.3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.25, 0.5)</volume>
@@ -903,7 +903,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/ArcticDrakF</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/ArcticDrakF</texPath>
 					<drawSize>3.1</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.25, 0.5)</volume>
@@ -911,7 +911,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/ArcticDrak/dessicated_ArcticDrak</texPath>
+					<texPath>Regrowth_extinct/ArcticDrak/dessicated_ArcticDrak</texPath>
 					<drawSize>2.9</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1037,17 +1037,17 @@
 			<li>
 				<label>hatchling</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Thrinaxodon</texPath>
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>0.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Thrinaxodon</texPath>
 					<drawSize>1</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.1, 0.15)</volume>
@@ -1055,13 +1055,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Thrinaxodon</texPath>
 					<drawSize>1.2</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.15, 0.2)</volume>
@@ -1069,7 +1069,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Thrinaxodon/Dessicated_thrinaxodon</texPath>
+					<texPath>Regrowth_extinct/Thrinaxodon/Dessicated_thrinaxodon</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1189,17 +1189,17 @@
 			<li>
 				<label>calf</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<texPath>Regrowth_extinct/Synthetion/SynthetionF</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<texPath>Regrowth_extinct/Synthetion/dessicated_Synthetion</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionM</texPath>
+					<texPath>Regrowth_extinct/Synthetion/SynthetionM</texPath>
 					<drawSize>1.4</drawSize>
 					<color>(140,74,41)</color>
 					<shaderType>CutoutComplex</shaderType>
@@ -1209,7 +1209,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<texPath>Regrowth_extinct/Synthetion/SynthetionF</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -1217,13 +1217,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<texPath>Regrowth_extinct/Synthetion/dessicated_Synthetion</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionM</texPath>
+					<texPath>Regrowth_extinct/Synthetion/SynthetionM</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -1231,7 +1231,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/SynthetionF</texPath>
+					<texPath>Regrowth_extinct/Synthetion/SynthetionF</texPath>
 					<drawSize>1.6</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.4, 0.4)</volume>
@@ -1239,7 +1239,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Synthetion/dessicated_Synthetion</texPath>
+					<texPath>Regrowth_extinct/Synthetion/dessicated_Synthetion</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -1370,17 +1370,17 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/Megalenhydris</texPath>
 					<drawSize>1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/dessicated_Megalenhydris</texPath>
 					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/Megalenhydris</texPath>
 					<drawSize>1.3</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.2, 0.2)</volume>
@@ -1388,13 +1388,13 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/dessicated_Megalenhydris</texPath>
 					<drawSize>1.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/Megalenhydris</texPath>
 					<drawSize>2.2</drawSize>
 					<shadowData>
 						<volume>(0.5, 0.3, 0.3)</volume>
@@ -1402,7 +1402,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/ReGrowth/Megalenhydris/dessicated_Megalenhydris</texPath>
+					<texPath>Regrowth_extinct/Megalenhydris/dessicated_Megalenhydris</texPath>
 					<drawSize>2.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
