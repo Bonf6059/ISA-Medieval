@@ -22,7 +22,7 @@
 		<label>doedicurus shell</label>
 		<description>A doedicurus' shell. It's remarkably durable but humans have no use for it. However, some collectors are still willing to pay a lot for one.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/megafauna_doedricusshell</texPath>
+			<texPath>Items/Megafauna/megafauna_doedricusshell</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(177,161,132)</color>
 		</graphicData>
@@ -53,7 +53,7 @@
 		<label>elasmotherium horn</label>
 		<description>An elasmotherium's horn. Not nearly as deadly in human hands, but can still prove to be a relatively decent weapon.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/megafauna_elasmotheriumhorn</texPath>
+			<texPath>Items/Megafauna/megafauna_elasmotheriumhorn</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -124,7 +124,7 @@
 		<label>smilodon fangs</label>
 		<description>A dead smilodon's pair of canines. Although a fantastic trophy, they aren't as good of a weapon when used by humans.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/megafauna_smilodonfangs</texPath>
+			<texPath>Items/Megafauna/megafauna_smilodonfangs</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -174,7 +174,7 @@
 		<label>megaloceros antlers</label>
 		<description>A dead megaloceros' pair of antlers. Great as a decoration, way too unwieldy to be used as a weapon.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/megafauna_megalocerosantlers</texPath>
+			<texPath>Items/Megafauna/megafauna_megalocerosantlers</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(177,161,132)</color>
 		</graphicData>
@@ -226,7 +226,7 @@
 		<label>sivatherium milk</label>
 		<description>Very nutritious milk from a sivatherium.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/Milk</texPath>
+			<texPath>Items/Megafauna/Milk</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
