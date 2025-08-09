@@ -51,7 +51,7 @@
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
         <thingDef>DA_TrollMeat</thingDef>
-        <countRange>-10~42</countRange>
+        <countRange>-10~94</countRange>
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
@@ -61,7 +61,7 @@
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
         <thingDef>DA_Sangonite</thingDef>
-        <countRange>-10~2</countRange>
+        <countRange>-10~154</countRange>
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
