@@ -120,7 +120,7 @@
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_Category">
-        <categoryDef>ISA_MithycalAnimals</categoryDef>
+        <categoryDef>AnimalExotic</categoryDef>
         <thingDefCountRange>1~5</thingDefCountRange>
         <totalPriceRange>10~25</totalPriceRange>
       </li>
