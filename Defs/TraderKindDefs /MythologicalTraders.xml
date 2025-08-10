@@ -132,7 +132,9 @@
         </createMatingPair>
       </li>
 
-
+	  <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
 
       <!-- Buying -->
       
@@ -141,6 +143,7 @@
       <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
       <li Class="StockGenerator_BuyTradeTag"><tag>ResourcesRaw</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
       <li Class="StockGenerator_Animals">
       	<tradeTagsBuy>
       		<li>AnimalExotic</li>
