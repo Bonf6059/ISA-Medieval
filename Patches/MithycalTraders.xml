@@ -82,13 +82,6 @@
     <li>ISA_MythicalAnimal</li>
     </value>
   </Operation>
-
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="DA_Phrak"]/tradeTags</xpath>
-    <value>
-    <li>ISA_MythicalAnimal</li>
-    </value>
-  </Operation>
   
   <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Pilgrim"]/tradeTags</xpath>
@@ -96,13 +89,6 @@
     <li>ISA_MythicalAnimal</li>
     </value>
   </Operation>
-
-<Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-  <xpath>/Defs/ThingDef[defName="DA_RedhornedLarpah"]/tradeTags</xpath>
-  <value>
-   <li>ISA_MythicalAnimal</li>
-  </value>
-</Operation>
 
 <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
   <xpath>/Defs/ThingDef[defName="DA_ImperialRedhound"]/tradeTags</xpath>
