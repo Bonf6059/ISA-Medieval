@@ -1,7 +1,7 @@
-<!-- This is the cooler alternativ to pyrinth from "Epochs-Pyrinth" -->
-
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  
+<!-- This is the cooler alternativ to pyrinth from "Epochs-Pyrinth" -->
 
   <ThingDef MayRequire="Ludeon.Rimworld.Royalty" Name="ISA_CryorinthBrazier" ParentName="FurnitureBase">
     <defName>ISA_CryorinthBrazier</defName>
