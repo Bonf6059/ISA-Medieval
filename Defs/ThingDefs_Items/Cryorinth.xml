@@ -2,7 +2,7 @@
 <Defs>
 
 <ThingDef ParentName="ResourceBase">
-    <defName>DV_Cryorinth</defName>
+    <defName>ISA_Cryorinth</defName>
     <label>Cryorinth</label>
     <description>A cool, bright blu crystal. Rare and beautiful. It glows and cools the air around it innately which means it can be used to cool down rooms.</description>
     <graphicData>
