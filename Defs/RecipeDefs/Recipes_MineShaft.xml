@@ -148,7 +148,7 @@
 
 
     <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeCryorinth</defName>
+		<defName>ISA_MakeCryorinthBulk</defName>
 		<description>Mine deep down underground to obtain cryorinth</description>
 	    	<workAmount>3000</workAmount>
 	    	<label>gather cryorinth</label>
