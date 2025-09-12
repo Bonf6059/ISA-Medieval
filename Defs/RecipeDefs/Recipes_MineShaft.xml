@@ -134,6 +134,29 @@
 			<Plasteel>5</Plasteel>
 		</products>
 	</RecipeDef>
+	
+    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeCryorinth</defName>
+		<description>Mine deep down underground to obtain cryorinth</description>
+	    	<workAmount>300</workAmount>
+	    	<label>gather cryorinth</label>
+	    	<jobString>Mining 1 cryorinth</jobString>
+	    	<products>
+	    		<ISA_Cryorinth>1</ISA_Cryorinth>
+	    	</products>
+	</RecipeDef>
+
+
+    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeCryorinth</defName>
+		<description>Mine deep down underground to obtain cryorinth</description>
+	    	<workAmount>3000</workAmount>
+	    	<label>gather cryorinth</label>
+	    	<jobString>Mining 10 cryorinth</jobString>
+	    	<products>
+	    		<ISA_Cryorinth>10</ISA_Cryorinth>
+	    	</products>
+	</RecipeDef>
 
 <!-- With Epochs Pyrinth loaded -->
 	
