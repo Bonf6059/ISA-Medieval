@@ -89,7 +89,7 @@
       <li>ComplexFurniture</li>
     </researchPrerequisites>
     <graphicData> <!-- art+to -->
-      <texPath>Textures/Building/Misc/Brazier/CryorinthBrazier</texPath>
+      <texPath>Building/Misc/Brazier/CryorinthBrazier</texPath>
       <drawSize>(2.7,2.7)</drawSize>
       <drawRotated>false</drawRotated>
       <graphicClass>Graphic_Multi</graphicClass>
