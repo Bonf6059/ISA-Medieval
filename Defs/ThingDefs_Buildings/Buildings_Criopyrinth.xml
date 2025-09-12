@@ -2,7 +2,7 @@
 <Defs>
   
 <!-- This is the cooler alternativ to pyrinth from "Epochs-Pyrinth" -->
-
+ 
   <ThingDef MayRequire="Ludeon.Rimworld.Royalty" Name="ISA_CriopyrinthBrazier" ParentName="FurnitureBase">
     <defName>ISA_CriopyrinthBrazier</defName>
     <label>Criopyrinth pylon</label>
