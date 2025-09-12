@@ -136,25 +136,25 @@
 	</RecipeDef>
 	
     <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_Makecriopyrinth</defName>
-		<description>Mine deep down underground to obtain criopyrinth</description>
+		<defName>ISA_MakeCriopyrinth</defName>
+		<description>Mine deep down underground to obtain Criopyrinth</description>
 	    	<workAmount>300</workAmount>
-	    	<label>gather criopyrinth</label>
-	    	<jobString>Mining 1 criopyrinth</jobString>
+	    	<label>gather Criopyrinth</label>
+	    	<jobString>Mining 1 Criopyrinth</jobString>
 	    	<products>
-	    		<ISA_criopyrinth>1</ISA_criopyrinth>
+	    		<ISA_Criopyrinth>1</ISA_Criopyrinth>
 	    	</products>
 	</RecipeDef>
 
 
     <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakecriopyrinthBulk</defName>
-		<description>Mine deep down underground to obtain criopyrinth</description>
+		<defName>ISA_MakeCriopyrinthBulk</defName>
+		<description>Mine deep down underground to obtain Criopyrinth</description>
 	    	<workAmount>3000</workAmount>
-	    	<label>gather criopyrinth x10</label>
-	    	<jobString>Mining 10 criopyrinth</jobString>
+	    	<label>gather Criopyrinth x10</label>
+	    	<jobString>Mining 10 Criopyrinth</jobString>
 	    	<products>
-	    		<ISA_criopyrinth>10</ISA_criopyrinth>
+	    		<ISA_Criopyrinth>10</ISA_Criopyrinth>
 	    	</products>
 	</RecipeDef>
 
