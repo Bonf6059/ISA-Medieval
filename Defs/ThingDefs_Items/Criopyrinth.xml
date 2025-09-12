@@ -2,11 +2,11 @@
 <Defs>
 
 <ThingDef ParentName="ResourceBase">
-    <defName>ISA_criopyrinth</defName>
-    <label>criopyrinth</label>
+    <defName>ISA_Criopyrinth</defName>
+    <label>Criopyrinth</label>
     <description>A cool, bright blu crystal. Rare and beautiful. It glows and cools the air around it innately which means it can be used to cool down rooms.</description>
     <graphicData>
-      <texPath>Items/criopyrinth</texPath>
+      <texPath>Items/Criopyrinth</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <useHitPoints>false</useHitPoints>
