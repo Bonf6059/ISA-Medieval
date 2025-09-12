@@ -2,7 +2,7 @@
 <Defs>
 
 <ThingDef ParentName="MoteBase">
-<defName>ISA_Mote_criopyrinthSpark</defName>
+<defName>ISA_Mote_CriopyrinthSpark</defName>
 <graphicData>
   <texPath>Things/Mote/SparkThrown</texPath>
   <shaderType>MoteGlow</shaderType>
@@ -20,7 +20,7 @@
 </ThingDef>    
 
 <ThingDef ParentName="MoteBase">
-  <defName>ISA_Mote_criopyrinthSparkSmall</defName>
+  <defName>ISA_Mote_CriopyrinthSparkSmall</defName>
   <graphicData>
     <texPath>Things/Mote/SparkThrown</texPath>
     <shaderType>MoteGlow</shaderType>
@@ -38,9 +38,9 @@
   </ThingDef>    
 
 <ThingDef ParentName="MoteBase">
-    <defName>ISA_Mote_criopyrinthGlint</defName>
+    <defName>ISA_Mote_CriopyrinthGlint</defName>
     <graphicData>
-      <texPath>Effects/criopyrinthSpark</texPath>
+      <texPath>Effects/CriopyrinthSpark</texPath>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
@@ -54,7 +54,7 @@
   </ThingDef>
     
     <EffecterDef>
-      <defName>ISA_criopyrinthSparkingEffect</defName>
+      <defName>ISA_CriopyrinthSparkingEffect</defName>
       <children>
         <li>
           <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
@@ -62,7 +62,7 @@
           <chancePerTick>0.02</chancePerTick>
           <positionRadius>0.4</positionRadius>
           <burstCount>1~2</burstCount>
-          <moteDef>ISA_Mote_criopyrinthSpark</moteDef>
+          <moteDef>ISA_Mote_CriopyrinthSpark</moteDef>
           <speed>0.12</speed>
           <rotation>0.1</rotation>
         </li>
@@ -70,7 +70,7 @@
     </EffecterDef>
 
     <EffecterDef>
-      <defName>ISA_criopyrinthSparkingEffectSmall</defName>
+      <defName>ISA_CriopyrinthSparkingEffectSmall</defName>
       <children>
         <li>
           <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
@@ -78,7 +78,7 @@
           <chancePerTick>0.01</chancePerTick>
           <positionRadius>0.2</positionRadius>
           <burstCount>1~2</burstCount>
-          <moteDef>ISA_Mote_criopyrinthSparkSmall</moteDef>
+          <moteDef>ISA_Mote_CriopyrinthSparkSmall</moteDef>
           <speed>0.10</speed>
           <rotation>0.1</rotation>
         </li>
