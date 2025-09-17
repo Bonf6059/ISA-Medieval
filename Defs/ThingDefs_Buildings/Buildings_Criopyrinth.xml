@@ -33,7 +33,7 @@
       <ISA_Criopyrinth>25</ISA_Criopyrinth>
     </costList>
     <placeWorkers>
-      <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_Cooler</li>
       <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
       <li>PlaceWorker_GlowRadius</li>
     </placeWorkers>
@@ -48,8 +48,8 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>-3.5</heatPerSecond>
-        <heatPushMaxTemperature>-23</heatPushMaxTemperature>
+        <heatPerSecond>-15</heatPerSecond>
+        <heatPushMinTemperature>-23</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_MeditationFocus">
         <statDef>MeditationFocusStrength</statDef>
@@ -157,14 +157,14 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <placeWorkers>
-      <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_Cooler</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>-14</heatPerSecond>
-        <heatPushMaxTemperature>-24</heatPushMaxTemperature>
+        <heatPushMinTemperature>-24</heatPushMinTemperature>
       </li>
       <li Class="CompProperties_Effecter">
         <effecterDef>ISA_CriopyrinthSparkingEffectSmall</effecterDef>
