@@ -321,7 +321,7 @@
 		<description>A rolling contraption that processes wool into fabrics.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Production/SpinningWheel</texPath>
+			<texPath>Production/SpinningWheel</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
