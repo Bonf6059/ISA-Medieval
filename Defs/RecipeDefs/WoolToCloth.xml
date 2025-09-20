@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="ISA_MakeClothBase">
+		<jobString>Spinning cotton.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>450</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MakeClothBase">
+		<defName>ISA_MakeClothFromWool</defName>
+		<label>Spin wool</label>
+		<description>Spin wool into cloth fabric.</description>
+		<jobString>Spinning wool.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wools</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wools</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>10</Cloth>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MakeClothBase">
+		<defName>ISA_Make50ClothFromWool</defName>
+		<label>Spin wool 50x</label>
+		<description>Spin wool into cloth fabric.</description>
+		<jobString>Spinning wool.</jobString>
+		<workAmount>2250</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wools</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wools</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>50</Cloth>
+		</products>
+	</RecipeDef>
+
+</Defs>
