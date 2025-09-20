@@ -6,11 +6,10 @@
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
 						<value>
 							<li>VPE_Mushroom</li>
-							<li>Ground</li>
 						</value>
 					</li>
 					
-					<li Class="PatchOperationReplace">
+					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilityMin</xpath>
 						<value>
 							<fertilityMin>0</fertilityMin>
@@ -26,6 +25,12 @@
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/growDays</xpath>
 						<value>
 							<growDays>10</growDays>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
+						<value>
+							<li>Ground</li>
 						</value>
 					</li>     
       
