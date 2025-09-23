@@ -2,19 +2,6 @@
 <Patch>
 		<Operation Class="PatchOperationSequence">
 				<operations>
-					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
-						<value>
-							<li>VPE_Mushroom</li>
-						</value>
-					</li>
-					
-					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationReplace">
-						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilityMin</xpath>
-						<value>
-							<fertilityMin>0</fertilityMin>
-						</value>
-					</li>	
 					<li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilitySensitivity</xpath>
 						<value>
@@ -32,9 +19,23 @@
 						<value>
 							<li>Ground</li>
 						</value>
-					</li>     
-      
-      
+					</li>
+
+				<!-- Con vanilla expanded mushrooms installata -->
+					
+					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/sowTags</xpath>
+						<value>
+							<li>VPE_Mushroom</li>
+						</value>
+					</li>
+					
+					<li MayRequire="VanillaExpanded.VPlantsEMushrooms" Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Glowstool"]/plant/fertilityMin</xpath>
+						<value>
+							<fertilityMin>0</fertilityMin>
+						</value>
+					</li>	     
 				</operations>
 			</Operation>
 	
