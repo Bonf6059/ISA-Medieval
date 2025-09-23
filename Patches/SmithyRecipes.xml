@@ -4,46 +4,26 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
 		<value>
-                  <recipes>
-                        <li>ExtractMetalFromSlag</li>
-                        <li>SmeltOrDestroyThing</li>
-                        <li>SmeltWeapon</li>
-                        <li>SmeltApparel</li>
-                        <li>DestroyWeapon</li>
-                        <li>DestroyApparel</li>
-                  </recipes>
+  			<modExtensions>
+				<li Class="VEF.Buildings.RecipeInheritanceExtension">
+					<inheritRecipesFrom>
+						<li>ElectricSmelter</li>
+					</inheritRecipesFrom>
+     			</li>
+			</modExtensions>
 		</value>
 	</Operation>
 
-      <Operation Class="PatchOperationAdd">
+    <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
 		<value>
-                  <recipes>
-                        <li>ExtractMetalFromSlag</li>
-                        <li>SmeltOrDestroyThing</li>
-                        <li>SmeltWeapon</li>
-                        <li>SmeltApparel</li>
-                        <li>DestroyWeapon</li>
-                        <li>DestroyApparel</li>
-                  </recipes>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
-		<value>
-                  <recipes>
-                        <li>RB_Make_GlassFromChunks</li>
-                  </recipes>
-		</value>
-	</Operation>
-
-      <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
-		<value>
-                  <recipes>
-                        <li>RB_Make_GlassFromChunks</li>
-                  </recipes>
+  			<modExtensions>
+				<li Class="VEF.Buildings.RecipeInheritanceExtension">
+					<inheritRecipesFrom>
+						<li>ElectricSmelter</li>
+					</inheritRecipesFrom>
+     			</li>
+			</modExtensions>
 		</value>
 	</Operation>
 
