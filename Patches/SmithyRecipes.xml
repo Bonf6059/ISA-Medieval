@@ -28,5 +28,23 @@
                   </recipes>
 		</value>
 	</Operation>
-  
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
+		<value>
+                  <recipes>
+                        <li>RB_Make_GlassFromChunks</li>
+                  </recipes>
+		</value>
+	</Operation>
+
+      <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
+		<value>
+                  <recipes>
+                        <li>RB_Make_GlassFromChunks</li>
+                  </recipes>
+		</value>
+	</Operation>
+
 </Patch>
