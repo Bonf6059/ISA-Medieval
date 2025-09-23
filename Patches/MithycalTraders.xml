@@ -104,4 +104,11 @@
   </value>
 </Operation>
 
+<Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <xpath>/Defs/ThingDef[@Name="DA_BaseTaraal"]/tradeTags</xpath>
+  <value>
+   <li>ISA_MythicalAnimal</li>
+  </value>
+</Operation>
+
 </Patch>
