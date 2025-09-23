@@ -1,9 +1,32 @@
-<recipes>
-      <li>ExtractMetalFromSlag</li>
-      <li>SmeltOrDestroyThing</li>
-      <li>SmeltWeapon</li>
-      <li>SmeltApparel</li>
-      <li>DestroyWeapon</li>
-      <li>DestroyApparel</li>
-</recipes>
-    
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
+		<value>
+                  <recipes>
+                        <li>ExtractMetalFromSlag</li>
+                        <li>SmeltOrDestroyThing</li>
+                        <li>SmeltWeapon</li>
+                        <li>SmeltApparel</li>
+                        <li>DestroyWeapon</li>
+                        <li>DestroyApparel</li>
+                  </recipes>
+		</value>
+	</Operation>
+
+      <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
+		<value>
+                  <recipes>
+                        <li>ExtractMetalFromSlag</li>
+                        <li>SmeltOrDestroyThing</li>
+                        <li>SmeltWeapon</li>
+                        <li>SmeltApparel</li>
+                        <li>DestroyWeapon</li>
+                        <li>DestroyApparel</li>
+                  </recipes>
+		</value>
+	</Operation>
+  
+</Patch>
