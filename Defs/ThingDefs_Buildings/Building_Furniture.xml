@@ -1,1 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
+<!-- Table 1x1 from Medieval Overhaul -->
+  
+	<ThingDef ParentName="TableGatherSpotBase">
+		<defName>ISA_Table1x1c</defName>
+		<label>Table (1x1)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ReinforcedRusticTable1x1</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>625</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<costStuffCount>15</costStuffCount>
+	</ThingDef>
+  
+</Defs>
