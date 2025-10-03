@@ -5,7 +5,7 @@
   
 	<ThingDef ParentName="TableGatherSpotBase">
 		<defName>ISA_Table1x1c</defName>
-		<label>Table (1x1)</label>
+		<label>table (1x1)</label>
 		<graphicData>
 			<texPath>Things/Building/Furniture/ReinforcedRusticTable1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -28,5 +28,85 @@
 		<size>(1,1)</size>
 		<costStuffCount>15</costStuffCount>
 	</ThingDef>
-  
+
+<!-- Straw bed from Medieval Overhaul -->
+
+	<ThingDef ParentName="BasicBedBase">
+		<defName>ISA_StrawBed</defName>
+		<label>straw bed</label>
+		<description>A simple and quick to make wicker bed, padded with straw for added comfort.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/BedStraw</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,2)</size>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Beauty>1</Beauty>
+			<WorkToBuild>650</WorkToBuild>
+			<Mass>30</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.7</Comfort>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<costList>
+			<Hay>15</Hay>
+		</costList>
+		<uiOrder>2010</uiOrder>
+		<building>
+			<paintable>true</paintable>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
+		</building>
+		<researchPrerequisites Inherit="False">
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BasicBedBase">
+		<defName>ISA_StrawBedDouble</defName>
+		<label>double straw bed</label>
+		<description>A simple and quick to make wicker bed, padded with straw for added comfort that fits two people.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/BedStrawDouble</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.05,2.05)</drawSize>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>1350</WorkToBuild>
+			<Mass>50</Mass>
+			<Beauty>1</Beauty>
+			<BedRestEffectiveness>0.95</BedRestEffectiveness>
+			<Comfort>0.7</Comfort>
+		</statBases>
+		<costStuffCount>85</costStuffCount>
+		<costList>
+			<Hay>30</Hay>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<building>
+			<paintable>true</paintable>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
+		</building>
+		<researchPrerequisites Inherit="False">
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 </Defs>
