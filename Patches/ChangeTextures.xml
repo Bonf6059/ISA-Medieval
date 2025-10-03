@@ -26,22 +26,6 @@
     </value>
   </Operation>
 
-  <!-- Replace Vanilla bookshelfs Texture -->
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="BookcaseSmall"]/graphicData/texPath</xpath>
-    <value>
-      <texPath>Building/Furnitures/BookShelf/RusticEmptyShelf1x1</texPath>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Bookcase"]/graphicData/texPath</xpath>
-    <value>
-      <texPath>Building/Furnitures/BookShelf/RusticEmptyShelf1x2</texPath>
-    </value>
-  </Operation>
-
     <!-- Replace Vanilla dresser Texture -->
 
   <Operation Class="PatchOperationReplace">
