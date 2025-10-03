@@ -7,7 +7,7 @@
 		<defName>ISA_Table1x1c</defName>
 		<label>table (1x1)</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/ReinforcedRusticTable1x1</texPath>
+			<texPath>Building/Furnitures/Table/ReinforcedRusticTable1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
 			<damageData>
@@ -36,7 +36,7 @@
 		<label>straw bed</label>
 		<description>A simple and quick to make wicker bed, padded with straw for added comfort.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/BedStraw</texPath>
+			<texPath>Building/Furnitures/Beds/Straw Bed/StrawBed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -77,7 +77,7 @@
 		<label>double straw bed</label>
 		<description>A simple and quick to make wicker bed, padded with straw for added comfort that fits two people.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/BedStrawDouble</texPath>
+			<texPath>Building/Furnitures/Beds/Straw Bed/BedStrawDouble</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2.05,2.05)</drawSize>
