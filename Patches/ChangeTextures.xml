@@ -9,5 +9,82 @@
       <texPath>Items/TribalChemfuel/TribalChemfuel_a</texPath>
     </value>
   </Operation>
+
+<!-- Replace Vanilla beds Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Bed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Beds/Vanilla Bed/BedWicker</texPath>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DoubleBed"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Beds/Vanilla Bed/BedWickerDouble</texPath>
+    </value>
+  </Operation>
+
+  <!-- Replace Vanilla bookshelfs Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BookcaseSmall"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/BookShelf/RusticEmptyShelf1x1</texPath>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Bookcase"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/BookShelf/RusticEmptyShelf1x2</texPath>
+    </value>
+  </Operation>
+
+    <!-- Replace Vanilla dresser Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Dresser"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Dresser/RusticDresser</texPath>
+    </value>
+  </Operation>
+
+    <!-- Replace Vanilla end table Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="EndTable"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/EndTable/RusticEndTable</texPath>
+    </value>
+  </Operation>
+
+    <!-- Replace Vanilla stool Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Stool"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Stool & Chair/RusticRoundStool</texPath>
+    </value>
+  </Operation>
+
+    <!-- Replace Vanilla Dining Chair Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DiningChair"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Stool & Chair/RusticChair</texPath>
+    </value>
+  </Operation>
+
+    <!-- Replace Vanilla 1x2 table Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Table1x2c"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Building/Furnitures/Table/ReinforcedRusticTable1x2</texPath>
+    </value>
+  </Operation>
   
 </Patch>
