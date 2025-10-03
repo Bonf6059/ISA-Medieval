@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Replace Chemfuel Texture -->
+
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Chemfuel"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Items/TribalChemfuel/TribalChemfuel_a</texPath>
+    </value>
+  </Operation>
+</Patch>
