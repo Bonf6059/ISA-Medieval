@@ -1,12 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
+<Patch>
 
 <!-- Replace Chemfuel Texture -->
 
-<Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Chemfuel"]/graphicData/texPath</xpath>
     <value>
       <texPath>Items/TribalChemfuel/TribalChemfuel_a</texPath>
     </value>
+  </Operation>
+
+<!-- Replace Capes Texture -->
+  
+    <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]/apparel</xpath>
+    <value>
+      <drawData>
+        <dataNorth>
+          <layer>88.5</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]/apparel</xpath>
+    <value>
+      <useWornGraphicMask>true</useWornGraphicMask>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Cape"]/graphicData</xpath>
+    <value>
+      <shaderType>CutoutComplex</shaderType>
+    </value>
+  </Operation>
+
+<!-- Replace Hoods Texture -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/apparel</xpath>
+    <value>
+      <drawData>
+        <dataNorth>
+          <layer>90</layer>
+        </dataNorth>
+      </drawData>
+    </value>
+  </Operation>
+
+<!-- Replace Eltex Cape Texture - Vanilla Psycast expanded -->
+  
+  <Operation Class="PatchOperationFindMod">
+      <mods>
+          <li>Vanilla Psycasts Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+              <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VPE_Apparel_EltexCape"]/apparel</xpath>
+                <value>
+                  <drawData>
+                    <dataNorth>
+                      <layer>88.5</layer>
+                    </dataNorth>
+                  </drawData>
+                </value>
+              </li>
+          </operations>
+      </match>
   </Operation>
 </Patch>
