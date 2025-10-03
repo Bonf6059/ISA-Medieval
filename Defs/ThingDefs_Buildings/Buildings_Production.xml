@@ -106,16 +106,14 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-		<recipes>
-			<li>ButcherCorpseFlesh</li>
-			<li>Make_Kibble</li>
-
-			<!-- With Epochs Tallow loaded -->
-			
-			<li MayRequire="det.epochstallow">DV_Make_Tallow</li>
-			<li MayRequire="det.epochstallow">DV_Make_TallowBulk</li>
-		
-		</recipes>
+    <!--inherit recipes for mod compatibility-->
+  		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>TableButcher</li>
+				</inheritRecipesFrom>
+     			</li>
+		</modExtensions>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
