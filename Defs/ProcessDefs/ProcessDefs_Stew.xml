@@ -17,38 +17,18 @@
 		<fuelUseFactor>0.0</fuelUseFactor>
 		<filledGraphicSuffix>Filled</filledGraphicSuffix>
 		<usesQuality>false</usesQuality>
-<!--		<qualityDays>(1, 3, 8, 14, 20, 50, 120)</qualityDays>  -->
+		<qualityDays>(0.25, 0.5, 1, 2, 3, 4, 5)</qualityDays>
 		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
 		<customLabel/>
 		<destroyChance>0.0</destroyChance>
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_SimpleStew</defName>
-		<thingDef>ISA_CookedSimpleStew</thingDef>
+		<defName>ISA_Stew</defName>
+		<thingDef>ISA_CookedStew</thingDef>
 		<ingredientFilter>
 			<thingDefs>
-				<li>ISA_UncookedSimpleStew</li>
-			</thingDefs>
-		</ingredientFilter>
-	</ProcessorFramework.ProcessDef>
-
-	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_FineStew</defName>
-		<thingDef>ISA_CookedFineStew</thingDef>
-		<ingredientFilter>
-			<thingDefs>
-				<li>ISA_UncookedFineStew</li>
-			</thingDefs>
-		</ingredientFilter>
-	</ProcessorFramework.ProcessDef>
-	
-	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_LavishStew</defName>
-		<thingDef>ISA_CookedLavishStew</thingDef>
-		<ingredientFilter>
-			<thingDefs>
-				<li>ISA_UncookedLavishStew</li>
+				<li>ISA_UncookedStew</li>
 			</thingDefs>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
