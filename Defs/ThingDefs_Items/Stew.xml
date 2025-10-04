@@ -40,10 +40,10 @@
 		<defName>ISA_CookedStew</defName>
 		<label>Stew</label>
 		<description>A stew slow cooked from a few ingredients.</description>
-		<graphicData>
-			<texPath>Meal/Stew/ISA_Stew</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
+    <graphicData>
+      <texPath>Meal/Stew</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
 		<statBases>
 			<MarketValue>24</MarketValue>
 			<Nutrition>1</Nutrition>
@@ -56,4 +56,4 @@
 
 	</ThingDef>
 
-</Defs>
+</Defs>  
