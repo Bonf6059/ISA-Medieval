@@ -1,75 +1,95 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-<!-- Muffton Cheese -->
+
+	<!-- Cheese -->
+	<ProcessorFramework.ProcessDef Name="ISA_CheesePressBase" Abstract="True">
+		<processDays>1</processDays><!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>0.5</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-1.0~32.0</temperatureSafe>
+		<temperatureIdeal>5.0~32.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2</ruinedPerDegreePerHour><!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>0.0</fuelUseFactor>
+		<filledGraphicSuffix>Filled</filledGraphicSuffix>
+		<usesQuality>true</usesQuality>
+		<qualityDays>(1, 3, 8, 14, 20, 50, 120)</qualityDays>
+		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
+		<customLabel/>
+		<destroyChance>0.0</destroyChance>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
+		<defName>ISA_PressCheeseProcess</defName>
+		<thingDef>ISA_MealCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
+		<defName>ISA_PressMufftonCheeseProcess</defName>
+		<thingDef>ISA_MealMufftonCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>DA_MufftonMilk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
 	
-	<PipeSystem.ProcessDef MayRequire="VanillaExpanded.VCookE,Van.Beasts">
-		<defName>ISA_MufftonMilkIntoCheese</defName>
-		<label>Muffton milk into cheese</label>
-		<description>Turns 50 muffton milk into 25 cheese.</description>
-		<labelOverride>Turn 50 muffton milk into 25 cheese.</labelOverride>
-		<priorityInBillList>0</priorityInBillList>
-		<spawnOnInteractionCell>true</spawnOnInteractionCell>
-		<useIngredients>true</useIngredients>
-		<ingredients>
-			<li>
-				<thing>DA_MufftonMilk</thing>
-				<countNeeded>50</countNeeded>
-			</li>
-		</ingredients>
-		<ticksQuality>
-			<li>600000</li>
-			<li>900000</li>
-			<li>1500000</li>
-			<li>2100000</li>
-			<li>2400000</li>
-			<li>2700000</li>
-			<li>4500000</li>
-		</ticksQuality>
-		<results>
-			<li>
-				<thing>ISA_MealMufftonCheese</thing>
-				<count>25</count>
-			</li>
-		</results>
-		<stopAtQuality>true</stopAtQuality>
-		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
-		<autoExtract>false</autoExtract>
-	</PipeSystem.ProcessDef>
+	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
+		<defName>ISA_PressRegalCheeseProcess</defName>
+		<thingDef>ISA_MealRegalCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>DA_RegalMilk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
 
-<!-- Goldilox Cheese -->
-
-	<PipeSystem.ProcessDef MayRequire="VanillaExpanded.VCookE,Van.Beasts">
-		<defName>ISA_GoldiloxMilkIntoCheese</defName>
-		<label>Goldilox milk into cheese</label>
-		<description>Turns 50 Goldilox milk into 25 cheese.</description>
-		<labelOverride>Turn 50 Goldilox milk into 25 cheese.</labelOverride>
-		<priorityInBillList>0</priorityInBillList>
-		<spawnOnInteractionCell>true</spawnOnInteractionCell>
-		<useIngredients>true</useIngredients>
-		<ingredients>
-			<li>
-				<thing>DA_RegalMilk</thing>
-				<countNeeded>50</countNeeded>
-			</li>
-		</ingredients>
-		<ticksQuality>
-			<li>600000</li>
-			<li>900000</li>
-			<li>1500000</li>
-			<li>2100000</li>
-			<li>2400000</li>
-			<li>2700000</li>
-			<li>4500000</li>
-		</ticksQuality>
-		<results>
-			<li>
-				<thing>ISA_MealGoldiloxCheese</thing>
-				<count>25</count>
-			</li>
-		</results>
-		<stopAtQuality>true</stopAtQuality>
-		<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
-		<autoExtract>false</autoExtract>
-	</PipeSystem.ProcessDef>
+	<!-- Grape Juice -->
+	<ProcessorFramework.ProcessDef MayRequire="OskarPotocki.VFE.Medieval2">
+		<defName>ISA_PressGrapeProcess</defName>
+		<thingDef>ISA_JuiceGrape</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>VFEM2_Plant_Grape</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>1</processDays><!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1.0</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-99.0~99.0</temperatureSafe>
+		<temperatureIdeal>21.0~99.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour><!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<sunFactor>1.0~1.0</sunFactor>
+		<rainFactor>1.0~1.0</rainFactor>
+		<snowFactor>1.0~1.0</snowFactor>
+		<windFactor>1.0~1.0</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>0.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>0.0</fuelUseFactor>
+		<filledGraphicSuffix>Filled</filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
+		<customLabel/>
+		<destroyChance>0.0</destroyChance>
+	</ProcessorFramework.ProcessDef>
 
 </Defs>
