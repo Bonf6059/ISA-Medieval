@@ -364,10 +364,10 @@
 				<barScale>(1.0, 1.0)</barScale>
 				<colorCoded>false</colorCoded>
 				<processes>
-					<li>ISA_PressCheeseProcess</li>
+					<li>ISA_MilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
-					<li MayRequire="OskarPotocki.VFE.Medieval2">ISA_PressGrapeProcess</li>
+					<li MayRequire="OskarPotocki.VFE.Medieval2">ISA_JuiceGrape</li>
 				</processes>
 			</li>
 		</comps>
