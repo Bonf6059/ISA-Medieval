@@ -31,9 +31,6 @@
 <!--		<researchPrerequisites>
 			<li>ISA_Presser</li>
 		</researchPrerequisites> -->	
-		<thingCategories>
-			<li>FoodMeals</li>
-		</thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_CheeseBase">
