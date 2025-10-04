@@ -41,7 +41,7 @@
 		<label>cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Things/Item/Meal/Cheese</texPath>
+			<texPath>Items/Meal/Cheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
