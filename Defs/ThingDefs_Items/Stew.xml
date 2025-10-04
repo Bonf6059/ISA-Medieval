@@ -5,7 +5,7 @@
 
 <!-- Simple -->
   
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="MealBase">
 		<defName>ISA_UncookedSimpleStew</defName>
 		<label>uncooked simple stew</label>
 		<description>An uncooked simple stew. This needs to be cooked in a stew pot to be edible.</description>
@@ -38,7 +38,7 @@
 
 <!-- Fine -->
   
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="MealBase">
 		<defName>ISA_UncookedStewFine</defName>
 		<label>uncooked fine stew</label>
 		<description>An uncooked fine stew. This needs to be cooked in a stew pot to be edible.</description>
@@ -72,7 +72,7 @@
 
 <!-- Lavish -->
   
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="MealBase">
 		<defName>ISA_UncookedStewLavish</defName>
 		<label>uncooked lavish stew</label>
 		<description>An uncooked lavish stew. This needs to be cooked in a stew pot to be edible.</description>
