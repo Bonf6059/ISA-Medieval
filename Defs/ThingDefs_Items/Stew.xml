@@ -10,7 +10,7 @@
 		<label>uncooked simple stew</label>
 		<description>An uncooked simple stew. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Things/Items/UncookedStew/VCE_UncookedStewSimple</texPath>
+			<texPath>Food/Stew/Uncooked/ISA_UncookedSimpleStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -43,7 +43,7 @@
 		<label>uncooked fine stew</label>
 		<description>An uncooked fine stew. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Things/Items/UncookedStew/VCE_UncookedStewFine</texPath>
+			<texPath>Food/Stew/Uncooked/ISA_UncookedFineStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>None</tradeability>
@@ -77,7 +77,7 @@
 		<label>uncooked lavish stew</label>
 		<description>An uncooked lavish stew. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Things/Items/UncookedStew/VCE_UncookedStewLavish</texPath>
+			<texPath>Food/Stew/Uncooked/ISA_UncookedLavishStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingSetMakerTags></thingSetMakerTags>
@@ -115,7 +115,7 @@
 		<label>simple stew</label>
 		<description>A simple stew slow cooked from a few ingredients.</description>
 		<graphicData>
-			<texPath>Things/Meals/VCE_StewSimple</texPath>
+			<texPath>Food/Stew/Simple_Stew/SimpleStew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -137,7 +137,7 @@
 		<label>fine stew</label>
 		<description>A complex stew assembled with care from a wide selection of ingredients.</description>
 		<graphicData>
-			<texPath>Things/Meals/VCE_StewFine</texPath>
+			<texPath>Food/Stew/Fine_Stew/FineStew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -160,7 +160,7 @@
 		<label>lavish stew</label>
 		<description>A masterpiece of the culinary arts, this stew nourishes the body, mind, and soul.</description>
 		<graphicData>
-			<texPath>Things/Meals/VCE_StewLavish</texPath>
+			<texPath>Food/Stew/Lavish_Stew/LavishStew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
