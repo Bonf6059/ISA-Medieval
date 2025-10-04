@@ -444,9 +444,7 @@
 				<barScale>(1.0, 1.0)</barScale>
 				<colorCoded>false</colorCoded>
 				<processes>
-					<li>ISA_SimpleStew</li>
-					<li>ISA_FineStew</li>
-					<li>ISA_Lavishstew</li>
+					<li>ISA_Stew</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
