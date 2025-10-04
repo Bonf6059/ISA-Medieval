@@ -29,8 +29,8 @@
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
-		<defName>ISA_PressCheeseProcess</defName>
-		<thingDef>ISA_MealCheese</thingDef>
+		<defName>ISA_MilkIntoCheese</defName>
+		<thingDef>ISA_MilkIntoCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>Milk</li>
@@ -39,8 +39,8 @@
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
-		<defName>ISA_PressMufftonCheeseProcess</defName>
-		<thingDef>ISA_MealMufftonCheese</thingDef>
+		<defName>ISA_MufftonMilkIntoCheese</defName>
+		<thingDef>ISA_MufftonMilkIntoCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>DA_MufftonMilk</li>
@@ -49,8 +49,8 @@
 	</ProcessorFramework.ProcessDef>
 	
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
-		<defName>ISA_PressRegalCheeseProcess</defName>
-		<thingDef>ISA_MealRegalCheese</thingDef>
+		<defName>ISA_GoldiloxMilkIntoCheese</defName>
+		<thingDef>ISA_GoldiloxMilkIntoCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>DA_RegalMilk</li>
@@ -60,7 +60,7 @@
 
 	<!-- Grape Juice -->
 	<ProcessorFramework.ProcessDef MayRequire="OskarPotocki.VFE.Medieval2">
-		<defName>ISA_PressGrapeProcess</defName>
+		<defName>ISA_JuiceGrape</defName>
 		<thingDef>ISA_JuiceGrape</thingDef>
 		<ingredientFilter>
 			<thingDefs>
