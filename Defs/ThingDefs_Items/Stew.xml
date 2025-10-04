@@ -41,7 +41,7 @@
 		<label>Stew</label>
 		<description>A stew slow cooked from a few ingredients.</description>
 		<graphicData>
-			<texPath>Food/Stew/Stew</texPath>
+			<texPath>Food/Stew/Stew/Stew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
