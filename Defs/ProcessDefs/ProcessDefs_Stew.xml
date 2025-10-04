@@ -25,7 +25,7 @@
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
 		<defName>ISA_SimpleStew</defName>
-		<thingDef>ISA_SimpleStew</thingDef>
+		<thingDef>ISA_CookedSimpleStew</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_UncookedSimpleStew</li>
@@ -35,7 +35,7 @@
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
 		<defName>ISA_FineStew</defName>
-		<thingDef>ISA_FineStew</thingDef>
+		<thingDef>ISA_CookedFineStew</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_UncookedFineStew</li>
@@ -45,7 +45,7 @@
 	
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
 		<defName>ISA_LavishStew</defName>
-		<thingDef>ISA_LavishStew</thingDef>
+		<thingDef>ISA_CookedLavishStew</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_UncookedLavishStew</li>
