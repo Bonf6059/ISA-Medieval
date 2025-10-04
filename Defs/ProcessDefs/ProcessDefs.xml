@@ -30,7 +30,7 @@
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
 		<defName>ISA_MilkIntoCheese</defName>
-		<thingDef>ISA_MilkIntoCheese</thingDef>
+		<thingDef>ISA_MealCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>Milk</li>
@@ -40,7 +40,7 @@
 
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
 		<defName>ISA_MufftonMilkIntoCheese</defName>
-		<thingDef>ISA_MufftonMilkIntoCheese</thingDef>
+		<thingDef>ISA_MealMufftonCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>DA_MufftonMilk</li>
@@ -50,7 +50,7 @@
 	
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
 		<defName>ISA_GoldiloxMilkIntoCheese</defName>
-		<thingDef>ISA_GoldiloxMilkIntoCheese</thingDef>
+		<thingDef>ISA_MealGoldiloxCheese</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>DA_RegalMilk</li>
