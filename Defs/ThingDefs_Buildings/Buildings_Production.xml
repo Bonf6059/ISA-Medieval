@@ -429,9 +429,9 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
-		<researchPrerequisites>
+<!--		<researchPrerequisites>
 			<li>VCE_StewCooking</li>
-		</researchPrerequisites>
+		</researchPrerequisites>	-->
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
