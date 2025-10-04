@@ -387,7 +387,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		
 		<graphicData>
-			<texPath>Things/Buildings/VCE_StewPot</texPath>
+			<texPath>Production/StewPot/ISA_StewPot</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
