@@ -35,71 +35,22 @@
 	</ThingDef>
 
 <!-- Cooked Stew -->
-
-  <!-- Simple -->
   
 	<ThingDef ParentName="MealCooked">
-		<defName>ISA_CookedSimpleStew</defName>
-		<label>simple stew</label>
-		<description>A simple stew slow cooked from a few ingredients.</description>
+		<defName>ISA_CookedStew</defName>
+		<label>Stew</label>
+		<description>A stew slow cooked from a few ingredients.</description>
 		<graphicData>
-			<texPath>Food/Stew/Simple_Stew/SimpleStew</texPath>
+			<texPath>Food/Stew/Stew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>14</MarketValue>
-			<Nutrition>0.8</Nutrition>
-		</statBases>
-		<ingestible>
-			<preferability>MealSimple</preferability>
-			<ingestEffect>EatVegetarian</ingestEffect>
-			<ingestSound>Ingest_Drink</ingestSound>
-		</ingestible>
-
-	</ThingDef>
-
-  <!-- Fine -->
-
-	<ThingDef ParentName="MealCooked">
-		<defName>ISA_CookedFineStew</defName>
-		<label>fine stew</label>
-		<description>A complex stew assembled with care from a wide selection of ingredients.</description>
-		<graphicData>
-			<texPath>Food/Stew/Fine_Stew/FineStew</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>18</MarketValue>
-			<Nutrition>0.9</Nutrition>
-		</statBases>
-		<ingestible>
-			<preferability>MealFine</preferability>
-			<ingestEffect>EatVegetarian</ingestEffect>
-			<tasteThought>AteFineMeal</tasteThought>
-			<ingestSound>Ingest_Drink</ingestSound>
-		</ingestible>
-
-	</ThingDef>
-  
-<!-- Lavish -->
-  
-	<ThingDef ParentName="MealCooked">
-		<defName>ISA_CookedLavishStew</defName>
-		<label>lavish stew</label>
-		<description>A masterpiece of the culinary arts, this stew nourishes the body, mind, and soul.</description>
-		<graphicData>
-			<texPath>Food/Stew/Lavish_Stew/LavishStew</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>38</MarketValue>
-			
+			<MarketValue>24</MarketValue>
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
-			<tasteThought>AteLavishMeal</tasteThought>
 			<ingestSound>Ingest_Drink</ingestSound>
 		</ingestible>
 
