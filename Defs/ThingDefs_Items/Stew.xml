@@ -27,9 +27,6 @@
 			</li>
 			<li Class="CompProperties_Ingredients" />			
 		</comps>
-		<thingCategories>
-			<li>FoodMeals</li>
-		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>			
 		</ingestible>
@@ -61,9 +58,6 @@
 			<li Class="CompProperties_Ingredients" />
 
 		</comps>
-		<thingCategories>
-			<li>FoodMeals</li>
-		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>			
 		</ingestible>
@@ -97,9 +91,6 @@
 			<li Class="CompProperties_Ingredients" />
 
 		</comps>
-		<thingCategories>
-			<li>FoodMeals</li>
-		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>			
 		</ingestible>
