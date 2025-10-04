@@ -375,7 +375,7 @@
 		<designationCategory>Production</designationCategory>
 <!--		<researchPrerequisites>
 			<li>DankPyon_Presser</li>
-		</researchPrerequisites>
-	</ThingDef>	-->
+		</researchPrerequisites> -->
+	</ThingDef>
 	
 </Defs>
