@@ -319,7 +319,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<drawSize>(4,3)</drawSize>
-			<texPath>Things/Building/Production/Presser/Presser</texPath>
+			<texPath>Production/CheesePress/CheesePress</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
