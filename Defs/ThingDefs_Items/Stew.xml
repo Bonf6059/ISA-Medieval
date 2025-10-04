@@ -8,7 +8,7 @@
 		<label>uncooked stew</label>
 		<description>An uncooked stew. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Food/Stew/Uncooked/ISA_UncookedStew</texPath>
+			<texPath>Meal/Stew/ISA_UncookedStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingSetMakerTags></thingSetMakerTags>
@@ -41,7 +41,7 @@
 		<label>Stew</label>
 		<description>A stew slow cooked from a few ingredients.</description>
 		<graphicData>
-			<texPath>Food/Stew/Stew/Stew</texPath>
+			<texPath>Meal/Stew/ISA_Stew</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -56,4 +56,4 @@
 
 	</ThingDef>
 
-</Defs>  
+</Defs>
