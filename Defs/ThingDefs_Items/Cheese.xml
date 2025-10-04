@@ -30,10 +30,10 @@
 		<rotatable>false</rotatable>
 <!--		<researchPrerequisites>
 			<li>ISA_Presser</li>
-		</researchPrerequisites>	
+		</researchPrerequisites> -->	
 		<thingCategories>
-			<li>ISA_Cheese</li>
-		</thingCategories>	-->
+			<li>FoodMeals</li>
+		</thingCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_CheeseBase">
