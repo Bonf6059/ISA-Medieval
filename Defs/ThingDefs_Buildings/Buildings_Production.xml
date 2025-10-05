@@ -446,6 +446,8 @@
 				<processes>
 					<li>ISA_Stew</li>
 					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinSoup</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_GoatPumpkinSoup</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_SheepPumpkinSoup</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
