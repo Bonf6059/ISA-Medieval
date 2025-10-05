@@ -365,6 +365,8 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_MilkIntoCheese</li>
+					<li>ISA_SheepMilkIntoCheese</li>
+					<li>ISA_GoatMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
 					<li>ISA_AppleIntoJuice</li>
@@ -445,6 +447,9 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_Stew</li>
+					<li>ISA_PumpkinSoup</li>
+					<li>ISA_GoatPumpkinSoup</li>
+					<li>ISA_SheepPumpkinSoup</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
