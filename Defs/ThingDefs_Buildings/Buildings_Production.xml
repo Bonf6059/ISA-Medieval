@@ -484,7 +484,7 @@
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<description>A stone oven designed for baking meals.</description>
 		<graphicData>
-			<texPath>Things/Building/Production/LargeStoneOven</texPath>
+			<texPath>Production/StoneOven/StoneOven</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<damageData>
