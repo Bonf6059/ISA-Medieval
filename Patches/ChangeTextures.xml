@@ -71,4 +71,13 @@
     </value>
   </Operation>
   
+     <!-- Replace Mead Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Drinks/Mead</texPath>
+    </value>
+  </Operation>
+   
 </Patch>
