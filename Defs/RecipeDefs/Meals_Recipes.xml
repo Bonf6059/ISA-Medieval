@@ -23,7 +23,7 @@
 		<label>Cook stew</label>
 		<description>Chop raw meat and vegetables in uncooked stew.</description>
 		<jobString>Cooking stew.</jobString>
-    <workAmount>450</workAmount>
+    <workAmount>350</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -53,7 +53,7 @@
 		<label>Cook bread</label>
 		<description>Mix flour and water to make bread.</description>
 		<jobString>Cooking bread.</jobString>
-    <workAmount>300</workAmount>
+    <workAmount>200</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -81,7 +81,7 @@
 		<label>Cook berries pie</label>
 		<description>Mix different ingredients to make a pie with berries.</description>
 		<jobString>Cooking berries pie.</jobString>
-    <workAmount>600</workAmount>
+    <workAmount>400</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -120,7 +120,7 @@
 		<label>Cook apple pie</label>
 		<description>Mix different ingredients to make a pie with apples.</description>
 		<jobString>Cooking apple pie.</jobString>
-    <workAmount>600</workAmount>
+    <workAmount>450</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -159,7 +159,7 @@
 		<label>Cook pumpkin pie</label>
 		<description>Mix different ingredients to make a pie with pumpkins.</description>
 		<jobString>Cooking pumpink pie.</jobString>
-    <workAmount>600</workAmount>
+    <workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -198,7 +198,7 @@
 		<label>Cook carrot cake</label>
 		<description>Mix different ingredients to make a pie with carrots.</description>
 		<jobString>Cooking carrot cake.</jobString>
-    <workAmount>600</workAmount>
+    <workAmount>475</workAmount>
 		<ingredients>
 			<li>
 				<filter>
