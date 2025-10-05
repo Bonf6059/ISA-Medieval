@@ -59,7 +59,7 @@
 	<!-- Pumpkin Soup -->
 	
 	<ThingDef ParentName="MealCooked">
-		<defName>ISA_PumpkinSoup</defName>
+		<defName>ISA_CookedPumpkinSoup</defName>
 		<label>pumpkin soup</label>
 		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
 		<graphicData>
@@ -68,6 +68,50 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>21</MarketValue>
+			<Nutrition>0.75</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Sheep Pumpkin Soup -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_CookedSheepPumpkinSoup</defName>
+		<label>pumpkin soup</label>
+		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
+		<graphicData>
+			<texPath>Meal/Soup/PumpkinSoup</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Goat Pumpkin Soup -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_CookedGoatPumpkinSoup</defName>
+		<label>pumpkin soup</label>
+		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
+		<graphicData>
+			<texPath>Meal/Soup/PumpkinSoup</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>27</MarketValue>
 			<Nutrition>0.9</Nutrition>
 			<Mass>0.5</Mass>
 		</statBases>
