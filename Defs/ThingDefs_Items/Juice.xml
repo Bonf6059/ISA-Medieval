@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Apple Juice -->
+  
+	<ThingDef ParentName="MealBase">
+		<defName>ISA_JuiceApple</defName>
+		<label>apple juice</label>
+		<description>Freshly pressed apple juice, a sweet and refreshing drink. Ferment for a few days at target temperature to turn into cider.</description>
+		<graphicData>
+			<texPath>Drinks/AppleJuice</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-150</equippedAngleOffset>
+		<rotatable>false</rotatable>
+		<stackLimit>75</stackLimit>
+
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>5</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<foodType>Processed</foodType>
+			<joy>0.05</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+</Defs>  
