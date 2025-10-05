@@ -38,6 +38,26 @@
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
+	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
+		<defName>ISA_SheepMilkIntoCheese</defName>
+		<thingDef>ISA_MealSheepCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_SheepMilk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
+		<defName>ISA_GoatMilkIntoCheese</defName>
+		<thingDef>ISA_MealGoatCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_GoatMilk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
 		<defName>ISA_MufftonMilkIntoCheese</defName>
 		<thingDef>ISA_MealMufftonCheese</thingDef>
@@ -58,13 +78,13 @@
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
-	<!-- Grape Juice -->
-	<!--	<ProcessorFramework.ProcessDef MayRequire="OskarPotocki.VFE.Medieval2">
-		<defName>ISA_JuiceGrape</defName>
-		<thingDef>ISA_JuiceGrape</thingDef>
+	<!-- Apple Juice -->
+	<ProcessorFramework.ProcessDef MayRequire="VanillaExpanded.VPlantsE">
+		<defName>ISA_AppleIntoJuice</defName>
+		<thingDef>ISA_JuiceApple</thingDef>
 		<ingredientFilter>
 			<thingDefs>
-				<li>VFEM2_Plant_Grape</li>
+				<li>VCE_RawApple</li>
 			</thingDefs>
 		</ingredientFilter>
 		<processDays>1</processDays>
@@ -90,6 +110,6 @@
 		<color>(255, 255, 255)</color>
 		<customLabel/>
 		<destroyChance>0.0</destroyChance>
-	</ProcessorFramework.ProcessDef>	-->
+	</ProcessorFramework.ProcessDef>
 
 </Defs>
