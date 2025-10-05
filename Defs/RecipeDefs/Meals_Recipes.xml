@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--  <RecipeDef Abstract="True" Name="ISA_CookMeals">
+		<jobString>Cooking.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workSkill>Cooking</workSkill>
+		<workSpeedStat>Cooking</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>    -->
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>ISA_MakeUncookedStew</defName>
+		<label>Cook stew</label>
+		<description>Chop raw meat and vegetables in uncooked stew.</description>
+		<jobString>Cooking stew.</jobString>
+    <workAmount>450</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ISA_UncookedStew>1</ISA_UncookedStew>
+		</products>
+	</RecipeDef>
+
+</Defs>
