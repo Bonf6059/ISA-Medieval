@@ -134,6 +134,7 @@
 		<statBases>
 			<MarketValue>9</MarketValue>
 			<Mass>0.4</Mass>
+			<Nutrition>0.15</Nutrition>
 		</statBases>
 		<ingestible>
 			<preferability>MealSimple</preferability>
