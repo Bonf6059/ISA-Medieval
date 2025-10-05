@@ -63,7 +63,7 @@
 		<label>pumpkin soup</label>
 		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
 		<graphicData>
-			<texPath>Meal/Stew/PumpkinSoup</texPath>
+			<texPath>Meal/Soup/PumpkinSoup</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
