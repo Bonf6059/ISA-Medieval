@@ -14,11 +14,16 @@
 			<packageId>syrchalis.processor.framework</packageId>
 			<displayName>[SYR] Processor Framework</displayName>
 		</li>
+		<li>
+			<packageId>VanillaExpanded.VPlantsE</packageId>
+			<displayName>Vanilla Expanded Plants</displayName>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Van.Beasts</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>syrchalis.processor.framework</li>
+		<li>VanillaExpanded.VPlantsE</li>
 	</loadAfter>
 	<packageId>ISA.Medieval</packageId>
 	<description>Just a bunch of patches and addons to various mods and some medieval stuff.
