@@ -537,8 +537,8 @@
 				<barScale>(1.0, 1.0)</barScale>
 				<colorCoded>false</colorCoded>
 				<processes>
-					<li>ISA_Bread</li>
 					<li>ISA_BerryPie</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_Bread</li>
 					<li MayRequire="VanillaExpanded.VPlantsE">ISA_AppliePie</li>
 					<li MayRequire="VanillaExpanded.VPlantsE">ISA_CarrotCake</li>
 					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinPie</li>
