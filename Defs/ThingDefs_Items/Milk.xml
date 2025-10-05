@@ -4,7 +4,7 @@
 <!-- Sheep Milk -->
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>SheepMilk</defName>
+    <defName>ISA_SheepMilk</defName>
     <label>sheep milk</label>
     <description>Milk from a sheep.</description>
     <graphicData>
@@ -39,7 +39,7 @@
 <!-- Goat Milk -->
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>GoatMilk</defName>
+    <defName>ISA_GoatMilk</defName>
     <label>goat milk</label>
     <description>Milk from a goat.</description>
     <graphicData>
