@@ -367,7 +367,7 @@
 					<li>ISA_MilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_AppleIntoJuice</li>
+					<li>ISA_AppleIntoJuice</li>
 				</processes>
 			</li>
 		</comps>
@@ -445,9 +445,9 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_Stew</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinSoup</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_GoatPumpkinSoup</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_SheepPumpkinSoup</li>
+					<li>ISA_PumpkinSoup</li>
+					<li>ISA_GoatPumpkinSoup</li>
+					<li">ISA_SheepPumpkinSoup</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
@@ -538,10 +538,10 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_BerryPie</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_Bread</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_AppliePie</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_CarrotCake</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinPie</li>
+					<li>ISA_Bread</li>
+					<li>ISA_AppliePie</li>
+					<li>ISA_PumpkinPie</li>
+					<li MayRequire="VanillaExpanded.VPlantsEMore">ISA_CarrotCake</li>
 				</processes>
 			</li>
 		</comps>
