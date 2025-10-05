@@ -445,7 +445,7 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_Stew</li>
-					<li>ISA_PumpkinSoup</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinSoup</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
