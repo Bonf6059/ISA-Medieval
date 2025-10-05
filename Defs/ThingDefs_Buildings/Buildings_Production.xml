@@ -367,7 +367,7 @@
 					<li>ISA_MilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
-				<!--	<li MayRequire="OskarPotocki.VFE.Medieval2">ISA_JuiceGrape</li>	-->
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_JuiceApple</li>
 				</processes>
 			</li>
 		</comps>
@@ -445,6 +445,7 @@
 				<colorCoded>false</colorCoded>
 				<processes>
 					<li>ISA_Stew</li>
+					<li>ISA_PumpkinSoup</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
@@ -471,6 +472,85 @@
 				<glowColor>(244, 112, 42,0)</glowColor>
 			</li>
 		</comps>
+	</ThingDef>
+
+<!-- Oven -->
+
+	<ThingDef ParentName="ISA_1X3WorkbenchBase">
+		<defName>ISA_StoneOven</defName>
+		<label>stone oven</label>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<description>A stone oven designed for baking meals.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/LargeStoneOven</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<uiIconScale>0.70</uiIconScale>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<drawerType>RealtimeOnly</drawerType> <!-- Keep for no fuel graphic overlay-->
+		<comps>
+<!--			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>DankPyon_RusticCookingTools</li>
+					<li>DankPyon_TableBaking</li>
+				</linkableFacilities>
+			</li>	-->
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>80.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<fuelIconPath>UI/IconRawWood</fuelIconPath>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>25</capacity>
+				<independentProcesses>true</independentProcesses>
+				<parallelProcesses>true</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>false</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_Bread</li>
+					<li>ISA_BerryPie</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_AppliePie</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_CarrotCake</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_PumpkinPie</li>
+				</processes>
+			</li>
+		</comps>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<researchPrerequisites>
+<!--			<li>DankPyon_Oven</li>	-->
+			<li>Stonecutting</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 </Defs>
