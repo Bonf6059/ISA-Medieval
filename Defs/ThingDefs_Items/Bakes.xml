@@ -10,7 +10,7 @@
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
 		<graphicData>
-			<texPath>Things/Items/Raw/VCE_Flour</texPath>
+			<texPath>Items/Flour/Flour</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
