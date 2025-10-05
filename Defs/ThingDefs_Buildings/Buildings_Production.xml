@@ -367,7 +367,7 @@
 					<li>ISA_MilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
-					<li MayRequire="VanillaExpanded.VPlantsE">ISA_JuiceApple</li>
+					<li MayRequire="VanillaExpanded.VPlantsE">ISA_AppleIntoJuice</li>
 				</processes>
 			</li>
 		</comps>
