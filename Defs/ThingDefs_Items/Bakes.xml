@@ -33,6 +33,121 @@
 
 <!-- Bakes -->
 
-  
-  
+  	<!-- Berry Pie -->
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_BerryPie</defName>
+		<label>berry pie</label>
+		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry, topped with a light lemon glaze.</description>
+		<graphicData>
+			<texPath>Meal/Cakes/BerryPie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Apple Pie -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_ApplePie</defName>
+		<label>apple pie</label>
+		<description>A pie that uses sliced apples for its principal filling ingredient, mixed together with profound spices. Typically covered with a lattice patterned crust then sprinkled with sugar for its finish.</description>
+		<graphicData>
+			<texPath>Meal/Cakes/ApplePie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>24</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Pumpkin Pie -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_PumpkinPie</defName>
+		<label>pumpking pie</label>
+		<description>A dense, rich pie made from mashed pumpkin mixed with strong spices, layered atop a sweet, flakey crust. A fall-favorite desert.</description>
+		<graphicData>
+			<texPath>Meal/Cakes/PumpkinPie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>21</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+		<!-- Carrot Cake -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_CarrotCake</defName>
+		<label>carrot cake</label>
+		<description>A moist and flavorful cake crafted from freshly grated carrots, infused with warm spices, and enveloped in a luscious cream cheese frosting. A classic indulgence perfect for any occasion.</description>
+		<graphicData>
+			<texPath>Meal/Cakes/CarrotCake</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>21</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+		</ingestible>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Bread -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_Bread</defName>
+		<label>bread</label>
+		<description>Made from flour and water. A classic staple to start a day.</description>
+		<graphicData>
+			<texPath>Meal/Bread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Mass>0.4</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps Inherit="False">
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>8</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_FoodPoisonable"/>
+		</comps>
+		<rotatable>false</rotatable>
+	</ThingDef>
 </Defs>
