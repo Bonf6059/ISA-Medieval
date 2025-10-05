@@ -527,24 +527,14 @@
 				<fuelIconPath>UI/IconRawWood</fuelIconPath>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>25</capacity>
-				<independentProcesses>true</independentProcesses>
-				<parallelProcesses>true</parallelProcesses>
-				<dropIngredients>true</dropIngredients>
-				<showProductIcon>false</showProductIcon>
-				<barOffset>(0.0, 0.25)</barOffset>
-				<barScale>(1.0, 1.0)</barScale>
-				<colorCoded>false</colorCoded>
-				<processes>
-					<li>ISA_BerryPie</li>
-					<li>ISA_Bread</li>
-					<li>ISA_AppliePie</li>
-					<li>ISA_PumpkinPie</li>
-					<li MayRequire="VanillaExpanded.VPlantsEMore">ISA_CarrotCake</li>
-				</processes>
-			</li>
 		</comps>
+    	<recipes>
+			<li>ISA_MakeBerryPie</li>
+			<li>ISA_MakeBread</li>
+			<li>ISA_MakeApplePie</li>
+			<li>ISA_MakePumpkinPie</li>
+			<li MayRequire="VanillaExpanded.VPlantsEMore">ISA_MakeCarrotCake</li>
+    	</recipes>
 		<building>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
