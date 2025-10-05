@@ -33,18 +33,48 @@
 		</researchPrerequisites> -->	
 	</ThingDef>
 
+<!-- Cheese -->
+	
 	<ThingDef ParentName="ISA_CheeseBase">
 		<defName>ISA_MealCheese</defName>
 		<label>cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Meal/Cheese</texPath>
+			<texPath>Meal/Cheese/Cheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
 	</ThingDef>
 
+<!-- Sheep Cheese -->
+	
 	<ThingDef ParentName="ISA_CheeseBase">
+		<defName>ISA_MealSheepCheese</defName>
+		<label>sheep cheese</label>
+		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
+		<graphicData>
+			<texPath>Meal/Cheese/SheepCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!-- Goat Cheese -->
+	
+	<ThingDef ParentName="ISA_CheeseBase">
+		<defName>ISA_MealGoatCheese</defName>
+		<label>goat cheese</label>
+		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
+		<graphicData>
+			<texPath>Meal/Cheese/GoatCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!-- Muffton Cheese -->
+	
+	<ThingDef MayRequire="Van.Beasts" ParentName="ISA_CheeseBase">
 		<defName>ISA_MealMufftonCheese</defName>
 		<label>muffton cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
@@ -55,7 +85,9 @@
 		</graphicData>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_CheeseBase">
+<!-- Goldilox Cheese -->
+	
+	<ThingDef MayRequire="Van.Beasts" ParentName="ISA_CheeseBase">
 		<defName>ISA_MealGoldiloxCheese</defName>
 		<label>regal cheese</label>
 		<description>A sharp-tasting wheel of soft cheese, created by a special process of purposely curdling goldilox milk. Its golden rind and soft core which melts in the mouth it is a cheese fit for kings, as well as a versatile ingredient in meals.</description>		<graphicData>
