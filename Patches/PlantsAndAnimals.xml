@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+<!-- Mushrooms -->
+	
 		<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 				<operations>
@@ -39,5 +42,53 @@
 					</li>	     
 				</operations>
 			</Operation>
+
+		<!-- Animals -->
+
+
+		<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Sheep"]/comps</xpath>
+						<value>
+							<li Class="CompProperties_Milkable">
+   							<milkDef>ISA_SheepMilk</milkDef>
+  							<milkIntervalDays>3</milkIntervalDays>
+   							<milkAmount>15</milkAmount>
+    						</li>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Goat"]/comps</xpath>
+						<value>
+							<li Class="CompProperties_Milkable">
+   							<milkDef>ISA_GoatMilk</milkDef>
+  							<milkIntervalDays>3</milkIntervalDays>
+   							<milkAmount>12</milkAmount>
+    						</li>
+						</value>
+					</li>
+
+					<!-- Plants -->
+					
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Plant_Haygrass"]</xpath>
+						<value>
+							<modExtensions>
+								<li Class="VEF.Plants.DualCropExtension">
+									<secondaryOutput>ISA_Flour</secondaryOutput>
+									<outPutAmount>10</outPutAmount>
+								</li>
+							</modExtensions>
+						</value>
+					</li>	     
+				</operations>
+			</Operation>
+	
+
+
+
+
 	
 </Patch>
