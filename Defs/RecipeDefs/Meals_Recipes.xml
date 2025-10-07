@@ -211,7 +211,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>VCE_Carrot</li>
+						<li>VCE_RawCarrot</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -222,7 +222,7 @@
 				<li>ISA_Flour</li>
 			</thingDefs>
 			<thingDefs>
-				<li>VCE_Carrot</li>
+				<li>VCE_RawCarrot</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
