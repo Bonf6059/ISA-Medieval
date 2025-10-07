@@ -38,30 +38,7 @@
 		<thingDef>ISA_CookedPumpkinSoup</thingDef>
 		<ingredientFilter>
 			<thingDefs>
-				<li>VCE_RawPumpkin</li>
-				<li>Milk</li>
-			</thingDefs>
-		</ingredientFilter>
-	</ProcessorFramework.ProcessDef>
-
-	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_GoatPumpkinSoup</defName>
-		<thingDef>ISA_CookedGoatPumpkinSoup</thingDef>
-		<ingredientFilter>
-			<thingDefs>
-				<li>VCE_RawPumpkin</li>
-				<li>ISA_GoatMilk</li>
-			</thingDefs>
-		</ingredientFilter>
-	</ProcessorFramework.ProcessDef>
-
-	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_SheepPumpkinSoup</defName>
-		<thingDef>ISA_CookedSheepPumpkinSoup</thingDef>
-		<ingredientFilter>
-			<thingDefs>
-				<li>VCE_RawPumpkin</li>
-				<li>ISA_SheepMilk</li>
+				<li>ISA_UncookedSoup</li>
 			</thingDefs>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
