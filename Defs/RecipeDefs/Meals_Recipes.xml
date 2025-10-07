@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--  <RecipeDef Abstract="True" Name="ISA_CookMeals">
-		<jobString>Cooking.</jobString>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workSkill>Cooking</workSkill>
-		<workSpeedStat>Cooking</workSpeedStat>
-		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
-		<workSkillLearnFactor>0.3</workSkillLearnFactor>
-		<targetCountAdjustment>10</targetCountAdjustment>
-		<recipeUsers>
-			<li>FueledStove</li>
-			<li>ElectricStove</li>
-		</recipeUsers>
-	</RecipeDef>    -->
+  <RecipeDef Name="ISA_CookStewBase" Abstract="True">
+    <fixedIngredientFilter>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+        <li>InsectJelly</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
 
 <!-- Soups and Stew -->
 	
-	<RecipeDef ParentName="CookMealBase">
+	<RecipeDef ParentName="ISA_CookStewBase">
 		<defName>ISA_MakeUncookedStew</defName>
 		<label>Cook stew</label>
 		<description>Chop raw meat and vegetables in uncooked stew.</description>
@@ -44,7 +49,7 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="CookMealBase">
+	<RecipeDef ParentName="ISA_CookStewBase">
 		<defName>ISA_MakeUncookedSoup</defName>
 		<label>Cook soup</label>
 		<description>Chop pumpkin and mix it with milk in uncooked soup.</description>
@@ -53,9 +58,12 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
+					<thingDefs>
 						<li>Milk</li>
-					</categories>
+						<li>ISA_SheepMilk</li>
+						<li>ISA_GoatMilk</li>
+						<li>VCE_RawPumpkin</li>
+					</thingDefs>
 				</filter>
 				<count>5</count>
 			</li>
