@@ -526,7 +526,6 @@
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-				<fuelIconPath>UI/IconRawWood</fuelIconPath>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>
