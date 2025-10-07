@@ -62,11 +62,13 @@
 					<li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[defName="Goat"]/comps</xpath>
 						<value>
+							<comps>
 							<li Class="CompProperties_Milkable">
    							<milkDef>ISA_GoatMilk</milkDef>
   							<milkIntervalDays>3</milkIntervalDays>
    							<milkAmount>12</milkAmount>
     						</li>
+							</comps>
 						</value>
 					</li>
 
@@ -85,10 +87,5 @@
 					</li>	     
 				</operations>
 			</Operation>
-	
-
-
-
-
 	
 </Patch>
