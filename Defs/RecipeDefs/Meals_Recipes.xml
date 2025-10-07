@@ -93,9 +93,9 @@
 			</li>
 			<li>
 				<filter>
-					<categories>
+					<thingDefs>
 						<li>RawBerries</li>
-					</categories>
+					</thingDefs>
 				</filter>
 				<count>20</count>
 			</li>
