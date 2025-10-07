@@ -437,7 +437,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>25</capacity>
+				<capacity>1</capacity>
 				<independentProcesses>false</independentProcesses>
 				<parallelProcesses>false</parallelProcesses>
 				<dropIngredients>false</dropIngredients>
