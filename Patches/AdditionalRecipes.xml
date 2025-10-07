@@ -2,7 +2,9 @@
 <Patch>
 
 <!-- Electric & Fueled stove -->
-  
+
+<!-- Uncooked Stew -->
+	
   <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "ElectricStove"]/recipes</xpath>
 		<value>
@@ -14,6 +16,22 @@
 		<xpath>Defs/ThingDef[defName= "FueledStove"]/recipes</xpath>
 		<value>
   			<li>ISA_MakeUncookedStew</li>
+		</value>
+	</Operation>
+
+<!-- Uncooked Soup -->
+	
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "ElectricStove"]/recipes</xpath>
+		<value>
+  			<li>ISA_MakeUncookedSoup</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "FueledStove"]/recipes</xpath>
+		<value>
+  			<li>ISA_MakeUncookedSoup</li>
 		</value>
 	</Operation>
 
