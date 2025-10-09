@@ -8,4 +8,11 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>ISA_StoneOven</li>
+		</value>
+	</Operation>
+
 </Patch>
