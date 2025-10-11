@@ -29,25 +29,17 @@
 		</prerequisites>
 	</ResearchProjectDef>
   
-	<!--=========================== Alchemy ==============================
+	<!--=========================== Alchemy ==============================-->
 	<ResearchProjectDef>
-		<defName>DankPyon_Alchemy</defName>
-		<label>alchemy</label>
-		<description>WIP. research to get advanced research table</description>
-		<baseCost>1000</baseCost>
-		<tab>DankPyon_MedievalResearchTab</tab>
+		<defName>ISA_Agriculture</defName>
+		<label>agriculture and apiculture</label>
+		<description>Learn how to take better care of plants and how to take care of bees and wasps</description>
+		<baseCost>300</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>6.00</researchViewX>
 		<researchViewY>5.90</researchViewY>
-		<hiddenPrerequisites>
-			<li>DankPyon_RusticFurniture</li>
-		</hiddenPrerequisites>
-		<generalRules>
-			<rulesStrings>
-				<li>subject->alchemy</li>
-			</rulesStrings>
-		</generalRules>
-	</ResearchProjectDef>	-->
+	</ResearchProjectDef>
 
 	<!--=========================== Cooking ==============================-->
 	<ResearchProjectDef>
