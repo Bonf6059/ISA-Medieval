@@ -5,7 +5,7 @@
 	
 	<!-- Weak Stew -->
 	<ThoughtDef>
-		<defName>DankPyon_AteWeakStew</defName>
+		<defName>ISA_AteWeakStew</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
@@ -21,7 +21,7 @@
 
 	<!-- Griffon Berry Pie -->
 	<ThoughtDef>
-		<defName>DankPyon_AteGriffonBerryPie</defName>
+		<defName>ISA_AteGriffonBerryPie</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
@@ -37,7 +37,7 @@
 
 	<!-- Apple Pie -->
 	<ThoughtDef>
-		<defName>DankPyon_AteApplePie</defName>
+		<defName>ISA_AteApplePie</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
@@ -53,7 +53,7 @@
 
 	<!-- Pumpkin Pie -->
 	<ThoughtDef>
-		<defName>DankPyon_AtePumpkinPie</defName>
+		<defName>ISA_AtePumpkinPie</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
@@ -69,7 +69,7 @@
 
 	<!-- Pumpkin Soup -->
 	<ThoughtDef>
-		<defName>DankPyon_AtePumpkinSoup</defName>
+		<defName>ISA_AtePumpkinSoup</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
@@ -85,7 +85,7 @@
 
 	<!-- Carrot Cake -->
 	<ThoughtDef>
-		<defName>DankPyon_AteCarrotCake</defName>
+		<defName>ISA_AteCarrotCake</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
