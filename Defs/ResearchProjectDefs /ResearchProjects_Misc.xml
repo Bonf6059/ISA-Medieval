@@ -25,7 +25,7 @@
 		<researchViewX>12</researchViewX>
 		<researchViewY>3.0</researchViewY>
 		<prerequisites>
-			<li>StoneCutting</li>
+			<li>Stonecutting</li>
 		</prerequisites>
 	</ResearchProjectDef>
   
