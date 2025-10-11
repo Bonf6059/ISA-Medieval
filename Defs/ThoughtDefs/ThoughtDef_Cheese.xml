@@ -3,7 +3,7 @@
 
 	<!-- ======= Cheese quality based thoughts ========= -->
 	<ThoughtDef>
-		<defName>DankPyon_AteCheese</defName>
+		<defName>ISA_AteCheese</defName>
 		<durationDays>1</durationDays>
 		<stages>
 		
