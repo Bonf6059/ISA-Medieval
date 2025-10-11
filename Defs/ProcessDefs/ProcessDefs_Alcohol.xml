@@ -4,8 +4,8 @@
 	<!-- Alcohol -->
 	<ProcessorFramework.ProcessDef Name="ISA_Processor_AlcoholBase" Abstract="True">
 		<processDays>1</processDays><!-- in days, a day is 60,000 ticks -->
-		<capacityFactor>30.0</capacityFactor>
-		<efficiency>0.5</efficiency>
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>1</efficiency>
 		<usesTemperature>true</usesTemperature>
 		<temperatureSafe>-1.0~32.0</temperatureSafe>
 		<temperatureIdeal>5.0~32.0</temperatureIdeal>
