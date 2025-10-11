@@ -254,7 +254,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>Smithing</li>
+			<li>ISA_MiningResearch</li>
 		</researchPrerequisites>
 		<techLevel>Medieval</techLevel>
 	</ThingDef>
@@ -375,9 +375,9 @@
 		</comps>
 		<tickerType>Rare</tickerType>
 		<designationCategory>Production</designationCategory>
-<!--		<researchPrerequisites>
-			<li>DankPyon_Presser</li>
-		</researchPrerequisites> -->
+		<researchPrerequisites>
+			<li>ISA_PresserResearch</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!-- ===== Stew Pot ===== -->
@@ -410,9 +410,6 @@
 		<uiIconScale>0.8</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
-<!--		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>	-->
 		<statBases>
 			<WorkToBuild>600</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -431,9 +428,6 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
-<!--		<researchPrerequisites>
-			<li>VCE_StewCooking</li>
-		</researchPrerequisites>	-->
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
@@ -474,6 +468,9 @@
 				<glowColor>(244, 112, 42,0)</glowColor>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 <!-- Oven -->
@@ -508,12 +505,6 @@
 		</statBases>
 		<drawerType>RealtimeOnly</drawerType> <!-- Keep for no fuel graphic overlay-->
 		<comps>
-<!--			<li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>DankPyon_RusticCookingTools</li>
-					<li>DankPyon_TableBaking</li>
-				</linkableFacilities>
-			</li>	-->
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>80.0</fuelConsumptionRate>
 				<fuelCapacity>80.0</fuelCapacity>
@@ -528,8 +519,8 @@
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>
     	<recipes>
-			<li>ISA_MakeBerryPie</li>
 			<li>ISA_MakeBread</li>
+			<li>ISA_MakeBerryPie</li>
 			<li>ISA_MakeApplePie</li>
 			<li>ISA_MakePumpkinPie</li>
 			<li MayRequire="VanillaExpanded.VPlantsEMore">ISA_MakeCarrotCake</li>
@@ -539,8 +530,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 		</building>
 		<researchPrerequisites>
-<!--			<li>DankPyon_Oven</li>	-->
-			<li>Stonecutting</li>
+			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
