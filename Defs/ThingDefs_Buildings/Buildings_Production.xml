@@ -309,6 +309,9 @@
 				<li>Production</li>
 			</buildingTags>
 		</building>
+		<researchPrerequisites>
+			<li>ISA_Agriculture</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!-- ===== Presser ===== -->
@@ -473,7 +476,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-<!-- Oven -->
+<!-- Oven from medieval overhaul -->
 
 	<ThingDef ParentName="ISA_1X3WorkbenchBase">
 		<defName>ISA_StoneOven</defName>
@@ -533,5 +536,5 @@
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
+
 </Defs>
