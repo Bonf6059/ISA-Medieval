@@ -5,7 +5,7 @@
 	<ThoughtDef>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
-		<defName>DankPyon_DrankWine</defName>
+		<defName>ISA_DrankWine</defName>
 		<durationDays>1</durationDays>
 		<stages>
 		
