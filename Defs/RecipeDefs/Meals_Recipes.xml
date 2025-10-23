@@ -54,7 +54,7 @@
 		<label>Cook soup</label>
 		<description>Chop raw meat and vegetables in uncooked soup.</description>
 		<jobString>Cooking soup.</jobString>
-    <workAmount>350</workAmount>
+    <workAmount>250</workAmount>
 		<ingredients>
 			<li>
 				<filter>
