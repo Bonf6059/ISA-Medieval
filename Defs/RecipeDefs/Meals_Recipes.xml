@@ -52,37 +52,23 @@
 	<RecipeDef ParentName="ISA_CookStewBase">
 		<defName>ISA_MakeUncookedSoup</defName>
 		<label>Cook soup</label>
-		<description>Chop pumpkin and mix it with milk in uncooked soup.</description>
-		<jobString>Cooking stew.</jobString>
+		<description>Chop raw meat and vegetables in uncooked soup.</description>
+		<jobString>Cooking soup.</jobString>
     <workAmount>350</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Milk</li>
-						<li>ISA_SheepMilk</li>
-						<li>ISA_GoatMilk</li>
-						<li>VCE_RawPumpkin</li>
-					</thingDefs>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
 				</filter>
 				<count>5</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>VCE_RawPumpkin</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Milk</li>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-				<li>VCE_RawPumpkin</li>
-			</thingDefs>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<ISA_UncookedSoup>5</ISA_UncookedSoup>
