@@ -146,7 +146,7 @@
 			<ISA_Weapon_PotFire>1</ISA_Weapon_PotFire>
 		</costList>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Utility/FirePots</texPath>
+			<texPath>Weapons/Grenades/FirePots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
@@ -163,7 +163,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Utility/FirePotBelt</wornGraphicPath>
+			<wornGraphicPath>Weapons/Grenades/FirePotBelt</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<north>
