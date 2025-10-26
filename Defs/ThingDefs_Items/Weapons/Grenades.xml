@@ -16,9 +16,12 @@
 		<thingCategories>
 			<li>Grenades</li>
 		</thingCategories>
+
+<!-- Firepot -->
+		
 	</ThingDef>
-		<ThingDef ParentName="DankPyon_Medieval_MakeableGrenade">
-		<defName>DankPyon_Weapon_PotFire</defName>
+		<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
+		<defName>ISA_Weapon_PotFire</defName>
 		<label>fire pots</label>
 		<description>An explosive clay pot designed to lit an area ablaze with its oil filled case.</description>
 		<graphicData>
@@ -34,11 +37,11 @@
 		</statBases>
 		<costList>
 			<Cloth>5</Cloth>
-			<DankPyon_Tar>20</DankPyon_Tar>
-			<DankPyon_ComponentBasic>1</DankPyon_ComponentBasic>
+			<Chemfuel>20</Chemfuel>
+			<Steel>1</Steel>
 		</costList>
 		<weaponTags>
-			<li>DankPyon_Grenade_PotFire</li>
+			<li>ISA_Grenade_PotFire</li>
 		</weaponTags>
 		<verbs>
 			<li>
@@ -53,7 +56,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<defaultProjectile>DankPyon_Proj_PotFire</defaultProjectile>
+				<defaultProjectile>ISA_Proj_PotFire</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
@@ -62,13 +65,13 @@
 				<explosiveRadius>2.66</explosiveRadius>
 				<explosiveDamageType>Flame</explosiveDamageType>
 				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-				<preExplosionSpawnThingDef>DankPyon_Filth_Tar</preExplosionSpawnThingDef>
+				<preExplosionSpawnThingDef>Filth_FlammableBile</preExplosionSpawnThingDef>
 			</li>
 		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseIncendiaryProjectile">
-		<defName>DankPyon_Proj_PotFire</defName>
+		<defName>ISA_Proj_PotFire</defName>
 		<label>fire pot</label>
 		<graphicData>
 			<texPath>Things/Projectile/FirePot</texPath>
@@ -78,14 +81,14 @@
 			<explosionRadius>1.1</explosionRadius>
 			<damageDef>Flame</damageDef>
 			<!-- Use default damage from explosion def -->
-			<preExplosionSpawnThingDef>DankPyon_Filth_Tar</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef>Filth_FlammableBile</preExplosionSpawnThingDef>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<shadowSize>0.6</shadowSize>
 		</projectile>
 	</ThingDef>
 
-	<!-- Flash Pot -->
-	<ThingDef ParentName="DankPyon_Medieval_MakeableGrenade">
+	<!-- Flash Pot
+	<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
 		<defName>DankPyon_Weapon_PotFlash</defName>
 		<label>flash pot</label>
 		<description>An explosive clay pot designed to disorient victims with a bright flash and loude sharp noise.</description>
@@ -147,13 +150,12 @@
 		<projectile>
 			<explosionRadius>2.5</explosionRadius>
 			<damageDef>DankPyon_Daze</damageDef>
-			<!-- Use default damage from explosion def -->
 			<explosionDelay>100</explosionDelay>
 		</projectile>
-	</ThingDef>
+	</ThingDef>		-->
 
-	<!-- Smoke Pot -->
-	<ThingDef ParentName="DankPyon_Medieval_MakeableGrenade">
+	<!-- Smoke Pot 
+	<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
 		<defName>DankPyon_Weapon_PotFlashSmoke</defName>
 		<label>smoke pot</label>
 		<description>An explosive clay pot designed to create a screen of smoke to provide visionary cover.</description>
@@ -215,18 +217,16 @@
 			<explosionRadius>3.5</explosionRadius>
 			<damageDef>Smoke</damageDef>
 			<!-- Use default damage from explosion def -->
-			<explosionDelay>100</explosionDelay>
+<!--			<explosionDelay>100</explosionDelay>
 			<!--postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef-->
-			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+<!--			<postExplosionSpawnChance>1</postExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
-	</ThingDef>
+	</ThingDef>	-->
 	
-	
-	<!-- ============================== Taxidermy ========================== -->
-	<!-- Acid Flask -->
+	<!-- Acid Flask 
 
-	<ThingDef ParentName="DankPyon_Medieval_MakeableGrenade">
+	<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
 		<defName>DankPyon_Weapon_AcidFlask</defName>
 		<label>acid flask</label>
 		<description>An flask containing linwurm acid, designed to spray the corrosive acid upon breaking.</description>
@@ -290,6 +290,6 @@
 			<shadowSize>0.6</shadowSize>
 			<screenShakeFactor>0.1</screenShakeFactor>
 		</projectile>
-	</ThingDef>
+	</ThingDef>	-->
 
 </Defs>
