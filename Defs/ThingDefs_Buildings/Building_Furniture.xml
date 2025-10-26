@@ -112,7 +112,7 @@
 <!-- Pyre by medieval overhaul -->
 	
 	<ThingDef ParentName="BuildingBase" Name="ISA__PyreBase">
-		<defName>ISA__Pyre</defName>
+		<defName>ISA_Pyre</defName>
 		<label>large square pyre</label>
 		<description>A large bonfire capable of producing a great amount of heat and light. Suitable for burning waste and corpses, not advised to be placed indoors.</description>
 		<thingClass>Building_WorkTable</thingClass>
@@ -175,7 +175,6 @@
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-				<fuelIconPath>UI/IconRawWood</fuelIconPath>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>25</glowRadius>
@@ -243,7 +242,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA__PyreBase">
-		<defName>ISA__PyreRound</defName>
+		<defName>ISA_PyreRound</defName>
 		<label>large round pyre</label>
 		<description>A large bonfire capable of producing a great amount of heat and light. Suitable for burning waste and corpses, not advised to be placed indoors.</description>
 		<thingClass>Building_WorkTable</thingClass>
