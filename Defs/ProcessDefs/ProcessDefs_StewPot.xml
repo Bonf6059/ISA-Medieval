@@ -34,8 +34,8 @@
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
-		<defName>ISA_PumpkinSoup</defName>
-		<thingDef>ISA_CookedPumpkinSoup</thingDef>
+		<defName>ISA_Soup</defName>
+		<thingDef>ISA_CookedSoup</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_UncookedSoup</li>
