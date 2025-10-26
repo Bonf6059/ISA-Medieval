@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>ISA_Apparel_DeathstingerJar</defName>
+		<label>deathstinger jars belt</label>
+		<description>A jar filled with very angry deathstingers. Throwing it will cause the jar to break, releasing a black swarm on those hit, slowing them and reducing their combat capabilities. Best to shake before tossing.</description>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>ISA_Hornetkeeping</li>
+		</researchPrerequisites>
+		
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>3</maxCharges>
+				<ammoDef>ISA_DeathstingerLarvae</ammoDef>
+				<ammoCountToRefill>3</ammoCountToRefill>
+				<baseReloadTicks>120</baseReloadTicks>
+				<soundReload>Interact_MolotovCocktail</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>frag</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+            <li Class="CompProperties_Explosive">
+                 <explosiveRadius>2.66</explosiveRadius>
+                 <explosiveDamageType>ISA_Swarm</explosiveDamageType>
+				 
+            </li>
+			
+		</comps>
+		
+		<verbs>
+			<li>
+				<label>throw deathstinger jar</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>ISA_Proj_DeathstingerJar</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Interact_Research</soundWorking>
+		</recipeMaker>
+		
+		<costList>
+			<ISA_DeathstingerLarvae>5</ISA_DeathstingerLarvae>
+		</costList>
+		
+		<graphicData>
+			<texPath>Things/Utility/DeathstingerJar/DeathstingerJarBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<MarketValue>500</MarketValue>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		
+		<generateAllowChance>0.15</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Things/Utility/DeathstingerJar/DeathstingerJarBelt</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(-0.10,-0.25)</offset>
+					<hulk><offset>(-0.1,-0.15)</offset></hulk>
+					<fat><offset>(-0.22,-0.0)</offset></fat>
+					<thin><offset>(0.0,-0.0)</offset></thin>
+					<male><offset>(-0.08,-0.0)</offset></male>
+				</north>
+				<south>
+					<offset>(0.15,-0.30)</offset>
+					<hulk><offset>(-0.0,-0.10)</offset></hulk>
+					<fat><offset>(0.1,-0.05)</offset></fat>
+					<thin><offset>(-0.10,-0.0)</offset></thin>
+				</south>
+				<east>
+					<offset>(-0.15,-0.25)</offset>
+					<hulk><offset>(-0.0,-0.15)</offset></hulk>
+					<fat><offset>(-0.2,-0.10)</offset></fat>
+				</east>
+				<west>
+					<offset>(0.15,-0.25)</offset>
+					<hulk><offset>(-0.0,-0.15)</offset></hulk>
+					<fat><offset>(0.05,-0.10)</offset></fat>
+				</west>
+				<male><scale>(0.6,0.6)</scale></male>
+				<female><scale>(0.6,0.6)</scale></female>
+				<thin><scale>(0.6,0.6)</scale></thin>
+				<hulk><scale>(0.6,0.6)</scale></hulk>
+				<fat><scale>(0.6,0.6)</scale></fat>
+			</wornGraphicData>
+			
+			<drawData>
+				<dataNorth><layer>90</layer></dataNorth>
+				<dataSouth><layer>40</layer></dataSouth>
+			</drawData>
+			
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
+	
+		  <!--=============== Projectile and Damage ================-->
+	
+	
+	<ThingDef ParentName="BaseIncendiaryProjectile">
+		<defName>ISA_Proj_DeathstingerJar</defName>
+		<label>deathstinger jar</label>
+		<graphicData>
+			<texPath>Things/Utility/DeathstingerJar/DeathstingerJar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius>2.5</explosionRadius>
+			<damageDef>ISA_Swarm</damageDef>
+			<preExplosionSpawnThingDef>Filth_Slime</preExplosionSpawnThingDef>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shadowSize>0.6</shadowSize>
+			<screenShakeFactor>0.1</screenShakeFactor>
+		</projectile>
+	</ThingDef>
+	
+		<DamageDef ParentName="CutBase">
+		<defName>ISA_Swarm</defName>
+		<label>swarm</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<minDamageToFragment>2</minDamageToFragment>
+        <defaultDamage>2</defaultDamage>
+		<impactSoundType>Toxic</impactSoundType>
+		<explosionColorCenter>(206, 193, 97)</explosionColorCenter>
+		<explosionColorEdge>(206, 193, 97)</explosionColorEdge>
+		<soundExplosion>ISA_VialBreak</soundExplosion>
+	    <additionalHediffs>
+			<li>
+				<hediff>ISA_AngrySwarm</hediff>
+			</li>
+		</additionalHediffs>
+		<scaleDamageToBuildingsBasedOnFlammability>false</scaleDamageToBuildingsBasedOnFlammability>
+	</DamageDef>
+	
+	  <!--=============== Hediff ================-->
+	
+</Defs>
