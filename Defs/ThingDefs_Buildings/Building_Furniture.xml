@@ -177,7 +177,6 @@
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<fuelIconPath>UI/IconRawWood</fuelIconPath>
 			</li>
-			<li Class="MedievalOverhaul.CompProperties_StoreFuelThing"/>
 			<li Class="CompProperties_Glower">
 				<glowRadius>25</glowRadius>
 				<glowColor>(252,187,113,0)</glowColor>
@@ -234,7 +233,6 @@
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
-			<li>MedievalOverhaul.ITab_Fuel</li>
 		</inspectorTabs>
 		<building>
 			<isMealSource>false</isMealSource>
