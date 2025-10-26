@@ -118,7 +118,7 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Things/Building/Temperature/LargePyre</texPath>
+			<texPath>Building/Misc/Pyre/LargePyre</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
@@ -251,7 +251,7 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Things/Building/Temperature/LargeRoundPyre</texPath>
+			<texPath>Building/Misc/Pyre/LargeRoundPyre</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
