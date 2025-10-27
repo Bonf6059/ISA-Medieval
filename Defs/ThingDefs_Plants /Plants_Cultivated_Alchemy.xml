@@ -14,7 +14,7 @@
 		<plant>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
-			<sowMinSkill>8</sowMinSkill>
+			<sowMinSkill>4</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -36,7 +36,7 @@
 		<plant>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
-			<sowMinSkill>8</sowMinSkill>
+			<sowMinSkill>4</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -57,7 +57,7 @@
 		<plant>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
-			<sowMinSkill>8</sowMinSkill>
+			<sowMinSkill>6</sowMinSkill>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
