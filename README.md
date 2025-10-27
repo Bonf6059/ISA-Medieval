@@ -15,6 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added toughts to various foods
 - Changed texture for fermenting barrel (from the framework)
 - Tidied up the code of various things
+- Updated About.xml file
 
 26/10/2025
 - Added fire pots grenades
