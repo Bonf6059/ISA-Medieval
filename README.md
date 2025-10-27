@@ -1,6 +1,6 @@
 # ISA Medieval flavor pack
 
-
+Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Next update
 
