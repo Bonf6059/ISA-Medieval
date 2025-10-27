@@ -6,7 +6,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 - Add petrification grenades if sir van beasts and monsters is installed
 - Add new medicines
-- Reorganizing textures - move folders into eachother (meal and weapons and drinks into Items, production into Building, ecc)
+- Reorganizing textures - move folders into eachother (meal into Items, production into Building, ecc)
 
 # Old updates
 
@@ -17,6 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Tidied up the code of various things
 - Updated About.xml file
 - Added a logo
+- Reorganized textures - moved folders "weapons" and "drinks" into "Items"
 
 26/10/2025
 - Added fire pots grenades
