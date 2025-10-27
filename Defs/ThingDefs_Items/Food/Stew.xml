@@ -100,7 +100,7 @@
 		<label>soup</label>
 		<description>A creamy soup made from finely pureed vegetables and a light assortment of spices.</description>
 		<graphicData>
-			<texPath>Meal/Soup/Soup</texPath>
+			<texPath>Meal/Soup</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
