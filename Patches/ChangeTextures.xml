@@ -79,5 +79,24 @@
       <texPath>Drinks/Mead</texPath>
     </value>
   </Operation>
+
+     <!-- Replace Fermenting Barrel framework texture -->
+  
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BarrelProcessor"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Building/Production/RusticFermentingBarrel/RusticFermentingBarrel</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2,2</drawSize>
+				<damageData>
+					<rect>(0.05,0.1,0.9,0.9)</rect>
+				</damageData>
+				<shadowData>
+					<volume>(0.75, 0.35, 0.33)</volume>
+				</shadowData>
+			</graphicData>
+		</value>
+	</Operation>
    
 </Patch>
