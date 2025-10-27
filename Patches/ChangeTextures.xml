@@ -2,11 +2,14 @@
 <Patch>
 
 <!-- Replace Chemfuel Texture -->
-
+	
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Chemfuel"]/graphicData/texPath</xpath>
+    <xpath>/Defs/ThingDef[defName="Chemfuel"]/graphicData</xpath>
     <value>
-      <texPath>Items/Resources/Misc/TribalChemfuel/TribalChemfuel_a</texPath>
+		<graphicData>
+    	  <texPath>Items/Resources/Misc/TribalChemfuel</texPath>
+    	  <graphicClass>Graphic_StackCount</graphicClass>
+    	</graphicData>
     </value>
   </Operation>
 
