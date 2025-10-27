@@ -21,14 +21,14 @@
 
 	<!-- Griffon Berry Pie -->
 	<ThoughtDef>
-		<defName>ISA_AteGriffonBerryPie</defName>
+		<defName>ISA_AteBerryPie</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>ate griffon berry pie</label>
+				<label>ate berry pie</label>
 				<description>A pie baked for griffons! Such profound aroma inexorably satisfies one's tongue!</description>
 				<baseMoodEffect>15</baseMoodEffect>
 			</li>
@@ -69,15 +69,15 @@
 
 	<!-- Pumpkin Soup -->
 	<ThoughtDef>
-		<defName>ISA_AtePumpkinSoup</defName>
+		<defName>ISA_AteSoup</defName>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ThoughtSymbol/Food</icon>
 		<durationDays>0.5</durationDays>
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>ate pumpkin soup</label>
-				<description>I ate a thick soup of pumpkin and spice. A delightful warmth courses through my body.</description>
+				<label>ate soup</label>
+				<description>I ate a thick soup of vegetables and spice. A delightful warmth courses through my body.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
 		</stages>
