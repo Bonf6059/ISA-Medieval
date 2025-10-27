@@ -15,4 +15,12 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsCremate"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>ISA_Pyre</li>
+			<li>ISA_PyreRound</li>
+		</value>
+	</Operation>
+
 </Patch>
