@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 	<!--========== Flowers ==========-->
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_MindwortBase">
-		<defName>DankPyon_Plant_Mindwort</defName>
+	
+	<ThingDef ParentName="HealrootBase" Name="ISA_MindwortBase">
+		<defName>ISA_Plant_Mindwort</defName>
 		<label>mindwort</label>
 		<graphicData>
 			<texPath>Things/Plants/FullGrown/MindwortPlant</texPath>
@@ -17,13 +19,13 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<harvestedThingDef>DankPyon_Mindwort</harvestedThingDef>
+			<harvestedThingDef>ISA_Mindwort</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
 	</ThingDef>
 
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_PoppyBase">
-		<defName>DankPyon_Plant_Poppy</defName>
+	<ThingDef ParentName="HealrootBase" Name="ISA_PoppyBase">
+		<defName>ISA_Plant_Poppy</defName>
 		<label>poppy</label>
 		<graphicData>
 			<texPath>Things/Plants/FullGrown/PoppyPlant</texPath>
@@ -38,34 +40,13 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<harvestedThingDef>DankPyon_Poppy</harvestedThingDef>
+			<harvestedThingDef>ISA_Poppy</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
 	</ThingDef>
 
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_FleawortBase">
-		<defName>DankPyon_Plant_Fleawort</defName>
-		<label>fleawort</label>
-		<graphicData>
-			<texPath>Things/Plants/FullGrown/FleawortPlant</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<description>A hardy plant, traditionally used for its medicinal properties.</description>
-		<plant>
-			<growDays>7</growDays>
-			<sowWork>800</sowWork>
-			<sowMinSkill>8</sowMinSkill>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
-			<harvestedThingDef>DankPyon_Fleawort</harvestedThingDef>
-			<purpose>Health</purpose>
-		</plant>
-	</ThingDef>
-
-	<ThingDef ParentName="HealrootBase" Name="DankPyon_FlyAgaricBase">
-		<defName>DankPyon_Plant_FlyAgaric</defName>
+	<ThingDef ParentName="HealrootBase" Name="ISA_FlyAgaricBase">
+		<defName>ISA_Plant_FlyAgaric</defName>
 		<label>fly agaric</label>
 		<graphicData>
 			<texPath>Things/Plants/FullGrown/FlyAgaricPlant</texPath>
@@ -80,7 +61,7 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
-			<harvestedThingDef>DankPyon_FlyAgaric</harvestedThingDef>
+			<harvestedThingDef>ISA_FlyAgaric</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
 	</ThingDef>
