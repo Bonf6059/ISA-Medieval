@@ -5,7 +5,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Next update
 
 - Add petrification grenades if sir van beasts and monsters is installed
-- Add new medicines
+- Add new drugs
 - Reorganizing textures - move folders into eachother (meal into Items, production into Building, ecc)
 - Add Opium from Poppies
 
