@@ -5,7 +5,7 @@
 	<!-- ==================== Raw Plants Resource ======================= -->
 	
 	<ThingDef ParentName="MedicineBase">
-		<defName>DankPyon_Mindwort</defName>
+		<defName>ISA_Mindwort</defName>
 		<label>mindwort</label>
 		<description>Useful herb that is used in creation of several powerful medicines.</description>
 		<possessionCount>4</possessionCount>
@@ -34,7 +34,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="MedicineBase">
-		<defName>DankPyon_Poppy</defName>
+		<defName>ISA_Poppy</defName>
 		<label>poppy</label>
 		<description>Useful herb that is used in creation of several powerful medicines.</description>
 		<possessionCount>4</possessionCount>
@@ -63,7 +63,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="MedicineBase">
-		<defName>DankPyon_FlyAgaric</defName>
+		<defName>ISA_FlyAgaric</defName>
 		<label>fly agaric</label>
 		<description>Useful herb that is used in creation of several powerful medicines.</description>
 		<possessionCount>4</possessionCount>
