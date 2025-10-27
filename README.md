@@ -11,7 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 27/10/2025
-- Changed materials for Criopyrinth stuff using only metallic instead of stony because IDK how to fix the mask
+- Changed materials for Criopyrinth stuff using only metallic instead of metallic and stony because IDK how to fix the mask
 - Added toughts to various foods
 - Changed texture for fermenting barrel (from the framework)
 - Tidied up the code of various things
