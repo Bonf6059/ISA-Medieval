@@ -80,7 +80,7 @@
 							<modExtensions>
 								<li Class="VEF.Plants.DualCropExtension">
 									<secondaryOutput>ISA_Flour</secondaryOutput>
-									<outPutAmount>10</outPutAmount>
+									<outPutAmount>7</outPutAmount>
 								</li>
 							</modExtensions>
 						</value>
