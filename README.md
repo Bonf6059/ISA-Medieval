@@ -19,8 +19,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added a logo
 - Reorganized textures
   
-      - further subdivided "weapons" folder adding "Firepot" folder into "grenade" folder;
-      - moved folders "weapons" and "drinks" into "Items";
+      - Further subdivided "weapons" folder adding "Firepot" folder into "grenade" folder;
+      - Moved folders "weapons" and "drinks" into "Items";
+      - Changed texture of Soup_c 
   
 
 26/10/2025
