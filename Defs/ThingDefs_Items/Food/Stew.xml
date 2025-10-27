@@ -64,6 +64,7 @@
 		</ingestible>
 		
 	</ThingDef>
+	
 <!-- Cooked Stew -->
   
 	<ThingDef ParentName="MealCooked">
@@ -82,6 +83,12 @@
 			<preferability>MealLavish</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Drink</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AteStew</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 
 	</ThingDef>
@@ -104,6 +111,12 @@
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AteSoup</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
