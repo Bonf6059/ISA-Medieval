@@ -68,8 +68,9 @@
 		</products>
 	</RecipeDef>
 
-	<!-- ========== Ores ==========-->
-	<RecipeDef ParentName="ISA_MineShaftBase">
+	<!-- ========== Ores - Single ==========-->
+	
+<!--	<RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeSteel</defName>
 		<description>Mine deep down underground to obtain steel</description>
 		<workAmount>900</workAmount>
@@ -78,8 +79,43 @@
 		<products>
 			<Steel>1</Steel>
 		</products>
-	</RecipeDef>
+	</RecipeDef>	-->
 
+<!--	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeSilver</defName>
+		<description>Mine deep down underground to obtain silver</description>
+		<workAmount>600</workAmount>
+		<label>mine a silver piece</label>
+		<jobString>Mining 1 silver.</jobString>
+		<products>
+			<Silver>1</Silver>
+		</products>
+	</RecipeDef>	-->
+
+<!--  <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakePlasteel</defName>
+		<description>Mine deep down underground to obtain plasteel</description>
+		<workAmount>1000</workAmount>
+		<label>mine a piece of plasteel</label>
+		<jobString>Mining 1 plasteel.</jobString>
+		<products>
+			<Plasteel>1</Plasteel>
+		</products>
+	</RecipeDef>	-->
+
+<!--    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeCriopyrinth</defName>
+		<description>Mine deep down underground to obtain Criopyrinth</description>
+	    	<workAmount>300</workAmount>
+	    	<label>gather Criopyrinth</label>
+	    	<jobString>Mining 1 Criopyrinth</jobString>
+	    	<products>
+	    		<ISA_Criopyrinth>1</ISA_Criopyrinth>
+	    	</products>
+	</RecipeDef>	-->
+
+<!-- ========== Ores - Bulk ==========-->
+	
 	<RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeSteelBulk</defName>
 		<description>Mine deep down underground to obtain steel</description>
@@ -90,18 +126,7 @@
 			<Steel>5</Steel>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeSilver</defName>
-		<description>Mine deep down underground to obtain silver</description>
-		<workAmount>600</workAmount>
-		<label>mine a silver piece</label>
-		<jobString>Mining 1 silver.</jobString>
-		<products>
-			<Silver>1</Silver>
-		</products>
-	</RecipeDef>
-
+	
 	<RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeSilverBulk</defName>
 		<description>Mine deep down underground to obtain silver</description>
@@ -110,17 +135,6 @@
 		<jobString>Mining 5 silver.</jobString>
 		<products>
 			<Silver>5</Silver>
-		</products>
-	</RecipeDef>
-
-  <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakePlasteel</defName>
-		<description>Mine deep down underground to obtain plasteel</description>
-		<workAmount>1000</workAmount>
-		<label>mine a piece of plasteel</label>
-		<jobString>Mining 1 plasteel.</jobString>
-		<products>
-			<Plasteel>1</Plasteel>
 		</products>
 	</RecipeDef>
 
@@ -134,18 +148,6 @@
 			<Plasteel>5</Plasteel>
 		</products>
 	</RecipeDef>
-	
-    <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeCriopyrinth</defName>
-		<description>Mine deep down underground to obtain Criopyrinth</description>
-	    	<workAmount>300</workAmount>
-	    	<label>gather Criopyrinth</label>
-	    	<jobString>Mining 1 Criopyrinth</jobString>
-	    	<products>
-	    		<ISA_Criopyrinth>1</ISA_Criopyrinth>
-	    	</products>
-	</RecipeDef>
-
 
     <RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeCriopyrinthBulk</defName>
@@ -158,9 +160,12 @@
 	    	</products>
 	</RecipeDef>
 
+
+	<!-- ========== Other mods resources ==========-->
+	
 <!-- With Epochs Pyrinth loaded -->
 	
-      <RecipeDef MayRequire="det.epochspyrinth" ParentName="ISA_MineShaftBase">
+<!--    <RecipeDef MayRequire="det.epochspyrinth" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakePyrinth</defName>
 		<description>Mine deep down underground to obtain pyrinth</description>
 	    	<workAmount>300</workAmount>
@@ -169,7 +174,7 @@
 	    	<products>
 	    		<DV_Pyrinth>1</DV_Pyrinth>
 	    	</products>
-	</RecipeDef>
+	</RecipeDef>	-->
 
       <RecipeDef MayRequire="det.epochspyrinth" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakePyrinthBulk</defName>
@@ -184,7 +189,7 @@
 
 <!-- With Epochs Pottery loaded -->
 	
-      <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
+ <!--     <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeClay</defName>
 		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>200</workAmount>
@@ -193,7 +198,7 @@
 	    	<products>
 	    		<DV_Clay>1</DV_Clay>
 	    	</products>
-	</RecipeDef>
+	</RecipeDef>	-->
 
       <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakeClayBulk</defName>
