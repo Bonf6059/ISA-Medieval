@@ -88,7 +88,7 @@
       <li>ComplexFurniture</li>
     </researchPrerequisites>
     <graphicData> <!-- art+to -->
-      <texPath>Building/Misc/Brazier/CriopyrinthBrazier</texPath>
+      <texPath>Building/Temperature/Criopyrinth/CriopyrinthBrazier</texPath>
       <drawSize>(2.7,2.7)</drawSize>
       <drawRotated>false</drawRotated>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -111,7 +111,7 @@
     <label>Criopyrinth cooler</label>
     <description>A volatile device that houses crumbled Criopyrinth crystals. A steady, reliable source of cool air that can't be modified. More stable than it's pyrinth counterpart it won't explode upon being damaged.</description>
     <graphicData>
-      <texPath>Building/CriopyrinthCooler</texPath>
+      <texPath>Building/Temperature/Criopyrinth/CriopyrinthCooler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <shadowData>
@@ -186,7 +186,7 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Building/Misc/Pyre/LargePyre</texPath>
+			<texPath>Building/Temperature/Pyre/LargePyre</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
@@ -316,7 +316,7 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Building/Misc/Pyre/LargeRoundPyre</texPath>
+			<texPath>Building/Temperature/Pyre/LargeRoundPyre</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
