@@ -25,7 +25,7 @@
 		<label>fire pots</label>
 		<description>An explosive clay pot designed to lit an area ablaze with its oil filled case.</description>
 		<graphicData>
-			<texPath>Weapons/Grenades/FirePot/FirePot</texPath>
+			<texPath>Items/Weapons/Grenades/FirePot/FirePot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.3</uiIconScale>
@@ -74,7 +74,7 @@
 		<defName>ISA_Proj_PotFire</defName>
 		<label>fire pot</label>
 		<graphicData>
-			<texPath>Weapons/Grenades/FirePot/FirePot</texPath>
+			<texPath>Items/Weapons/Grenades/FirePot/FirePot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -147,7 +147,7 @@
 			<!-- <Leather>5</Leather> -->
 		</costList>
 		<graphicData>
-			<texPath>Weapons/Grenades/FirePot/FirePots</texPath>
+			<texPath>Items/Weapons/Grenades/FirePot/FirePots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
