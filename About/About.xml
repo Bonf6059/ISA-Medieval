@@ -23,6 +23,9 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>OskarPotocki.VFE.Medieval2</li>
+		<li>syrchalis.processor.framework</li>
+		<li>VanillaExpanded.VPlantsE</li>
 		<li>Van.Beasts</li>
 	</loadAfter>
 	<packageId>ISA.Medieval</packageId>
