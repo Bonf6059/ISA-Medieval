@@ -21,6 +21,7 @@
 			</sowTags>
 			<harvestedThingDef>ISA_Mindwort</harvestedThingDef>
 			<purpose>Health</purpose>
+			<fertilitySensitivity>0</fertilitySensitivity>
 		</plant>
 	</ThingDef>
 
