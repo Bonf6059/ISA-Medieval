@@ -144,6 +144,7 @@
 		</recipeMaker>
 		<costList>
 			<ISA_Weapon_PotFire>1</ISA_Weapon_PotFire>
+			<!-- <Leather>5</Leather> -->
 		</costList>
 		<graphicData>
 			<texPath>Weapons/Grenades/FirePots</texPath>
