@@ -18,7 +18,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Updated About.xml file
 - Added a logo
 - Reorganized textures  - further subdivided "weapons" folder adding "Firepot" folder into "grenade" folder;
+  
                         - moved folders "weapons" and "drinks" into "Items";
+  
 
 26/10/2025
 - Added fire pots grenades
