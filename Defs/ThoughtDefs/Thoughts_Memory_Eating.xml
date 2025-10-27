@@ -19,7 +19,25 @@
 		</stages>
 	</ThoughtDef>
 
-	<!-- Griffon Berry Pie -->
+	<!-- Soup -->
+	<ThoughtDef>
+		<defName>ISA_AteSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>ate soup</label>
+				<description>I ate a thick soup of vegetables and spice. A delightful warmth courses through my body.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- ======= Bakes based thoughts ========= -->
+	
+	<!-- Berry Pie -->
 	<ThoughtDef>
 		<defName>ISA_AteBerryPie</defName>
 		<showBubble>true</showBubble>
@@ -63,22 +81,6 @@
 				<label>ate pumpkin pie</label>
 				<description>Sweet, yet slightly spicy. What a delicious pie!</description>
 				<baseMoodEffect>6</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
-	<!-- Pumpkin Soup -->
-	<ThoughtDef>
-		<defName>ISA_AteSoup</defName>
-		<showBubble>true</showBubble>
-		<icon>Things/Mote/ThoughtSymbol/Food</icon>
-		<durationDays>0.5</durationDays>
-		<stackLimit>1</stackLimit>
-		<stages>
-			<li>
-				<label>ate soup</label>
-				<description>I ate a thick soup of vegetables and spice. A delightful warmth courses through my body.</description>
-				<baseMoodEffect>3</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
