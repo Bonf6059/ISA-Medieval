@@ -8,7 +8,7 @@
 		<label>apple juice</label>
 		<description>Freshly pressed apple juice, a sweet and refreshing drink. Ferment for a few days at target temperature to turn into cider.</description>
 		<graphicData>
-			<texPath>Drinks/AppleJuice</texPath>
+			<texPath>Items/Drinks/AppleJuice</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-150</equippedAngleOffset>
