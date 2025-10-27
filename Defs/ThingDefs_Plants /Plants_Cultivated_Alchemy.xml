@@ -7,7 +7,7 @@
 		<defName>ISA_Plant_Mindwort</defName>
 		<label>mindwort</label>
 		<graphicData>
-			<texPath>Things/Plants/FullGrown/MindwortPlant</texPath>
+			<texPath>Plants/FullGrown/MindwortPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<description>A small, delicate herb with pale green leaves and tiny, yellow flowers, often used in crafting strong elixirs due to its potent properties.</description>
@@ -29,7 +29,7 @@
 		<defName>ISA_Plant_Poppy</defName>
 		<label>poppy</label>
 		<graphicData>
-			<texPath>Things/Plants/FullGrown/PoppyPlant</texPath>
+			<texPath>Plants/FullGrown/PoppyPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<description>A vibrant plant with striking red flowers, known for its use in various medicinal and alchemical preparations, often valued for its potent effects.</description>
@@ -50,7 +50,7 @@
 		<defName>ISA_Plant_FlyAgaric</defName>
 		<label>fly agaric</label>
 		<graphicData>
-			<texPath>Things/Plants/FullGrown/FlyAgaricPlant</texPath>
+			<texPath>Plants/FullGrown/FlyAgaricPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<description>A striking mushroom with a bright red cap adorned with white spots, known for its toxic properties. Despite its danger, it has been used in small doses in traditional remedies and rituals, though caution is always advised.</description>
