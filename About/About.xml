@@ -9,14 +9,17 @@
 		<li>
 			<packageId>OskarPotocki.VFE.Medieval2</packageId>
 			<displayName>Vanilla Factions Expanded - Medieval 2</displayName>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaFactionsExpanded-Medieval2</downloadUrl>
 		</li>
 		<li>
 			<packageId>syrchalis.processor.framework</packageId>
 			<displayName>[SYR] Processor Framework</displayName>
+			<downloadUrl>https://github.com/ViralReaction/ProcessorFramework</downloadUrl>
 		</li>
 		<li>
 			<packageId>VanillaExpanded.VPlantsE</packageId>
 			<displayName>Vanilla Expanded Plants</displayName>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaPlantsExpanded</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -26,6 +29,5 @@
 		<li>VanillaExpanded.VPlantsE</li>
 	</loadAfter>
 	<packageId>ISA.Medieval</packageId>
-	<description>Just a bunch of patches and addons to various mods and some medieval stuff.
-</description>
+	<description>Just a bunch of patches and addons to various mods and some medieval stuff.</description>
 </ModMetaData>
