@@ -50,6 +50,11 @@
 			<preferability>MealLavish</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AteBerryPie</hediffDef>
+					<severity>1</severity>
+				</li>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
@@ -72,6 +77,13 @@
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AteApplePie</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
@@ -94,6 +106,13 @@
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AtePumpkinPie</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
@@ -116,6 +135,13 @@
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ISA_AteCarrotCake</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
