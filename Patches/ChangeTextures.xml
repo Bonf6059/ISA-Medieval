@@ -86,7 +86,7 @@
 		<xpath>Defs/ThingDef[defName="BarrelProcessor"]/graphicData</xpath>
 		<value>
 			<graphicData>
-				<texPath>Building/Production/RusticFermentingBarrel/RusticFermentingBarrel</texPath>
+				<texPath>Production/RusticFermentingBarrel/RusticFermentingBarrel</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>2,2</drawSize>
 				<damageData>
