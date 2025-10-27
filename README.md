@@ -24,6 +24,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - Moved folders "weapons" and "drinks" into "Items";
       - Changed texture of Soup_c
       - Changed chemfuel texture
+      - Added folder "Resorces" into "Items"
 - Added Mindworth; Poppy and Flyagaric as wild and cultivated plants (can be used as medicine) 
   
 
