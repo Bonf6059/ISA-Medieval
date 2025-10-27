@@ -76,7 +76,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Drinks/Mead</texPath>
+      <texPath>Items/Drinks/Mead</texPath>
     </value>
   </Operation>
 
