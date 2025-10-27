@@ -4,6 +4,7 @@
 
 - Add petrification grenades if sir van beasts and monsters is installed
 - Add new medicines
+- Tidying textures - move production folder into the building folder
 
 # Old updates
 
