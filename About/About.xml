@@ -24,9 +24,6 @@
 	</modDependencies>
 	<loadAfter>
 		<li>Van.Beasts</li>
-		<li>OskarPotocki.VFE.Medieval2</li>
-		<li>syrchalis.processor.framework</li>
-		<li>VanillaExpanded.VPlantsE</li>
 	</loadAfter>
 	<packageId>ISA.Medieval</packageId>
 	<description>Just a bunch of patches and addons to various mods and some medieval stuff.</description>
