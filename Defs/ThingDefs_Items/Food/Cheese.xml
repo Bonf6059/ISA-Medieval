@@ -25,6 +25,9 @@
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteCheese</ingestedThought>
+			</li>
 			<li MayRequire="vanillaexpanded.vcooke" Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>
 		<rotatable>false</rotatable>
