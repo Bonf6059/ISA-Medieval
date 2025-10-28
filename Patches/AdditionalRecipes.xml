@@ -35,39 +35,4 @@
 		</value>
 	</Operation>
 
-<!-- Add sheep and goat milk to vanilla recipes a std -->
-
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/RecipeDef[contains(.,'Milk')]/ingredients/li[contains(.,'Milk')]/filter/thingDefs</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[contains(.,'Milk')]/ingredients/li[contains(.,'Milk')]/filter/thingDefs</xpath>
-			<value>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-			</value>
-		</match>
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/RecipeDef[contains(.,'Milk')]/fixedIngredientFilter/thingDefs/li[.="Milk"]</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[contains(.,'Milk')]/fixedIngredientFilter/thingDefs</xpath>
-			<value>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-			</value>
-		</match>
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/RecipeDef[contains(.,'Milk')]/defaultIngredientFilter/thingDefs/li[.="Milk"]</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[contains(.,'Milk')]/defaultIngredientFilter/thingDefs</xpath>
-			<value>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-			</value>
-		</match>
-	</Operation>
-
 </Patch>
