@@ -7,8 +7,9 @@
     <xpath>/Defs/ThingDef[defName="Chemfuel"]/graphicData</xpath>
     <value>
 		<graphicData>
-    	  <texPath>Items/Resources/Misc/TribalChemfuel</texPath>
-    	  <graphicClass>Graphic_StackCount</graphicClass>
+    		<texPath>Items/Resources/Misc/TribalChemfuel</texPath>
+    		<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.85</drawSize>
     	</graphicData>
     </value>
   </Operation>
