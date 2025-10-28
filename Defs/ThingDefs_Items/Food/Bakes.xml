@@ -55,6 +55,7 @@
 					<hediffDef>ISA_AteBerryPie</hediffDef>
 					<severity>1</severity>
 				</li>
+			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
 	</ThingDef>
