@@ -2,113 +2,112 @@
 <Patch>
 
 <!--========== TRADERS ==========-->
-  
-  <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
-    <value>
-    <li>ISA_Caravan_Mythological</li>
-    </value>
-  </Operation>
 
-<!--  <Operation MayRequire="det.stoneborn" Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="OutlanderRoughBase"]/caravanTraderKinds</xpath>
-    <value>
-    <li>ISA_Caravan_Mythological</li>
-    </value>
-  </Operation> -->
+<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+    <operations>
+      <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>ISA_Caravan_Mythological</li>
+        </value>
+      </li>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
-    <value>
-    <li>ISA_Caravan_Mythological</li>
-    </value>
-  </Operation>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
+        <value>
+        <li>ISA_Caravan_Mythological</li>
+        </value>
+      </li>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/caravanTraderKinds</xpath>
-    <value>
-    <li>ISA_Caravan_Mythological</li>
-    </value>
-  </Operation>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/caravanTraderKinds</xpath>
+        <value>
+        <li>ISA_Caravan_Mythological</li>
+        </value>
+      </li>
 
 
-<!-- ISA_MithycalAnimals -->
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="DA_Barog"]/tradeTags</xpath>
-    <value>
-    <li>ISA_MythicalAnimal</li>
-    </value>
-  </Operation>
+    <!-- ISA_MithycalAnimals -->
+      <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DA_Barog"]/tradeTags</xpath>
+        <value>
+        <li>ISA_MythicalAnimal</li>
+        </value>
+      </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="DA_BlackScribe"]/tradeTags</xpath>
-    <value>
-    <li>ISA_MythicalAnimal</li>
-    </value>
-  </Operation>
+      <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DA_BlackScribe"]/tradeTags</xpath>
+        <value>
+        <li>ISA_MythicalAnimal</li>
+        </value>
+      </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="DA_Crestel"]/tradeTags</xpath>
-    <value>
-    <li>ISA_MythicalAnimal</li>
-    </value>
-  </Operation>
+      <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DA_Crestel"]/tradeTags</xpath>
+        <value>
+        <li>ISA_MythicalAnimal</li>
+        </value>
+      </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_DwarvenMuffton"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
-  </Operation>
+  </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Goldilox"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
-  </Operation>
+  </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Karabal"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
-  </Operation>
+  </li>
 
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_NorthernDrog"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
-  </Operation>
+  </li>
   
-  <Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Pilgrim"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
-  </Operation>
+  </li>
 
-<Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
-  <xpath>/Defs/ThingDef[defName="DA_ImperialRedhound"]/tradeTags</xpath>
-  <value>
-   <li>ISA_MythicalAnimal</li>
-  </value>
-</Operation>
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="DA_ImperialRedhound"]/tradeTags</xpath>
+      <value>
+      <li>ISA_MythicalAnimal</li>
+      </value>
+  </li>
 
-<Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+<li MayRequire="Van.Beasts" Class="PatchOperationAdd">
   <xpath>/Defs/ThingDef[@Name="DA_BaseTaraal"]/tradeTags</xpath>
   <value>
    <li>ISA_MythicalAnimal</li>
   </value>
-</Operation>
+</li>
 
-<Operation MayRequire="Van.Beasts" Class="PatchOperationAdd">
+<li MayRequire="Van.Beasts" Class="PatchOperationAdd">
   <xpath>/Defs/ThingDef[@Name="DA_BaseTaraal"]/tradeTags</xpath>
   <value>
    <li>ISA_MythicalAnimal</li>
   </value>
+</li>
+
+  </operations>
 </Operation>
 
 </Patch>
