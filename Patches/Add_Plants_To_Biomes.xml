@@ -4,45 +4,45 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_MindwortWild>0.05</DankPyon_Plant_MindwortWild>
-			<DankPyon_Plant_PoppyWild>0.05</DankPyon_Plant_PoppyWild>
-			<DankPyon_Plant_FlyAgaricWild>0.05</DankPyon_Plant_FlyAgaricWild>
+			<ISA_Plant_MindwortWild>0.05</ISA_Plant_MindwortWild>
+			<ISA_Plant_PoppyWild>0.05</ISA_Plant_PoppyWild>
+			<ISA_Plant_FlyAgaricWild>0.05</ISA_Plant_FlyAgaricWild>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateSwamp"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_MindwortWild>0.05</DankPyon_Plant_MindwortWild>
-			<DankPyon_Plant_PoppyWild>0.05</DankPyon_Plant_PoppyWild>
-			<DankPyon_Plant_FlyAgaricWild>0.05</DankPyon_Plant_FlyAgaricWild>
+			<ISA_Plant_MindwortWild>0.05</ISA_Plant_MindwortWild>
+			<ISA_Plant_PoppyWild>0.05</ISA_Plant_PoppyWild>
+			<ISA_Plant_FlyAgaricWild>0.05</ISA_Plant_FlyAgaricWild>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="BorealForest"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_MindwortWild>0.16</DankPyon_Plant_MindwortWild>
-			<DankPyon_Plant_PoppyWild>0.16</DankPyon_Plant_PoppyWild>
-			<DankPyon_Plant_FlyAgaricWild>0.16</DankPyon_Plant_FlyAgaricWild>
+			<ISA_Plant_MindwortWild>0.16</ISA_Plant_MindwortWild>
+			<ISA_Plant_PoppyWild>0.16</ISA_Plant_PoppyWild>
+			<ISA_Plant_FlyAgaricWild>0.16</ISA_Plant_FlyAgaricWild>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="Tundra"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_MindwortWild>0.05</DankPyon_Plant_MindwortWild>
-			<DankPyon_Plant_PoppyWild>0.05</DankPyon_Plant_PoppyWild>
-			<DankPyon_Plant_FlyAgaricWild>0.05</DankPyon_Plant_FlyAgaricWild>
+			<ISA_Plant_MindwortWild>0.05</ISA_Plant_MindwortWild>
+			<ISA_Plant_PoppyWild>0.05</ISA_Plant_PoppyWild>
+			<ISA_Plant_FlyAgaricWild>0.05</ISA_Plant_FlyAgaricWild>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildPlants</xpath>
 		<value>
-			<DankPyon_Plant_MindwortWild>0.05</DankPyon_Plant_MindwortWild>
-			<DankPyon_Plant_PoppyWild>0.05</DankPyon_Plant_PoppyWild>
-			<DankPyon_Plant_FlyAgaricWild>0.05</DankPyon_Plant_FlyAgaricWild>
+			<ISA_Plant_MindwortWild>0.05</ISA_Plant_MindwortWild>
+			<ISA_Plant_PoppyWild>0.05</ISA_Plant_PoppyWild>
+			<ISA_Plant_FlyAgaricWild>0.05</ISA_Plant_FlyAgaricWild>
         </value>
 	</Operation>
 
