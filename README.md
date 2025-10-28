@@ -14,7 +14,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 28/10/2025
 - Fixed errors given by the missing heddif in the food by removing them
-- disabled temporarely the thought given by eating the food
+- Disabled temporarely the thought given by eating the food
+- Removed the thought from eating stew and soup
+- Removed the quality from the stew pot
 
 27/10/2025
 - Changed materials for Criopyrinth stuff using only metallic instead of metallic and stony because IDK how to fix the mask
