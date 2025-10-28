@@ -82,15 +82,6 @@
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Drink</ingestSound>
 		</ingestible>
-<!--		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
-				<ingestedThought>ISA_AteStew</ingestedThought>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
-		</comps>	-->
 
 	</ThingDef>
 
@@ -113,15 +104,6 @@
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 		</ingestible>
-<!--		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
-				<ingestedThought>ISA_AteSoup</ingestedThought>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
-		</comps>	-->
 	</ThingDef>
 
 </Defs>  
