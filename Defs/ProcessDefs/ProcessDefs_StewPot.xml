@@ -16,8 +16,8 @@
 		<powerUseFactor>0.0</powerUseFactor>
 		<fuelUseFactor>0.0</fuelUseFactor>
 		<filledGraphicSuffix>Filled</filledGraphicSuffix>
-		<usesQuality>True</usesQuality>
-		<qualityDays>(0.25, 0.5, 1, 2, 3, 4, 5)</qualityDays>
+		<usesQuality>False</usesQuality>
+	<!--	<qualityDays>(0.25, 0.5, 1, 2, 3, 4, 5)</qualityDays>	-->
 		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
 		<customLabel/>
 		<destroyChance>0.0</destroyChance>
