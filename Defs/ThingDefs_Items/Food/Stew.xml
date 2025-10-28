@@ -26,7 +26,6 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			<li Class="CompProperties_Ingredients" />
-
 		</comps>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>			
@@ -57,7 +56,6 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			<li Class="CompProperties_Ingredients" />
-
 		</comps>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>			
@@ -83,13 +81,16 @@
 			<preferability>MealLavish</preferability>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Ingest_Drink</ingestSound>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AteStew</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
+<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteStew</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 
 	</ThingDef>
 
@@ -111,58 +112,16 @@
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AteSoup</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
-		<rotatable>false</rotatable>
+<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteSoup</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 	</ThingDef>
-
-	<!-- Sheep Pumpkin Soup 
-	
-	<ThingDef ParentName="MealCooked">
-		<defName>ISA_CookedSheepPumpkinSoup</defName>
-		<label>pumpkin soup</label>
-		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
-		<graphicData>
-			<texPath>Meal/Soup/Soup</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>25</MarketValue>
-			<Nutrition>0.9</Nutrition>
-			<Mass>0.5</Mass>
-		</statBases>
-		<ingestible>
-			<preferability>MealFine</preferability>
-			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
-		</ingestible>
-		<rotatable>false</rotatable>
-	</ThingDef>	-->
-
-	<!-- Goat Pumpkin Soup 
-	
-	<ThingDef ParentName="MealCooked">
-		<defName>ISA_CookedGoatPumpkinSoup</defName>
-		<label>pumpkin soup</label>
-		<description>A creamy soup made from finely pureed pumpkin and a light assortment of spices.</description>
-		<graphicData>
-			<texPath>Meal/Soup/Soup</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>27</MarketValue>
-			<Nutrition>0.9</Nutrition>
-			<Mass>0.5</Mass>
-		</statBases>
-		<ingestible>
-			<preferability>MealFine</preferability>
-			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
-		</ingestible>
-		<rotatable>false</rotatable>
-	</ThingDef>	-->
 
 </Defs>  
