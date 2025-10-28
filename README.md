@@ -8,8 +8,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add new drugs
 - Reorganizing textures - move folders into eachother (meal into Items, production into Building, ecc)
 - Add Opium from Poppies
+- Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality) 
 
 # Old updates
+
+28/10/2025
+- Fixed errors given by the missing heddif in the food by removing them
+- disabled temporarely the thought given by eating the food
 
 27/10/2025
 - Changed materials for Criopyrinth stuff using only metallic instead of metallic and stony because IDK how to fix the mask
