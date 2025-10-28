@@ -50,13 +50,16 @@
 			<preferability>MealLavish</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AteBerryPie</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteBerryPie</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 		<rotatable>false</rotatable>
 	</ThingDef>
 
@@ -79,14 +82,17 @@
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AteApplePie</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteApplePie</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 	</ThingDef>
 
 	<!-- Pumpkin Pie -->
@@ -108,14 +114,17 @@
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AtePumpkinPie</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AtePumpkinPie</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 	</ThingDef>
 
 		<!-- Carrot Cake -->
@@ -137,14 +146,17 @@
 			<preferability>MealFine</preferability>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>ISA_AteCarrotCake</hediffDef>
-					<severity>1</severity>
-				</li>
-			</outcomeDoers>
 		</ingestible>
 		<rotatable>false</rotatable>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteCarrotCake</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
 	</ThingDef>
 
 	<!-- Bread -->
