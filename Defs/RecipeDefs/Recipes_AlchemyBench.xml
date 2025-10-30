@@ -95,46 +95,6 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_HerbalExtractBulkExtra</defName>
-		<label>make herbal extract x10</label>
-		<description>Make herbal extract x10.</description>
-		<jobString>Making herbal extract x10.</jobString>
-		<workAmount>6000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>MedicineHerbal</li>
-						<li>ISA_Mindwort</li>
-						<li>ISA_FlyAgaric</li>
-						<li>ISA_Poppy</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>MedicineHerbal</li>
-				<li>ISA_Mindwort</li>
-				<li>ISA_FlyAgaric</li>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>MedicineHerbal</li>
-				<li>ISA_Mindwort</li>
-				<li>ISA_FlyAgaric</li>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_HerbalExtract>10</ISA_HerbalExtract>
-		</products>
-	</RecipeDef>
-
 <!-- Opium -->
 
 		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
