@@ -169,7 +169,7 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_Opium</defName>
+		<defName>ISA_Make_Opium_Bulk</defName>
 		<label>make opium</label>
 		<description>Make opium.</description>
 		<jobString>Making opium.</jobString>
