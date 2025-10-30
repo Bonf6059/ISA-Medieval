@@ -33,7 +33,40 @@
 
 <!-- Bakes -->
 
+	<!-- Bread -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_Bread</defName>
+		<label>bread</label>
+		<description>Made from flour and water. A classic staple to start a day.</description>
+		<graphicData>
+			<texPath>Items/Food/Bakes/Bread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Mass>0.4</Mass>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps Inherit="False">
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>8</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_FoodPoisonable"/>
+		</comps>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
   	<!-- Berry Pie -->
+	
 	<ThingDef ParentName="MealCooked">
 		<defName>ISA_BerryPie</defName>
 		<label>berry pie</label>
@@ -157,37 +190,5 @@
 			</li>
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>	-->
-	</ThingDef>
-
-	<!-- Bread -->
-	
-	<ThingDef ParentName="MealCooked">
-		<defName>ISA_Bread</defName>
-		<label>bread</label>
-		<description>Made from flour and water. A classic staple to start a day.</description>
-		<graphicData>
-			<texPath>Items/Food/Bakes/Bread</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<stackLimit>25</stackLimit>
-		<statBases>
-			<MarketValue>9</MarketValue>
-			<Mass>0.4</Mass>
-			<Nutrition>0.15</Nutrition>
-		</statBases>
-		<ingestible>
-			<preferability>MealSimple</preferability>
-			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
-			<optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
-		</ingestible>
-		<comps Inherit="False">
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>8</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_FoodPoisonable"/>
-		</comps>
-		<rotatable>false</rotatable>
 	</ThingDef>
 </Defs>
