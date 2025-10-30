@@ -27,7 +27,6 @@
 						<li>ISA_Mindwort</li>
 						<li>ISA_FlyAgaric</li>
 						<li>ISA_Poppy</li>
-						<li>ISA_Fleawort</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -39,7 +38,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -48,7 +46,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
@@ -73,7 +70,6 @@
 						<li>ISA_Mindwort</li>
 						<li>ISA_FlyAgaric</li>
 						<li>ISA_Poppy</li>
-						<li>ISA_Fleawort</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -85,7 +81,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -94,7 +89,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
@@ -119,7 +113,6 @@
 						<li>ISA_Mindwort</li>
 						<li>ISA_FlyAgaric</li>
 						<li>ISA_Poppy</li>
-						<li>ISA_Fleawort</li>
 					</thingDefs>
 				</filter>
 				<count>30</count>
@@ -131,7 +124,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -140,7 +132,6 @@
 				<li>ISA_Mindwort</li>
 				<li>ISA_FlyAgaric</li>
 				<li>ISA_Poppy</li>
-				<li>ISA_Fleawort</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<recipeUsers>
