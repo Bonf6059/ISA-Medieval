@@ -13,6 +13,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 30/10/2025
+- Added opium
+- Added herbal extract
 - Reorganized textures
 
       - Moved "meal" into "Items"
