@@ -12,8 +12,11 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 30/10/2025
-- Changed Beer texture
-- Reorganized textures - moved "meal" into "Items" and "production" into "Building"
+- Reorganized textures
+
+      - Moved "meal" into "Items"
+      - Moved "production" into "Building"
+      - Changed Beer texture
 
 28/10/2025
 - Fixed errors given by the missing heddif in the food by removing them
@@ -35,6 +38,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - Changed texture of Soup_c
       - Changed chemfuel texture
       - Added folder "Resorces" into "Items"
+  
 - Added Mindworth; Poppy and Flyagaric as wild and cultivated plants (can be used as medicine) 
   
 
