@@ -7,7 +7,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add petrification grenades if sir van beasts and monsters is installed
 - Add new drugs
 - Add Opium from Poppies
-- Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality) 
+- Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
+- Decode wheter to add stuff like Alps and lyndwurm etc
 
 # Old updates
 
