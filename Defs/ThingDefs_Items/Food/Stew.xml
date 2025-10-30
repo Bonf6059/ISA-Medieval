@@ -8,7 +8,7 @@
 		<label>uncooked stew</label>
 		<description>An uncooked stew. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Meal/Stew/ISA_UncookedStew</texPath>
+			<texPath>Items/Food/Stew/ISA_UncookedStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingSetMakerTags></thingSetMakerTags>
@@ -38,7 +38,7 @@
 		<label>uncooked soup</label>
 		<description>An uncooked soup. This needs to be cooked in a stew pot to be edible.</description>
 		<graphicData>
-			<texPath>Meal/Stew/ISA_UncookedStew</texPath>
+			<texPath>Items/Food/Stew/ISA_UncookedStew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingSetMakerTags></thingSetMakerTags>
@@ -70,7 +70,7 @@
 		<label>Stew</label>
 		<description>A stew slow cooked from a few ingredients.</description>
     <graphicData>
-      <texPath>Meal/Stew/Stew</texPath>
+      <texPath>Items/Food/Stew/Stew</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
 		<statBases>
@@ -92,7 +92,7 @@
 		<label>soup</label>
 		<description>A creamy soup made from finely pureed vegetables and a light assortment of spices.</description>
 		<graphicData>
-			<texPath>Meal/Soup</texPath>
+			<texPath>Items/Food/Soup</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
