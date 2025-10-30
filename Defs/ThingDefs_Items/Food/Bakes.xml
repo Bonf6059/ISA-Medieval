@@ -10,7 +10,7 @@
 		<soundInteract>Grain_Drop</soundInteract>
 		<soundDrop>Grain_Drop</soundDrop>	
 		<graphicData>
-			<texPath>Items/Food/Flour/Flour</texPath>
+			<texPath>Items/Food/Bakes/Flour/Flour</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
@@ -39,7 +39,7 @@
 		<label>berry pie</label>
 		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry, topped with a light lemon glaze.</description>
 		<graphicData>
-			<texPath>Meal/Cakes/BerryPie</texPath>
+			<texPath>Items/Food/Bakes/Cakes/BerryPie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -70,7 +70,7 @@
 		<label>apple pie</label>
 		<description>A pie that uses sliced apples for its principal filling ingredient, mixed together with profound spices. Typically covered with a lattice patterned crust then sprinkled with sugar for its finish.</description>
 		<graphicData>
-			<texPath>Meal/Cakes/ApplePie</texPath>
+			<texPath>Items/Food/Bakes/Cakes/ApplePie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -102,7 +102,7 @@
 		<label>pumpking pie</label>
 		<description>A dense, rich pie made from mashed pumpkin mixed with strong spices, layered atop a sweet, flakey crust. A fall-favorite desert.</description>
 		<graphicData>
-			<texPath>Meal/Cakes/PumpkinPie</texPath>
+			<texPath>Items/Food/Bakes/Cakes/PumpkinPie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -134,7 +134,7 @@
 		<label>carrot cake</label>
 		<description>A moist and flavorful cake crafted from freshly grated carrots, infused with warm spices, and enveloped in a luscious cream cheese frosting. A classic indulgence perfect for any occasion.</description>
 		<graphicData>
-			<texPath>Meal/Cakes/CarrotCake</texPath>
+			<texPath>Items/Food/Bakes/Cakes/CarrotCake</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -166,7 +166,7 @@
 		<label>bread</label>
 		<description>Made from flour and water. A classic staple to start a day.</description>
 		<graphicData>
-			<texPath>Items/Food/Bread</texPath>
+			<texPath>Items/Food/Bakes/Bread</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<stackLimit>25</stackLimit>
