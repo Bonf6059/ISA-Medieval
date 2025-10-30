@@ -14,6 +14,17 @@
     </value>
   </Operation>
 
+<!-- Replace Beer Texture -->
+	
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Beer"]/graphicData</xpath>
+    <value>
+		<graphicData>
+    		<texPath>Items/Drinks/Ale</texPath>
+    	</graphicData>
+    </value>
+  </Operation>
+	
 <!-- Replace Vanilla beds Texture -->
 
   <Operation Class="PatchOperationReplace">
