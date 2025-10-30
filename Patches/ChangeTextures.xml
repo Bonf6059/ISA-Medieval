@@ -17,11 +17,9 @@
 <!-- Replace Beer Texture -->
 	
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Beer"]/graphicData</xpath>
+    <xpath>/Defs/ThingDef[defName="Beer"]/graphicData/texPath</xpath>
     <value>
-		<graphicData>
-    		<texPath>Items/Drinks/Ale</texPath>
-    	</graphicData>
+    	<texPath>Items/Drinks/Ale</texPath>
     </value>
   </Operation>
 	
