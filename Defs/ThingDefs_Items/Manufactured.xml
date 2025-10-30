@@ -9,7 +9,7 @@
 		<description>A concentrated mixture of herbal essence extracted by grinding multiple raw herbs. It is less potent than industrial pharmaceuticals, but much better than nothing.</description>
 		<possessionCount>3</possessionCount>
 		<graphicData>
-			<texPath>Things/Item/Resource/HerbalExtract</texPath>
+			<texPath>Items/Resources/Drugs/HerbalExtract</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -44,7 +44,7 @@
 			<HediffDef>ISA_OpiumAddiction</HediffDef>
 		</descriptionHyperlinks>
 		<graphicData>
-			<texPath>Things/Item/Drug/Opium</texPath>
+			<texPath>Items/Resources/Drugs/Opium</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>0.75</drawSize>
 		</graphicData>
