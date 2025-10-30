@@ -13,6 +13,8 @@
 		</recipeUsers>
 	</RecipeDef>
 
+<!-- Herbal extract -->
+	
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_HerbalExtract</defName>
 		<label>make herbal extract</label>
@@ -48,9 +50,6 @@
 				<li>ISA_Poppy</li>
 			</thingDefs>
 		</defaultIngredientFilter>
-		<recipeUsers>
-			<li>ISA_HerbTable</li>
-		</recipeUsers>
 		<products>
 			<ISA_HerbalExtract>1</ISA_HerbalExtract>
 		</products>
@@ -91,9 +90,6 @@
 				<li>ISA_Poppy</li>
 			</thingDefs>
 		</defaultIngredientFilter>
-		<recipeUsers>
-			<li>ISA_HerbTable</li>
-		</recipeUsers>
 		<products>
 			<ISA_HerbalExtract>5</ISA_HerbalExtract>
 		</products>
@@ -134,11 +130,73 @@
 				<li>ISA_Poppy</li>
 			</thingDefs>
 		</defaultIngredientFilter>
-		<recipeUsers>
-			<li>ISA_HerbTable</li>
-		</recipeUsers>
 		<products>
 			<ISA_HerbalExtract>10</ISA_HerbalExtract>
 		</products>
 	</RecipeDef>
+
+<!-- Opium -->
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Opium</defName>
+		<label>make opium</label>
+		<description>Make opium.</description>
+		<jobString>Making opium.</jobString>
+		<workAmount>100</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Poppy</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Poppy</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Poppy</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Opium>1</ISA_Opium>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Opium</defName>
+		<label>make opium</label>
+		<description>Make opium.</description>
+		<jobString>Making opium.</jobString>
+		<workAmount>500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Poppy</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Poppy</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Poppy</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Opium>5</ISA_Opium>
+		</products>
+	</RecipeDef>
+
 </Defs>
