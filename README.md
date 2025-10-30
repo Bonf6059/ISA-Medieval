@@ -48,4 +48,4 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 XX/XX/2025
 
-- Everything else, I didn't keep track of what I was doing
+- Everything else, I didn't keep track of what I was doing but I just found out it's quite usefull to troubleshoot
