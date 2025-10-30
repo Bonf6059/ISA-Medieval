@@ -46,3 +46,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added fire pots grenades
 - Changed texture for chemfuel
 
+XX/XX/2025
+
+- Everything else, I didn't keep track of what I was doing
