@@ -79,7 +79,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>ISA_Opium</chemical>
-				<addictiveness>0.9</addictiveness>
+				<addictiveness>0.75</addictiveness>
 				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
 				<needLevelOffset>0.9</needLevelOffset>
 				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
