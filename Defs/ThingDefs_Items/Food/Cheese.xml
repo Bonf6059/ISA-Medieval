@@ -43,7 +43,7 @@
 		<label>cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Meal/Cheese/Cheese</texPath>
+			<texPath>Items/Food/Cheese/Cheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -56,7 +56,7 @@
 		<label>sheep cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Meal/Cheese/SheepCheese</texPath>
+			<texPath>Items/Food/Cheese/SheepCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -69,7 +69,7 @@
 		<label>goat cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Meal/Cheese/GoatCheese</texPath>
+			<texPath>Items/Food/Cheese/GoatCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -82,7 +82,7 @@
 		<label>muffton cheese</label>
 		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
-			<texPath>Item/Meal/MufftonCheese</texPath>
+			<texPath>Item/Meal/MufftonCheese</texPath>	<!-- Texture presa dalla mod di sirvan non dalle nostre cartelle -->
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -94,7 +94,7 @@
 		<defName>ISA_MealGoldiloxCheese</defName>
 		<label>regal cheese</label>
 		<description>A sharp-tasting wheel of soft cheese, created by a special process of purposely curdling goldilox milk. Its golden rind and soft core which melts in the mouth it is a cheese fit for kings, as well as a versatile ingredient in meals.</description>		<graphicData>
-			<texPath>Item/Meal/GoldfortCheese</texPath>
+			<texPath>Item/Meal/GoldfortCheese</texPath>	<!-- Texture presa dalla mod di sirvan non dalle nostre cartelle -->
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
