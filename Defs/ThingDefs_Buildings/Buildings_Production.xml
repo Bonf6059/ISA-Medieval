@@ -75,7 +75,7 @@
 		<description>A wooden stump for butchering dead creatures into pieces of raw meat.</description>
   		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Production/ButcherBlock/ButcherBlock</texPath>
+			<texPath>Building/Production/ButcherBlock/ButcherBlock</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.5,1.5)</drawSize>
@@ -144,7 +144,7 @@
 		<description>A wood-fueled oven with an attached countertop for preparing meals.</description>
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<graphicData>
-			<texPath>Production/RusticCookingTable/RusticCookingTable</texPath>
+			<texPath>Building/Production/RusticCookingTable/RusticCookingTable</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.5,1.5)</drawSize>
@@ -203,7 +203,7 @@
 		<description>A sturdy platform equipped with a primitive elevator built on top of a vertical tunnel. Can be used for mining resources and chunks.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Production/MineShaft/MineShaft</texPath>
+			<texPath>Building/Production/MineShaft/MineShaft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.8,3.8)</drawSize>
@@ -268,7 +268,7 @@
 		<thingClass>Building_PlantGrower</thingClass>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-			<texPath>Production/GardeningBox/GardeningBox</texPath>
+			<texPath>Building/Production/GardeningBox/GardeningBox</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1,4)</drawSize>
@@ -322,7 +322,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<drawSize>(2,2)</drawSize>
-			<texPath>Production/CheesePress/CheesePress</texPath>
+			<texPath>Building/Production/CheesePress/CheesePress</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
@@ -392,7 +392,7 @@
 		<drawerType>MapMeshAndRealTime</drawerType>
 		
 		<graphicData>
-			<texPath>Production/StewPot/ISA_StewPot</texPath>
+			<texPath>Building/Production/StewPot/ISA_StewPot</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
@@ -484,7 +484,7 @@
 		<thingClass>Building_WorkTable_HeatPush</thingClass>
 		<description>A stone oven designed for baking meals.</description>
 		<graphicData>
-			<texPath>Production/StoneOven/StoneOven</texPath>
+			<texPath>Building/Production/StoneOven/StoneOven</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<damageData>
