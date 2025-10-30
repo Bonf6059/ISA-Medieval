@@ -6,7 +6,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 - Add petrification grenades if sir van beasts and monsters is installed
 - Add new drugs
-- Reorganizing textures - move folder "production" into "Building"
 - Add Opium from Poppies
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality) 
 
@@ -14,7 +13,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 30/10/2025
 - Changed Beer texture
-- Reorganized textures - moved "meal" into "Items"
+- Reorganized textures - moved "meal" into "Items" and "production" into "Building"
 
 28/10/2025
 - Fixed errors given by the missing heddif in the food by removing them
