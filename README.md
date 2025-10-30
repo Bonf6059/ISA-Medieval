@@ -12,6 +12,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+30/10/2025
+- Changed Beer texture
+
 28/10/2025
 - Fixed errors given by the missing heddif in the food by removing them
 - Disabled temporarely the thought given by eating the food
