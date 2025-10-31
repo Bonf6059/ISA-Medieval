@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 	<ThingDef ParentName="BaseMakeableGrenade" Name="ISA_Medieval_MakeableGrenade" Abstract="True">
@@ -296,7 +296,7 @@
 			<DA_PetrifyingGland>1</DA_PetrifyingGland>
 		</costList>
 		<graphicData>
-			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</>
+			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
