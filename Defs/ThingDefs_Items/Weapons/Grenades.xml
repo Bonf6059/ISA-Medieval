@@ -222,5 +222,157 @@
 		</modExtensions>
 	</ThingDef>
 
+	<!-- Petrifying Flask -->
 
+	<ThingDef ParentName="BaseIncendiaryProjectile">
+		<defName>ISA_Proj_PetrifyingFlask</defName>
+		<label>petrifying flask</label>
+		<graphicData>
+			<texPath>Item/PetrifyingGland</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<explosionRadius>1.5</explosionRadius>
+			<damageDef>DA_Petrify</damageDef>
+		<!--	<preExplosionSpawnThingDef>ISA_Filth_AcidBlood</preExplosionSpawnThingDef>	-->
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<shadowSize>0.6</shadowSize>
+			<screenShakeFactor>0.1</screenShakeFactor>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>ISA_Apparel_PetrifyingFlaskBelt</defName>
+		<label>petrifying flask belt</label>
+		<description>A utility belt designed to carry throwable petrifying flasks, which can be tossed to unleash powerful venomous attacks that can petrify enemies over time..</description>
+		<techLevel>Medieval</techLevel>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>3</maxCharges>
+				<ammoDef>DA_PetrifyingGland</ammoDef>
+				<ammoCountToRefill>1</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>frag</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>throw petrifying flask</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>ISA_Proj_PetrifyingFlask</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<recipeUsers>
+				<li>ISA_AlchemyBench</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<DA_PetrifyingGland>1</DA_PetrifyingGland>
+		</costList>
+		<graphicData>
+			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<Mass>3</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+			<ArmorRating_Sharp>0.0001</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.0001</ArmorRating_Blunt>
+		</statBases>
+		<thingCategories>
+			<li>ApparelUtility</li>
+		</thingCategories>
+		<generateAllowChance>0.15</generateAllowChance>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Utility/PetrifyingFlaskBelt</wornGraphicPath>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(-0.10,-0.25)</offset>
+					<hulk><offset>(-0.1,-0.15)</offset></hulk>
+					<fat><offset>(-0.22,-0.0)</offset></fat>
+					<thin><offset>(0.0,-0.0)</offset></thin>
+				</north>
+				<south>
+					<offset>(0.15,-0.30)</offset>
+					<hulk><offset>(-0.0,-0.10)</offset></hulk>
+					<fat><offset>(0.1,-0.05)</offset></fat>
+					<thin><offset>(-0.10,-0.0)</offset></thin>
+				</south>
+				<east>
+					<offset>(-0.15,-0.25)</offset>
+					<hulk><offset>(-0.0,-0.15)</offset></hulk>
+					<fat><offset>(-0.2,-0.10)</offset></fat>
+				</east>
+				<west>
+					<offset>(0.15,-0.25)</offset>
+					<hulk><offset>(-0.0,-0.15)</offset></hulk>
+					<fat><offset>(0.05,-0.10)</offset></fat>
+				</west>
+				<male><scale>(0.6,0.6)</scale></male>
+				<female><scale>(0.6,0.6)</scale></female>
+				<thin><scale>(0.6,0.6)</scale></thin>
+				<hulk><scale>(0.7,0.7)</scale></hulk>
+				<fat><scale>(0.7,0.7)</scale></fat>
+			</wornGraphicData>
+			<drawData>
+				<dataNorth>
+					<layer>90</layer>
+				</dataNorth>
+				<dataSouth>
+					<layer>40</layer>
+				</dataSouth>
+			</drawData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>ISA_PetrifyingFlaskBelt</li>
+			</tags>
+		</apparel>
+		<modExtensions>
+			<li Class="VEF.Planet.EquipmentOffsetConditions">
+				<techLevels>
+					<li>Neolithic</li>
+					<li>Medieval</li>
+				</techLevels>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
 </Defs>
