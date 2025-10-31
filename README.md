@@ -4,12 +4,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Next update
 
-- Add petrification grenades if sir van beasts and monsters is installed
 - Add new drugs
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
 - Decode wheter to add stuff like Alps and lyndwurm etc
 
 # Old updates
+
+31/10/2025 Happy Samahin!
+- Added textures for petrification grenades if sir van beasts and monsters is installed
 
 30/10/2025
 - Added opium
