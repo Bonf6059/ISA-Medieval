@@ -10,7 +10,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
-31/10/2025 Happy Samahin!
+31/10/2025 Happy Samhain!
 - Added textures for petrification grenades if sir van beasts and monsters is installed
 
 30/10/2025
