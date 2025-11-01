@@ -287,7 +287,7 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_ParegoricBulk</defName>
+		<defName>ISA_Make_HealingOilBulk</defName>
 		<label>make healing oil x5</label>
 		<description>Make healing oil x5.</description>
 		<jobString>Making healing oil x5.</jobString>
