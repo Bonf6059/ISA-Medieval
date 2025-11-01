@@ -242,4 +242,88 @@
 			<ISA_Paregoric>25</ISA_Paregoric>
 		</products>
 	</RecipeDef>
+
+<!-- Healing Oil -->
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_HealingOil</defName>
+		<label>make healing oil</label>
+		<description>Make healing oil.</description>
+		<jobString>Making healing oil.</jobString>
+		<workAmount>270</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Opium</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_HealingOil>5</ISA_HealingOil>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_ParegoricBulk</defName>
+		<label>make healing oil x5</label>
+		<description>Make healing oil x5.</description>
+		<jobString>Making healing oil x5.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Opium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_HealingOil>25</ISA_HealingOil>
+		</products>
+	</RecipeDef>
 </Defs>
