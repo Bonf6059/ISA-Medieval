@@ -292,7 +292,7 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_HealingOil>12</ISA_HealingOil>
+			<ISA_HealingOil>10</ISA_HealingOil>
 		</products>
 	</RecipeDef>
 
