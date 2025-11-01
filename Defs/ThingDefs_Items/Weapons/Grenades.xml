@@ -222,45 +222,92 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!-- Petrifying Flask -->
-
-	<ThingDef ParentName="BaseIncendiaryProjectile">
-		<defName>ISA_Proj_PetrifyingFlask</defName>
-		<label>petrifying flask</label>
+	<!-- Flash Pot -->
+	<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
+		<defName>ISA_Weapon_PotFlash</defName>
+		<label>flash pot</label>
+		<description>An explosive clay pot designed to disorient victims with a bright flash and loude sharp noise.</description>
 		<graphicData>
-			<texPath>Item/PetrifyingGland</texPath>
+			<texPath>Things/Projectile/FlashPot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.3</uiIconScale>
+		<soundInteract>Interact_Grenade</soundInteract>
+		<statBases>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>3.66</RangedWeapon_Cooldown>
+			<WorkToMake>24000</WorkToMake>
+		</statBases>
+		<costList>
+			<Steel>20</Steel>
+			<Chemfuel>5</Chemfuel>
+		</costList>
+		<weaponTags>
+			<li>ISA_Grenade_PotFlash</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<label>throw flash pot</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>9.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>2.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>ISA_Proj_PotFlash</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.66</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+			</li>
+		</comps>
+		<smeltable>false</smeltable>
+	</ThingDef>
+	<ThingDef ParentName="BaseGrenadeProjectile">
+		<defName>ISA_Proj_PotFlash</defName>
+		<label>flash pot</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/FlashPot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius>1.5</explosionRadius>
-			<damageDef>DA_Petrify</damageDef>
-		<!--	<preExplosionSpawnThingDef>ISA_Filth_AcidBlood</preExplosionSpawnThingDef>	-->
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<shadowSize>0.6</shadowSize>
-			<screenShakeFactor>0.1</screenShakeFactor>
+			<explosionRadius>2.5</explosionRadius>
+			<damageDef>ISA_Daze</damageDef>
+		<!--	 Use default damage from explosion def	--> 
+			<explosionDelay>100</explosionDelay>
 		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelNoQualityBase">
-		<defName>ISA_Apparel_PetrifyingFlaskBelt</defName>
-		<label>petrifying flask belt</label>
-		<description>A utility belt designed to carry throwable petrifying flasks, which can be tossed to unleash powerful venomous attacks that can petrify enemies over time..</description>
+		<defName>ISA_Apparel_FlashPotBelt</defName>
+		<label>flash pot belt</label>
+		<description>A utility belt designed to carry throwable flash pots, which can be tossed to disorient and blind enemies.</description>
 		<techLevel>Medieval</techLevel>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>3</maxCharges>
-				<ammoDef>DA_PetrifyingGland</ammoDef>
+				<ammoDef>ISA_Weapon_PotFlash</ammoDef>
 				<ammoCountToRefill>1</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>
-				<chargeNoun>frag</chargeNoun>
+				<chargeNoun>flash</chargeNoun>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
 			</li>
 		</comps>
 		<verbs>
 			<li>
-				<label>throw petrifying flask</label>
+				<label>throw flash pot</label>
 				<verbClass>Verb_LaunchProjectileStatic</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<onlyManualCast>True</onlyManualCast>
@@ -274,7 +321,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<defaultProjectile>ISA_Proj_PetrifyingFlask</defaultProjectile>
+				<defaultProjectile>ISA_Proj_PotFlash</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
@@ -293,10 +340,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<DA_PetrifyingGland>1</DA_PetrifyingGland>
+			<ISA_Weapon_PotFlash>1</ISA_Weapon_PotFlash>
 		</costList>
 		<graphicData>
-			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/Utility/FlashPots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
@@ -313,7 +360,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Utility/PetrifyingFlaskBelt</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Utility/FlashPotBelt</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<north>
@@ -345,12 +392,8 @@
 				<fat><scale>(0.7,0.7)</scale></fat>
 			</wornGraphicData>
 			<drawData>
-				<dataNorth>
-					<layer>90</layer>
-				</dataNorth>
-				<dataSouth>
-					<layer>40</layer>
-				</dataSouth>
+				<dataNorth><layer>90</layer></dataNorth>
+				<dataSouth><layer>40</layer></dataSouth>
 			</drawData>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
@@ -362,7 +405,7 @@
 				<li>Belt</li>
 			</layers>
 			<tags>
-				<li>ISA_PetrifyingFlaskBelt</li>
+				<li>ISA_FlashPotBelt</li>
 			</tags>
 		</apparel>
 		<modExtensions>
@@ -373,6 +416,6 @@
 				</techLevels>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef>	-->
 	
 </Defs>
