@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
 <!--	<HediffDef>
@@ -14,10 +14,7 @@
 				<disappearsAfterTicks>900</disappearsAfterTicks>
 				<showRemainingTime>true</showRemainingTime>
 			</li>
-			<li Class="MedievalOverhaul.HediffCompProperties_LindwurmAcid">
-				<tickInterval>180</tickInterval>
-				<apparelDamagePerInterval>10</apparelDamagePerInterval>
-			</li>
+	
 		</comps>
 	</HediffDef>  -->
 	
@@ -37,9 +34,6 @@
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>1200</disappearsAfterTicks>
 				<showRemainingTime>true</showRemainingTime>
-			</li>
-			<li Class="HediffCompProperties">
-				<compClass>MedievalOverhaul.HediffComp_Daze</compClass>
 			</li>
 		</comps>
 		<stages>
@@ -69,9 +63,7 @@
 				<disappearsAfterTicks>1200</disappearsAfterTicks>
 				<showRemainingTime>true</showRemainingTime>
 			</li>
-			<li Class="HediffCompProperties">
-				<compClass>MedievalOverhaul.HediffComp_Nightmare</compClass>
-			</li>
+
 		</comps>
 		<stages>
 			<li>
@@ -125,23 +117,6 @@
 		<defName>ISA_StunImmune</defName>
 		<label>stun immunity</label>
 		<description>Immune to being stunned</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<makesSickThought>false</makesSickThought>
-		<isBad>false</isBad>
-		<comps>
-			<li Class="HediffCompProperties_RemoveIfApparelDropped"/>
-		</comps>
-		<stages>
-			<li>
-				<becomeVisible>true</becomeVisible>
-			</li>
-		</stages>
-	</HediffDef>
-	
-	<HediffDef>
-		<defName>ISA_DazeImmune</defName>
-		<label>daze immunity</label>
-		<description>Immune to being dazed</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<makesSickThought>false</makesSickThought>
 		<isBad>false</isBad>
