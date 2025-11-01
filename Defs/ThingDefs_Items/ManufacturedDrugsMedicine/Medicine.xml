@@ -115,8 +115,8 @@
   	  <!--=============== Oil ================-->
   
   <ThingDef ParentName="DrugBase">
-    <defName>ISA_MedicalOil</defName>
-    <label>medical oil</label>
+    <defName>ISA_HealingOil</defName>
+    <label>healing oil</label>
     <description>The potent oil extracted from multiple plants, it is often applied on the body to help the body recover from various diseases and traumas.</description>
 
     <graphicData>
@@ -164,8 +164,8 @@
   
   <HediffDef>
     <defName>ISA_RapidRecovery</defName>
-    <label>medical oil</label>
-    <description>Medical oil applied on the body, it helps the body recover from injuries and diseases quicker.</description>
+    <label>healing oil</label>
+    <description>Healing oil applied on the body, it helps the body recover from injuries and diseases quicker.</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(111,142,117)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
