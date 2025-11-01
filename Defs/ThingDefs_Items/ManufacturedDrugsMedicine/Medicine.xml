@@ -53,6 +53,17 @@
 		</statBases>
 		<techLevel>Medieval</techLevel>
 		<ingestible>
+    		<foodType>Fluid</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Apply {0}</ingestCommandString>
+			<ingestReportString>Applying {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
