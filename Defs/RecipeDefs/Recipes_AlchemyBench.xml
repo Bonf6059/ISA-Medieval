@@ -263,10 +263,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>MedicineHerbal</li>
+						<li>HemogenPack</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -280,14 +280,14 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_EmperorPearls</li>
-				<li>MedicineHerbal</li>
+				<li>HemogenPack</li>
 				<li>ISA_FlyAgaric</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_EmperorPearls</li>
-				<li>MedicineHerbal</li>
+				<li>HemogenPack</li>
 				<li>ISA_FlyAgaric</li>
 			</thingDefs>
 		</defaultIngredientFilter>
