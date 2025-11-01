@@ -41,7 +41,7 @@
 		<possessionCount>10</possessionCount>
 		<descriptionHyperlinks><HediffDef>ISA_High_Paregoric</HediffDef></descriptionHyperlinks>
 		<graphicData>
-			<texPath>/Items/Resources/Drugs/Paregoric</texPath>
+			<texPath>Items/Resources/Drugs/Paregoric</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<socialPropernessMatters>false</socialPropernessMatters>
