@@ -34,7 +34,7 @@
 
 <!-- Paregoric -->
 	
-	<ThingDef ParentName="MakeableDrugPillBase">
+	<ThingDef ParentName="MedicineBase">
 		<defName>ISA_Paregoric</defName>
 		<label>paregoric</label>
 		<description>A potent tincture made from mindwort for its healing properties and opium for pain relief, but carries a risk of addiction with prolonged use.</description>
