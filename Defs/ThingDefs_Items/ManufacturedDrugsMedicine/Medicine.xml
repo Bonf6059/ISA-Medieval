@@ -144,7 +144,7 @@
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <ingestCommandString>Apply {0}</ingestCommandString>
       <ingestReportString>Applying {0}.</ingestReportString>
-	  
+	  <preferability>NeverForNutrition</preferability>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>ISA_RapidRecovery</hediffDef>
