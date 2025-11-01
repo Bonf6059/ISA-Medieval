@@ -130,9 +130,9 @@
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_Opium_Bulk</defName>
-		<label>make opium</label>
-		<description>Make opium.</description>
-		<jobString>Making opium.</jobString>
+		<label>make opium x5</label>
+		<description>Make opium x5.</description>
+		<jobString>Making opium x5.</jobString>
 		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
@@ -159,4 +159,87 @@
 		</products>
 	</RecipeDef>
 
+<!-- Paregoric -->
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Paregoric</defName>
+		<label>make paregoric</label>
+		<description>Make paregoric.</description>
+		<jobString>Making paregoric.</jobString>
+		<workAmount>270</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Opium</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Paregoric>5</ISA_Paregoric>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_ParegoricBulk</defName>
+		<label>make paregoric x5</label>
+		<description>Make paregoric x5.</description>
+		<jobString>Making paregoric x5.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Opium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_Opium</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Paregoric>25</ISA_Paregoric>
+		</products>
+	</RecipeDef>
 </Defs>
