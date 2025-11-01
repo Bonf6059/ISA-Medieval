@@ -114,7 +114,7 @@
 
   	  <!--=============== Oil ================-->
   
-  <ThingDef ParentName="DrugBase">
+  <ThingDef ParentName="MedicineBase">
     <defName>ISA_HealingOil</defName>
     <label>healing oil</label>
     <description>The potent oil extracted from multiple plants, it is often applied on the body to help the body recover from various diseases and traumas.</description>
