@@ -13,7 +13,6 @@
 		<projectile>
 			<explosionRadius>1.5</explosionRadius>
 			<damageDef>ISA_Petrify</damageDef>
-		<!--	<preExplosionSpawnThingDef>ISA_Filth_AcidBlood</preExplosionSpawnThingDef>	-->
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<shadowSize>0.6</shadowSize>
 			<screenShakeFactor>0.1</screenShakeFactor>
