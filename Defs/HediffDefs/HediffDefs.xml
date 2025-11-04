@@ -29,4 +29,56 @@
 			</li>
 		</stages>
 	</HediffDef>
+
+<!-- Petrification -->
+	
+	<HediffDef>
+    <defName>ISA_Petrify</defName>
+    <label>Petrified</label>
+    <description>Paralyzed by a powerful venom.</description>
+	<hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(214,197,77)</defaultLabelColor>
+    <maxSeverity>2</maxSeverity>
+    <isBad>true</isBad>
+	
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-9.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		  <label>slowed</label>
+          <statFactors>
+            <MeleeDodgeChance>0.8</MeleeDodgeChance>
+			<MeleeHitChance>0.8</MeleeHitChance>
+			<ShootingAccuracyPawn>0.8</ShootingAccuracyPawn>
+          </statFactors>
+		  
+          <capMods>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>-0.15</offset>
+            </li>
+          </capMods>
+		  
+        </li>
+		
+        <li>
+		  <minSeverity>1.5</minSeverity>
+		  <label>petrified</label>
+          <statFactors>
+          </statFactors>
+		  
+          <capMods>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>-1</offset>
+            </li>
+          </capMods>
+		  
+        </li>
+      </stages>
+  </HediffDef>
 </Defs>
