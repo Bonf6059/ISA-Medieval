@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+<!-- Usa <minifiedDef>MinifiedThing</minifiedDef> per rendere le cose minifiable -->
+	
 	<!--1x3 Bench Base-->
 	<ThingDef ParentName="BenchBase" Name="ISA_1X3WorkbenchBase" Abstract="True">
 		<altitudeLayer>Building</altitudeLayer>
@@ -25,6 +27,7 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
   
 <!-- Researching spot from medieval overhaul -->
