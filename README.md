@@ -5,7 +5,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Next update
 
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
-- Decode wheter to add stuff like Alps and lyndwurm etc
+- Decide wheter to add stuff like Alps and lyndwurm etc
 
 # Old updates
 
