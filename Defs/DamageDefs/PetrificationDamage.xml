@@ -16,7 +16,7 @@
 			</li>
 		</additionalHediffs>
     <impactSoundType>Toxic</impactSoundType>
-    <damageEffecter>ISA_Impact_Paralysis</damageEffecter>+
+    <damageEffecter>ISA_Impact_Paralysis</damageEffecter>
 	<defaultDamage>20</defaultDamage>
 	</DamageDef>
 	
