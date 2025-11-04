@@ -164,7 +164,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Weapons/Grenades/FirePot/FirePotBelt</wornGraphicPath>
+			<wornGraphicPath>Items/Weapons/Grenades/FirePot/FirePotBelt</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<north>
