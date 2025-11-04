@@ -60,7 +60,7 @@
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 			<recipeUsers>
-				<li>ISA_AlchemyBench</li>
+				<li>VFEM2_AlchemicalWorkbench</li>
 			</recipeUsers>
 			<useIngredientsForColor>false</useIngredientsForColor>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
