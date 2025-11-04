@@ -21,6 +21,11 @@
 			<displayName>Vanilla Expanded Plants</displayName>
 			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaPlantsExpanded</downloadUrl>
 		</li>
+		<li>
+			<packageId>Van.Beasts</packageId>
+			<displayName>Dark Ages : Beasts and Monsters</displayName>
+			<steamUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3472275628</steamUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VFE.Medieval2</li>
