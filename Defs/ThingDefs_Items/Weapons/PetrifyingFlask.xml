@@ -140,7 +140,7 @@
 		</thingCategories>
 		<generateAllowChance>0.15</generateAllowChance>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Utility/PetrifyingFlaskBelt</wornGraphicPath>
+			<wornGraphicPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<north>
