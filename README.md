@@ -7,6 +7,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
 - Decide wheter to add stuff like Alps and lyndwurm etc
 - Add item processor to put in the water that uses meat/fish/kibble to produce Van.beast leviathan products
+- Decide wheter to replace processor framework with Vanilla Expanded pipe system
 
 # Old updates
 
