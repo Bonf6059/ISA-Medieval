@@ -13,7 +13,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 04/11/2025
 - Added Dark ages : "Beasts and monsters" as a dependency because there is a lot of stuff depending on it
-- Added once again petrifying grenades
+- Added once again petrifying grenades and now they work
 - Added ability to minify "ISA_1X3WorkbenchBase"
 
 31/10/2025 Happy Samhain!
