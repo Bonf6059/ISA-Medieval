@@ -3,11 +3,60 @@
 
 <!-- Petrifying Flask -->
 
+	<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
+		<defName>ISA_Weapon_PetrifyingFlask</defName>
+		<label>petrifying flask</label>
+		<description>An flask containing crestel venom, designed to spray the petrifying venom upon breaking.</description>
+		<graphicData>
+			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.3</uiIconScale>
+		<soundInteract>Interact_MolotovCocktail</soundInteract>
+		<statBases>
+			<Mass>1</Mass>
+			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+			<WorkToMake>11000</WorkToMake>
+		</statBases>
+		<stackLimit>25</stackLimit>
+		<costList>
+			<DA_PetrifyingGland>1</DA_PetrifyingGland>
+		</costList>
+		<weaponTags>
+			<li>ISA_Grenade_PetrifyingFlask</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<label>throw petrifying flask</label>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<soundCast>ThrowMolotovCocktail</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>ISA_Proj_PetrifyingFlask</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2.66</explosiveRadius>
+				<explosiveDamageType>Stun</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+				<preExplosionSpawnThingDef>Filth_FlammableBile</preExplosionSpawnThingDef>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<ThingDef ParentName="BaseIncendiaryProjectile">
 		<defName>ISA_Proj_PetrifyingFlask</defName>
 		<label>petrifying flask</label>
 		<graphicData>
-			<texPath>Item/PetrifyingGland</texPath>
+			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
@@ -22,12 +71,12 @@
 	<ThingDef ParentName="ApparelNoQualityBase">
 		<defName>ISA_Apparel_PetrifyingFlaskBelt</defName>
 		<label>petrifying flask belt</label>
-		<description>A utility belt designed to carry throwable petrifying flasks, which can be tossed to unleash powerful venomous attacks that can petrify enemies over time..</description>
+		<description>A utility belt designed to carry throwable petrifying flasks, which can be tossed to unleash powerful venomous attacks that can petrify enemies over time.</description>
 		<techLevel>Medieval</techLevel>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>3</maxCharges>
-				<ammoDef>DA_PetrifyingGland</ammoDef>
+				<ammoDef>ISA_Weapon_PetrifyingFlask</ammoDef>
 				<ammoCountToRefill>1</ammoCountToRefill>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
@@ -71,10 +120,10 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<DA_PetrifyingGland>1</DA_PetrifyingGland>
+			<ISA_Weapon_PetrifyingFlask>1</ISA_Weapon_PetrifyingFlask>
 		</costList>
 		<graphicData>
-			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</>
+			<texPath>Items/Weapons/Grenades/PetrifyingFlask/PetrifyingFlaskBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
