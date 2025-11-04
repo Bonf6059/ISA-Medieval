@@ -24,7 +24,7 @@
 		<li>
 			<packageId>Van.Beasts</packageId>
 			<displayName>Dark Ages : Beasts and Monsters</displayName>
-			<SteamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3472275628</SteamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3472275628</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
