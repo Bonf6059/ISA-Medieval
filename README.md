@@ -7,6 +7,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
 - Decide wheter to add stuff like Alps and lyndwurm etc
 - Decide wheter to replace processor framework with Vanilla Expanded pipe system
+- Decide wheter to remove some dependencies
+- Add a healer mech serum but as a potion
 
 # Old updates
 
