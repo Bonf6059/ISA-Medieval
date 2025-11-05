@@ -3,8 +3,8 @@
 
 	<RecipeDef Abstract="True" Name="ISA_MakeClothBase">
 		<jobString>Spinning cotton.</jobString>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_CookMeal</soundWorking>
+  		<effectWorking>Tailor</effectWorking>
+   		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>450</workAmount>
 		<workSkill>Crafting</workSkill>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -12,9 +12,11 @@
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
 		<targetCountAdjustment>10</targetCountAdjustment>
 		<recipeUsers>
-			<li>HandTailoringBench</li>
-			<li>ElectricTailoringBench</li>
-		</recipeUsers>
+        		<li>ElectricTailoringBench</li>
+        		<li>HandTailoringBench</li>
+      			<li>CraftingSpot</li>
+      		</recipeUsers>
+      		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 	</RecipeDef>
 
 	<RecipeDef ParentName="ISA_MakeClothBase">
@@ -43,7 +45,7 @@
 	</RecipeDef>
 
 	<RecipeDef ParentName="ISA_MakeClothBase">
-		<defName>ISA_Make50ClothFromWool</defName>
+		<defName>ISA_MakeClothFromWoolBulk</defName>
 		<label>Spin wool 50x</label>
 		<description>Spin wool into cloth fabric.</description>
 		<jobString>Spinning wool.</jobString>
