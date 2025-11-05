@@ -201,7 +201,7 @@
 
   <!--=============== Mech serums ====================-->
 
-  <ThingDef ParentName="ResourceBase" Name="MechSerumBase" Abstract="True">
+  <ThingDef ParentName="ResourceBase" Name="ISA_SerumBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
@@ -211,15 +211,15 @@
       <DeteriorationRate>2.0</DeteriorationRate>
       <Flammability>0.2</Flammability>
     </statBases>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Medieval</techLevel>
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
   </ThingDef>
 
   <ThingDef ParentName="MechSerumBase">
-    <defName>MechSerumHealer</defName>
-    <label>healer mech serum</label>
+    <defName>ISA_SerumHealer</defName>
+    <label>healer serum</label>
     <description>A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed.</description>
     <graphicData>
       <texPath>Things/Item/Special/MechSerumHealer</texPath>
