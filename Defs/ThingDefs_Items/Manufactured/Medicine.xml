@@ -201,7 +201,7 @@
 
   <!--=============== Mech serums ====================-->
 
-  <ThingDef ParentName="ResourceBase" Name="ISA_SerumBase" Abstract="True">
+<!--  <ThingDef ParentName="ResourceBase" Name="ISA_SerumBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
@@ -317,7 +317,7 @@
         <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
     </comps>
-  </ThingDef> 
+  </ThingDef> 	-->
 	
 </Defs>
 
