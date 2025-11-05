@@ -552,6 +552,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(5, 5)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
 		</graphicData>
 		<thingCategories>
 			<li>BuildingsSpecial</li>
