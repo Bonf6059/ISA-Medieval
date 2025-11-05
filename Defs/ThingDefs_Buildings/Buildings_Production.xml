@@ -540,7 +540,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!-- Crabbay -->
+	<!-- CrabBay -->
 
 	<ThingDef
 		ParentName="BuildingBase">
@@ -558,7 +558,7 @@
 		</thingCategories>
 		<costList>
 			<WoodLog>400</WoodLog>
-			<DA_EmperorPearls>1<DA_EmperorPearls>
+			<DA_EmperorPearls>1</DA_EmperorPearls>
 		</costList>
 		<stuffCategories>
 			<li>Fabric</li>
