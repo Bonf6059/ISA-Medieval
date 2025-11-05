@@ -547,6 +547,7 @@
 		<defName>CrabBay</defName>
 		<label>crab bay</label>
 		<description>A small, closed-off area of water used to breed a variant of leviatan crabs. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Building/Production/CrabBay</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
