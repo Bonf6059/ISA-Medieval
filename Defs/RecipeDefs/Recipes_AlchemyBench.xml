@@ -296,4 +296,67 @@
 		</products>
 	</RecipeDef>
 
+<!-- Crivice Ointment -->
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_CriviceOintment</defName>
+		<label>make crivice ointment</label>
+		<description>Make crivice ointment.</description>
+		<jobString>Making crivice ointment.</jobString>
+		<workAmount>3000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Paregoric</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_HealingOil</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+				<li>HemogenPack</li>
+				<li>ISA_HealingOil</li>
+				<li>ISA_Paregoric</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+				<li>HemogenPack</li>
+				<li>ISA_HealingOil</li>
+				<li>ISA_Paregoric</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_CriviceOintment>1</ISA_CriviceOintment>
+		</products>
+	</RecipeDef>
+	
 </Defs>
