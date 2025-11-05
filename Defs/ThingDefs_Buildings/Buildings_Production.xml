@@ -584,7 +584,9 @@
 				<barScale>(1.0, 1.0)</barScale>
 				<colorCoded>false</colorCoded>
 				<processes>
-					<li>ISA_CrabBay</li>
+					<li>ISA_CrabMeat</li>
+					<li>ISA_CrabChitin</li>
+					<li>ISA_CrabPearl</li>
 				</processes>
 			</li>	
 		</comps>
