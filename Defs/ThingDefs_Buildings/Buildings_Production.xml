@@ -583,7 +583,7 @@
 				<barScale>(1.0, 1.0)</barScale>
 				<colorCoded>false</colorCoded>
 				<processes>
-					<li>ISA_Stew</li>
+					<li>ISA_CrabBay</li>
 				</processes>
 			</li>	
 		</comps>
