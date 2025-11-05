@@ -6,10 +6,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 - Need to decide wheter to add back the heddif from the food (different from the thought present atm - dependent on quality)
 - Decide wheter to add stuff like Alps and lyndwurm etc
-- Add item processor to put in the water that uses meat/fish/kibble to produce Van.beast leviathan products
 - Decide wheter to replace processor framework with Vanilla Expanded pipe system
 
 # Old updates
+
+05/11/2025
+- Added Crab Bay where you can farm the products of leviatan crabs
+
 
 04/11/2025
 - Added Dark ages : "Beasts and monsters" as a dependency because there is a lot of stuff depending on it
