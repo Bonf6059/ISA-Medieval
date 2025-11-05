@@ -546,9 +546,9 @@
 		ParentName="BuildingBase">
 		<defName>CrabBay</defName>
 		<label>crab bay</label>
-		<description>A small, closed-off area of water used to breed a small variant of leviatan crabs. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
+		<description>A small, closed-off area of water used to breed a variant of leviatan crabs. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
 		<graphicData>
-			<texPath>FishBay/FishBay</texPath>
+			<texPath>Building/Production/CrabBay</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(5, 5)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
@@ -558,6 +558,7 @@
 		</thingCategories>
 		<costList>
 			<WoodLog>400</WoodLog>
+			<DA_EmperorPearls>1<DA_EmperorPearls>
 		</costList>
 		<stuffCategories>
 			<li>Fabric</li>
