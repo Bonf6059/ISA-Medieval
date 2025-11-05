@@ -8,12 +8,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Decide wheter to add stuff like Alps and lyndwurm etc
 - Decide wheter to replace processor framework with Vanilla Expanded pipe system
 - Decide wheter to remove some dependencies
-- Add a healer mech serum but as a potion
+- Need to understand why wooltocloth works only in the crafting spot and not in the tailor bench
+- Need to lock some stuff behind new researches like medicines
 
 # Old updates
 
 05/11/2025
 - Added Crab Bay where you can farm the products of leviatan crabs
+- Added a medieval variant of healer mech serum
 
 
 04/11/2025
