@@ -29,8 +29,28 @@
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_BayBase">
-		<defName>ISA_CrabBay</defName>
-		<thingDef>DA_Crab</thingDef>
+		<defName>ISA_CrabMeat</defName>
+		<thingDef>DA_LeviathanStripes</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Kibble</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_BayBase">
+		<defName>ISA_CrabChitin</defName>
+		<thingDef>DA_LeviathanChitin</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Kibble</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+	
+	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_BayBase">
+		<defName>ISA_CrabPearl</defName>
+		<thingDef>DA_EmperorPearls</thingDef>
 		<ingredientFilter>
 			<thingDefs>
 				<li>Kibble</li>
