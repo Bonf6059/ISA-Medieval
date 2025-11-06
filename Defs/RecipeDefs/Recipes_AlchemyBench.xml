@@ -11,6 +11,9 @@
 		<recipeUsers>
 			<li>VFEM2_AlchemicalWorkbench</li>
 		</recipeUsers>
+		<researchPrerequisites>
+			<li>ISA_DrugsMaking</li>
+		</researchPrerequisites>		
 	</RecipeDef>
 
 <!-- Herbal extract -->
@@ -294,6 +297,9 @@
 		<products>
 			<ISA_HealingOil>10</ISA_HealingOil>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedDrugsMaking</li>
+		</researchPrerequisites>	
 	</RecipeDef>
 
 <!-- Crivice Ointment -->
@@ -357,6 +363,9 @@
 		<products>
 			<ISA_CriviceOintment>1</ISA_CriviceOintment>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedDrugsMaking</li>
+		</researchPrerequisites>
 	</RecipeDef>
 	
 </Defs>
