@@ -31,9 +31,9 @@
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>
 		<rotatable>false</rotatable>
-<!--		<researchPrerequisites>
+		<researchPrerequisites>
 			<li>ISA_Presser</li>
-		</researchPrerequisites> -->	
+		</researchPrerequisites>
 	</ThingDef>
 
 <!-- Cheese -->
