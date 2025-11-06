@@ -10,14 +10,15 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Decide wheter to remove some dependencies
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
 - Need to understand why wooltocloth works only in the crafting spot and not in the tailor bench
-- Need to lock some stuff behind new researches like medicines
 
 # Old updates
+
+06/11/2025
+- Overhauled research tree adding new reaserches and locking stuff behind reaserch
 
 05/11/2025
 - Added Crab Bay where you can farm the products of leviatan crabs
 - Added a medieval variant of healer mech serum
-
 
 04/11/2025
 - Added Dark ages : "Beasts and monsters" as a dependency because there is a lot of stuff depending on it
