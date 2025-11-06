@@ -108,6 +108,9 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>0.0</researchViewX>
 		<researchViewY>3.0</researchViewY>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
