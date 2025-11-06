@@ -587,7 +587,7 @@
 				<processes>
 					<li>ISA_CrabMeat</li>
 					<li>ISA_CrabChitin</li>
-					<li>ISA_CrabPearl</li>
+				<!--	<li>ISA_CrabPearl</li>	-->
 				</processes>
 			</li>	
 		</comps>
@@ -610,7 +610,7 @@
 		<canOverlapZones>true</canOverlapZones>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<tradeability>Sellable</tradeability>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>Production</designationCategory>
 	</ThingDef>
 	
 </Defs>
