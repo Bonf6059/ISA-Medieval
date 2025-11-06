@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-		<researchPrerequisites>
-			<li>ISA_MiningResearch</li>
-		</researchPrerequisites>
 	
 	<ResearchProjectDef>
 		<defName>ISA_MiningResearch</defName>
