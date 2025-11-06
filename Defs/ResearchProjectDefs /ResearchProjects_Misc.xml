@@ -26,6 +26,7 @@
 		<researchViewY>7.0</researchViewY>
 		<prerequisites>
 			<li>ISA_MiningResearch</li>
+			<li>ComplexFurniture</li>
 		</prerequisites>
 	</ResearchProjectDef>
   
