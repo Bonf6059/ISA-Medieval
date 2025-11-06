@@ -84,9 +84,6 @@
     <passability>PassThroughOnly</passability>
     <pathCost>42</pathCost>
     <rotatable>true</rotatable>
-    <researchPrerequisites>
-      <li>ComplexFurniture</li>
-    </researchPrerequisites>
     <graphicData> <!-- art+to -->
       <texPath>Building/Temperature/Criopyrinth/CriopyrinthBrazier</texPath>
       <drawSize>(2.7,2.7)</drawSize>
@@ -104,6 +101,9 @@
     <building>
       <paintable>true</paintable>
     </building>
+	<researchPrerequisites>
+		<li>ISA_Cooling</li>
+	</researchPrerequisites>
   </ThingDef>
   
   <ThingDef ParentName="BuildingBase">
@@ -175,11 +175,14 @@
     </comps>
     <designationCategory>Temperature</designationCategory>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<researchPrerequisites>
+		<li>ISA_Cooling</li>
+	</researchPrerequisites>
   </ThingDef>
 
 <!-- Pyre by medieval overhaul -->
 	
-	<ThingDef ParentName="BuildingBase" Name="ISA__PyreBase">
+	<ThingDef ParentName="BuildingBase" Name="ISA_PyreBase">
 		<defName>ISA_Pyre</defName>
 		<label>large square pyre</label>
 		<description>A large bonfire capable of producing a great amount of heat and light. Suitable for burning waste and corpses, not advised to be placed indoors.</description>
@@ -307,9 +310,12 @@
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
+	    <researchPrerequisites>
+    	  <li>ComplexFurniture</li>
+    	</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA__PyreBase">
+	<ThingDef ParentName="ISA_PyreBase">
 		<defName>ISA_PyreRound</defName>
 		<label>large round pyre</label>
 		<description>A large bonfire capable of producing a great amount of heat and light. Suitable for burning waste and corpses, not advised to be placed indoors.</description>
