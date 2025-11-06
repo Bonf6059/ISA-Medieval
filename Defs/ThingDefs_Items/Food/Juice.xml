@@ -30,6 +30,9 @@
 			<joyKind>Gluttonous</joyKind>
 			<maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
-		</ingestible>
+		</ingestible>		
+		<researchPrerequisites>
+			<li>ISA_PresserResearch</li>
+		</researchPrerequisites>
 	</ThingDef>
 </Defs>  
