@@ -42,7 +42,7 @@
 		<researchViewY>3.0</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
+	<ResearchProjectDef>	<!-- At the moment it's only assigned to ISA healing plants but could be expanded to VFE Medieval 2 plants -->
 		<defName>ISA_AlchemycalAgriculture</defName>
 		<label>alchemycal agriculture</label>
 		<description>Learn the hidden properties of various plants for harming and healing</description>
