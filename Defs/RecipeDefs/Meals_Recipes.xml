@@ -19,6 +19,9 @@
       </disallowedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>ISA_AdvancedCookingResearch</li>
+	</researchPrerequisites>
   </RecipeDef>
 
 <!-- Soups and Stew -->
@@ -103,6 +106,9 @@
 		<products>
 			<ISA_Bread>5</ISA_Bread>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 	
 <!-- Berry Pie -->
@@ -142,6 +148,9 @@
 		<products>
 			<ISA_BerryPie>5</ISA_BerryPie>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 <!-- Apple Pie -->
@@ -181,6 +190,9 @@
 		<products>
 			<ISA_ApplePie>5</ISA_ApplePie>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 <!-- Pumpkin Pie -->
@@ -220,6 +232,9 @@
 		<products>
 			<ISA_PumpkinPie>5</ISA_PumpkinPie>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 <!-- Carrot Cake -->
@@ -259,5 +274,8 @@
 		<products>
 			<ISA_CarrotCake>5</ISA_CarrotCake>
 		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 </Defs>
