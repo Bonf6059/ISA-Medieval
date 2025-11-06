@@ -63,9 +63,6 @@
 			<li Class="CompProperties_FoodPoisonable"/>
 		</comps>
 		<rotatable>false</rotatable>
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>	
 	</ThingDef>
 	
   	<!-- Berry Pie -->
@@ -97,9 +94,6 @@
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>	-->
 		<rotatable>false</rotatable>
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 	<!-- Apple Pie -->
@@ -132,9 +126,6 @@
 			</li>
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>	-->
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 	<!-- Pumpkin Pie -->
@@ -167,9 +158,6 @@
 			</li>
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>	-->
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 		<!-- Carrot Cake -->
@@ -202,8 +190,5 @@
 			</li>
 			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>	-->
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
 	</ThingDef>
 </Defs>
