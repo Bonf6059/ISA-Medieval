@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-	<ResearchProjectDef>
-		<defName>ISA_PresserResearch</defName>
-		<label>presser</label>
-		<description>Contstruct a pressing machine to press the juices out of fruits or whey from curds.</description>
-		<baseCost>400</baseCost>
-		<tab>ISA_MedievalResearchTab</tab>
-		<techLevel>Medieval</techLevel>
-		<researchViewX>4</researchViewX>
-		<researchViewY>1.8</researchViewY>
-		<prerequisites>
-			<li>ComplexFurniture</li>
-		</prerequisites>
-	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>ISA_MiningResearch</defName>
@@ -22,7 +8,7 @@
 		<baseCost>700</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>12</researchViewX>
+		<researchViewX>3.0</researchViewX>
 		<researchViewY>3.0</researchViewY>
 		<prerequisites>
 			<li>Stonecutting</li>
@@ -32,13 +18,69 @@
 	<!--=========================== Alchemy ==============================-->
 	<ResearchProjectDef>
 		<defName>ISA_Agriculture</defName>
-		<label>agriculture and apiculture</label>
-		<description>Learn how to take better care of plants and how to take care of bees and wasps</description>
+		<label>agriculture</label>
+		<description>Learn how to take better care of plants</description>
 		<baseCost>300</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>6.00</researchViewX>
-		<researchViewY>5.90</researchViewY>
+		<researchViewX>6.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_AlchemycalAgriculture</defName>
+		<label>alchemycal agriculture</label>
+		<description>Learn the hidden properties of various plants for harming and healing</description>
+		<baseCost>500</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>6.0</researchViewX>
+		<researchViewY>7.0</researchViewY>
+		<prerequisites>
+			<li>ISA_Agriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_DrugsMaking</defName>
+		<label>medicine and drugs production</label>
+		<description>Learn how to make better and more effective drugs to heal and incapacitate other people and yourself</description>
+		<baseCost>700</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>10.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
+		<prerequisites>
+			<li>ISA_AlchemycalAgriculture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_AdvancedDrugsMaking</defName>
+		<label>advanced medicine and drugs production</label>
+		<description>Learn how to make incredible drugs to heal even the worst injuries</description>
+		<baseCost>1200</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>10.0</researchViewX>
+		<researchViewY>7.0</researchViewY>
+		<prerequisites>
+			<li>ISA_DrugsMaking</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_WarChemicals</defName>
+		<label>Alchemycal compound for war</label>
+		<description>Learn how to make unstable compounds and how to reuse monsters body parts for war</description>
+		<baseCost>1200</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>10.0</researchViewX>
+		<researchViewY>11.0</researchViewY>
+		<prerequisites>
+			<li>ISA_DrugsMaking</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 	<!--=========================== Cooking ==============================-->
@@ -49,9 +91,22 @@
 		<baseCost>500</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>4.8</researchViewY>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
 	</ResearchProjectDef>
 
-.	
+	<ResearchProjectDef>
+		<defName>ISA_PresserResearch</defName>
+		<label>presser</label>
+		<description>Contstruct a pressing machine to press the juices out of fruits or whey from curds.</description>
+		<baseCost>400</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>7.0</researchViewY>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+	
 </Defs>
