@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+		<researchPrerequisites>
+			<li>ISA_MiningResearch</li>
+		</researchPrerequisites>
 	
 	<ResearchProjectDef>
 		<defName>ISA_MiningResearch</defName>
@@ -12,6 +16,20 @@
 		<researchViewY>3.0</researchViewY>
 		<prerequisites>
 			<li>Stonecutting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_Cooling</defName>
+		<label>cooling</label>
+		<description>Learn how to use criopyrinth to cool rooms and refrigerate food.</description>
+		<baseCost>300</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.0</researchViewX>
+		<researchViewY>7.0</researchViewY>
+		<prerequisites>
+			<li>ISA_MiningResearch</li>
 		</prerequisites>
 	</ResearchProjectDef>
   
