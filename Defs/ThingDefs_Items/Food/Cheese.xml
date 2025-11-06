@@ -32,7 +32,7 @@
 		</comps>
 		<rotatable>false</rotatable>
 		<researchPrerequisites>
-			<li>ISA_Presser</li>
+			<li>ISA_PresserResearch</li>
 		</researchPrerequisites>
 	</ThingDef>
 
