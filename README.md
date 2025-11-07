@@ -9,9 +9,11 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Decide wheter to replace processor framework with Vanilla Expanded pipe system
 - Decide wheter to remove some dependencies
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
-- Need to understand why wooltocloth works only in the crafting spot and not in the tailor bench
 
 # Old updates
+
+07/11/2025
+- Fixed recipe wool to cloth
 
 06/11/2025
 - Overhauled research tree adding new reaserches and locking stuff behind reaserch
