@@ -338,17 +338,17 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_HealingOil</li>
+						<li>Ambrosia</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
-				<li>ISA_HealingOil</li>
+				<li>Ambrosia</li>
 				<li>ISA_Paregoric</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -356,7 +356,7 @@
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
-				<li>ISA_HealingOil</li>
+				<li>Ambrosia</li>
 				<li>ISA_Paregoric</li>
 			</thingDefs>
 		</defaultIngredientFilter>
