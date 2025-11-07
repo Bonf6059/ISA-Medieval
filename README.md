@@ -13,7 +13,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 07/11/2025
-- Fixed recipe wool to cloth
+- Fixed recipe "wool to cloth"
+- Changed recipe for "Crivice ointment"
 
 06/11/2025
 - Overhauled research tree adding new reaserches and locking stuff behind reaserch
