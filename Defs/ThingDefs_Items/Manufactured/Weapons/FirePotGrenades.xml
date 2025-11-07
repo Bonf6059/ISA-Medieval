@@ -19,11 +19,10 @@
 		<researchPrerequisites>
 			<li>ISA_WarChemicals</li>
 		</researchPrerequisites>	
-
+	</ThingDef>
 
 <!-- Firepot -->
 		
-	</ThingDef>
 		<ThingDef ParentName="ISA_Medieval_MakeableGrenade">
 		<defName>ISA_Weapon_PotFire</defName>
 		<label>fire pots</label>
