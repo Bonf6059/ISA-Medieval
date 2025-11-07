@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<RecipeDef Abstract="True" Name="ISA_MakeClothBase">
-		<jobString>Spinning cotton.</jobString>
-  		<effectWorking>Tailor</effectWorking>
-   		<soundWorking>Recipe_Tailor</soundWorking>
-		<workAmount>450</workAmount>
-		<workSkill>Crafting</workSkill>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
-		<workSkillLearnFactor>0.25</workSkillLearnFactor>
-		<targetCountAdjustment>10</targetCountAdjustment>
-		<recipeUsers>
-        		<li>ElectricTailoringBench</li>
-        		<li>HandTailoringBench</li>
-      			<li>CraftingSpot</li>
-      		</recipeUsers>
-      		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_MakeClothBase">
+	<RecipeDef>
 		<defName>ISA_MakeClothFromWool</defName>
-		<label>Spin wool</label>
-		<description>Spin wool into cloth fabric.</description>
-		<jobString>Spinning wool.</jobString>
+		<label>weave cloth from wool</label>
+		<description>Weave wool threads together to create a cloth like material.</description>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<jobString>Weaving cloth.</jobString>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<workSkill>Crafting</workSkill>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<ingredients>
 			<li>
 				<filter>
@@ -44,12 +37,22 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ISA_MakeClothBase">
+	<RecipeDef>
 		<defName>ISA_MakeClothFromWoolBulk</defName>
-		<label>Spin wool 50x</label>
-		<description>Spin wool into cloth fabric.</description>
-		<jobString>Spinning wool.</jobString>
+		<label>weave cloth from wool x50</label>
+		<description>Weave wool threads together to create a cloth like material.</description>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<jobString>Weaving cloth x50.</jobString>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<workSkill>Crafting</workSkill>
+		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>2250</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<ingredients>
 			<li>
 				<filter>
