@@ -84,7 +84,7 @@
 		<thingDef>ISA_JuiceApple</thingDef>
 		<ingredientFilter>
 			<thingDefs>
-				<li>VCE_RawApple</li>
+				<li>ISA_RawApples</li>
 			</thingDefs>
 		</ingredientFilter>
 		<processDays>1</processDays>
