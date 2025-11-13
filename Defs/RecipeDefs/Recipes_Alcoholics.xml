@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Abstract -->
+	<RecipeDef Name="ISA_Make_WortBase" Abstract="True">
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<recipeUsers>
+			<li>Brewery</li>
+		</recipeUsers>
+	</RecipeDef>
+
+<!-- grape wine must -->
+  
+ 	<RecipeDef>
+		<defName>ISA_MakeMustWine</defName>
+		<label>make grape must</label>
+		<description>Make grape must by crushing grapes. Needs to undergo fermentation in order to become wine.</description>
+		<jobString>Making grape must.</jobString>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>Brewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawGrapes</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawGrapes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ISA_MustWine>5</ISA_MustWine>
+		</products>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+<!-- Berry wine must -->
+  
+  <RecipeDef>
+		<defName>ISA_MakeMustBerry</defName>
+		<label>make berry must</label>
+		<description>Make berry must by crushing berries. Needs to undergo fermentation in order to become wine.</description>
+		<jobString>Making berry must.</jobString>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>Brewery</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ISA_MustWine_Berry>5</ISA_MustWine_Berry>
+		</products>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+</Defs>
