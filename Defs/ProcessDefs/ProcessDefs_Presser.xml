@@ -79,7 +79,7 @@
 	</ProcessorFramework.ProcessDef>
 
 	<!-- Apple Juice -->
-	<ProcessorFramework.ProcessDef MayRequire="VanillaExpanded.VPlantsE">
+	<ProcessorFramework.ProcessDef>
 		<defName>ISA_AppleIntoJuice</defName>
 		<thingDef>ISA_JuiceApple</thingDef>
 		<ingredientFilter>
