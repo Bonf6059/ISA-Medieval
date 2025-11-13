@@ -14,6 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
 - Added plants like (apple and lemon trees; garlic; carrot; herb; tomato; pumpkin and grape)
 - Added Wine (from grape and berries) and Cider
+- Changed texture of "Hay"
 - Mod is no longer dependent on "Vanilla Expanded Plants"
 
 07/11/2025
