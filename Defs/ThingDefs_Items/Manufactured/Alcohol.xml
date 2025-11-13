@@ -89,7 +89,6 @@
 			</outcomeDoers>
 		</ingestible>
         
-		<equipmentType>Primary</equipmentType>
 		<techLevel>Neolithic</techLevel>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -157,7 +156,7 @@
 				</li>
 			</outcomeDoers>
 		</ingestible>
-		<equipmentType>Primary</equipmentType>
+
 		<techLevel>Medieval</techLevel>
 		<comps>
 			<li Class="CompProperties_Drug">
