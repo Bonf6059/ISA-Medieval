@@ -41,7 +41,7 @@
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_AlcoholBase">
-		<defName>ISA_MustIntoBerry</defName>
+		<defName>ISA_MustIntoBerryWine</defName>
 		<thingDef>ISA_Wine_Berry</thingDef>
 		<ingredientFilter>
 			<thingDefs>
