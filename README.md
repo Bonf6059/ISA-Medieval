@@ -5,8 +5,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Next update
 
 - Decide wheter to add stuff like Alps and lyndwurm etc
-- Decide wheter to replace processor framework with Vanilla Expanded pipe system
-- Decide wheter to remove some dependencies
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
 - Add lemon cakes
 
@@ -14,8 +12,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 13/11/2025
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
-- Added plants
-- Added Wine (grape and berries) and Cider
+- Added plants like (apple and lemon trees; garlic; carrot; herb; tomato; pumpkin and grape)
+- Added Wine (from grape and berries) and Cider
+- Mod is no longer dependent on "Vanilla Expanded Plants"
 
 07/11/2025
 - Fixed recipe "wool to cloth"
