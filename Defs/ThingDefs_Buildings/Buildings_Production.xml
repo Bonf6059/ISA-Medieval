@@ -529,7 +529,7 @@
 			<li>ISA_MakeBerryPie</li>
 			<li>ISA_MakeApplePie</li>
 			<li>ISA_MakePumpkinPie</li>
-			<li MayRequire="VanillaExpanded.VPlantsEMore">ISA_MakeCarrotCake</li>
+			<li>ISA_MakeCarrotCake</li>
     	</recipes>
 		<building>
 			<isMealSource>true</isMealSource>
