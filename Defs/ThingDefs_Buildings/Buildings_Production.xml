@@ -604,7 +604,7 @@
 		<size>(3, 3)</size>
 		<fillPercent>1.0</fillPercent>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded />
+		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 		<passability>Impassable</passability>
 		<rotatable>true</rotatable>
 		<canOverlapZones>true</canOverlapZones>
