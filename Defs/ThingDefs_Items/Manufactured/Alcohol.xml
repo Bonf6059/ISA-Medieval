@@ -8,7 +8,7 @@
 		<label>grape must</label>
 		<description>Crushed grapes. Needs to undergo fermentation in a rustic fermenting barrel in order to become wine.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/MustWine</texPath>
+			<texPath>Items/Resources/Misc/MustWine</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
@@ -36,9 +36,6 @@
 		<defName>ISA_MustWine_Berry</defName>
 		<label>berry must</label>
 		<description>Crushed berries. Needs to undergo fermentation in a rustic fermenting barrel in order to become wine.</description>
-		<graphicData>
-			<texPath>Things/Item/Resource/MustGriffonWine</texPath>
-		</graphicData>
 	</ThingDef>
 	
 <!-- Cider -->
@@ -48,7 +45,7 @@
 		<label>cider</label>
 		<description>Apple juice that is fermented for a few days to develop its alcoholic content. Consuming enough cider can make you drunk.</description>
 		<graphicData>
-			<texPath>Things/Item/Drug/Cider</texPath>
+			<texPath>Items/Drinks/Cider</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-150</equippedAngleOffset>
@@ -119,7 +116,7 @@
 		<label>wine</label>
 		<description>Liquor of many faces. Old vintages are dainty drinks intended for connoisseurs and rather finicky tongues - mandatory positions at royal parties, feasts and masquerades. Younger are often sold to peasants in roadside inns, diluted with water as much as innkeepers conscience allows.</description>
 		<graphicData>
-			<texPath>Things/Item/Drug/Wine</texPath>
+			<texPath>Items/Drinks/Wine</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-150</equippedAngleOffset>
@@ -194,7 +191,7 @@
 		<label>berry wine</label>
 <!--		<description>Produced from the luscious bounty of berri, often associated with the mulberry tree's role in nurturing silk worms. Aged vintages whisper tales of sophistication, beckoning connoisseurs with their intricate flavors, a staple of esteemed gatherings and royal banquets.</description>	-->
 		<graphicData>
-			<texPath>Things/Item/Drug/GriffonWine</texPath>
+			<texPath>Items/Drinks/BerryWine</texPath>
 		</graphicData>
 	</ThingDef>
 
