@@ -173,7 +173,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>VCE_RawApple</li>
+						<li>ISA_RawApples</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -184,7 +184,7 @@
 				<li>ISA_Flour</li>
 			</thingDefs>
 			<thingDefs>
-				<li>VCE_RawApple</li>
+				<li>ISA_RawApples</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -215,7 +215,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>VCE_RawPumpkin</li>
+						<li>ISA_RawPumpkins</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -226,7 +226,7 @@
 				<li>ISA_Flour</li>
 			</thingDefs>
 			<thingDefs>
-				<li>VCE_RawPumpkin</li>
+				<li>ISA_RawPumpkins</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -257,7 +257,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>VCE_RawCarrot</li>
+						<li>ISA_RawCarrots</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -268,7 +268,7 @@
 				<li>ISA_Flour</li>
 			</thingDefs>
 			<thingDefs>
-				<li>VCE_RawCarrot</li>
+				<li>ISA_RawCarrots</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
