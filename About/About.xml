@@ -17,11 +17,6 @@
 			<downloadUrl>https://github.com/ViralReaction/ProcessorFramework</downloadUrl>
 		</li>
 		<li>
-			<packageId>VanillaExpanded.VPlantsE</packageId>
-			<displayName>Vanilla Expanded Plants</displayName>
-			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaPlantsExpanded</downloadUrl>
-		</li>
-		<li>
 			<packageId>Van.Beasts</packageId>
 			<displayName>Dark Ages : Beasts and Monsters</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3472275628</steamWorkshopUrl>
@@ -30,7 +25,6 @@
 	<loadAfter>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>syrchalis.processor.framework</li>
-		<li>VanillaExpanded.VPlantsE</li>
 		<li>Van.Beasts</li>
 	</loadAfter>
 	<packageId>ISA.Medieval</packageId>
