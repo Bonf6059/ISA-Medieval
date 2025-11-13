@@ -11,6 +11,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+13/11/2025
+- Fixed crab bay being placeable everywhere, now it can only be placed on water
+
 07/11/2025
 - Fixed recipe "wool to cloth"
 - Changed recipe for "Crivice ointment"
