@@ -8,7 +8,7 @@
 		<label>carrots</label>
 		<description>Raw carrots.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawCarrots</texPath>
+			<texPath>Items/Food/RawFood/RawCarrots</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
@@ -33,7 +33,7 @@
 		<label>garlic</label>
 		<description>Raw garlic.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawGarlic</texPath>
+			<texPath>Items/Food/RawFood/RawGarlic</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
@@ -58,7 +58,7 @@
 		<label>grapes</label>
 		<description>Tasty grapes that can be eaten raw. Useful for making wine.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawGrape</texPath>
+			<texPath>Items/Food/RawFood/RawGrape</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.2</MarketValue>
@@ -83,7 +83,7 @@
 		<label>raw herbs</label>
 		<description>Raw herbs.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawHerb</texPath>
+			<texPath>Items/Food/RawFood/RawHerb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -111,7 +111,7 @@
 		<label>Pumpkins</label>
 		<description>Raw pumpkins.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawPumpkins</texPath>
+			<texPath>Items/Food/RawFood/RawPumpkins</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
@@ -136,7 +136,7 @@
 		<label>tomatoes</label>
 		<description>Raw tomatoes.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawTomatoes</texPath>
+			<texPath>Items/Food/RawFood/RawTomatoes</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
@@ -159,7 +159,7 @@
 		<label>apples</label>
 		<description>Raw apples.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawApples</texPath>
+			<texPath>Items/Food/RawFood/RawApples</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
@@ -186,7 +186,7 @@
 		<label>lemons</label>
 		<description>Raw lemons.</description>
 		<graphicData>
-			<texPath>Items/Resources/Plants/PlantRawFood/RawLemons</texPath>
+			<texPath>Items/Food/RawFood/RawLemons</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
