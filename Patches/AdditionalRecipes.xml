@@ -35,4 +35,15 @@
 		</value>
 	</Operation>
 
+<!-- Add wine and cider Fermenting Barrel -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BarrelProcessor"]/comps/li[1]/processes</xpath>
+		<value>
+			<li>ISA_MustIntoWine</li>
+			<li>ISA_MustIntoBerryWine</li>
+			<li>ISA_AppleJuiceIntoCider</li>
+		</value>
+	</Operation>
+	
 </Patch>
