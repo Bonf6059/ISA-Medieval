@@ -23,9 +23,9 @@
 			<purpose>Health</purpose>
 			<fertilitySensitivity>0</fertilitySensitivity>
 		</plant>
-		<researchPrerequisites>
+		<sowResearchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
-		</researchPrerequisites>
+		</sowResearchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="HealrootBase" Name="ISA_PoppyBase">
@@ -47,9 +47,9 @@
 			<harvestedThingDef>ISA_Poppy</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
-		<researchPrerequisites>
+		<sowResearchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
-		</researchPrerequisites>
+		</sowResearchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="HealrootBase" Name="ISA_FlyAgaricBase">
@@ -71,9 +71,9 @@
 			<harvestedThingDef>ISA_FlyAgaric</harvestedThingDef>
 			<purpose>Health</purpose>
 		</plant>
-		<researchPrerequisites>
+		<sowResearchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
-		</researchPrerequisites>
+		</sowResearchPrerequisites>
 	</ThingDef>
 
 </Defs>
