@@ -239,7 +239,7 @@
 
 <!-- Carrot Cake -->
 	
-	<RecipeDef MayRequire="VanillaExpanded.VPlantsEMore" ParentName="CookMealBase">
+	<RecipeDef ParentName="CookMealBase">
 		<defName>ISA_MakeCarrotCake</defName>
 		<label>Cook carrot cake</label>
 		<description>Mix different ingredients to make a pie with carrots.</description>
