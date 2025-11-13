@@ -8,11 +8,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Decide wheter to replace processor framework with Vanilla Expanded pipe system
 - Decide wheter to remove some dependencies
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
+- Add lemon cakes
 
 # Old updates
 
 13/11/2025
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
+- Added plants
+- Added Wine (grape and berries) and Cider
 
 07/11/2025
 - Fixed recipe "wool to cloth"
