@@ -222,8 +222,8 @@
     <label>crivice scent</label>
     <description>A mixture of bone marrow extracted from the antlers of a goldilox and several herbs and medicines. It is consumed by burning the concoction and inhaling the fumes, which drastically increase one's ability to regenerate and heal from any injury.\n\n It can boost massively the regenerative ability of the body to the point where it can form new limbs or organs as needed.</description>
 	  <graphicData>
-      <texPath>Items/Resources/Drugs/CriviceScent/CriviceScent</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Items/Resources/Drugs/CriviceScent</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <stackLimit>10</stackLimit>
     <statBases>
