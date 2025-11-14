@@ -302,13 +302,13 @@
 		</researchPrerequisites>	
 	</RecipeDef>
 
-<!-- Crivice Ointment -->
+<!-- Crivice Scent -->
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_CriviceOintment</defName>
-		<label>make crivice ointment</label>
-		<description>Make crivice ointment.</description>
-		<jobString>Making crivice ointment.</jobString>
+		<defName>ISA_Make_CriviceScent</defName>
+		<label>make crivice scent</label>
+		<description>Make crivice scent.</description>
+		<jobString>Making crivice scent.</jobString>
 		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
@@ -317,7 +317,7 @@
 						<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -325,7 +325,7 @@
 						<li>HemogenPack</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -338,30 +338,30 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Ambrosia</li>
+						<li>PsychoidLeaves</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
-				<li>Ambrosia</li>
 				<li>ISA_Paregoric</li>
+				<li>PsychoidLeaves</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
-				<li>Ambrosia</li>
 				<li>ISA_Paregoric</li>
+				<li>PsychoidLeaves</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_CriviceOintment>1</ISA_CriviceOintment>
+			<ISA_CriviceScent>1</ISA_CriviceScent>
 		</products>
 		<researchPrerequisites>
 			<li>ISA_AdvancedDrugsMaking</li>
