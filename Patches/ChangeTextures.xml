@@ -157,7 +157,7 @@
     <!-- Replace Vanilla Art Bench texture -->
 	
 	<Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="ArtBench"]/graphicData/texPath</xpath>
+        <xpath>Defs/ThingDef[defName="TableSculpting"]/graphicData/texPath</xpath>
         <value>
             <texPath>Building/Production/ArtTable/TableSculpting</texPath>
         </value>
