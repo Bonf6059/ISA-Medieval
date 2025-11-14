@@ -9,6 +9,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add lemon cakes
 - Apiary that produces VFE Medieval 2 honey
 - Mending bench from medieval overhaul
+- Scribe table to make books
 
 # Old updates
 
