@@ -17,7 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 14/11/2025 - "A new look"
-- Renamed Crivicine Ointment to Crivicine Scent
+- Renamed Crivice Ointment to Crivice Scent
 - Changed textures of:
 
       - Logo of the mod
@@ -25,7 +25,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - Vanilla Brewery
       - Vanilla Research Bench
       - Vanilla Art Bench
-      - ISA Crivicine Scent
+      - ISA Crivice Scent
 
 13/11/2025 - "Fixes and agricultural revolution"
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
