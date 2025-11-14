@@ -10,6 +10,7 @@
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<recipeUsers>
 			<li>VFEM2_AlchemicalWorkbench</li>
+			<li>DrugLab</li>
 		</recipeUsers>
 		<researchPrerequisites>
 			<li>ISA_DrugsMaking</li>
