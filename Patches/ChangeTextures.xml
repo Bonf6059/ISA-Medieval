@@ -111,5 +111,57 @@
 			</graphicData>
 		</value>
 	</Operation>
-   
+
+    <!-- Replace Vanilla Tailor Bench texture -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="HandTailoringBench"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/TailorsBench/TailorsBench</texPath>
+        </value>
+    </Operation>
+
+    <!-- Replace Vanilla Brewery Table texture -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Brewery"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/Brewery/TableBreweryStuffed</texPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Brewery"]/graphicData/shaderType</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Brewery"]/graphicData</xpath>
+            <value>
+                <shaderType>CutoutComplex</shaderType>
+            </value>
+        </nomatch>
+    </Operation>
+
+ <!--   <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
+        </match>
+    </Operation>	-->
+
+    <!-- Replace Vanilla Research Bench texture -->
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SimpleResearchBench"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/ResearchBench/ResearchBenchSimple</texPath>
+        </value>
+    </Operation>
+
+    <!-- Replace Vanilla Art Bench texture -->
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ArtBench"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/ArtTable/TableSculpting</texPath>
+        </value>
+    </Operation>
+
+	
 </Patch>
