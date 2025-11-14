@@ -2,18 +2,21 @@
 
 Just a bunch of patches and addons to various mods and some medieval stuff.
 
-# Possible next updates
+# Ideas for possible next updates
 
 - Decide wheter to add stuff like Alps and lyndwurm etc
+- Decide wheter to add stuff like monster caves
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
 - Add lemon cakes
-- Apiary that produces VFE Medieval 2 honey
-- Mending bench from medieval overhaul
-- Scribe table to make books
+- Add Apiary that produces VFE Medieval 2 honey
+- Add Mending bench from medieval overhaul
+- Add Scribe table to make books
+- Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
+- Add a drug that looks like glimmerQuartz from the stoneborn delights but made with Pyrinth and/or criopyrinth to change the temperature that one can withstand but with a minor toxic buildup (look at the VFEM2 draughts)
 
 # Old updates
 
-14/11/2025
+14/11/2025 - "A new look"
 - Changed textures of:
 
       - Logo of the mod
@@ -22,34 +25,34 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - Vanilla Research Bench
       - Vanilla Art Bench
 
-13/11/2025
+13/11/2025 - "Fixes and agricultural revolution"
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
 - Added plants like (apple and lemon trees; garlic; carrot; herb; tomato; pumpkin and grape)
 - Added Wine (from grape and berries) and Cider
 - Mod is no longer dependent on "Vanilla Expanded Plants"
 
-07/11/2025
+07/11/2025 - "Fixes"
 - Fixed recipe "wool to cloth"
 - Changed recipe for "Crivice ointment"
 
-06/11/2025
+06/11/2025 - "New researches"
 - Overhauled research tree adding new reaserches and locking stuff behind reaserch
 
-05/11/2025
+05/11/2025 - "The treasure of the sea"
 - Added Crab Bay where you can farm the products of leviatan crabs
 - Added a medieval variant of healer mech serum
 
-04/11/2025
+04/11/2025 - "The age of monsters"
 - Added Dark ages : "Beasts and monsters" as a dependency because there is a lot of stuff depending on it
 - Added once again petrifying grenades and now they work
 - Added ability to minify "ISA_1X3WorkbenchBase"
 
-31/10/2025 Happy Samhain!
-- Added petrification grenades if sir van beasts and monsters is installed and removed them "I didnt care enough to make them work"
+31/10/2025 Happy Samhain! - "Alchemy update"
+- Added petrification grenades if sir van beasts and monsters is installed and removed them because: "I didnt care enough to make them work"
 - Added Paregoric
 - Added healing oil
 
-30/10/2025
+30/10/2025 - "Tiding up and alchemy update"
 - Added opium
 - Added herbal extract
 - Reorganized textures
@@ -58,13 +61,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - Moved "production" into "Building"
       - Changed Beer texture
 
-28/10/2025
+28/10/2025 - "Drastic Fixes"
 - Fixed errors given by the missing heddif in the food by removing them
 - Disabled temporarely the thought given by eating the food
 - Removed the thought from eating stew and soup
 - Removed the quality from the stew pot
 
-27/10/2025
+27/10/2025 - "Generic Fixes and new medicines"
 - Changed materials for Criopyrinth stuff using only metallic instead of metallic and stony because IDK how to fix the mask
 - Added toughts to various foods
 - Changed texture for fermenting barrel (from the framework)
@@ -82,10 +85,10 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added Mindworth; Poppy and Flyagaric as wild and cultivated plants (can be used as medicine) 
   
 
-26/10/2025
+26/10/2025 - "Fire in the hole"
 - Added fire pots grenades
 - Changed texture for chemfuel
 
-XX/XX/2025
+XX/XX/2025 - The "OG" MOD
 
 - Everything else, I didn't keep track of what I was doing but I just found out it's quite usefull to troubleshoot
