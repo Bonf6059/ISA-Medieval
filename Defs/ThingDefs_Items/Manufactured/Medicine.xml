@@ -199,9 +199,9 @@
       </stages>
   </HediffDef>
 
-  <!--=============== Ointments ====================-->
+  <!--=============== Scents ====================-->
 
-  <ThingDef ParentName="ResourceBase" Name="ISA_OintmentBase" Abstract="True">
+  <ThingDef ParentName="ResourceBase" Name="ISA_CriviceScentBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
@@ -217,12 +217,12 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ISA_OintmentBase">
-    <defName>ISA_CriviceOintment</defName>
-    <label>crivice ointment</label>
-    <description>An ointment made from very strong medicines that will heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. It can boost massively the regenerative ability of the body to the point where it can form new limbs or organs as needed.</description>
-    <graphicData>
-      <texPath>Items/Resources/Drugs/CriviceOintment/CriviceOintment</texPath>
+  <ThingDef ParentName="ISA_CriviceScentBase">
+    <defName>ISA_CriviceScent</defName>
+    <label>crivice scent</label>
+    <description>A mixture of bone marrow extracted from the antlers of a goldilox and several herbs and medicines. It is consumed by burning the concoction and inhaling the fumes, which drastically increase one's ability to regenerate and heal from any injury.\n\n It can boost massively the regenerative ability of the body to the point where it can form new limbs or organs as needed.</description>
+	  <graphicData>
+      <texPath>Items/Resources/Drugs/CriviceScent/CriviceScent</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stackLimit>10</stackLimit>
@@ -254,11 +254,11 @@
   </ThingDef>
   
   <RecipeDef>
-    <defName>AdministerCriviceOintment</defName>
-    <label>administer crivice ointment</label>
-    <description>Administer a crivice ointment.</description>
+    <defName>AdministerCriviceScent</defName>
+    <label>administer crivice scent</label>
+    <description>Administer a crivice scent.</description>
     <workerClass>Recipe_AdministerUsableItem</workerClass>
-    <jobString>Administering crivice ointment.</jobString>
+    <jobString>Administering crivice scent.</jobString>
     <targetsBodyPart>false</targetsBodyPart>
     <anesthetize>false</anesthetize>
     <workAmount>600</workAmount>
@@ -268,7 +268,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ISA_CriviceOintment</li>
+            <li>ISA_CriviceScent</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -276,12 +276,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>ISA_CriviceOintment</li>
+        <li>ISA_CriviceScent</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
 
-<!--  <ThingDef ParentName="ISA_OintmentBase">
+<!--  <ThingDef ParentName="ISA_CriviceScentBase">
     <defName>MechSerumResurrector</defName>
     <label>resurrector mech serum</label>
     <description>A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.\n\nThe resurrected also experience limited retrograde amnesia, forgetting some recent memories and social interactions.</description>
