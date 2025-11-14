@@ -2,11 +2,12 @@
 
 Just a bunch of patches and addons to various mods and some medieval stuff.
 
-# Next update
+# Possible next updates
 
 - Decide wheter to add stuff like Alps and lyndwurm etc
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
 - Add lemon cakes
+- Apiary that produces VFE Medieval 2 honey
 
 # Old updates
 
