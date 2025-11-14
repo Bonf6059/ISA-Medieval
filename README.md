@@ -14,7 +14,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 14/11/2025
-- Changed Logo
+- Changed textures of:
+
+      - Logo of the mod
+      - Vanilla Tailor Bench
+      - Vanilla Brewery
+      - Vanilla Research Bench
+      - Vanilla Art Bench
 
 13/11/2025
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
