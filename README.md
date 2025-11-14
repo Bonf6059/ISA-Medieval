@@ -17,7 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 14/11/2025 - "A new look"
-- Renamed Crivice Ointment to Crivice Scent
+- Renamed Crivice Ointment to Crivice Scent and changed recipe
 - Changed textures of:
 
       - Logo of the mod
