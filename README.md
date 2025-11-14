@@ -8,6 +8,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Decide wheter to add runes and sigil from medieval overhaul (problem is that there is A LOT of textures)
 - Add lemon cakes
 - Apiary that produces VFE Medieval 2 honey
+- Mending bench from medieval overhaul
 
 # Old updates
 
