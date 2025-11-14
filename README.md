@@ -10,6 +10,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+14/11/2025
+- Changed Logo
+
 13/11/2025
 - Fixed crab bay being placeable everywhere, now it can only be placed on water
 - Added plants like (apple and lemon trees; garlic; carrot; herb; tomato; pumpkin and grape)
