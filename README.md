@@ -12,7 +12,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Mending bench from medieval overhaul
 - Add Scribe table to make books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
-- Add a drug that looks like glimmerQuartz from the stoneborn delights but made with Pyrinth and/or criopyrinth to change the temperature that one can withstand but with a minor toxic buildup (look at the VFEM2 draughts)
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Need to verify what's in the mod "adaptive simple storage" and "basic storage" and add what's missing
 
