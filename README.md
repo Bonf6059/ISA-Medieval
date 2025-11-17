@@ -32,7 +32,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
       - ISA Crivice Scent
 
 13/11/2025 - "Fixes and agricultural revolution"
-- Fixed crab bay being placeable everywhere, now it can only be placed on water
+- Fixed crab bay being placeable everywhere, now it can only be placed on water or mud
 - Added plants like (apple and lemon trees; garlic; carrot; herb; tomato; pumpkin and grape)
 - Added Wine (from grape and berries) and Cider
 - Mod is no longer dependent on "Vanilla Expanded Plants"
