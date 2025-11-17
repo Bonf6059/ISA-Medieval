@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- Stone Chunks Base Class -->
-	<RecipeDef Name="ISA_MineShaftBase" Abstract="True">
-		<description>Mine deep down underground to obtain rock chunks.</description>
-		<workSpeedStat>MiningSpeed</workSpeedStat>
-		<workSkill>Mining</workSkill>
-		<workSkillLearnFactor>0.50</workSkillLearnFactor>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<recipeUsers>
-			<li>ISA_MineShaft</li>
-		</recipeUsers>
-	</RecipeDef>
-
+	
 	<!-- Stone Chunks: Sandstone -->
 	<RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeStoneChunks_Sandstone</defName>
