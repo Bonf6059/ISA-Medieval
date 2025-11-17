@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- Abstract -->
-	<RecipeDef Name="ISA_Make_DrugAlchemy" Abstract="True">
-		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-		<workSkill>Intellectual</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_Brewing</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<targetCountAdjustment>1</targetCountAdjustment>
-		<recipeUsers>
-			<li>VFEM2_AlchemicalWorkbench</li>
-			<li>DrugLab</li>
-		</recipeUsers>
-		<researchPrerequisites>
-			<li>ISA_DrugsMaking</li>
-		</researchPrerequisites>		
-	</RecipeDef>
-
+	
 <!-- Herbal extract -->
 	
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
