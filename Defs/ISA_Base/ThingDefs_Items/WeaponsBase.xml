@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Grenades -->
+	
 	<ThingDef ParentName="BaseMakeableGrenade" Name="ISA_Medieval_MakeableGrenade" Abstract="True">
 		<recipeMaker Inherit="false">
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
