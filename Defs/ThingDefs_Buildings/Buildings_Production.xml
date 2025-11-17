@@ -2,33 +2,6 @@
 <Defs>
 
 <!-- Usa <minifiedDef>MinifiedThing</minifiedDef> per rendere le cose minifiable -->
-	
-	<!--1x3 Bench Base-->
-	<ThingDef ParentName="BenchBase" Name="ISA_1X3WorkbenchBase" Abstract="True">
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<statBases>
-			<WorkToBuild>2000</WorkToBuild>
-			<MaxHitPoints>180</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(3,1)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<techLevel>Medieval</techLevel>
-		<placeWorkers>
-			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
-		</placeWorkers>
-		<minifiedDef>MinifiedThing</minifiedDef>
-	</ThingDef>
   
 <!-- Researching spot from medieval overhaul -->
   
