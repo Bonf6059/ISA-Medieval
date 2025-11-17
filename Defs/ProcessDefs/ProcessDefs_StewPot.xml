@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
- 
-	<!-- Stew -->
-	<ProcessorFramework.ProcessDef Name="ISA_StewPotBase" Abstract="True">
-		<processDays>2</processDays><!-- in days, a day is 60,000 ticks -->
-		<capacityFactor>1.0</capacityFactor>
-		<efficiency>10</efficiency>
-		<usesTemperature>false</usesTemperature>
-		<sunFactor>1.0~1.0</sunFactor>
-		<rainFactor>1.0~1.0</rainFactor>
-		<snowFactor>1.0~1.0</snowFactor>
-		<windFactor>1.0~1.0</windFactor>
-		<unpoweredFactor>0.0</unpoweredFactor>
-		<unfueledFactor>0.0</unfueledFactor>
-		<powerUseFactor>0.0</powerUseFactor>
-		<fuelUseFactor>0.0</fuelUseFactor>
-		<filledGraphicSuffix>Filled</filledGraphicSuffix>
-		<usesQuality>False</usesQuality>
-	<!--	<qualityDays>(0.25, 0.5, 1, 2, 3, 4, 5)</qualityDays>	-->
-		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
-		<customLabel/>
-		<destroyChance>0.0</destroyChance>
-	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_StewPotBase">
 		<defName>ISA_Stew</defName>
