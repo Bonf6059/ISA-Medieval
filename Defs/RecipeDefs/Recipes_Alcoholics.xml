@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Abstract -->
-	<RecipeDef Name="ISA_Make_WortBase" Abstract="True">
-		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
-		<workSkill>Cooking</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_Brewing</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<targetCountAdjustment>1</targetCountAdjustment>
-		<recipeUsers>
-			<li>Brewery</li>
-		</recipeUsers>
-	</RecipeDef>
-
 <!-- grape wine must -->
   
  	<RecipeDef>
