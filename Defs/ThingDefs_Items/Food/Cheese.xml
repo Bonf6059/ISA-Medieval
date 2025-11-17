@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Cheese -->
-	<ThingDef ParentName="MealBase" Name="ISA_CheeseBase" Abstract="True">
-		<thingClass>ThingWithComps</thingClass>
-		<tickerType>Rare</tickerType>
-		<statBases>
-			<MarketValue>10</MarketValue>
-			<Nutrition>0.85</Nutrition>
-		</statBases>
-		<ingestible>
-			<joy>0.10</joy>
-			<joyKind>Gluttonous</joyKind>
-			<foodType>Processed</foodType>
-			<preferability>MealSimple</preferability>
-			<optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
-			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
-		</ingestible>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>45</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
-				<ingestedThought>ISA_AteCheese</ingestedThought>
-			</li>
-			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
-		</comps>
-		<rotatable>false</rotatable>
-		<researchPrerequisites>
-			<li>ISA_PresserResearch</li>
-		</researchPrerequisites>
-	</ThingDef>
-
 <!-- Cheese -->
 	
 	<ThingDef ParentName="ISA_CheeseBase">
