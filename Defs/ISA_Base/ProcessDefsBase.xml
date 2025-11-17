@@ -31,7 +31,7 @@
 		<destroyChance>0.0</destroyChance>
 	</ProcessorFramework.ProcessDef>
 
-	<!-- Alcohol -->
+	<!-- Fermenting Barrel -->
   
 	<ProcessorFramework.ProcessDef Name="ISA_Processor_AlcoholBase" Abstract="True">
 		<processDays>1</processDays><!-- in days, a day is 60,000 ticks -->
@@ -59,7 +59,7 @@
 		<destroyChance>0.0</destroyChance>
 	</ProcessorFramework.ProcessDef>
 
-  <!-- Cheese -->
+  <!-- Cheese Press -->
   
 	<ProcessorFramework.ProcessDef Name="ISA_CheesePressBase" Abstract="True">
 		<processDays>1</processDays><!-- in days, a day is 60,000 ticks -->
