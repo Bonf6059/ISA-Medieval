@@ -192,7 +192,7 @@
 			<Nutrition>0.4</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Plants/FullGrown/CabbagePlant/CabbagePlant</texPath>
+			<texPath>Plants/FullGrown/CabbagePlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -221,6 +221,7 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Wheat -->
 
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Wheat</defName>
@@ -235,7 +236,7 @@
 			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plants/FullGrown/WheatPlant</texPath>
+			<texPath>Plants/FullGrown/WheatPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -259,7 +260,7 @@
 			<growDays>12</growDays>
 			<fertilitySensitivity>0.9</fertilitySensitivity>
 			<visualSizeRange>0.5~1.0</visualSizeRange>
-			<immatureGraphicPath>Things/Plants/Immature/WheatPlant</immatureGraphicPath>
+			<immatureGraphicPath>Plants/Immature/WheatPlant</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
