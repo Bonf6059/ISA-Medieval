@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Garlic -->
+		
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Garlic</defName>
 		<label>garlic plant</label>
@@ -43,6 +45,8 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Carrots -->
+	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Carrots</defName>
 		<label>carrot plant</label>
@@ -86,6 +90,8 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Herbs -->
+	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Herb</defName>
 		<label>herb plant</label>
@@ -128,6 +134,8 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Tomatoes -->
+	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Tomatoes</defName>
 		<label>tomato plant</label>
@@ -170,7 +178,107 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Cabbages -->
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ISA_Plant_Cabbages</defName>
+		<label>cabbage plant</label>
+		<description>Layered leafy vegetable for its cold resilience. Cabbage is especially good as an ingredient in salads and soups.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ISA_RawCabbages</ThingDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/FullGrown/CabbagePlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.9</fertilitySensitivity>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>ISA_RawCabbages</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<sowMinSkill>4</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+			<visualSizeRange>0.7~0.7</visualSizeRange>
+			<minGrowthTemperature>-18</minGrowthTemperature>
+			<minOptimalGrowthTemperature>0</minOptimalGrowthTemperature>
+			<minOptimalGrowthTemperature>25</minOptimalGrowthTemperature>
+			<maxGrowthTemperature>35</maxGrowthTemperature>
+		</plant>
+	</ThingDef>
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ISA_Plant_Wheat</defName>
+		<label>wheat plant</label>
+		<description>A tall, slow-growing crop that has a high yield of small yellow grains. These grains can be easily turned into flour with the slightest touch. Needs fertile soil to grow well.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ISA_Flour</ThingDef>
+		<!--	<ThingDef>Hay</ThingDef>	-->
+		</descriptionHyperlinks>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plants/FullGrown/WheatPlant</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible/>
+		<plant>
+			<!--fertilityMin>0.70</fertilityMin-->
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestedThingDef>ISA_Flour</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+		<!--	<sowResearchPrerequisites>
+				<li>DankPyon_BasicAgriculture</li>
+			</sowResearchPrerequisites>		-->
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponics</li>
+			</sowTags>
+			<topWindExposure>0.20</topWindExposure>
+			<growDays>12</growDays>
+			<fertilitySensitivity>0.9</fertilitySensitivity>
+			<visualSizeRange>0.5~1.0</visualSizeRange>
+			<immatureGraphicPath>Things/Plants/Immature/WheatPlant</immatureGraphicPath>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+			<!-- You can use the Vanilla framework expanded for the same thing -->
+	<!--	<modExtensions>			
+			<li Class="MedievalOverhaul.SecondaryPlantDropExtension">
+				<secondaryDrop>Hay</secondaryDrop>
+				<secondaryDropAmountRange>40</secondaryDropAmountRange>
+				<secondaryDropChance>1</secondaryDropChance>
+				<secondaryNotWhenLeafless>false</secondaryNotWhenLeafless>
+				<affectedBySkill>true</affectedBySkill>
+			</li>
+		</modExtensions>	-->
+	</ThingDef>
+
 	<!--=========================== Advanced Agriculture ==============================-->
+
+	<!-- Grape -->
+	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Grape</defName>
 		<label>grape plant</label>
@@ -213,6 +321,8 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Pumpkins -->
+	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Pumpkins</defName>
 		<label>pumpkin plant</label>
@@ -257,6 +367,9 @@
 	</ThingDef>
 
 	<!--=========================== Fruit Trees ==============================-->
+
+	<!-- Apple tree -->
+	
 	<ThingDef ParentName="TreeBase">
 		<defName>ISA_Tree_Apple</defName>
 		<label>apple tree</label>
@@ -298,6 +411,8 @@
 		</plant>
 	</ThingDef>
 
+	<!-- Lemon tree -->
+	
 	<ThingDef ParentName="TreeBase">
 		<defName>ISA_Tree_Lemon</defName>
 		<label>lemon tree</label>
