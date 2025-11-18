@@ -203,5 +203,31 @@
 			</li>
 		</comps>
 	</ThingDef>
-  
+
+	<!-- Cabbages -->
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>ISA_RawCabbages</defName>
+		<label>cabbages</label>
+		<description>Raw cabbages.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/RawCabbage</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteRawFood</tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	
 </Defs>
