@@ -16,7 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
-17/11/2025
+17/11/2025 - "Shedding some light"
 - Added lamp post
 - Reorganized code space (created a folder dedicated for the class bases of various things)
 
