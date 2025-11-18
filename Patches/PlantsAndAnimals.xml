@@ -74,7 +74,7 @@
 
 					<!-- Plants -->
 					
-					<li Class="PatchOperationAdd">
+		<!--			<li Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Plant_Haygrass"]</xpath>
 						<value>
 							<modExtensions>
@@ -85,7 +85,7 @@
 							</modExtensions>
 						</value>
 					</li>	     
-				</operations>
+				</operations>	-->
 			</Operation>
 	
 </Patch>
