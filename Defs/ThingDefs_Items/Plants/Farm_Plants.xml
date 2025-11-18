@@ -211,7 +211,7 @@
 		<label>cabbages</label>
 		<description>Raw cabbages.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/RawCabbage</texPath>
+			<texPath>Items/Food/RawFood/RawCabbage</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
