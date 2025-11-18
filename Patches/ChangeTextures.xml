@@ -93,6 +93,15 @@
     </value>
   </Operation>
 
+	<!-- Replace Honey Texture -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Honey"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Items/Food/RawFood/RawHoney</texPath>
+    </value>
+  </Operation>
+
      <!-- Replace Fermenting Barrel framework texture -->
   
 	<Operation Class="PatchOperationReplace">
