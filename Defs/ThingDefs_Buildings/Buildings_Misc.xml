@@ -81,7 +81,7 @@
 				<heatPushMaxTemperature>23</heatPushMaxTemperature>
 			</li>
 		</comps>
-	<!--	<designationCategory>DankPyon_RusticFurniture</designationCategory>	-->
+		<designationCategory>Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
