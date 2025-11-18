@@ -192,7 +192,7 @@
 			<Nutrition>0.4</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plants/FullGrown/CabbagePlant</texPath>
+			<texPath>Plants/FullGrown/CabbagePlant/CabbagePlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
