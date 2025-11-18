@@ -236,7 +236,7 @@
 			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Plants/FullGrown/WheatPlant</texPath>
+			<texPath>Plants/FullGrown/PlantWheat</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
@@ -260,7 +260,7 @@
 			<growDays>12</growDays>
 			<fertilitySensitivity>0.9</fertilitySensitivity>
 			<visualSizeRange>0.5~1.0</visualSizeRange>
-			<immatureGraphicPath>Plants/Immature/WheatPlant</immatureGraphicPath>
+			<immatureGraphicPath>Plants/Immature/PlantWheat</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
