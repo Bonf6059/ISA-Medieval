@@ -117,7 +117,7 @@
 
 	<!-- Patched Cloth Rugs -->
 
-	<ThingDef ParentName="_RugPatched_ClothBase">
+	<ThingDef ParentName="ISA_RugPatched_ClothBase">
 		<defName>ISA_RugPatched_Cloth1x1c</defName>
 		<label>patched cloth rug (1x1)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
