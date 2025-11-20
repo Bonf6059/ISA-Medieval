@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ======== Buildings ======== -->
+  <!-- ============= Buildings ============= -->
 
 <!--1x3 Bench Base-->
 	<ThingDef ParentName="BenchBase" Name="ISA_1X3WorkbenchBase" Abstract="True">
@@ -30,4 +30,51 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 
+  <!-- ============= Rugs and Carpets ============= -->
+	
+	<ThingDef Name="_FurnitureBaseRug" ParentName="BuildingBase" Abstract="True">
+		<altitudeLayer>FloorCoverings</altitudeLayer>
+		<wipesPlants>true</wipesPlants>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+    	<defaultPlacingRot>North</defaultPlacingRot>
+		<blocksAltitudes>
+			<li>FloorCoverings</li>
+		</blocksAltitudes>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<rotatable>true</rotatable>
+	
+		<researchPrerequisites>
+			<li>ComplexClothing</li>
+		</researchPrerequisites>
+
+	</ThingDef>
+
+	<!-- Patched Rug Base -->
+	<ThingDef Name="_PatchedRugBase" ParentName="_FurnitureBaseRug" Abstract="True">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<unfinishedThingDef>_UnfinishedRug</unfinishedThingDef>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<recipeUsers>
+				<li>HandTailoringBench</li>
+				<li>ElectricTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>
