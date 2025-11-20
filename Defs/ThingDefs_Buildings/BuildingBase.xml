@@ -86,5 +86,13 @@
 			<li>Fabric</li>
 		</stuffCategories>
 	</ThingDef>
+
+	<!-- Royal Rugs Base -->
+	
+	<ThingDef Name="ISA_RugRoyalBase" ParentName="ISA_PatchedRugBase" Abstract="True">
+		<researchPrerequisites>
+			<li>ISA_RoyalRusticFurniture</li>
+		</researchPrerequisites>
+	</ThingDef>
 	
 </Defs>
