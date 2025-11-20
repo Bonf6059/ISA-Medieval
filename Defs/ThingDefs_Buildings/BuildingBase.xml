@@ -83,5 +83,12 @@
 			<li>Leathery</li>
 		</stuffCategories>
 	</ThingDef>
+
+	<!-- Patched Cloth Rug Base -->
+	<ThingDef Name="ISA_RugPatched_ClothBase" ParentName="ISA_PatchedRugBase" Abstract="True">
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
 	
 </Defs>
