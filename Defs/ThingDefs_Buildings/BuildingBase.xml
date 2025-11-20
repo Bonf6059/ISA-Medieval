@@ -64,7 +64,7 @@
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
-			<unfinishedThingDef>_UnfinishedRug</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<effectWorking>Tailor</effectWorking>
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
