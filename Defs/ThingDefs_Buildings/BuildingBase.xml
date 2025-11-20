@@ -51,7 +51,7 @@
 			<isEdifice>false</isEdifice>
 		</building>
 		<rotatable>true</rotatable>
-	
+		<designationCategory>Floors</designationCategory>
 		<researchPrerequisites>
 			<li>ComplexClothing</li>
 		</researchPrerequisites>
