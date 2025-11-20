@@ -91,7 +91,7 @@
 	
 	<ThingDef Name="ISA_RugRoyalBase" ParentName="ISA_PatchedRugBase" Abstract="True">
 		<researchPrerequisites>
-			<li>ISA_RoyalRusticFurniture</li>
+			<li>CarpetMaking</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
