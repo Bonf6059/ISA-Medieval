@@ -33,7 +33,7 @@
 
   <!-- ============= Rugs and Carpets ============= -->
 	
-	<ThingDef Name="_FurnitureBaseRug" ParentName="BuildingBase" Abstract="True">
+	<ThingDef Name="ISA_FurnitureBaseRug" ParentName="BuildingBase" Abstract="True">
 		<altitudeLayer>FloorCoverings</altitudeLayer>
 		<wipesPlants>true</wipesPlants>
 		<minifiedDef>MinifiedThing</minifiedDef>
@@ -60,7 +60,7 @@
 
 	<!-- Patched Rug Base -->
 	
-	<ThingDef Name="_PatchedRugBase" ParentName="_FurnitureBaseRug" Abstract="True">
+	<ThingDef Name="ISA_PatchedRugBase" ParentName="ISA_FurnitureBaseRug" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
