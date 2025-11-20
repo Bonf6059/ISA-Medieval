@@ -4,6 +4,7 @@
   <!-- ============= Buildings ============= -->
 
 <!--1x3 Bench Base-->
+	
 	<ThingDef ParentName="BenchBase" Name="ISA_1X3WorkbenchBase" Abstract="True">
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -58,6 +59,7 @@
 	</ThingDef>
 
 	<!-- Patched Rug Base -->
+	
 	<ThingDef Name="_PatchedRugBase" ParentName="_FurnitureBaseRug" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -77,14 +79,8 @@
 		</comps>
 	</ThingDef>
 
-	<!-- Patched leather Rug Base -->
-	<ThingDef Name="ISA_RugPatched_LeatherBase" ParentName="ISA_PatchedRugBase" Abstract="True">
-		<stuffCategories>
-			<li>Leathery</li>
-		</stuffCategories>
-	</ThingDef>
-
 	<!-- Patched Cloth Rug Base -->
+	
 	<ThingDef Name="ISA_RugPatched_ClothBase" ParentName="ISA_PatchedRugBase" Abstract="True">
 		<stuffCategories>
 			<li>Fabric</li>
