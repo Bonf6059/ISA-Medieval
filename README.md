@@ -15,10 +15,12 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+20/11/2025
+- Addeed patched/royal/animal rugs
+
 18/11/2025
 - Replaced VFEM2 Honey texture
-- Added cabbages and wheat
-- 
+- Added cabbages and wheat 
 
 17/11/2025 - "Shedding some light"
 - Added lamp post
