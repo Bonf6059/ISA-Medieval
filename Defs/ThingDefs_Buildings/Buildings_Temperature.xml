@@ -379,6 +379,7 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<drawerType>RealtimeOnly</drawerType>
 		<surfaceType>Item</surfaceType>
+		<designationCategory>Furniture</designationCategory>
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
