@@ -380,10 +380,6 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<surfaceType>Item</surfaceType>
 		<comps>
-			<li Class="ChompProperties_FireOverlaySouth">
-				<fireSize>0.7</fireSize>
-				<offset>(0,0,-0.2)</offset>
-			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
 				<glowColor>(252,187,113,0)</glowColor>
