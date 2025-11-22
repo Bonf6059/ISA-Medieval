@@ -344,7 +344,7 @@
 		<label>wood burning stove</label>
 		<description>A small wood burning stove to heat up a small room.</description>
 		<graphicData>
-			<texPath>Building/Temperature/WoodBurningStove</texPath>
+			<texPath>Building/Temperature/WoodBurningStove/WoodBurningStove</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -390,7 +390,7 @@
 				<fuelCapacity>32.0</fuelCapacity>
 				<fuelFilter>
 					<thingDefs>
-						<li>Wood</li>
+						<li>WoodLog</li>
 						<li MayRequire="Sarg.AlphaMemes">GU_RedWood</li>
 					</thingDefs>
 				</fuelFilter>
