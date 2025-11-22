@@ -15,7 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 20/11/2025
 - Addeed patched/royal/animal rugs
-- Added "wood burning stove"
+- Added wood burning stove
 
 18/11/2025
 - Replaced VFEM2 Honey texture
