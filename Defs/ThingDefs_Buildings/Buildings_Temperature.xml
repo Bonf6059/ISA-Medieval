@@ -336,5 +336,74 @@
 			</damageData>
 		</graphicData>
 	</ThingDef>
-  
+
+
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_WoodBurningStove</defName>
+		<label>wood burning stove</label>
+		<description>A small wood burning stove to heat up a small room.</description>
+		<graphicData>
+			<texPath>Building/Temperature/WoodBurningStove</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<drawerType>RealtimeOnly</drawerType>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="ChompProperties_FireOverlaySouth">
+				<fireSize>0.7</fireSize>
+				<offset>(0,0,-0.2)</offset>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>6</fuelConsumptionRate>
+				<fuelCapacity>32.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Wood</li>
+						<li MayRequire="Sarg.AlphaMemes">GU_RedWood</li>
+					</thingDefs>
+				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>11</heatPerSecond>
+				<heatPushMaxTemperature>24</heatPushMaxTemperature>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>
