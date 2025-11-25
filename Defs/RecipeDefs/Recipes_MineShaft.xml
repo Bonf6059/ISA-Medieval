@@ -102,6 +102,29 @@
 	    	</products>
 	</RecipeDef>	-->
 
+<!--    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeUranium</defName>
+		<description>Mine deep down underground to obtain Uranium</description>
+	    	<workAmount>500</workAmount>
+	    	<label>gather Uranium</label>
+	    	<jobString>Mining 1 Uranium</jobString>
+	    	<products>
+	    		<Uranium>1</Uranium>
+	    	</products>
+	</RecipeDef>	-->
+
+<!--	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeGold</defName>
+		<description>Mine deep down underground to obtain Gold</description>
+	    	<workAmount>1000</workAmount>
+	    	<label>gather Gold</label>
+	    	<jobString>Mining 1 Gold</jobString>
+	    	<products>
+	    		<Gold>1</Gold>
+	    	</products>
+	</RecipeDef>	-->
+
+
 <!-- ========== Ores - Bulk ==========-->
 	
 	<RecipeDef ParentName="ISA_MineShaftBase">
@@ -145,6 +168,28 @@
 	    	<jobString>Mining 10 Criopyrinth</jobString>
 	    	<products>
 	    		<ISA_Criopyrinth>10</ISA_Criopyrinth>
+	    	</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeUraniumBulk</defName>
+		<description>Mine deep down underground to obtain Uranium</description>
+	    	<workAmount>2500</workAmount>
+	    	<label>gather Uranium</label>
+	    	<jobString>Mining 5 Uranium</jobString>
+	    	<products>
+	    		<Uranium>5</Uranium>
+	    	</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeGoldBulk</defName>
+		<description>Mine deep down underground to obtain Gold</description>
+	    	<workAmount>5000</workAmount>
+	    	<label>gather Gold</label>
+	    	<jobString>Mining 5 Gold</jobString>
+	    	<products>
+	    		<Gold>5</Gold>
 	    	</products>
 	</RecipeDef>
 
@@ -198,4 +243,18 @@
     			<DV_Clay>10</DV_Clay>
     		</products>
     	</RecipeDef>	
+
+	<!-- With StoneBorn Delights loaded -->
+	
+	<RecipeDef MayRequire="ISA.sbdelights" ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeChunkGlimmer</defName>
+		<description>Mine deep down underground to obtain glimmer quartz chunk</description>
+	    	<workAmount>350</workAmount>
+	    	<label>gather glimmer quartz chunk</label>
+	    	<jobString>Mining 1 glimmer quartz chunk</jobString>
+	    	<products>
+	    		<ChunkGlimmer>1</ChunkGlimmer>
+	    	</products>
+	</RecipeDef>
+	
 </Defs>
