@@ -10,10 +10,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Add Buildings_Structure.xml
-- Make a fork of stoneborn delights and add elves and minotuars xenotype to it; make patches to stoneborn to make it medieval and create factions for the minotaurs (there is already a mod). Also add some of the weapons and clothes but not all of them because it's too many.
+- Add elves and minotuars xenotype; create factions for the minotaurs (there is already a mod). Also add some of the weapons and clothes but not all of them because it's too many.
 - Add genes for addiction and resistance to opium (texture is already in the folder) and check wether ISA_alcohol work with the gene 
 
 # Old updates
+
+25/11/2025
+- Added gold, uranium and glimmer quartz (if stoneborn delights is loaded) to mine
 
 20/11/2025
 - Addeed patched/royal/animal rugs
