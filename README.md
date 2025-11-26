@@ -15,6 +15,10 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+26/11/2025
+- Added textures for genetic resistance/dependency to opium
+- Renamed "wood burning stove" to "rustic stove"
+
 25/11/2025
 - Added gold, uranium and glimmer quartz (if stoneborn delights is loaded) to mine
 
