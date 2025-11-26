@@ -341,7 +341,7 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_WoodBurningStove</defName>
-		<label>wood burning stove</label>
+		<label>rustic stove</label>
 		<description>A small wood burning stove to heat up a small room.</description>
 		<graphicData>
 			<texPath>Building/Temperature/WoodBurningStove/WoodBurningStove</texPath>
