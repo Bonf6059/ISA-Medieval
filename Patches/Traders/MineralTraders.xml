@@ -7,12 +7,6 @@
   <success>Always</success>
     <operations>
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
-        <value>
-          <li>ISA_Caravan_Minerals</li>
-        </value>
-      </li>
 
       <li Class="PatchOperationAdd">
         <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
