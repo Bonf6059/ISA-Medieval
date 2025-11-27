@@ -19,8 +19,8 @@
         <countRange>15~20</countRange>
       </li>
       
-      <li MayRequire="det.battlemeds" Class="StockGenerator_SingleDef">
-        <thingDef>HerbalPowder</thingDef>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_HerbalExtract</thingDef>
         <countRange>10~20</countRange>
       </li>
 
