@@ -59,12 +59,29 @@
   </li>
 
   <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DA_Snaptoad"]/tradeTags</xpath>
+    <value>
+    <li>ISA_MythicalAnimal</li>
+    </value>
+  </li>
+
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Goldilox"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
   </li>
 
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="DA_IroncasketBeetle"]</xpath>
+    <value>
+      <tradeTags>
+        <li>ISA_MythicalAnimal</li>
+        <li>AnimalExotic</li>
+      </tradeTags>
+    </value>
+  </li>
+        
   <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_Karabal"]/tradeTags</xpath>
     <value>
@@ -74,6 +91,13 @@
 
   <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="DA_NorthernDrog"]/tradeTags</xpath>
+    <value>
+    <li>ISA_MythicalAnimal</li>
+    </value>
+  </li>
+
+  <li MayRequire="Van.Beasts" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="DA_OwlcatThingBase"]/tradeTags</xpath>
     <value>
     <li>ISA_MythicalAnimal</li>
     </value>
