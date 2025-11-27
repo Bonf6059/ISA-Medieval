@@ -65,8 +65,13 @@
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
-        <thingDef>DA_Leather_Drog</thingDef>
-        <countRange>-50~420</countRange>
+        <thingDef>DA_EmperorPearls</thingDef>
+        <countRange>-30~5</countRange>
+      </li>
+
+	  <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_WhiteTruffle</thingDef>
+        <countRange>-30~5</countRange>
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
@@ -115,8 +120,13 @@
       </li>
 
       <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
-        <thingDef>DA_BlackChitin</thingDef>
-        <countRange>-50~420</countRange>
+        <thingDef>DA_LeviathanChitin</thingDef>
+        <countRange>-50~120</countRange>
+      </li>
+
+	  <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+        <thingDef>DA_Leather_SilverMole</thingDef>
+        <countRange>-50~120</countRange>
       </li>
 
       <li Class="StockGenerator_Animals">
