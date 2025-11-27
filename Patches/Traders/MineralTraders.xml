@@ -36,6 +36,18 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
+        <value>
+          
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Criopyrinth</thingDef>
+            <countRange>-10~95</countRange>
+          </li>
+
+        </value>
+      </li>
+
   </operations>
 </Operation>
 
