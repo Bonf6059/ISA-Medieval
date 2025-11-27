@@ -4,7 +4,7 @@
 <!--========== TRADERS ==========-->
 
 <Operation Class="PatchOperationSequence">
-  <success>Always</success>
+ <!-- <success>Always</success>  -->
     <operations>
       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
       <li Class="PatchOperationAdd">
