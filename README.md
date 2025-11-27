@@ -17,6 +17,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 27/11/2025
 - Updated Mythological Traders with the new animals and object added by "Van beasts and monsters"
+- Added Criopyrinth to [ISA]-Random Patches minerals caravan if the mod is active
+  
 26/11/2025
 - Added textures for genetic resistance/dependency to opium
 - Renamed "wood burning stove" to "rustic stove"
