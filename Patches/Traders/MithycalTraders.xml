@@ -14,12 +14,12 @@
         </value>
       </li>
 
-      <li Class="PatchOperationAdd">
+  <!--    <li Class="PatchOperationAdd">
         <xpath>/Defs/FactionDef[defName="Base_Neolithic_Standard"]/caravanTraderKinds</xpath>
         <value>
           <li>ISA_Caravan_Mythological</li>
         </value>
-      </li>
+      </li> -->
 
       <li Class="PatchOperationAdd">
         <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
