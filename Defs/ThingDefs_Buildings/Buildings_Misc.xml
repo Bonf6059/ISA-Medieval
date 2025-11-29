@@ -142,7 +142,7 @@
               <li>ISA_CriopyrinthLamp</li>
               <li>ISA_CriopyrinthWallLamp</li>
               <li>ISA_CriopyrinthBrazier</li>
-			  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
+	      	  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
               <li MayRequire="det.epochspyrinth">DV_PyrinthWallLamp</li>
               <li MayRequire="det.epochspyrinth">DV_PyrinthBrazier</li>
               <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
@@ -167,7 +167,7 @@
     <label>Criopyrinth torch</label>
     <description>A stick topped with a fist-sized Criopyrinth shard for lighting an area. People need light to move and work at full speed. Doesn't need to be refueled, ever. Produces a small amount of heat.</description>
     <graphicData>
-      <texPath>Building/Misc/CriopyrinthTorch/CriopyrinthTorch</texPath>
+      <texPath>Building/Misc/CriopyrinthTorch/CriopyrinthLamp</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <drawRotated>false</drawRotated>
       <damageData>
