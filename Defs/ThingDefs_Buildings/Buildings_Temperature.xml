@@ -62,9 +62,13 @@
             <defs>
               <li>Campfire</li>
               <li>TorchLamp</li>
-              <li MayRequire="det.epochsCriopyrinth">ISA_CriopyrinthLamp</li>
-              <li MayRequire="det.epochsCriopyrinth">ISA_CriopyrinthWallLamp</li>
-              <li MayRequire="det.epochsCriopyrinth">ISA_CriopyrinthBrazier</li>
+              <li>TorchWallLamp</li>
+              <li>ISA_CriopyrinthLamp</li>
+              <li>ISA_CriopyrinthWallLamp</li>
+              <li>ISA_CriopyrinthBrazier</li>
+			  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
+              <li MayRequire="det.epochspyrinth">DV_PyrinthWallLamp</li>
+              <li MayRequire="det.epochspyrinth">DV_PyrinthBrazier</li>
               <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
               <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
               <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
