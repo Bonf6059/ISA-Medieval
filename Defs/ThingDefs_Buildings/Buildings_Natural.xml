@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>ISA_Filth_Criopyrinth</defName>
+    <label>Criopyrinth rubble</label>
+    <graphicData>
+      <texPath>Building/Misc/Filth/CriopyrinthFilth</texPath>
+    </graphicData>
+    <filth>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>ISA_MineableCriopyrinth</defName>
+    <label>Criopyrinth</label>
+    <description>Opaque, crystallized criopyrinth, cold to the touch. It glows and cools the air around it.</description>
+    <graphicData>
+      <texPath>Building/Misc/Natural/Linked/Criopyrinth_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <filthLeaving>ISA_Filth_Criopyrinth</filthLeaving>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>ISA_Criopyrinth</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>5~6</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+    <comps inherit="False">
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(77,117,192,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>-2.5</heatPerSecond>
+        <heatPushMaxTemperature>-20</heatPushMaxTemperature>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
