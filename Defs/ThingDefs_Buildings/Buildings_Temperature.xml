@@ -26,6 +26,7 @@
     <minifiedDef>MinifiedThing</minifiedDef>
     <stuffCategories>
       <li>Metallic</li>
+	  <li>Stony</li>
     </stuffCategories>
     <costStuffCount>50</costStuffCount>
     <costList>
@@ -85,7 +86,7 @@
     <pathCost>42</pathCost>
     <rotatable>true</rotatable>
     <graphicData> <!-- art+to -->
-      <texPath>Building/Temperature/Criopyrinth/CriopyrinthBrazier</texPath>
+      <texPath>Building/Temperature/CriopyrinthBrazier</texPath>
       <drawSize>(2.7,2.7)</drawSize>
       <drawRotated>false</drawRotated>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -111,7 +112,7 @@
     <label>Criopyrinth cooler</label>
     <description>A volatile device that houses crumbled Criopyrinth crystals. A steady, reliable source of cool air that can't be modified. More stable than it's pyrinth counterpart it won't explode upon being damaged.</description>
     <graphicData>
-      <texPath>Building/Temperature/Criopyrinth/CriopyrinthCooler</texPath>
+      <texPath>Building/Temperature/CriopyrinthCooler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <shadowData>
