@@ -19,8 +19,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 29/11/2025
 - Criopyrinth braziers are now stuffable with stony and metallic materials
 - Remade every texture of criopyrinth and stuff made with it
-- Added criopyrinth torches and wall torches
+- Added criopyrinth wall torches
 - Added naturally occuring criopyrinth deposits
+- Replaced texture of Stonecutting Table
 
 27/11/2025
 - Updated Mythological Traders with the new animals and object added by "Van beasts and monsters"
