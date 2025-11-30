@@ -147,12 +147,23 @@
         </nomatch>
     </Operation>
 
- <!--   <Operation Class="PatchOperationConditional">
-        <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
-        <match Class="PatchOperationRemove">
-            <xpath>Defs/ThingDef[defName="Brewery"]/constructEffect</xpath>
-        </match>
-    </Operation>	-->
+    <!-- Replace Vanilla Stone cutting Table texture -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="TableStonecutter"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/TableStonecutter/TableStonecutter</texPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="TableStonecutter"]/graphicData/shaderType</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="TableStonecutter"]/graphicData</xpath>
+            <value>
+                <shaderType>CutoutComplex</shaderType>
+            </value>
+        </nomatch>
+    </Operation>
 
     <!-- Replace Vanilla Research Bench texture -->
 	
