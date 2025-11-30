@@ -342,9 +342,9 @@
 		</graphicData>
 	</ThingDef>
 
+<!-- Rustic Stove -->
 
-
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase" Name="ISA_RusticStoveBase">
 		<defName>ISA_WoodBurningStove</defName>
 		<label>rustic stove</label>
 		<description>A small wood burning stove to heat up a small room.</description>
@@ -400,6 +400,29 @@
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>11</heatPerSecond>
+				<heatPushMaxTemperature>24</heatPushMaxTemperature>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Pyrinth rustic stove -->
+
+	<ThingDef ParentName="ISA_RusticStoveBase">
+		<defName>ISA_PyrinthBurningStove</defName>
+		<label>pyrinth rustic stove</label>
+		<description>A small stove to heat up a small room using pyrinth.</description>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<comps Inherit="False">
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
