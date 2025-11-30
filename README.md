@@ -29,7 +29,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 26/11/2025
 - Added textures for genetic resistance/dependency to opium
-- Renamed "wood burning stove" to "rustic stove"
+- Renamed "wood burning stove" to "rustic stove" and added a pyrinth variant if epochs-pyrinths is active
 
 25/11/2025
 - Added gold, uranium and glimmer quartz (if stoneborn delights is loaded) to mine
