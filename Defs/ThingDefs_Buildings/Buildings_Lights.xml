@@ -139,7 +139,7 @@
               <li>Campfire</li>
               <li>TorchLamp</li>
               <li>TorchWallLamp</li>
-              <li>ISA_CriopyrinthLamp</li>
+         <!--     <li>ISA_CriopyrinthLamp</li>	-->
               <li>ISA_CriopyrinthWallLamp</li>
               <li>ISA_CriopyrinthBrazier</li>
 	      	  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
@@ -256,7 +256,7 @@
               <li>Campfire</li>
               <li>TorchLamp</li>
               <li>TorchWallLamp</li>
-              <li>ISA_CriopyrinthLamp</li>
+         <!--     <li>ISA_CriopyrinthLamp</li>	-->
               <li>ISA_CriopyrinthWallLamp</li>
               <li>ISA_CriopyrinthBrazier</li>
 			  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
