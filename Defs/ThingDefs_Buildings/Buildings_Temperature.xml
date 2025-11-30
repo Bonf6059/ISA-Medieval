@@ -411,7 +411,7 @@
 
 	<!-- Pyrinth rustic stove -->
 
-	<ThingDef ParentName="ISA_RusticStoveBase">
+	<ThingDef ParentName="ISA_RusticStoveBase" MayRequire="det.epochspyrinth">
 		<defName>ISA_PyrinthBurningStove</defName>
 		<label>pyrinth rustic stove</label>
 		<description>A small stove to heat up a small room using pyrinth.</description>
@@ -419,6 +419,9 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>45</costStuffCount>
+		<costList>
+     		 <DV_Pyrinth>15</DV_Pyrinth>
+    	</costList>
 		<comps Inherit="False">
 			<li Class="CompProperties_Glower">
 				<glowRadius>5</glowRadius>
