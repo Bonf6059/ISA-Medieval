@@ -37,7 +37,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Renamed "wood burning stove" to "rustic stove" and added a pyrinth variant if epochs-pyrinths is active
 
 25/11/2025
-- Added gold, uranium and glimmer quartz (if stoneborn delights is loaded) to mine
+- Added gold, uranium and glimmer quartz (if ISA.stoneborndelights is loaded) to mine
 
 20/11/2025
 - Addeed patched/royal/animal rugs
