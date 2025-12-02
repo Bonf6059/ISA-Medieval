@@ -16,6 +16,10 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+02/12/2025
+- Deleted duplicated items with ISA.MonsterHunters
+- Locked behind research criopyrinth torches
+
 29/11/2025
 - Criopyrinth braziers are now stuffable with stony and metallic materials
 - Remade every texture of criopyrinth and stuff made with it
