@@ -52,19 +52,6 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_Milk</defName>
-		<label>empty milk jar</label>
-		<description>An empty milk jar. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Bottle_Milk</texPath>
-		</graphicData>
-
-		<costList>
-			<Milk>1</Milk>
-		</costList>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_BeveragesGroup">
 		<defName>ISA_OnTop_Bottle_Ale</defName>
 		<label>empty ale mug</label>
 		<description>An empty ale mug. Can be placed on top of tables for decoration.</description>
@@ -109,11 +96,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_MulberryWine</defName>
-		<label>empty mulberry wine bottle</label>
-		<description>An empty mulberry wine bottle. Can be placed on top of tables for decoration.</description>
+		<defName>ISA_OnTop_Bottle_BerryWine</defName>
+		<label>empty berry wine bottle</label>
+		<description>An empty berry wine bottle. Can be placed on top of tables for decoration.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Bottle_MulberryWine</texPath>
+			<texPath>Things/Building/Furniture/Decoration/Props/Bottle_BerryWine</texPath>
 		</graphicData>
 		
 		<statBases>
@@ -122,43 +109,7 @@
 		</statBases>
 
 		<costList Inherit="false">
-			<ISA_Wine_Mulberry>1</ISA_Wine_Mulberry>
-		</costList>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_IceWine</defName>
-		<label>empty ice wine bottle</label>
-		<description>An empty mulberry wine bottle. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Bottle_IceWine</texPath>
-		</graphicData>
-		
-		<statBases>
-			<Beauty>10</Beauty>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-
-		<costList Inherit="false">
-			<ISA_Wine_Ice>1</ISA_Wine_Ice>
-		</costList>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_GriffonWine</defName>
-		<label>empty griffon wine bottle</label>
-		<description>An empty griffon wine bottle. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Bottle_GriffonWine</texPath>
-		</graphicData>
-		
-		<statBases>
-			<Beauty>10</Beauty>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-
-		<costList Inherit="false">
-			<ISA_Wine_Griffon>1</ISA_Wine_Griffon>
+			<ISA_Wine_Berry>1</ISA_Wine_Berry>
 		</costList>
 	</ThingDef>
 
@@ -226,35 +177,6 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_KitchenGroup_Base">
-		<defName>ISA_OnTop_Kitchen_Plate</defName>
-		<label>empty plate</label>
-		<description>An empty plate. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Plate</texPath>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_KitchenGroup_Base">
-		<defName>ISA_OnTop_Kitchen_CookingPot</defName>
-		<label>empty cooking pot</label>
-		<description>An empty cooking pot. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/CookingPot</texPath>
-		</graphicData>
-		<costStuffCount>20</costStuffCount>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_KitchenGroup_Base">
-		<defName>ISA_OnTop_Kitchen_Cup</defName>
-		<label>empty cup</label>
-		<description>An empty cup. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Cup</texPath>
-		</graphicData>
-		<costStuffCount>10</costStuffCount>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_KitchenGroup_Base">
 		<defName>ISA_OnTop_Kitchen_EmbeddedCleaver</defName>
 		<label>embedded cleaver</label>
 		<description>A cleaver stuck to a surface. Can be placed on top of tables for decoration.</description>
@@ -277,19 +199,6 @@
 	<!-- Research and Alchemy Tools -->
 	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ResearchToolsGroup" Abstract="true">
 		<designatorDropdown>ISA_ResearchTools</designatorDropdown>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_ResearchToolsGroup">
-		<defName>ISA_OnTop_Research_Flasks</defName>
-		<label>inert flasks</label>
-		<description>Chemically inactive flasks. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/ResearchFlask</texPath>
-		</graphicData>
-
-		<costList>
-			<WoodLog>15</WoodLog>
-		</costList>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ResearchToolsGroup">
