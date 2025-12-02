@@ -160,6 +160,9 @@
         </offsets>
       </li>
     </comps>
+	<researchPrerequisites>
+		<li>ISA_Cooling</li>
+	</researchPrerequisites>
   </ThingDef>
 
 <!-- Criopyrinth Lamp - non funziona la texture e non capisco perchè -->
