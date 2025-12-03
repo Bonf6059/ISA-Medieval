@@ -124,6 +124,17 @@
 	    	</products>
 	</RecipeDef>	-->
 
+<!--    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeJade</defName>
+		<description>Mine deep down underground to obtain Jade</description>
+	    	<workAmount>600</workAmount>
+	    	<label>gather Jade</label>
+	    	<jobString>Mining 1 Jade</jobString>
+	    	<products>
+	    		<Jade>1</Jade>
+	    	</products>
+	</RecipeDef>	-->
+
 <!-- ========== Ores - Bulk ==========-->
 	
 	<RecipeDef ParentName="ISA_MineShaftBase">
@@ -189,6 +200,17 @@
 	    	<jobString>Mining 10 Criopyrinth</jobString>
 	    	<products>
 	    		<ISA_Criopyrinth>10</ISA_Criopyrinth>
+	    	</products>
+	</RecipeDef>
+
+    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeJadeBulk</defName>
+		<description>Mine deep down underground to obtain Jade</description>
+	    	<workAmount>3000</workAmount>
+	    	<label>gather Jade x5</label>
+	    	<jobString>Mining 5 Jade</jobString>
+	    	<products>
+	    		<Jade>5</Jade>
 	    	</products>
 	</RecipeDef>
 	
