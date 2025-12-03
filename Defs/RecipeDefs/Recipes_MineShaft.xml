@@ -114,17 +114,6 @@
 	</RecipeDef>	-->
 
 <!--    <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeCriopyrinth</defName>
-		<description>Mine deep down underground to obtain Criopyrinth</description>
-	    	<workAmount>300</workAmount>
-	    	<label>gather Criopyrinth</label>
-	    	<jobString>Mining 1 Criopyrinth</jobString>
-	    	<products>
-	    		<ISA_Criopyrinth>1</ISA_Criopyrinth>
-	    	</products>
-	</RecipeDef>	-->
-
-<!--    <RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeJade</defName>
 		<description>Mine deep down underground to obtain Jade</description>
 	    	<workAmount>600</workAmount>
@@ -132,6 +121,17 @@
 	    	<jobString>Mining 1 Jade</jobString>
 	    	<products>
 	    		<Jade>1</Jade>
+	    	</products>
+	</RecipeDef>	-->
+	
+<!--    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeCriopyrinth</defName>
+		<description>Mine deep down underground to obtain Criopyrinth</description>
+	    	<workAmount>300</workAmount>
+	    	<label>gather Criopyrinth</label>
+	    	<jobString>Mining 1 Criopyrinth</jobString>
+	    	<products>
+	    		<ISA_Criopyrinth>1</ISA_Criopyrinth>
 	    	</products>
 	</RecipeDef>	-->
 
@@ -193,17 +193,6 @@
 	</RecipeDef>
 
     <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeCriopyrinthBulk</defName>
-		<description>Mine deep down underground to obtain Criopyrinth</description>
-	    	<workAmount>3000</workAmount>
-	    	<label>gather Criopyrinth x10</label>
-	    	<jobString>Mining 10 Criopyrinth</jobString>
-	    	<products>
-	    		<ISA_Criopyrinth>10</ISA_Criopyrinth>
-	    	</products>
-	</RecipeDef>
-
-    <RecipeDef ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeJadeBulk</defName>
 		<description>Mine deep down underground to obtain Jade</description>
 	    	<workAmount>3000</workAmount>
@@ -211,6 +200,17 @@
 	    	<jobString>Mining 5 Jade</jobString>
 	    	<products>
 	    		<Jade>5</Jade>
+	    	</products>
+	</RecipeDef>
+	
+    <RecipeDef ParentName="ISA_MineShaftBase">
+		<defName>ISA_MakeCriopyrinthBulk</defName>
+		<description>Mine deep down underground to obtain Criopyrinth</description>
+	    	<workAmount>3000</workAmount>
+	    	<label>gather Criopyrinth x10</label>
+	    	<jobString>Mining 10 Criopyrinth</jobString>
+	    	<products>
+	    		<ISA_Criopyrinth>10</ISA_Criopyrinth>
 	    	</products>
 	</RecipeDef>
 	
