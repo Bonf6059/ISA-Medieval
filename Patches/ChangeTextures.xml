@@ -28,14 +28,14 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Bed"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Building/Furnitures/Beds/Vanilla Bed/BedWicker</texPath>
+      <texPath>Building/Furnitures/Beds/RusticBed/Green/RusticBed1x2_Green</texPath>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="DoubleBed"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Building/Furnitures/Beds/Vanilla Bed/BedWickerDouble</texPath>
+      <texPath>Building/Furnitures/Beds/RusticBed/Green/RusticBed2x2_Green</texPath>
     </value>
   </Operation>
 
