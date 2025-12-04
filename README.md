@@ -17,6 +17,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+04/12/2025
+- Added signs, room dividers and table top decorations
+
 02/12/2025
 - Deleted duplicated items with ISA.MonsterHunters
 - Locked behind research criopyrinth torches
