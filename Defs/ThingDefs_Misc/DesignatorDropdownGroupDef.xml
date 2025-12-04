@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Table top decorations -->
+  
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Beverages</defName>
+		<label>beverages</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_ScribeTools</defName>
+		<label>scribe tools</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_ResearchTools</defName>
+		<label>research tools</label>
+	</DesignatorDropdownGroupDef>
+
+<!-- Rugs -->
+  
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_RugPatchedCloth</defName>
+		<label>patched cloth rugs</label>
+	</DesignatorDropdownGroupDef>
+
+ 	<DesignatorDropdownGroupDef>
+		<defName>ISA_RugRoyal</defName>
+		<label>royal rugs</label>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>ISA_RugAnimal</defName>
+		<label>animal rugs</label>
+	</DesignatorDropdownGroupDef>
+
+</Defs>
