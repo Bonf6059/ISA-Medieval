@@ -8,7 +8,7 @@
 		<label>small bookshelf</label>
 		<description>Increases research speed when placed near research table. Each research bench can  use two small research shelves.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/RusticBookshelf1x1</texPath>
+			<texPath>Building/Furnitures/Decorations/Shelfs/BookShelf/Small/RusticBookshelf1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>3</drawSize>
 			<shaderType>CutoutComplex</shaderType>
@@ -88,7 +88,7 @@
 		<label>large bookshelf</label>
 		<description>Increases research speed when placed near research table. Each research bench can use one large research shelf.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/RusticBookshelf1x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Shelfs/BookShelf/Big/RusticBookshelf1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.5,3)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
