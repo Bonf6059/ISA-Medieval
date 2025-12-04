@@ -14,7 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Check wether ISA_alcohol work with the vanilla gene
 - Add alchemist trader
 - Check what to do with the rugs, there are some textures not being used
-- Add 2 new beds (rustic bed blue and red) in a drop down menu of vanilla bed
+- Add 2 new beds (rustic bed blue and red) in a drop down menu of vanilla bed - look at table top decorations for example
 
 # Old updates
 
