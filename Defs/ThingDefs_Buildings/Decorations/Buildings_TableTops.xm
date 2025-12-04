@@ -168,15 +168,6 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_KitchenGroup_Base">
-		<defName>ISA_OnTop_Kitchen_Bowl</defName>
-		<label>empty bowl</label>
-		<description>An empty bowl. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Props/Bowl</texPath>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_KitchenGroup_Base">
 		<defName>ISA_OnTop_Kitchen_EmbeddedCleaver</defName>
 		<label>embedded cleaver</label>
 		<description>A cleaver stuck to a surface. Can be placed on top of tables for decoration.</description>
