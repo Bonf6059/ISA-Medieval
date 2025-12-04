@@ -19,6 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 04/12/2025
 - Added signs, room dividers and table top decorations
+- Moved rugs' textures inside the decoration folder
 
 02/12/2025
 - Deleted duplicated items with ISA.MonsterHunters
