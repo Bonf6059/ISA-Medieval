@@ -8,7 +8,7 @@
 		<label>room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/RoomDivider1x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Dividers/RoomDivider1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.5,2)</drawSize>
 		</graphicData>
@@ -45,7 +45,7 @@
 		<label>thick open room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns. Capable of holding up a roof.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/ThickDividerWindow</texPath>
+			<texPath>Building/Furnitures/Decorations/Dividers/ThickDividerWindow</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
 		</graphicData>
@@ -87,7 +87,7 @@
 		<label>thick covered room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns. Capable of holding up a roof.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/ThickDividerCovered</texPath>
+			<texPath>Building/Furnitures/Decorations/Dividers/ThickDividerCovered</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
 		</graphicData>
@@ -129,7 +129,7 @@
 		<label>tall divider column (1x2)</label>
 		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice.</description>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/TallColumn</texPath>
+			<texPath>Building/Furnitures/Decorations/Dividers/TallColumn</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
