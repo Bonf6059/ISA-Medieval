@@ -85,6 +85,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
+		<designatorDropdown>ISA_RugPatchedCloth</designatorDropdown>
 	</ThingDef>
 
 	<!-- Royal Rugs Base -->
@@ -93,6 +94,13 @@
 		<researchPrerequisites>
 			<li>CarpetMaking</li>
 		</researchPrerequisites>
+		<designatorDropdown>ISA_RugRoyal</designatorDropdown>
+	</ThingDef>
+
+	<!-- Animal Rugs Base -->
+	
+	<ThingDef Name="ISA_RugAnimalBase" ParentName="ISA_FurnitureBaseRug" Abstract="True">
+		<designatorDropdown>ISA_RugAnimal</designatorDropdown>
 	</ThingDef>
 	
 </Defs>
