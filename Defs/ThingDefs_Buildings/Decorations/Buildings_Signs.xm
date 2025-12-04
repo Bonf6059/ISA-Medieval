@@ -100,14 +100,6 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SignBase">
-		<defName>ISA_Sign_Woodworking</defName>
-		<label>woodworking sign</label>
-		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignWoodworking</texPath>
-		</graphicData>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_SignBase">
 		<defName>ISA_Sign_Barn</defName>
 		<label>barn sign</label>
 		<graphicData>
