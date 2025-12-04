@@ -192,37 +192,7 @@
 			<ISA_Paper>50</ISA_Paper>
 		</costList>
 	</ThingDef>
-
-	<!-- Kitchen Tools -->
-	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_KitchenGroup_Base" Abstract="true">
-		<stuffCategories>
-			<li>Woody</li>
-			<li>Metallic</li>
-			<li>Stony</li>
-		</stuffCategories>
-		<costStuffCount>15</costStuffCount>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_KitchenGroup_Base">
-		<defName>ISA_OnTop_Kitchen_EmbeddedCleaver</defName>
-		<label>embedded cleaver</label>
-		<description>A cleaver stuck to a surface. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/KitchenTools/EmbeddedCleaver</texPath>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>25</costStuffCount>
-		<costList>
-			<WoodLog>10</WoodLog>
-		</costList>
-		<researchPrerequisites>
-			<li>Smithing</li>
-		</researchPrerequisites>
-	</ThingDef>
-
+	
 	<!-- Research and Alchemy Tools -->
 	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ResearchToolsGroup" Abstract="true">
 		<designatorDropdown>ISA_ResearchTools</designatorDropdown>
