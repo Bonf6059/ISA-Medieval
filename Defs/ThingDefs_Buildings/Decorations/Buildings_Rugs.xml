@@ -204,7 +204,7 @@
 
 	<!-- Animal Rugs -->
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugWolfTimber2x2c</defName>
 		<label>timber wolf rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The grizzled grayish-brown fur of the timber wolf may make for a valuable rug but comes with a high cost as the hunter will likely face the beast in a pack.</description>
@@ -224,7 +224,7 @@
 		<size>(2,2)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugWolfArctic2x2c</defName>
 		<label>arctic wolf rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. A variant of the wolf, arctic wolf rugs tell the story of a hunter who braved dangerous temperatures and conquered starving predators biologically designed for survival.</description>
@@ -244,7 +244,7 @@
 		<size>(2,2)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugCougar2x2c</defName>
 		<label>cougar rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Cougars are prized for their luxurious pelts, which in turn makes for a valuable alternative to basic rugs.</description>
@@ -264,7 +264,7 @@
 		<size>(2,2)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugPanther2x2c</defName>
 		<label>panther rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Panther rugs, much like the animals themselves, fall into shadows during the night but marbled eyes illuminate in the darkness.</description>
@@ -284,7 +284,7 @@
 		<size>(2,2)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugGrizzlyBear3x3c</defName>
 		<label>grizzly bear rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The bear’s great coat is one of the most sought-after materials for animal-skinned rugs, making the grizzly bear rug a worthy choice for the daring colonist brave enough to face the hunt.</description>
@@ -304,7 +304,7 @@
 		<size>(3,3)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugPolarBear3x3c</defName>
 		<label>polar bear rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The polar bears found in frozen climates host great white fur that makes for cold-resistant rugs. Especially valuable to homesteads found in cold temperatures.</description>
@@ -324,7 +324,7 @@
 		<size>(3,3)</size>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_FurnitureBaseRug">
+	<ThingDef ParentName="ISA_RugAnimalBase">
 		<defName>ISA_RugThrumbo3x3c</defName>
 		<label>thrumbo rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Few hunters can craft a trophy with a more refined and resistant coat than that of the thrumbo rug. Its long fur can catch the eye of any colonist, but the strong hide requires much work to tailor. Beware the horn while walking.</description>
