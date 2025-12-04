@@ -8,7 +8,7 @@
 		<description>A wooden hanging sign use to symbolize the purpose of a room.</description>
 		<thingClass>Building</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignTavern</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignTavern</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -47,7 +47,7 @@
 		<defName>ISA_Sign_Bread</defName>
 		<label>bakery sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignBakery</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignBakery</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -55,7 +55,7 @@
 		<defName>ISA_Sign_Butcher</defName>
 		<label>butcher sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignButcher</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignButcher</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -63,7 +63,7 @@
 		<defName>ISA_Sign_Smith</defName>
 		<label>smith sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignSmith</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignSmith</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -71,7 +71,7 @@
 		<defName>ISA_Sign_Apothecary</defName>
 		<label>apothecary sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignHerbalist</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignHerbalist</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -79,7 +79,7 @@
 		<defName>ISA_Sign_Jewelry</defName>
 		<label>jewelry sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignJewelry</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignJewelry</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -87,7 +87,7 @@
 		<defName>ISA_Sign_Library</defName>
 		<label>library sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignBook</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignBook</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -95,7 +95,7 @@
 		<defName>ISA_Sign_Tailor</defName>
 		<label>tailor sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignTailor</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignTailor</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -103,7 +103,7 @@
 		<defName>ISA_Sign_Barn</defName>
 		<label>barn sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignBarn</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignBarn</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -111,7 +111,7 @@
 		<defName>ISA_Sign_Winery</defName>
 		<label>winery sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignWinery</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignWinery</texPath>
 		</graphicData>
 	</ThingDef>
 
@@ -119,7 +119,7 @@
 		<defName>ISA_Sign_Scribe</defName>
 		<label>scribe sign</label>
 		<graphicData>
-			<texPath>Things/Building/Furniture/Decoration/Signs/SignScribe</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignScribe</texPath>
 		</graphicData>
 	</ThingDef>
 	
