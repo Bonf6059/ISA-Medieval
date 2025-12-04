@@ -11,8 +11,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Add Buildings_Structure.xml
 - Add elves and minotuars xenotype; create factions for the minotaurs (there is already a mod). Also add some of the weapons and clothes but not all of them because it's too many.
-- Check wether ISA_alcohol work with the gene
+- Check wether ISA_alcohol work with the vanilla gene
 - Add alchemist trader
+- Check what to do with the rugs, there are some textures not being used
 
 # Old updates
 
