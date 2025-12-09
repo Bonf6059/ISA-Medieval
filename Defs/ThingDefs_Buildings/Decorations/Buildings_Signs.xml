@@ -41,6 +41,7 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
+		<designatorDropdown>ISA_Signs</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SignBase">
