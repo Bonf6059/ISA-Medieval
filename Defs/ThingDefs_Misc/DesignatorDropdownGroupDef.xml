@@ -54,7 +54,7 @@
 		<label>bricks pile</label>
 	</DesignatorDropdownGroupDef>
 
-	<DesignatorDropdownGroupDef>
+<!--	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_IngotStack_Small</defName>
 		<label>small ingots stack</label>
 	</DesignatorDropdownGroupDef>
@@ -67,7 +67,7 @@
 	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_IngotStack_Large</defName>
 		<label>large ingots stack</label>
-	</DesignatorDropdownGroupDef>
+	</DesignatorDropdownGroupDef>	-->
 
 	<DesignatorDropdownGroupDef>
 		<defName>ISA_Storage_Cupboard</defName>
