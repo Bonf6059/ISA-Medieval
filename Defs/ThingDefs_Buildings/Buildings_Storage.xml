@@ -41,7 +41,7 @@
 		<label>hay pile</label>
 		<description>A collective pile of straw, flax, and hay fashioned to conserve space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Pile1x2</texPath>
+			<texPath>Building/Storage/Misc/Straw/Pile1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
 			<color>(137,132,0)</color>
@@ -82,7 +82,7 @@
 		<label>raw wood pile (1x1)</label>
 		<description>Logs that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/RawWood1x1</texPath>
+			<texPath>Building/Storage/Misc/Wood/Wood1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -126,7 +126,7 @@
 		<label>raw wood pile (1x2)</label>
 		<description>Logs that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/RawWood1x2</texPath>
+			<texPath>Building/Storage/Misc/Wood/Wood1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
 		</graphicData>
@@ -169,7 +169,7 @@
 		<label>raw wood pile (2x2)</label>
 		<description>Logs that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/RawWood2x2</texPath>
+			<texPath>Building/Storage/Misc/Wood/Wood2x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -206,141 +206,13 @@
 		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 
-	<!--== Timber 1x1 ==-->
-	<ThingDef ParentName="ISA_LumberStorageBase">
-		<defName>ISA_Timber1x1c</defName>
-		<label>timber (1x1)</label>
-		<description>Timber that are stacked in an efficient manner to save more space.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Timber1x1</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,2)</drawSize>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<size>(1,1)</size>
-		<uiIconScale>0.5</uiIconScale>
-		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<Mass>4</Mass>
-			<WorkToBuild>250</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
-		</statBases>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>10</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-	</ThingDef>
-
-	<!--== Timber 1x2 ==-->
-	<ThingDef ParentName="ISA_LumberStorageBase">
-		<defName>ISA_Timber1x2c</defName>
-		<label>timber (1x2)</label>
-		<description>Timber that are stacked in an efficient manner to save more space.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Timber1x2</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,3)</drawSize>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<size>(2,1)</size>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>8</Mass>
-			<WorkToBuild>500</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<stuffCategories Inherit="false">
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>20</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-	</ThingDef>
-
-	<!--== Timber 2x2 ==-->
-	<ThingDef ParentName="ISA_LumberStorageBase">
-		<defName>ISA_Timber2x2c</defName>
-		<label>timber (2x2)</label>
-		<description>Timber that are stacked in an efficient manner to save more space.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Timber2x2</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,4)</drawSize>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<size>(2,2)</size>
-		<uiIconScale>0.75</uiIconScale>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>16</Mass>
-			<WorkToBuild>1000</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-		</statBases>
-		<stuffCategories Inherit="false">
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-	</ThingDef>
-
 	<!--== Bricks ==-->
 	<ThingDef ParentName="ISA_BrickStorageBase">
 		<defName>ISA_Bricks1x1c</defName>
 		<label>bricks (1x1)</label>
 		<description>Bricks that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Bricks1x1</texPath>
+			<texPath>Building/Storage/Misc/Bricks/Bricks1x1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -384,7 +256,7 @@
 		<label>bricks (1x2)</label>
 		<description>Bricks that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Bricks1x2</texPath>
+			<texPath>Building/Storage/Misc/Bricks/Bricks1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -426,7 +298,7 @@
 		<label>bricks (2x2)</label>
 		<description>Bricks that are stacked in an efficient manner to save more space.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Bricks2x2</texPath>
+			<texPath>Building/Storage/Misc/Bricks/Bricks2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -465,7 +337,7 @@
 	</ThingDef>
 
 	<!--== Steel Ingots ==-->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_SteelIngotStackBase">
+<!--	<ThingDef ParentName="ISA_StorageBase" Name="ISA_SteelIngotStackBase">
 		<defName>ISA_SteelIngots1x1c</defName>
 		<label>steel ingot stack(1x1)</label>
 		<description>Ingots that are stacked in an efficient manner to save more space.</description>
@@ -552,10 +424,10 @@
 			<Steel>40</Steel>
 		</costList>
 		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
-	</ThingDef>
+	</ThingDef>	-->
 	
 	<!--== Silver Ingots ==-->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_SilverIngotStackBase">
+<!--	<ThingDef ParentName="ISA_StorageBase" Name="ISA_SilverIngotStackBase">
 		<defName>ISA_SilverIngots1x1c</defName>
 		<label>silver ingot stack(1x1)</label>
 		<description>Ingots that are stacked in an efficient manner to save more space.</description>
@@ -639,10 +511,10 @@
 			<Silver>40</Silver>
 		</costList>
 		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!--== Gold Ingots ==-->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_GoldIngotStackBase">
+<!--	<ThingDef ParentName="ISA_StorageBase" Name="ISA_GoldIngotStackBase">
 		<defName>ISA_GoldIngots1x1c</defName>
 		<label>gold ingot stack(1x1)</label>
 		<description>Ingots that are stacked in an efficient manner to save more space.</description>
@@ -726,10 +598,10 @@
 			<Gold>40</Gold>
 		</costList>
 		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!--== Plasteel Ingots ==-->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_PlasteelStackBase">
+<!--	<ThingDef ParentName="ISA_StorageBase" Name="ISA_PlasteelStackBase">
 		<defName>ISA_Plasteel1x1c</defName>
 		<label>plasteel stack(1x1)</label>
 		<description>Ingots that are stacked in an efficient manner to save more space.</description>
@@ -813,7 +685,7 @@
 			<Plasteel>40</Plasteel>
 		</costList>
 		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
-	</ThingDef>
+	</ThingDef>	-->
 	
 	<!--======================= Cupboard ==============================-->
 	<ThingDef ParentName="ISA_StorageBase">
@@ -821,7 +693,7 @@
 		<label>cupboard</label>
 		<description>An open cupboard to store and display objects in an efficient manner.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/CupboardEmpty</texPath>
+			<texPath>Building/Storage/Cupboard/CupboardEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(5,3)</drawSize>
 		</graphicData>
@@ -846,7 +718,7 @@
 		<label>bread cupboard</label>
 		<description>An open cupboard to store and display objects in an efficient manner.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/CupboardBread</texPath>
+			<texPath>Building/Storage/Cupboard/CupboardBread/CupboardBread</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(5,3)</drawSize>
@@ -889,7 +761,7 @@
 		<defName>ISA_RusticCupboardCheese</defName>
 		<label>cheese cupboard</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/CupboardCheese</texPath>
+			<texPath>Building/Storage/Cupboard/CupboardCheese/CupboardCheese</texPath>
 		</graphicData>
 		<uiIconPath>Things/Building/Storage/CupboardCheese_north</uiIconPath>
 		<building>
@@ -924,7 +796,7 @@
 		<defName>ISA_RusticCupboardWine</defName>
 		<label>wine cupboard</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/CupboardDrug</texPath>
+			<texPath>Building/Storage/Cupboard/CupboardWine/CupboardWine</texPath>
 		</graphicData>
 		<uiIconPath>Things/Building/Storage/CupboardDrug_north</uiIconPath>
 		<building>
@@ -956,7 +828,7 @@
 		<label>large barrel</label>
 		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelBig</texPath>
+			<texPath>Building/Storage/Barrel/BarrelBig/BarrelBig</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -984,7 +856,7 @@
 		<label>large barrel</label>
 		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelBigDown</texPath>
+			<texPath>Building/Storage/Barrel/BarrelBig/BarrelBigDown</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -1012,7 +884,7 @@
 		<label>barrel</label>
 		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelClosed</texPath>
+			<texPath>Building/Storage/Barrel/BarrelClosed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -1040,7 +912,7 @@
 		<label>barrel of wood</label>
 		<description>A cylindrical barrel reserved for wood to save space. Can hold up to 4 stacks of wood. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelWoodLog</texPath>
+			<texPath>Building/Storage/Barrel/BarrelWoodLog/BarrelWoodLog</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -1086,7 +958,7 @@
 		<label>barrel of coal ore</label>
 		<description>A cylindrical barrel reserved for coal ore to save space. Can hold up to 4 stacks of coal ore. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelCoalOre</texPath>
+			<texPath>Building/Storage/Barrel/BarrelCoalOre/BarrelCoalOre</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -1119,7 +991,7 @@
 		<label>barrel of textiles</label>
 		<description>A cylindrical barrel reserved for textiles to save space.  up to 4 stacks of textiles. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelTextiles</texPath>
+			<texPath>Building/Storage/Barrel/BarrelTextiles/BarrelTextiles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -1158,7 +1030,7 @@
 		<label>barrel of leather</label>
 		<description>A cylindrical barrel reserved for leather to save space. Can hold up to 4 stacks of leather. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelLeather</texPath>
+			<texPath>Building/Storage/Barrel/BarrelLeather/BarrelLeather</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -1191,7 +1063,7 @@
 		<label>barrel of grape</label>
 		<description>A cylindrical barrel reserved for wood ore to save space. Can hold up to 4 stacks of grapes. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BarrelGrape</texPath>
+			<texPath>Building/Storage/Barrel/BarrelGrape/BarrelGrape</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
@@ -1224,7 +1096,7 @@
 		<label>large empty shelf</label>
 		<description>A large square platform designed to store things, keeping them clean and off the ground.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackEmpty</texPath>
+			<texPath>Building/Storage/Stack/StackEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -1247,7 +1119,7 @@
 		<label>large bread shelf</label>
 		<description>A large square platform designed to store things, keeping them clean and off the ground.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackBread</texPath>
+			<texPath>Building/Storage/Stack/StackBread/StackBread</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(4,4)</drawSize>
@@ -1288,7 +1160,7 @@
 		<defName>ISA_LargeShelf_Grain</defName>
 		<label>large grain shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackFlour</texPath>
+			<texPath>Building/Storage/Stack/StackFlour/StackFlour</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings>
@@ -1314,7 +1186,7 @@
 		<defName>ISA_Large_Meat_Shelf</defName>
 		<label>large meat shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackMeat</texPath>
+			<texPath>Building/Storage/Stack/StackMeat/StackMeat</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings Inherit="False">
@@ -1338,7 +1210,7 @@
 		<defName>ISA_LargeShelf_Cheese</defName>
 		<label>large cheese shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackCheese</texPath>
+			<texPath>Building/Storage/Stack/StackCheese/StackCheese</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings Inherit="False">
@@ -1371,7 +1243,7 @@
 		<defName>ISA_LargeShelf_Wine</defName>
 		<label>large wine shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackDrug</texPath>
+			<texPath>Building/Storage/Stack/StackWine/StackWine</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings Inherit="False">
@@ -1394,18 +1266,20 @@
 		</building>
 	</ThingDef>
 
-<!--	<ThingDef ParentName="ISA_LargeShelfBase">
+	<ThingDef ParentName="ISA_LargeShelfBase">
 		<defName>ISA_LargeShelf_Mead</defName>
 		<label>large mead shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackMead</texPath>
+			<texPath>Building/Storage/Stack/StackMead/StackMead</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings Inherit="False">
 				<filter>
 					<thingDefs>
-						<li>ISA_Mead</li>
-						<li>ISA_Honey</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+						<li>VFEM2_Mead</li>
+						<li>VFEM2_Honey</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1413,19 +1287,21 @@
 				<priority>Important</priority>
 				<filter>
 					<thingDefs>
-						<li>ISA_Mead</li>
-						<li>ISA_Honey</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+						<li>VFEM2_Mead</li>
+						<li>VFEM2_Honey</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
 		</building>
-	</ThingDef>  -->
+	</ThingDef> 
 
 	<ThingDef ParentName="ISA_LargeShelfBase">
 		<defName>ISA_LargeShelf_Vegetables</defName>
 		<label>large vegetables shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/StackVegetables</texPath>
+			<texPath>Building/Storage/Stack/StackVegetables/StackVegetables</texPath>
 		</graphicData>
 		<building>
 			<fixedStorageSettings Inherit="False">
@@ -1452,7 +1328,7 @@
 		<label>bundled sack (1x1)</label>
 		<description>A robust fabric bag designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BundledSack1x1</texPath>
+			<texPath>Building/Storage/Misc/Textiles/BundledSack1x1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -1476,7 +1352,7 @@
 		<label>bundled sack (2x2)</label>
 		<description>A robust fabric bag designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/BundledSack2x2</texPath>
+			<texPath>Building/Storage/Misc/Textiles/BundledSack2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -1500,7 +1376,7 @@
 		<label>crate (1x1)</label>
 		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Crate1x1</texPath>
+			<texPath>Building/Storage/Crate/Crate1x1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -1525,7 +1401,7 @@
 		<label>crate (1x2)</label>
 		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Crate1x2</texPath>
+			<texPath>Building/Storage/Crate/Crate1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
 			<damageData>
@@ -1553,7 +1429,7 @@
 		<label>crate (2x2)</label>
 		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Crate2x2</texPath>
+			<texPath>Building/Storage/Crate/Crate2x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -1631,7 +1507,7 @@
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<thingClass>Building_Storage</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Storage/ShelfEmpty</texPath>
+			<texPath>Building/Storage/Shelf/ShelfEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 		</graphicData>
@@ -1666,29 +1542,17 @@
 		<defName>ISA_ShelfFilled1c</defName>
 		<label>filled shelf</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/ShelfHerb</texPath>
+			<texPath>Building/Storage/Shelf/ShelfFilledA</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/ShelfHerb_north</uiIconPath>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_ShelfBase">
-		<defName>ISA_ShelfFilled2c</defName>
-		<label>filled shelf</label>
-		<graphicData>
-			<texPath>Things/Building/Storage/ShelfFilledA</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.75,2.75)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<uiIconPath>Things/Building/Storage/ShelfFilledA_north</uiIconPath>
+		<uiIconPath>Building/Storage/Shelf/ShelfFilledA_north</uiIconPath>
 	</ThingDef>
 
 	<!-- ===== Alchemy Shelfs ===== -->
 	<!-- Shelf Herbs -->
-	<ThingDef ParentName="ISA_ShelfBase">
+<!--	<ThingDef ParentName="ISA_ShelfBase">
 		<defName>ISA_Shelf_AssortedHerbs</defName>
 		<label>shelf (assorted herbs)</label>
 		<graphicData>
@@ -1724,18 +1588,18 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
-	</ThingDef>
+	</ThingDef>	-->
 	
 	<ThingDef ParentName="ISA_ShelfBase">
 		<defName>ISA_Shelf_GreenHerbs</defName>
 		<label>shelf (green herbs)</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Alchemy/Shelf_GreenHerbs</texPath>
+			<texPath>Building/Storage/Shelf/HerbsShelf/Shelf_GreenHerbs</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/Alchemy/Shelf_GreenHerbs_north</uiIconPath>
+		<uiIconPath>Building/Storage/Shelf/HerbsShelf/Shelf_GreenHerbs_north</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<priority>Important</priority>
@@ -1764,12 +1628,12 @@
 		<defName>ISA_Shelf_RedHerbs</defName>
 		<label>shelf (red herbs)</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Alchemy/Shelf_RedHerbs</texPath>
+			<texPath>Textures/Building/Storage/Shelf/HerbsShelf/Shelf_RedHerbs</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/Alchemy/Shelf_RedHerbs_north</uiIconPath>
+		<uiIconPath>Building/Storage/Shelf/HerbsShelf/Shelf_RedHerbs_north</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<priority>Important</priority>
@@ -1794,7 +1658,7 @@
 	
 	<!-- Drugs -->
 
-	<ThingDef ParentName="ISA_ShelfBase">
+<!--	<ThingDef ParentName="ISA_ShelfBase">
 		<defName>ISA_Shelf_Paregoric</defName>
 		<label>shelf (paregoric)</label>
 		<graphicData>
@@ -1822,7 +1686,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!-- Carts -->
 	<ThingDef ParentName="ISA_StorageBase" Name="ISA_CartBase">
@@ -1830,7 +1694,7 @@
 		<label>empty cart</label>
 		<description>A trusty wagon to carry novelties, artifacts, and goods across the unforgiving lands of the rim. Can be used to store items.</description>
 		<graphicData>
-			<texPath>Things/Building/Storage/Cart_Empty</texPath>
+			<texPath>Building/Storage/Cart/Cart_Empty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
@@ -1857,7 +1721,7 @@
 		<defName>ISA_Storage_Cart_Assorted</defName>
 		<label>assorted cart</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Cart_Assorted</texPath>
+			<texPath>Building/Storage/Cart/Cart_Assorted</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawRotated>false</drawRotated>
 		</graphicData>
@@ -1867,7 +1731,7 @@
 		<defName>ISA_Storage_Cart_PlantRaw</defName>
 		<label>raw plant cart</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Cart_PlantRaw</texPath>
+			<texPath>Building/Storage/Cart/Cart_PlantRaw/Cart_PlantRaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
@@ -1895,7 +1759,7 @@
 		<defName>ISA_Storage_Cart_Textiles</defName>
 		<label>textiles cart</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Cart_Textiles</texPath>
+			<texPath>Building/Storage/Cart/Cart_Textiles/Cart_Textiles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawRotated>false</drawRotated>
@@ -1925,7 +1789,7 @@
 		<defName>ISA_Storage_Cart_RawWood</defName>
 		<label>raw wood cart</label>
 		<graphicData>
-			<texPath>Things/Building/Storage/Cart_WoodLog</texPath>
+			<texPath>Building/Storage/Cart/Cart_WoodLog/Cart_WoodLog</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
 		</graphicData>
