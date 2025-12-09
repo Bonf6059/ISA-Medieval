@@ -3,7 +3,7 @@
 
 	<!--======================================== Divider ========================================-->
 	<!-- Thin Divider -->
-<!--	<ThingDef ParentName="ISA_FurnitureWithQualityBase">
+	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>ISA_RusticRoomDivider1x2c</defName>
 		<label>room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns.</description>
@@ -37,10 +37,10 @@
 		<costStuffCount>50</costStuffCount>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Furniture</designationCategory>
-	</ThingDef>	-->
+	</ThingDef>	
 
 	<!-- Struct Divider -->
-<!--	<ThingDef ParentName="ISA_FurnitureWithQualityBase">
+	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>ISA_RusticThickRoomDivider_Open1x2c</defName>
 		<label>thick open room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns. Capable of holding up a roof.</description>
@@ -48,10 +48,10 @@
 			<texPath>Building/Furnitures/Decorations/Dividers/ThickDividerWindow</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
-		</graphicData>	-->
-		<!--uiIconScale>0.65</uiIconScale-->
-		<!--uiIconOffset>(0, 0.15)</uiIconOffset-->
-	<!--	<size>(2,1)</size>
+		</graphicData>
+		<!--<uiIconScale>0.65</uiIconScale>-->
+		<!--<uiIconOffset>(0, 0.15)</uiIconOffset>-->
+		<size>(2,1)</size>
 
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -79,10 +79,10 @@
 		<costStuffCount>50</costStuffCount>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Furniture</designationCategory>
-	</ThingDef>	-->
+	</ThingDef>
 
 	<!-- Struct Divider -->
-<!--	<ThingDef ParentName="ISA_FurnitureWithQualityBase">
+	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>ISA_RusticThickRoomDivider_Closed1x2c</defName>
 		<label>thick covered room divider (1x2)</label>
 		<description>A basic room divider that keeps the privacy of your pawns. Capable of holding up a roof.</description>
@@ -90,10 +90,10 @@
 			<texPath>Building/Furnitures/Decorations/Dividers/ThickDividerCovered</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,3)</drawSize>
-		</graphicData>	-->
-		<!--uiIconScale>0.65</uiIconScale-->
-		<!--uiIconOffset>(0, 0.15)</uiIconOffset-->
-<!--		<size>(2,1)</size>
+		</graphicData>
+		<!--<uiIconScale>0.65</uiIconScale>-->
+		<!--<uiIconOffset>(0, 0.15)</uiIconOffset>-->
+		<size>(2,1)</size>
 
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -121,10 +121,10 @@
 		<costStuffCount>50</costStuffCount>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Furniture</designationCategory>
-	</ThingDef>	-->
+	</ThingDef>
 
 	<!-- Struct Column -->
-<!--	<ThingDef ParentName="ISA_FurnitureWithQualityBase">
+	<ThingDef ParentName="FurnitureWithQualityBase">
 		<defName>ISA_DividerColumn</defName>
 		<label>tall divider column (1x2)</label>
 		<description>A column capable of holding a roof. Does not block sight or movement and looks quite nice.</description>
@@ -133,9 +133,9 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
-		<uiIconScale>0.55</uiIconScale>	-->
-		<!--uiIconOffset>(0, 0.15)</uiIconOffset-->
-<!--		<size>(1,1)</size>
+		<!--<uiIconScale>0.55</uiIconScale>	-->
+		<!--<uiIconOffset>(0, 0.15)</uiIconOffset>-->
+		<size>(1,1)</size>
 
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -169,6 +169,6 @@
 		<costStuffCount>25</costStuffCount>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 		<designationCategory>Furniture</designationCategory>
-	</ThingDef>	-->
+	</ThingDef>
 
 </Defs>
