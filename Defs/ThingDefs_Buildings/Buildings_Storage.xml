@@ -1461,16 +1461,17 @@
 	<!--======================= Shelf ==============================-->
 
 	<ThingDef ParentName="ISA_StorageBase" Name="ISA_ShelfBase" Abstract="True">
-		<defName>ISA_ShelfEmpty</defName>
-		<label>empty shelf</label>
+		<defName>ISA_ShelfFilled1c</defName>
+		<label>filled shelf</label>
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
 		<thingClass>Building_Storage</thingClass>
 		<graphicData>
-			<texPath>Building/Storage/Shelf/ShelfEmpty</texPath>
+			<texPath>Building/Storage/Shelf/ShelfFilledA</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/ShelfEmpty_north</uiIconPath>
+		<uiIconPath>Building/Storage/Shelf/ShelfFilledA_north</uiIconPath>
 		<uiIconScale>1.25</uiIconScale>
 		<size>(2,1)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -1495,18 +1496,6 @@
 			</defaultStorageSettings>
 		</building>
 		<designatorDropdown>ISA_Storage_Shelf</designatorDropdown>
-	</ThingDef>
-	
-	<ThingDef ParentName="ISA_ShelfBase">
-		<defName>ISA_ShelfFilled1c</defName>
-		<label>filled shelf</label>
-		<graphicData>
-			<texPath>Building/Storage/Shelf/ShelfFilledA</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.75,2.75)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<uiIconPath>Building/Storage/Shelf/ShelfFilledA_north</uiIconPath>
 	</ThingDef>
 
 	<!-- ===== Alchemy Shelfs ===== -->
