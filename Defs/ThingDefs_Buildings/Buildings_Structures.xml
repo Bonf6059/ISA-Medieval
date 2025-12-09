@@ -39,14 +39,14 @@
 			<MaxHitPoints>320</MaxHitPoints>
 		</statBases>
 		<graphicData>
-		<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Mover</texPath>
+		<texPath>Building/Structures/RusticDoor/RusticDoor1x2_Mover</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<!--shaderType>CutoutComplex</shaderType-->
 		<damageData>
 			<enabled>false</enabled>
 		</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_MenuIcon_south</uiIconPath>
+		<uiIconPath>Building/Structures/RusticDoor/RusticDoor1x2_MenuIcon_south</uiIconPath>
 		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
 		<size>(2, 1)</size>
 		<rotatable>true</rotatable>
@@ -55,18 +55,18 @@
 		<building>
 		<blueprintClass>Blueprint_Build</blueprintClass>
 		<blueprintGraphicData>
-			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_MenuIcon</texPath>
+			<texPath>Building/Structures/RusticDoor/RusticDoor1x2_MenuIcon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>EdgeDetect</shaderType>
 			<drawSize>(3,2)</drawSize>
 		</blueprintGraphicData>
 		<doorTopGraphic>
-			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Top</texPath>
+			<texPath>Building/Structures/RusticDoor/RusticDoor1x2_Top</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorTopGraphic>
 		<doorSupportGraphic>
-			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Support</texPath>
+			<texPath>Building/Structures/RusticDoor/RusticDoor1x2_Support</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorSupportGraphic>
@@ -89,14 +89,14 @@
 			<MaxHitPoints>500</MaxHitPoints>
 		</statBases>
 		<graphicData>
-		<texPath>Things/Building/Door/Gate1x2/Gate1x2_Mover</texPath>
+		<texPath>Building/Structures/Gate/GateBig/Gate1x2_Mover</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
 		<!--shaderType>CutoutComplex</shaderType-->
 		<damageData>
 			<enabled>false</enabled>
 		</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Door/Gate1x2/Gate1x2_MenuIcon_south</uiIconPath>
+		<uiIconPath>Building/Structures/Gate/GateBig/Gate1x2_MenuIcon_south</uiIconPath>
 		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
 		<size>(2, 1)</size>
 		<rotatable>true</rotatable>
@@ -109,18 +109,18 @@
 		<building>
 		<blueprintClass>Blueprint_Build</blueprintClass>
 		<blueprintGraphicData>
-			<texPath>Things/Building/Door/Gate1x2/Gate1x2_MenuIcon</texPath>
+			<texPath>Building/Structures/Gate/GateBig/Gate1x2_MenuIcon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>EdgeDetect</shaderType>
 			<drawSize>(3,2)</drawSize>
 		</blueprintGraphicData>
 		<doorTopGraphic>
-			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Top</texPath>
+			<texPath>Building/Structures/RusticDoor/RusticDoor1x2_Top</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorTopGraphic>
 		<doorSupportGraphic>
-			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Support</texPath>
+			<texPath>Building/Structures/RusticDoor/RusticDoor1x2_Support</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3, 2)</drawSize>
 		</doorSupportGraphic>
