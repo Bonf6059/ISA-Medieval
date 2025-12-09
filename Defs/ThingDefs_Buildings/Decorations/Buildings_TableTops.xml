@@ -163,7 +163,8 @@
 		</graphicData>
 
 		<costList>
-			<ISA_Paper>25</ISA_Paper>
+		<!--	<ISA_Paper>25</ISA_Paper>	-->
+			<WoodLog>5</WoodLog>
 		</costList>
 	</ThingDef>
 
@@ -176,7 +177,8 @@
 		</graphicData>
 
 		<costList>
-			<ISA_Paper>25</ISA_Paper>
+		<!--	<ISA_Paper>25</ISA_Paper>	-->
+			<WoodLog>5</WoodLog>
 		</costList>
 	</ThingDef>
 
@@ -189,7 +191,8 @@
 		</graphicData>
 
 		<costList>
-			<ISA_Paper>50</ISA_Paper>
+		<!--	<ISA_Paper>25</ISA_Paper>	-->
+			<WoodLog>10</WoodLog>
 		</costList>
 	</ThingDef>
 	
