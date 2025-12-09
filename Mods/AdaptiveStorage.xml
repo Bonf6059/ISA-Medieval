@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<AdaptiveStorage.GraphicsDef>
+<AdaptiveStorage.GraphicsDef MayRequire="adaptive.storage.framework">
 
 	<defName>GraphicShelfs</defName>
 	<targetDefs><!-- multiple buildings -->
@@ -10,7 +10,7 @@
 		<li>ISA_Shelf_GreenHerbs</li>
 	</targetDefs>
 
-	<showContainedItems>true</showContainedItems>
+	<showContainedItems>false</showContainedItems>
 
 </AdaptiveStorage.GraphicsDef>
 
