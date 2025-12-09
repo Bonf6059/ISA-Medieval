@@ -14,6 +14,7 @@
 			<li>ISA_Lumber</li>
 		</researchPrerequisites>  -->
 		<stuffCategories Inherit="false"/>
+		<designatorDropdown>ISA_Storage_Wood</designatorDropdown>
 	</ThingDef>
 	
 	<ThingDef Name="ISA_BrickStorageBase" ParentName="ShelfBase" Abstract="True">
@@ -22,6 +23,7 @@
 			<li>Stonecutting</li>
 		</researchPrerequisites>  
 		<stuffCategories Inherit="false"/>
+		<designatorDropdown>ISA_Storage_Brick</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef Name="ISA_StorageBase" ParentName="ShelfBase" Abstract="True">
@@ -33,71 +35,7 @@
 	</ThingDef>
 
 	<!-- ==================== Hay Pile ==================== -->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_Bale1x2Base">
-		<defName>ISA_Bale1x2c</defName>
-		<label>hay bale (1x2)</label>
-		<description>A collective pile of straw, flax, and hay fashioned to conserve space.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Bale1x2</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,3)</drawSize>
-			<color>(137,132,0)</color>
-		</graphicData>
-		<size>(2,1)</size>
-		<statBases>
-			<MaxHitPoints>50</MaxHitPoints>
-			<Mass>4</Mass>
-			<WorkToBuild>250</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
-		</statBases>
-		<costList Inherit="false">
-			<Hay>20</Hay>
-		</costList>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings Inherit="false">
-				<filter>
-					<thingDefs>
-						<li>Hay</li>
-					</thingDefs>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings Inherit="false">
-				<priority>Important</priority>
-				<filter>
-					<thingDefs>
-						<li>Hay</li>
-					</thingDefs>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-		<designatorDropdown>ISA_Bale1x2c</designatorDropdown>
-	</ThingDef>
 
-	<ThingDef ParentName="ISA_Bale1x2Base" Name="ISA_Bale2x2Base">
-		<defName>ISA_HayBale2x2c</defName>
-		<label>hay bale (2x2)</label>
-		<description>A collective pile of straw, flax, and hay fashioned to conserve space.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Bale2x2</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4,4)</drawSize>
-			<color>(137,132,0)</color>
-		</graphicData>
-		<size>(2,2)</size>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>8</Mass>
-			<WorkToBuild>500</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<costList Inherit="false">
-			<Hay>40</Hay>
-		</costList>
-		<designatorDropdown>ISA_Bale2x2c</designatorDropdown>
-	</ThingDef>
-
-	<!-- Pile -->
 	<ThingDef ParentName="ISA_StorageBase" Name="ISA_Pile1x2Base">
 		<defName>ISA_HayPile1x2c</defName>
 		<label>hay pile</label>
@@ -136,7 +74,6 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
-		<designatorDropdown>ISA_Pile1x2c</designatorDropdown>
 	</ThingDef>
 
 	<!-- ==================== Wood Logs ==================== -->
@@ -568,7 +505,7 @@
 			</defaultStorageSettings>
 		</building>
 		<researchPrerequisites Inherit="false"/>
-		<designatorDropdown>ISA_IngotStack1x1c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Small</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SteelIngotStackBase">
@@ -591,7 +528,7 @@
 		<costList>
 			<Steel>20</Steel>
 		</costList>
-		<designatorDropdown>ISA_IngotStack1x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Medium</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SteelIngotStackBase">
@@ -614,7 +551,7 @@
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<designatorDropdown>ISA_IngotStack2x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
 	</ThingDef>
 	
 	<!--== Silver Ingots ==-->
@@ -657,7 +594,7 @@
 			</defaultStorageSettings>
 		</building>
 		<researchPrerequisites Inherit="false"/>
-		<designatorDropdown>ISA_IngotStack1x1c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Small</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SilverIngotStackBase">
@@ -679,7 +616,7 @@
 		<costList>
 			<Silver>20</Silver>
 		</costList>
-		<designatorDropdown>ISA_IngotStack1x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Medium</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_SilverIngotStackBase">
@@ -701,7 +638,7 @@
 		<costList>
 			<Silver>40</Silver>
 		</costList>
-		<designatorDropdown>ISA_IngotStack2x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
 	</ThingDef>
 
 	<!--== Gold Ingots ==-->
@@ -744,7 +681,7 @@
 			</defaultStorageSettings>
 		</building>
 		<researchPrerequisites Inherit="false"/>
-		<designatorDropdown>ISA_IngotStack1x1c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Small</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_GoldIngotStackBase">
@@ -766,7 +703,7 @@
 		<costList>
 			<Gold>20</Gold>
 		</costList>
-		<designatorDropdown>ISA_IngotStack1x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Medium</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_GoldIngotStackBase">
@@ -788,7 +725,7 @@
 		<costList>
 			<Gold>40</Gold>
 		</costList>
-		<designatorDropdown>ISA_IngotStack2x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
 	</ThingDef>
 
 	<!--== Plasteel Ingots ==-->
@@ -831,7 +768,7 @@
 			</defaultStorageSettings>
 		</building>
 		<researchPrerequisites Inherit="false"/>
-		<designatorDropdown>ISA_IngotStack1x1c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Small</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_PlasteelStackBase">
@@ -853,7 +790,7 @@
 		<costList>
 			<Plasteel>20</Plasteel>
 		</costList>
-		<designatorDropdown>ISA_IngotStack1x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Medium</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_PlasteelStackBase">
@@ -875,7 +812,7 @@
 		<costList>
 			<Plasteel>40</Plasteel>
 		</costList>
-		<designatorDropdown>ISA_IngotStack2x2c</designatorDropdown>
+		<designatorDropdown>ISA_Storage_IngotStack_Large</designatorDropdown>
 	</ThingDef>
 	
 	<!--======================= Cupboard ==============================-->
@@ -901,6 +838,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>30</costStuffCount>
+		<designatorDropdown>ISA_Storage_Cupboard</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_StorageBase" Name="ISA_CupboardBase">
@@ -944,6 +882,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Cupboard</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_CupboardBase">
@@ -978,6 +917,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Cupboard</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_CupboardBase">
@@ -1006,6 +946,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Cupboard</designatorDropdown>
 	</ThingDef>
 
 	<!--======================= Resource Barrel ==============================-->
@@ -1035,34 +976,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_StorageBase">
-		<defName>ISA_RusticBarrelBigGrape</defName>
-		<label>large grape barrel</label>
-		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/BarrelBigGrape</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(4,4)</drawSize>
-			<drawRotated>false</drawRotated>
-		</graphicData>
-		<size>(2,2)</size>
-		<uiIconScale>0.75</uiIconScale>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>16</Mass>
-			<WorkToBuild>1000</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-		</statBases>
-		<costList>
-			<Steel>5</Steel>
-		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
+		<designatorDropdown>ISA_Storage_BarrelBig</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_StorageBase">
@@ -1090,30 +1004,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_StorageBase">
-		<defName>ISA_RusticBarrelStack</defName>
-		<label>barrel shelf</label>
-		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/BarrelStack</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(5,3)</drawSize>
-		</graphicData>
-		<size>(3,1)</size>
-		<uiIconPath>Things/Building/Storage/BarrelStack_north</uiIconPath>
-		<uiIconScale>2</uiIconScale>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>12</Mass>
-			<WorkToBuild>750</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7.5</StyleDominance>
-		</statBases>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
+		<designatorDropdown>ISA_Storage_BarrelBig</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_StorageBase">
@@ -1140,6 +1031,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>10</costStuffCount>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>
 
 	<!--== WoodLog Barrel ==-->
@@ -1185,6 +1077,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>
 
 	<!--== Coal Ore Barrel ==-->
@@ -1217,6 +1110,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>  -->
 
 	<!--== Textiles Barrel ==-->
@@ -1255,6 +1149,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>
 
 	<!--== Leather Barrel ==-->
@@ -1287,6 +1182,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>
 
 	<!--== Grape Barrel ==-->
@@ -1319,6 +1215,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
 	</ThingDef>
 
 	<!--======================= Large Shelf ==============================-->
@@ -1342,6 +1239,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
+		<designatorDropdown>ISA_Storage_ShelfBig</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_StorageBase" Name="ISA_LargeShelfBase">
@@ -1383,6 +1281,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_ShelfBig</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_LargeShelfBase">
@@ -1568,6 +1467,7 @@
 		<costList>
 			<Cloth>10</Cloth>
 		</costList>
+		<designatorDropdown>ISA_Storage_BundledSack</designatorDropdown>
 	</ThingDef>
 
 	<!-- Sack 2x2 -->
@@ -1591,6 +1491,7 @@
 		<costList>
 			<Cloth>40</Cloth>
 		</costList>
+		<designatorDropdown>ISA_Storage_BundledSack</designatorDropdown>
 	</ThingDef>
 
 	<!--======================= Crate ==============================-->
@@ -1615,6 +1516,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>10</costStuffCount>
+		<designatorDropdown>ISA_Storage_Crate</designatorDropdown>
 	</ThingDef>
 
 	<!-- Crate 1x2 -->
@@ -1642,6 +1544,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
+		<designatorDropdown>ISA_Storage_Crate</designatorDropdown>
 	</ThingDef>
 
 	<!-- Crate 2x2 -->
@@ -1666,31 +1569,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
-	</ThingDef>
-
-	<!-- Crate 2x2 -->
-	<ThingDef ParentName="ISA_StorageBase">
-		<defName>ISA_Crate2x2_Bones</defName>
-		<label>large crate (bones)</label>
-		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
-		<graphicData>
-			<texPath>Things/Building/Storage/Alchemy/Crate2x2_Bones</texPath>
-			<shaderType>CutoutComplex</shaderType>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
-		</graphicData>
-		<size>(2,2)</size>
-		<defaultPlacingRot>North</defaultPlacingRot>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>16</Mass>
-			<WorkToBuild>1000</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
+		<designatorDropdown>ISA_Storage_Crate</designatorDropdown>
 	</ThingDef>
 
 	<!-- Crate 2x2 -->
@@ -1716,6 +1595,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
+		<designatorDropdown>ISA_Storage_Crate</designatorDropdown>
 	</ThingDef>  -->
 
 	<!-- Crate 2x2 -->
@@ -1741,6 +1621,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
+		<designatorDropdown>ISA_Storage_Crate</designatorDropdown>
 	</ThingDef>  -->
 
 	<!--======================= Shelf ==============================-->
@@ -1778,6 +1659,7 @@
 				</filter>
 			</defaultStorageSettings>
 		</building>
+		<designatorDropdown>ISA_Storage_Shelf</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ShelfBase">
@@ -1968,6 +1850,7 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<designatorDropdown>ISA_Storage_Cart</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_CartBase">
