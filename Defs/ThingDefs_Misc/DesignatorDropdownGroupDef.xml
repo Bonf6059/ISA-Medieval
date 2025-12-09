@@ -35,4 +35,11 @@
 		<label>animal rugs</label>
 	</DesignatorDropdownGroupDef>
 
+<!-- Signs -->
+  
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Signs</defName>
+		<label>signs</label>
+	</DesignatorDropdownGroupDef>
+
 </Defs>
