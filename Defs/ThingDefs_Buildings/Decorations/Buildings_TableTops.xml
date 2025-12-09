@@ -159,7 +159,7 @@
 		<label>ruined paper</label>
 		<description>Ruined stack of paper, wet, torn, and disheveled. Can be placed on top of tables for decoration.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/ScribeToolsStackPaper</texPath>
+			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/StackPaper</texPath>
 		</graphicData>
 
 		<costList>
@@ -173,7 +173,7 @@
 		<label>ruined scroll and quill</label>
 		<description>Ruined torn scroll and dull-tipped quill. Can be placed on top of tables for decoration.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/ScribeToolsScrollAndQuill</texPath>
+			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/ScrollAndQuill</texPath>
 		</graphicData>
 
 		<costList>
@@ -187,7 +187,7 @@
 		<label>ruined book</label>
 		<description>Ruined book, wet, torn, and disheveled. Can be placed on top of tables for decoration.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/ScribeToolsBook</texPath>
+			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/Book</texPath>
 		</graphicData>
 
 		<costList>
