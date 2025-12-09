@@ -13,7 +13,6 @@
 <!--		<researchPrerequisites Inherit="false">
 			<li>ISA_Lumber</li>
 		</researchPrerequisites>  -->
-		<designationCategory>ISA_RusticStorage</designationCategory>
 		<stuffCategories Inherit="false"/>
 	</ThingDef>
 	
@@ -22,7 +21,6 @@
 		<researchPrerequisites Inherit="false">
 			<li>Stonecutting</li>
 		</researchPrerequisites>  
-		<designationCategory>ISA_RusticStorage</designationCategory>
 		<stuffCategories Inherit="false"/>
 	</ThingDef>
 
@@ -30,8 +28,7 @@
 		<thingClass>Building_Storage</thingClass>
 		<researchPrerequisites Inherit="false">
 			<li>ISA_RusticStorage</li>
-		</researchPrerequisites>
-		<designationCategory>ISA_RusticStorage</designationCategory>
+		</researchPrerequisites>	
 		<stuffCategories Inherit="false"/>
 	</ThingDef>
 
