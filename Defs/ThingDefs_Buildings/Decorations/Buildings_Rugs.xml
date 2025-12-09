@@ -10,7 +10,7 @@
 		<label>patched cloth rug (1x1)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsPatched/RugPatched_Cloth_1x1</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsPatched/RugPatched_Cloth_1x1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -29,7 +29,7 @@
 		<label>patched cloth rug (1x2)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsPatched/RugPatched_Cloth_1x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsPatched/RugPatched_Cloth_1x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
@@ -49,7 +49,7 @@
 		<label>patched cloth rug (2x2)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsPatched/RugPatched_Cloth_2x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsPatched/RugPatched_Cloth_2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -69,7 +69,7 @@
 		<label>patched cloth rug (2x4)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsPatched/RugPatched_Cloth_2x4</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsPatched/RugPatched_Cloth_2x4</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,4)</drawSize>
 		</graphicData>
@@ -89,7 +89,7 @@
 		<label>patched cloth rug (3x3)</label>
 		<description>A roughly stiched rug made up of seperate cloth.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsPatched/RugPatched_Cloth_3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsPatched/RugPatched_Cloth_3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -111,7 +111,7 @@
 		<label>royal lys rug (2x3)</label>
 		<description>A fancy intricate silk rug tailored for nobility.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsRoyal/RugRoyal_Lys2x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsRoyal/RugRoyal_Lys2x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,3)</drawSize>
 		</graphicData>
@@ -135,7 +135,7 @@
 		<label>long royal lys rug (2x4)</label>
 		<description>A fancy intricate silk rug tailored for nobility.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsRoyal/RugRoyal_LongLys2x4</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsRoyal/RugRoyal_LongLys2x4</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,4)</drawSize>
 		</graphicData>
@@ -159,7 +159,7 @@
 		<label>royal cross rug (3x3)</label>
 		<description>A fancy intricate silk rug tailored for nobility.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsRoyal/RugRoyal_Cross3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsRoyal/RugRoyal_Cross3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -183,7 +183,7 @@
 		<label>grand royal cross rug (4x6)</label>
 		<description>A fancy intricate silk rug tailored for nobility.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsRoyal/RugRoyal_Cross3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsRoyal/RugRoyal_Cross3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,6)</drawSize>
 		</graphicData>
@@ -209,7 +209,7 @@
 		<label>timber wolf rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The grizzled grayish-brown fur of the timber wolf may make for a valuable rug but comes with a high cost as the hunter will likely face the beast in a pack.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugWolfTimber2x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugWolfTimber2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -229,7 +229,7 @@
 		<label>arctic wolf rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. A variant of the wolf, arctic wolf rugs tell the story of a hunter who braved dangerous temperatures and conquered starving predators biologically designed for survival.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugWolfArctic2x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugWolfArctic2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -249,7 +249,7 @@
 		<label>cougar rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Cougars are prized for their luxurious pelts, which in turn makes for a valuable alternative to basic rugs.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugCougar2x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugCougar2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -269,7 +269,7 @@
 		<label>panther rug (2x2)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Panther rugs, much like the animals themselves, fall into shadows during the night but marbled eyes illuminate in the darkness.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugPanther2x2</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugPanther2x2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -289,7 +289,7 @@
 		<label>grizzly bear rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The bear’s great coat is one of the most sought-after materials for animal-skinned rugs, making the grizzly bear rug a worthy choice for the daring colonist brave enough to face the hunt.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugBearGrizzly3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugBearGrizzly3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -309,7 +309,7 @@
 		<label>polar bear rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The polar bears found in frozen climates host great white fur that makes for cold-resistant rugs. Especially valuable to homesteads found in cold temperatures.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugBearPolar3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugBearPolar3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
@@ -329,7 +329,7 @@
 		<label>thrumbo rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. Few hunters can craft a trophy with a more refined and resistant coat than that of the thrumbo rug. Its long fur can catch the eye of any colonist, but the strong hide requires much work to tailor. Beware the horn while walking.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugThrumbo3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugThrumbo3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
