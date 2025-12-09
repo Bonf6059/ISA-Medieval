@@ -60,7 +60,7 @@
 		</graphicData>
 
 		<costList Inherit="false">
-			<ISA_Ale>1</ISA_Ale>
+			<Beer>1</Beer>
 		</costList>
 	</ThingDef>
 
