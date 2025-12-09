@@ -1959,7 +1959,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costList>
-			<ISA_ComponentBasic>10</ISA_ComponentBasic>
+			<Steel>10</Steel>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
