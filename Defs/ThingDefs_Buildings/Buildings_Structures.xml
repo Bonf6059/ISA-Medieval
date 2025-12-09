@@ -134,7 +134,7 @@
 	</ThingDef>
 
 	<!--========================= Frames =============================-->
-	<ThingDef ParentName="BuildingBase">
+<!--	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_Frame_Log</defName>
 		<label>log gate frame</label>
 		<description>A wooden frame to be placed on top of doors.</description>
@@ -167,7 +167,7 @@
 		</building>
 		<surfaceType>Item</surfaceType>
 		<designationCategory>Structure</designationCategory>
-	</ThingDef>
+	</ThingDef>	
 
 	<ThingDef ParentName="BuildingBase" Name="ISA_SpikeBase">
 		<defName>ISA_CavalrySpike</defName>
@@ -229,6 +229,6 @@
 		<designationCategory>Security</designationCategory>
 		<staticSunShadowHeight>0.2</staticSunShadowHeight>
 		<repairEffect>ConstructWood</repairEffect>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>
