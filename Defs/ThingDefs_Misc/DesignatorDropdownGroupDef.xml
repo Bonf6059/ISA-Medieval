@@ -42,4 +42,71 @@
 		<label>signs</label>
 	</DesignatorDropdownGroupDef>
 
+<!-- Storage -->
+  
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Wood</defName>
+		<label>wood logs pile</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Brick</defName>
+		<label>bricks pile</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_IngotStack_Small</defName>
+		<label>small ingots stack</label>
+	</DesignatorDropdownGroupDef>
+	
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_IngotStack_Medium</defName>
+		<label>medium ingots stack</label>
+	</DesignatorDropdownGroupDef>
+	
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_IngotStack_Large</defName>
+		<label>large ingots stack</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Cupboard</defName>
+		<label>cupboards</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_BarrelBig</defName>
+		<label>big barrels</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Barrel</defName>
+		<label>barrels</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_ShelfBig</defName>
+		<label>large shelfs</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Shelf</defName>
+		<label>shelfs</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_BundledSack</defName>
+		<label>bundled sack</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Crate</defName>
+		<label>crates</label>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>ISA_Storage_Cart</defName>
+		<label>carts</label>
+	</DesignatorDropdownGroupDef>
+
 </Defs>
