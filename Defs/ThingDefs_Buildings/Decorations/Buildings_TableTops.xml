@@ -73,7 +73,7 @@
 		</graphicData>
 
 		<costList Inherit="false">
-			<ISA_Mead>1</ISA_Mead>
+			<VFEM2_Mead>1</VFEM2_Mead>
 		</costList>
 	</ThingDef>
 
