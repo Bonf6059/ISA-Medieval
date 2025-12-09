@@ -111,5 +111,19 @@
 			<li>ComplexFurniture</li>
 		</prerequisites>
 	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_RusticStorage</defName>
+		<label>Rustic storage</label>
+		<description>Create buildings that allows you to store items more efficiently to save space.</description>
+		<baseCost>400</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1.2</researchViewY>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
 	
 </Defs>
