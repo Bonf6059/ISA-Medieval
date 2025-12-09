@@ -18,6 +18,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+09/12/2025
+- Added multiple storage solutions
+
 04/12/2025
 - Added signs, room dividers, bookshelfs and table top decorations with their own drop down menus
 - Moved rugs' textures inside the decoration folder
