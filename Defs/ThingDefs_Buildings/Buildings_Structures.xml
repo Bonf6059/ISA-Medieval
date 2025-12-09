@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--========================= Doors =============================-->
+
+<!--	<ThingDef ParentName="DoorBase">
+		<defName>ISA_Gate</defName>
+		<label>gate</label>
+		<description>A reinforced gate that divides rooms. Simple gates must be manually opened, which slows people down. The amount of slowdown depends on what the gate is made of.</description>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Door/Gate_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+
+		<stuffCategories Inherit="False">
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<uiIconPath>Things/Building/Door/Gate_MenuIcon</uiIconPath>
+		<costStuffCount>35</costStuffCount>
+		<designationHotKey>Misc1</designationHotKey>
+	</ThingDef>  -->
+
+	<ThingDef ParentName="DoorBase">
+		<defName>ISA_RusticDoor1x2c</defName>
+		<label>rustic door (1x2)</label>
+		<description>Divides rooms. This large, heavy door requires adjacent walls to function.</description>
+		<thingClass>Building_MultiTileDoor</thingClass>
+		<statBases>
+			<WorkToBuild>3600</WorkToBuild>
+			<MaxHitPoints>320</MaxHitPoints>
+		</statBases>
+		<graphicData>
+		<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Mover</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<!--shaderType>CutoutComplex</shaderType-->
+		<damageData>
+			<enabled>false</enabled>
+		</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_MenuIcon_south</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<costStuffCount>75</costStuffCount>
+		<building>
+		<blueprintClass>Blueprint_Build</blueprintClass>
+		<blueprintGraphicData>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_MenuIcon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>EdgeDetect</shaderType>
+			<drawSize>(3,2)</drawSize>
+		</blueprintGraphicData>
+		<doorTopGraphic>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Top</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 2)</drawSize>
+		</doorTopGraphic>
+		<doorSupportGraphic>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Support</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 2)</drawSize>
+		</doorSupportGraphic>
+		</building>
+		<researchPrerequisites>
+		<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<placeWorkers>
+		<li>PlaceWorker_MultiCellDoor</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>ISA_Gate1x2c</defName>
+		<label>gate (1x2)</label>
+		<description>Divides rooms. This large, heavy door requires adjacent walls to function.</description>
+		<thingClass>Building_MultiTileDoor</thingClass>
+		<statBases>
+			<WorkToBuild>3600</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+		<graphicData>
+		<texPath>Things/Building/Door/Gate1x2/Gate1x2_Mover</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<!--shaderType>CutoutComplex</shaderType-->
+		<damageData>
+			<enabled>false</enabled>
+		</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/Gate1x2/Gate1x2_MenuIcon_south</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<costStuffCount>75</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<building>
+		<blueprintClass>Blueprint_Build</blueprintClass>
+		<blueprintGraphicData>
+			<texPath>Things/Building/Door/Gate1x2/Gate1x2_MenuIcon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>EdgeDetect</shaderType>
+			<drawSize>(3,2)</drawSize>
+		</blueprintGraphicData>
+		<doorTopGraphic>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Top</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 2)</drawSize>
+		</doorTopGraphic>
+		<doorSupportGraphic>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Support</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3, 2)</drawSize>
+		</doorSupportGraphic>
+		</building>
+		<researchPrerequisites>
+		<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<placeWorkers>
+		<li>PlaceWorker_MultiCellDoor</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<!--========================= Frames =============================-->
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_Frame_Log</defName>
+		<label>log gate frame</label>
+		<description>A wooden frame to be placed on top of doors.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Door/LogFrame</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<uiIconScale>0.5</uiIconScale>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<pathCost>0</pathCost>
+		<stuffCategories>
+			<li>WoodLog</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<surfaceType>Item</surfaceType>
+		<designationCategory>Structure</designationCategory>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase" Name="ISA_SpikeBase">
+		<defName>ISA_CavalrySpike</defName>
+		<label>wooden cavalry spikes</label>
+		<description>An organized collection of stakes designed to keep intruders out.\n\nWalking through the spikes can hurt pawns.</description>
+		<thingClass>Building_TrapDamager</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Linked/Spike_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom4</li>
+			</linkFlags>
+		</graphicData>
+		<stuffCategories>
+			<li>WoodLog</li>
+		</stuffCategories>
+		<costStuffCount>8</costStuffCount>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+		<blockLight>false</blockLight>
+		<uiIconPath>Things/Building/Linked/Spike_MenuIcon</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>150</pathCost>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.30</fillPercent>
+		<coversFloor>false</coversFloor>
+		<holdsRoof>false</holdsRoof>
+		<castEdgeShadows>false</castEdgeShadows>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<TrapMeleeDamage>10</TrapMeleeDamage>
+			<TrapSpringChance>0.8</TrapSpringChance>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>-10</Beauty>
+			<WorkToBuild>75</WorkToBuild>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+
+		<building>
+			<allowAutoroof>false</allowAutoroof>
+			<isTrap>true</isTrap>
+			<trapDestroyOnSpring>false</trapDestroyOnSpring>
+			<trapDamageCategory>Sharp</trapDamageCategory>
+			<ai_chillDestination>false</ai_chillDestination>
+			<expandHomeArea>false</expandHomeArea>
+			<isInert>true</isInert>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Spike_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<staticSunShadowHeight>0.2</staticSunShadowHeight>
+		<repairEffect>ConstructWood</repairEffect>
+	</ThingDef>
+
+</Defs>
