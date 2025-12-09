@@ -15,6 +15,24 @@
 		</researchPrerequisites>  -->
 		<stuffCategories Inherit="false"/>
 		<designatorDropdown>ISA_Storage_Wood</designatorDropdown>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
+				<filter>
+					<thingDefs Inherit="false">
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="false">
+				<priority>Important</priority>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
 	</ThingDef>
 	
 	<ThingDef Name="ISA_BrickStorageBase" ParentName="ShelfBase" Abstract="True">
@@ -86,7 +104,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/RawWood1x1_north</uiIconPath>
+		<uiIconPath>Building/Storage/Misc/Wood/Wood1x1_north</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<size>(1,1)</size>
 		<statBases>
@@ -99,24 +117,6 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>10</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
 		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 
@@ -142,24 +142,6 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
 		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 
@@ -185,24 +167,6 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>40</costStuffCount>
-		<building>
-			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings>
-				<filter>
-					<categories Inherit="false">
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</fixedStorageSettings>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
 		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 
@@ -698,7 +662,7 @@
 			<drawSize>(5,3)</drawSize>
 		</graphicData>
 		<size>(3,1)</size>
-		<uiIconPath>Things/Building/Storage/CupboardEmpty_north</uiIconPath>
+		<uiIconPath>Building/Storage/Cupboard/CupboardEmpty_north</uiIconPath>
 		<uiIconScale>2</uiIconScale>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -724,7 +688,7 @@
 			<drawSize>(5,3)</drawSize>
 		</graphicData>
 		<size>(3,1)</size>
-		<uiIconPath>Things/Building/Storage/CupboardBread_north</uiIconPath>
+		<uiIconPath>Building/Storage/Cupboard/CupboardBread/CupboardBread_north</uiIconPath>
 		<uiIconScale>2</uiIconScale>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
@@ -763,7 +727,7 @@
 		<graphicData>
 			<texPath>Building/Storage/Cupboard/CupboardCheese/CupboardCheese</texPath>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/CupboardCheese_north</uiIconPath>
+		<uiIconPath>Building/Storage/Cupboard/CupboardCheese/CupboardCheese_north</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="False">
 				<filter>
@@ -798,7 +762,7 @@
 		<graphicData>
 			<texPath>Building/Storage/Cupboard/CupboardWine/CupboardWine</texPath>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/CupboardDrug_north</uiIconPath>
+		<uiIconPath>Building/Storage/Cupboard/CupboardWine/CupboardWine_north</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="False">
 				<filter>
@@ -889,7 +853,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelClosed</uiIconPath>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<size>(1,1)</size>
@@ -918,7 +881,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelWoodLog</uiIconPath>
 		<uiIconScale>1.5</uiIconScale>
 		<size>(1,1)</size>
 		<statBases>
@@ -933,19 +895,19 @@
 		<costStuffCount>10</costStuffCount>
 		<building>
 			<maxItemsInCell>4</maxItemsInCell>
-			<fixedStorageSettings Inherit="false">
+			<fixedStorageSettings>
 				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
+					<thingDefs Inherit="false">
+						<li>WoodLog</li>
+					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
 			<defaultStorageSettings Inherit="false">
 				<priority>Important</priority>
 				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
 		</building>
@@ -964,7 +926,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelCoalOre</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<filter>
@@ -997,7 +958,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelTextiles</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<filter>
@@ -1036,7 +996,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelLeather</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<filter>
@@ -1069,7 +1028,6 @@
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Storage/BarrelGrape</uiIconPath>
 		<building>
 			<fixedStorageSettings Inherit="false">
 				<filter>
@@ -1501,7 +1459,8 @@
 	</ThingDef>  -->
 
 	<!--======================= Shelf ==============================-->
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_ShelfBase">
+
+	<ThingDef ParentName="ISA_StorageBase" Name="ISA_ShelfBase" Abstract="True">
 		<defName>ISA_ShelfEmpty</defName>
 		<label>empty shelf</label>
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
@@ -1537,7 +1496,7 @@
 		</building>
 		<designatorDropdown>ISA_Storage_Shelf</designatorDropdown>
 	</ThingDef>
-
+	
 	<ThingDef ParentName="ISA_ShelfBase">
 		<defName>ISA_ShelfFilled1c</defName>
 		<label>filled shelf</label>
@@ -1628,7 +1587,7 @@
 		<defName>ISA_Shelf_RedHerbs</defName>
 		<label>shelf (red herbs)</label>
 		<graphicData>
-			<texPath>Textures/Building/Storage/Shelf/HerbsShelf/Shelf_RedHerbs</texPath>
+			<texPath>Building/Storage/Shelf/HerbsShelf/Shelf_RedHerbs</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.75,2.75)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
@@ -1721,7 +1680,7 @@
 		<defName>ISA_Storage_Cart_Assorted</defName>
 		<label>assorted cart</label>
 		<graphicData>
-			<texPath>Building/Storage/Cart/Cart_Assorted</texPath>
+			<texPath>Building/Storage/Cart/Cart_AssortedA</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawRotated>false</drawRotated>
 		</graphicData>
@@ -1794,19 +1753,20 @@
 			<drawRotated>false</drawRotated>
 		</graphicData>
 		<building>
-			<fixedStorageSettings Inherit="false">
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings>
 				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
+					<thingDefs Inherit="false">
+						<li>WoodLog</li>
+					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
 			<defaultStorageSettings Inherit="false">
 				<priority>Important</priority>
 				<filter>
-					<categories>
-						<li>Woody</li>
-					</categories>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
 		</building>
