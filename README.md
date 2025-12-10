@@ -19,7 +19,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 09/12/2025
-- Added multiple storage solutions
+- Added multiple storage solutions and disabled them
+- Added rustic large door
+- Added large gate
 
 04/12/2025
 - Added signs, room dividers, bookshelfs and table top decorations with their own drop down menus
