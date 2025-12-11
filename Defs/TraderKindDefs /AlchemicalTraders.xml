@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TraderKindDef>
+		<defName>ISA_Caravan_Medieval_Alchemist</defName>
+		<label>alchemical goods merchant</label>
+		<commonality>3</commonality>
+		<stockGenerators>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3500~5000</countRange>
+      </li>
+      
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_Mindwort</thingDef>
+				<countRange>5~24</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_Poppy</thingDef>
+				<countRange>5~24</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_FlyAgaric</thingDef>
+				<countRange>5~24</countRange>
+			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineHerbal</thingDef>
+				<countRange>10~24</countRange>
+			</li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_HerbalExtract</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_Paregoric</thingDef>
+        <countRange>-10~10</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_HealingOil</thingDef>
+        <countRange>-10~5</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ISA_CriviceScent</thingDef>
+        <countRange>-10~2</countRange>
+      </li>
+      
+      <!-- Drugs -->
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<countRange>2~4</countRange>
+			</li>
+      
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<countRange>2~4</countRange>
+			</li>
+      
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<countRange>2~4</countRange>
+			</li>
+      
+			<!-- Alcohol -->
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_Wine</thingDef>
+				<countRange>2~4</countRange>
+			</li>
+			
+			<!-- Buy -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticMisc</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ResourcesRaw</tag></li>
+			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>
