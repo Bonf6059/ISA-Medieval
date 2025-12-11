@@ -11,11 +11,13 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Add elves and minotuars xenotype; create factions for the minotaurs (there is already a mod). Also add some of the weapons and clothes but not all of them because it's too many.
 - Check wether ISA_alcohol work with the vanilla gene
-- Add alchemist trader
 - Check what to do with the rugs, there are some textures not being used
 - Add 2 new beds (rustic bed blue and red) in a drop down menu of vanilla bed - look at table top decorations for example
 
 # Old updates
+
+11/12/2025
+- Added alchemist trader
 
 09/12/2025
 - Added multiple storage solutions and disabled them
