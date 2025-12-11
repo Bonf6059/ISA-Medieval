@@ -9,7 +9,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Scribe table to make books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
-- Add Buildings_Structure.xml
 - Add elves and minotuars xenotype; create factions for the minotaurs (there is already a mod). Also add some of the weapons and clothes but not all of them because it's too many.
 - Check wether ISA_alcohol work with the vanilla gene
 - Add alchemist trader
