@@ -172,17 +172,27 @@
 				</filter>
 				<count>1</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -213,17 +223,27 @@
 				</filter>
 				<count>5</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
