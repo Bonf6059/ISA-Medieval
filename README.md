@@ -19,6 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 11/12/2025
 - Added alchemist trader
 - Created texture for alchemy table
+- Changed recipe for paregoric
 
 09/12/2025
 - Added multiple storage solutions and disabled them
