@@ -6,7 +6,7 @@
 <TraderKindDef>
     <defName>ISA_Caravan_Mythological</defName>
     <label>mythological supplier</label>
-	<commonality>2</commonality>
+	<commonality>3</commonality>
     <stockGenerators>
         
       <li Class="StockGenerator_SingleDef">
