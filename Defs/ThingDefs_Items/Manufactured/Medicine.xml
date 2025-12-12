@@ -302,6 +302,75 @@
       </li>
     </comps>
   </ThingDef> 	-->
+
+<!-- Galix Pill -->
+	
+	<ThingDef ParentName="MedicineBase">
+		<defName>ISA_GalixPill</defName>
+		<label>galix pill</label>
+		<description>A small pill used to boost the immune system. Made from easy-to-gather ingredients.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks><HediffDef>ISA_High_GalixPill</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/GalixPill</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>12</MarketValue> <!-- (Mixture Market value / cauldron drop ammount) + 20-->
+			<Mass>0.02</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+    		<foodType>Processed</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Eat {0}</ingestCommandString>
+			<ingestReportString>Eating {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_GalixPill</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+		<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>1000</listOrder>
+		<!--	<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>	-->
+		</li>
+		</comps>
+	</ThingDef>
+  
+  <HediffDef>
+    <defName>ISA_High_GalixPill</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>galix pill</label>
+    <description>A temporary boost to the immune system.</description>
+    <defaultLabelColor>(0.5,1,0)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+			<statOffsets>
+				<ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+			</statOffsets>
+        </li>
+		
+      </stages>
+  </HediffDef>
 	
 </Defs>
 
