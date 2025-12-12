@@ -372,5 +372,121 @@
 			<li>ISA_AdvancedDrugsMaking</li>
 		</researchPrerequisites>
 	</RecipeDef>
-	
+
+<!-- Galix Pill -->
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_GalixPill</defName>
+		<label>make galix pill</label>
+		<description>Make galix pill.</description>
+		<jobString>Making galix pill.</jobString>
+		<workAmount>150</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawGarlic</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+						<li>ISA_SheepMilk</li>
+						<li>ISA_GoatMilk</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawGarlic</li>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawGarlic</li>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_GalixPill>5</ISA_GalixPill>
+		</products>
+	</RecipeDef>
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_GalixPillBulk</defName>
+		<label>make galix pill x5</label>
+		<description>Make galix pill x5.</description>
+		<jobString>Making galix pill x5.</jobString>
+		<workAmount>750</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawGarlic</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+						<li>ISA_SheepMilk</li>
+						<li>ISA_GoatMilk</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawGarlic</li>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawGarlic</li>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_GalixPill>25</ISA_GalixPill>
+		</products>
+	</RecipeDef>
+
 </Defs>
