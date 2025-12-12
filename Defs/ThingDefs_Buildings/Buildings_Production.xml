@@ -145,6 +145,7 @@
 			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>FueledStove</li>
+					<li>ElectricStove</li>
 				</inheritRecipesFrom>
      			</li>
 		</modExtensions>
@@ -515,8 +516,7 @@
 
 	<!-- CrabBay -->
 
-	<ThingDef
-		ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>CrabBay</defName>
 		<label>crab bay</label>
 		<description>A small, closed-off area of water used to breed a variant of leviatan crabs. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
@@ -584,6 +584,67 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<tradeability>Sellable</tradeability>
 		<designationCategory>Production</designationCategory>
+	</ThingDef>
+
+<!-- Alchemy table -->
+  
+	<ThingDef ParentName="ISA_1X3WorkbenchBase">
+		<defName>ISA_AlchemyTable</defName>
+		<label>alchemy table</label>
+		<description>A heavy table, secured with a layer of thick leather. Stocked with all sorts of thingamajigs, it’s useless to uneducated mind whilst perfectly functional for an adept of forbidden arts. It’s everything an aspiring alchemist could wish for to mix ingredients and prepare oddly specific reagents.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Building/Production/AlchemyTable/AlchemyTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<costList>
+			<WoodLog>60</WoodLog>
+		</costList>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+    <!--inherit recipes for mod compatibility-->
+  		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>DrugLab</li>
+				</inheritRecipesFrom>
+     		</li>
+		</modExtensions>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<paintable>true</paintable>
+			<workTableRoomRole>Laboratory</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
+		</building>
+	<!--	<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>DankPyon_HerbTable</li>
+					<li>DankPyon_VialsTable</li>
+					<li>DankPyon_Alembic</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/> 
+		</comps> -->
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		<!--	<li>PlaceWorker_ShowFacilitiesConnections</li>	-->
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ISA_Alchemy</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 </Defs>
