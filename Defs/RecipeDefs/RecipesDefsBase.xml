@@ -38,8 +38,9 @@
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<recipeUsers>
-			<li>VFEM2_AlchemicalWorkbench</li>
+			<!-- <li>VFEM2_AlchemicalWorkbench</li> -->
 			<li>DrugLab</li>
+			<li>ISA_AlchemyTable</li>
 		</recipeUsers>
 		<researchPrerequisites>
 			<li>ISA_DrugsMaking</li>
