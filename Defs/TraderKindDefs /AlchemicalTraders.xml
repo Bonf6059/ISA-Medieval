@@ -53,11 +53,6 @@
         		<thingDef>ISA_HealingOil</thingDef>
 		        <countRange>-10~5</countRange>
       		</li>
-
-      		<li Class="StockGenerator_SingleDef">
-        		<thingDef>ISA_CriviceScent</thingDef>
-        		<countRange>-10~2</countRange>
-      		</li>
       
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
