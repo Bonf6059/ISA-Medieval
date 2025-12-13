@@ -20,8 +20,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 11/12/2025
 - Added alchemist trader
-- Created texture for alchemy table
-- Created texture for Galix pills
+- Added alchemy table
+- Added Galix pills
 - Changed recipe for paregoric
 
 09/12/2025
