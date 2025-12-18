@@ -14,8 +14,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Check what to do with the rugs, there are some textures not being used
 - Add 2 new beds (rustic bed blue and red) in a drop down menu of vanilla bed - look at table top decorations for example
 
-- Add Galix pills - made with garlic and herbs; it boosts slightly immunity gain speed (5%) and ? blood filtration ? (10%); no overdose and no addiction
-
 # Old updates
 
 11/12/2025
