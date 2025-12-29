@@ -85,6 +85,10 @@
 			<part>Body</part>
 		  </li>
 		</comps>	-->
+		<researchPrerequisites>
+			<li>ISA_WarChemicals</li>
+			<li>ComplexClothing</li>
+		</researchPrerequisites>	
 	</ThingDef>
 
 </Defs>
