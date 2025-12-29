@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--=============== Rox ===============-->
+  
+	<!-- Leather -->
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>ISA_Leather_Rox</defName>
+		<label>Rox Leather</label>
+		<description>The fabled leather of a rox, made from skinning one of the mighty beasts. Though somewhat rough in its raw form, none can deny its incredible insulating capabilities due to the sheer density of rox hairs. That same density as well as innate composition makes it surprisingly flame- retardent, preventing oxygen from reaching any smoldering embers on the fur. That said, it is a heavy material to work with.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Leather</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(80,75,72)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>14.0</MarketValue>
+			<StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(80,75,72)</color>
+			<commonality>0.0025</commonality>
+			<statFactors>
+				<MaxHitPoints>2.0</MaxHitPoints>
+				<Beauty>6</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+  
+	<!-- Horn -->
+	
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>ISA_RoxHorn</defName>
+		<label>Rox Horn</label>
+		<description>A Rox's horn. It is heavy, durable, and valuable. It is too bulky to be used as a weapon.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Rox/RoxHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<relicChance>2</relicChance>
+
+		<comps>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+		</weaponClasses>
+		<tools>
+			<li>
+				<label>ram</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16.2</power>
+				<cooldownTime>2.7</cooldownTime>
+			</li>
+			<li>
+				<label>base</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<!-- Wool -->
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>ISA_WoolRox</defName>
+		<label>rox wool</label>
+		<description>Thick, coarse and provides very good insulation. Rox wool clothes can keep the body warm even in very cold conditions.</description>
+		<statBases>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<graphicData>
+			<color>(80,75,72)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(80,75,72)</color>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
