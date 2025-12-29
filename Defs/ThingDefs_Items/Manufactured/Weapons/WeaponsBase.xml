@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Grenades -->
+	
+	<ThingDef ParentName="BaseMakeableGrenade" Name="ISA_Medieval_MakeableGrenade" Abstract="True">
+		<recipeMaker Inherit="false">
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>VFEM2_AlchemicalWorkbench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tickerType>Normal</tickerType>
+		<techLevel>Medieval</techLevel>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<researchPrerequisites>
+			<li>ISA_WarChemicals</li>
+		</researchPrerequisites>	
+	</ThingDef>
+
+</Defs>
