@@ -16,6 +16,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+29/12/2025
+- Added animal, apparel and weapons from [ISA] Monster Hunters
+
 11/12/2025
 - Added alchemist trader
 - Added alchemy table
