@@ -82,6 +82,20 @@
 			<li>ISA_DrugsMaking</li>
 		</prerequisites>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>ISA_WarChemicals</defName>
+		<label>Alchemycal compound for war</label>
+		<description>Learn how to make unstable compounds and how to reuse monsters body parts for war</description>
+		<baseCost>1200</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.5</researchViewX>
+		<researchViewY>0.5</researchViewY>
+		<prerequisites>
+			<li>ISA_DrugsMaking</li>
+		</prerequisites>
+	</ResearchProjectDef>
 
 	<!--=========================== Cooking ==============================-->
 	<ResearchProjectDef>
