@@ -240,9 +240,9 @@
     		</products>
     	</RecipeDef>
 
-<!-- With Epochs Pottery loaded -->
+<!-- With Epochs Pottery OR Epochs Golems loaded -->
 	
- <!--     <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
+ <!--     <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolem" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeClay</defName>
 		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>200</workAmount>
@@ -253,7 +253,7 @@
 	    	</products>
 	</RecipeDef>	-->
 
-      <RecipeDef MayRequire="det.epochspottery" ParentName="ISA_MineShaftBase">
+      <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolem" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakeClayBulk</defName>
     		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>2000</workAmount>
@@ -263,31 +263,7 @@
     			<DV_Clay>10</DV_Clay>
     		</products>
     	</RecipeDef>	
-
-<!-- With Epochs Golems loaded -->
 	
- <!--     <RecipeDef MayRequire="det.epochsgolems" ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeClay</defName>
-		<description>Mine deep down underground to obtain clay</description>
-	    	<workAmount>200</workAmount>
-	    	<label>gather clay</label>
-	    	<jobString>Mining 1 clay</jobString>
-	    	<products>
-	    		<DV_Clay>1</DV_Clay>
-	    	</products>
-	</RecipeDef>	-->
-
-      <RecipeDef MayRequire="det.epochsgolem" ParentName="ISA_MineShaftBase">
-    		<defName>ISA_MakeClayBulk</defName>
-    		<description>Mine deep down underground to obtain clay</description>
-	    	<workAmount>2000</workAmount>
-	    	<label>gather clay x10</label>
-    		<jobString>Mining 10 clay</jobString>
-    		<products>
-    			<DV_Clay>10</DV_Clay>
-    		</products>
-    	</RecipeDef>
-
 	<!-- With StoneBorn Delights loaded -->
 	
 	<RecipeDef MayRequire="ISA.sbdelights" ParentName="ISA_MineShaftBase">
