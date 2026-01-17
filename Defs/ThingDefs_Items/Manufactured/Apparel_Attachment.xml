@@ -59,10 +59,18 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
+			<researchPrerequisites>
+				<li>ComplexClothing</li>
+				<li>ISA_WarChemicals</li>
+			</researchPrerequisites>
 			<skillRequirements>
-				<Crafting>4</Crafting>
+					<Crafting>4</Crafting>
 			</skillRequirements>
-		</recipeMaker>
+      			<recipeUsers>
+        			<li>VFEM2_AlchemicalWorkbench</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+       		</recipeMaker>
     		<costStuffCount>25</costStuffCount>
     		<stuffCategories>
     			  <li>Leathery</li>
@@ -71,7 +79,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2</Mass>
 			<EquipDelay>1</EquipDelay>
-			<WorkToMake>16000</WorkToMake>
+			<WorkToMake>3000</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.20</PainShockThreshold>
