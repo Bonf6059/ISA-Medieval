@@ -26,21 +26,21 @@
 		<description>Craft runes and sigils.</description>
 		<jobString>Crafting runes and sigils.</jobString>
 		<label>craft runes and sigils</label>
-		<workAmount>16000</workAmount>
+		<workAmount>3000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>ISA_Leather_Alp</li>
-					</thingDefs>
+					<categories>
+						<li>Leathery</li>
+					</categories>
 				</filter>
 				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Leather_Alp</li>
-			</thingDefs>
+					<categories>
+						<li>Leathery</li>
+					</categories>
 		</fixedIngredientFilter>
 		<products>
 			<ISA_Apparel_RunesAndSigils>1</ISA_Apparel_RunesAndSigils>
