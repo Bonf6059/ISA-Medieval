@@ -37,7 +37,7 @@
 		<label>Rox Horn</label>
 		<description>A Rox's horn. It is heavy, durable, and valuable. It is too bulky to be used as a weapon.</description>
 		<graphicData>
-			<texPath>Items/Resources/Misc/RoxHorn</texPath>
+			<texPath>Items/Resources/Misc/RoxHorn/RoxHorn</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
