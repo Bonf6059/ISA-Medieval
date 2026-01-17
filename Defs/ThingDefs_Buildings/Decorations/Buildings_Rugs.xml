@@ -349,7 +349,7 @@
 		<label>rox rug (3x3)</label>
 		<description>Trophies for the accomplished hunter, animal rugs are formed from stained and stuffed animal hides sewed to felt and padding to form rugs. The polar bears found in frozen climates host great white fur that makes for cold-resistant rugs. Especially valuable to homesteads found in cold temperatures.</description>
 		<graphicData>
-			<texPath>Building/Furnitures/Rugs/RugsAnimals/RugRox3x3</texPath>
+			<texPath>Building/Furnitures/Decorations/Rugs/RugsAnimals/RugRox3x3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
