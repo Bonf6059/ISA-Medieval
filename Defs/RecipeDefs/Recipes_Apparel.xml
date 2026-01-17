@@ -38,9 +38,9 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-					<categories>
-						<li>Leathery</li>
-					</categories>
+			<categories>
+				<li>Leathery</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<ISA_Apparel_RunesAndSigils>1</ISA_Apparel_RunesAndSigils>
