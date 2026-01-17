@@ -66,15 +66,15 @@
 			<skillRequirements>
 					<Crafting>4</Crafting>
 			</skillRequirements>
-      			<recipeUsers>
-        			<li>VFEM2_AlchemicalWorkbench</li>
+      		<recipeUsers>
+        		<li>VFEM2_AlchemicalWorkbench</li>
 				<li>DrugLab</li>
 			</recipeUsers>
-       		</recipeMaker>
-    		<costStuffCount>25</costStuffCount>
-    		<stuffCategories>
-    			  <li>Leathery</li>
-    		</stuffCategories>
+       	</recipeMaker>
+    	<costStuffCount>25</costStuffCount>
+    	<stuffCategories>
+    		  <li>Leathery</li>
+    	</stuffCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2</Mass>
