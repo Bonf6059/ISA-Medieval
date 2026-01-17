@@ -28,10 +28,10 @@
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
-				<li>ISA_ShellAttachment</li>
+				<li>ShellAttachment</li>
 			</layers>
 			<tags>
-				<li>ISA_Attachment</li>
+				<li>Attachment</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -57,14 +57,14 @@
 			<texPath>Pawn/HumanLike/Apparel/Attachments/RunesAndSigils/RunesAndSigils</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<!--<recipeMaker>
+		<recipeMaker>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-		</recipeMaker>-->
-		<costList>
+		</recipeMaker>
+		<!--<costList>
 			<ISA_Leather_Alp>20</ISA_Leather_Alp>
-		</costList>	
+		</costList>	-->
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2</Mass>
@@ -84,7 +84,7 @@
 			<hediff>ISA_SigilMood</hediff>
 			<part>Body</part>
 		  </li>
-		</comps>
+		</comps>	
 		<researchPrerequisites>
 			<li>ISA_WarChemicals</li>
 			<li>ComplexClothing</li>
