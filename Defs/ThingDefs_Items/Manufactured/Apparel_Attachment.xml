@@ -63,6 +63,10 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+    		<costStuffCount>25</costStuffCount>
+    		<stuffCategories>
+    			  <li>Leathery</li>
+    		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2</Mass>
