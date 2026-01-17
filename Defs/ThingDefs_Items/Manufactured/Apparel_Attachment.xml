@@ -57,11 +57,11 @@
 			<texPath>Pawn/HumanLike/Apparel/Attachments/RunesAndSigils/RunesAndSigils</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<recipeMaker>
+		<!--<recipeMaker>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
-		</recipeMaker>
+		</recipeMaker>-->
 		<costList>
 			<ISA_Leather_Alp>20</ISA_Leather_Alp>
 		</costList>	
@@ -79,12 +79,12 @@
 			<wornGraphicPath>Pawn/Humanlike/Apparel/Attachments/RunesAndSigils</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
-	<!--	<comps>
+		<comps>
 		  <li Class="CompProperties_CauseHediff_Apparel">
 			<hediff>ISA_SigilMood</hediff>
 			<part>Body</part>
 		  </li>
-		</comps>	-->
+		</comps>
 		<researchPrerequisites>
 			<li>ISA_WarChemicals</li>
 			<li>ComplexClothing</li>
