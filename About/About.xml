@@ -7,11 +7,6 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ISA_MedievalLogo</modIconPath>
 	<modDependencies>
 		<li>
-			<packageId>OskarPotocki.VFE.Medieval2</packageId>
-			<displayName>Vanilla Factions Expanded - Medieval 2</displayName>
-			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaFactionsExpanded-Medieval2</downloadUrl>
-		</li>
-		<li>
 			<packageId>syrchalis.processor.framework</packageId>
 			<displayName>[SYR] Processor Framework</displayName>
 			<downloadUrl>https://github.com/ViralReaction/ProcessorFramework</downloadUrl>
