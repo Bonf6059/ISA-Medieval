@@ -12,7 +12,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		<recipeUsers>
-			<li>VFEM2_AlchemicalWorkbench</li>
+			<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
 			<li>DrugLab</li>
 		</recipeUsers>
 		<researchPrerequisites>
