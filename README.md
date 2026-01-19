@@ -12,6 +12,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+19/01/2026
+- Added Coal as a fuel source
+
 29/12/2025
 - Added animal, apparel and weapons from [ISA] Monster Hunters
 
