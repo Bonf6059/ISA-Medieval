@@ -14,6 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 19/01/2026
 - Added Coal as a fuel source
 - Added WorkBench
+- Removed Lemons - I think it was just bloat (as if it was the only thing)
 
 29/12/2025
 - Added animal, apparel and weapons from [ISA] Monster Hunters
