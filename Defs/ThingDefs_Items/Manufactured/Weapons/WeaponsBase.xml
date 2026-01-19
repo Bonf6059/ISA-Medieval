@@ -10,7 +10,8 @@
 			<effectWorking>Smith</effectWorking>
 			<soundWorking>Recipe_Smith</soundWorking>
 			<recipeUsers Inherit="False">
-				<li>VFEM2_AlchemicalWorkbench</li>
+				<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
+				<li>ISA_AlchemyTable</li>
 			</recipeUsers>
 		</recipeMaker>
 		<tickerType>Normal</tickerType>
