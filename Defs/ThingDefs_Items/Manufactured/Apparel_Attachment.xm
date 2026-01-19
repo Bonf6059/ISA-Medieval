@@ -67,7 +67,7 @@
 					<Crafting>4</Crafting>
 			</skillRequirements>
       		<recipeUsers>
-        		<li>VFEM2_AlchemicalWorkbench</li>
+        		<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li>
 				<li>DrugLab</li>
 			</recipeUsers>
        	</recipeMaker>
