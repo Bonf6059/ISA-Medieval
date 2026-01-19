@@ -156,6 +156,7 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>ISA_Coal</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -431,6 +432,7 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>ISA_Coal</li>
 					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
@@ -491,6 +493,7 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
+						<li>ISA_Coal</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
