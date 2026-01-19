@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  
+	<ThingDef ParentName="ResourceBase">
+		<defName>ISA_Coal</defName>
+		<label>coal chunks</label>
+		<description>Coal is a black combustible chunk of rock formed by mostly carbon. A good source of fuel for stoves and furnaces.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Coal</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<MarketValue>1.1</MarketValue>
+			<Mass>0.008</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<deepCommonality>5</deepCommonality>
+		<deepCountPerPortion>50</deepCountPerPortion>
+		<deepLumpSizeRange>20~30</deepLumpSizeRange>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+<!--		<modExtensions>
+			<li Class="MedievalOverhaul.FuelValueProperty">
+				<fuelValue>4</fuelValue>
+			</li>
+		</modExtensions>  -->
+	</ThingDef>
+
+</Defs>
