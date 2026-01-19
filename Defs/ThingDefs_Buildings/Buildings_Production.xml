@@ -653,7 +653,7 @@
 		<description>A work table equipped with tools for crafting and designing items.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Production/Workbench</texPath>
+			<texPath>Building/Production/WorkBench/WorkBench</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.5,1.5)</drawSize>
