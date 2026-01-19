@@ -412,47 +412,4 @@
 		</plant>
 	</ThingDef>
 
-	<!-- Lemon tree -->
-	
-	<ThingDef ParentName="TreeBase">
-		<defName>ISA_Tree_Lemon</defName>
-		<label>lemon tree</label>
-		<description>A small hardwood tree which gives way to bitter-tasting yellow citrus fruits. Lemons are often consumed for their dietary benefits and to prevent diseases such as Scurvy, as well as often being used as an ingredient or glaze for many different prepared meals.</description>
-		<descriptionHyperlinks>
-			<ThingDef>ISA_RawLemons</ThingDef>
-		</descriptionHyperlinks>
-		<statBases>
-			<MaxHitPoints>85</MaxHitPoints>
-			<Nutrition>1.5</Nutrition>
-		</statBases>
-		<graphicData>
-			<texPath>Plants/FullGrown/TreeLemon</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>10</pathCost>
-		<ingestible/>
-		<plant>
-			<dieIfLeafless>False</dieIfLeafless>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<fertilitySensitivity>0.7</fertilitySensitivity>
-			<growDays>20</growDays>
-			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.30</harvestAfterGrowth>
-			<harvestedThingDef>ISA_RawLemons</harvestedThingDef>
-			<harvestYield>12</harvestYield>
-			<sowMinSkill>3</sowMinSkill>
-			<mustBeWildToSow>false</mustBeWildToSow>
-			<sowResearchPrerequisites Inherit="False">
-				<li>Cocoa</li>
-			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<wildOrder>2</wildOrder>
-			<immatureGraphicPath>Plants/Immature/TreeLemon</immatureGraphicPath>
-			<purpose>Food</purpose>
-		</plant>
-	</ThingDef>
-
 </Defs>
