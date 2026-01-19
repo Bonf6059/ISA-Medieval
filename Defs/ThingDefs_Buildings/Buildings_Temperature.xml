@@ -245,9 +245,10 @@
 				<fuelCapacity>80.0</fuelCapacity>
 				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
-					<categories>
+					<thingDefs>
 						<li>WoodLog</li>
-					</categories>
+						<li>ISA_Coal</li>
+					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -396,7 +397,7 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>WoodLog</li>
-						<li MayRequire="Sarg.AlphaMemes">GU_RedWood</li>
+						<li>ISA_Coal</li>
 					</thingDefs>
 				</fuelFilter>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
