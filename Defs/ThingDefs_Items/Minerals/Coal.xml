@@ -7,7 +7,7 @@
 		<label>coal chunks</label>
 		<description>Coal is a black combustible chunk of rock formed by mostly carbon. A good source of fuel for stoves and furnaces.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/Coal</texPath>
+			<texPath>Items/Resources/Minerals/Coal</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
