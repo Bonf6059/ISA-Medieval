@@ -70,7 +70,7 @@
 	<ThingDef ParentName="MealCooked">
 		<defName>ISA_BerryPie</defName>
 		<label>berry pie</label>
-		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry, topped with a light lemon glaze.</description>
+		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry.</description>
 		<graphicData>
 			<texPath>Items/Food/Bakes/Cakes/BerryPie</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
