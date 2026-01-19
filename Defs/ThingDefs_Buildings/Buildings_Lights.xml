@@ -59,13 +59,9 @@
 				<!--fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain-->
 			<!--	<fuelFilter>
 					<thingDefs>
-						<li>DankPyon_Coal</li>
-						<li>DankPyon_Tar</li>
+						<li>ISA_Coal</li>
+						<li>WoodLog</li>
 					</thingDefs>
-					<categories>
-						<li>DankPyon_RawWood</li>
-						<li>DankPyon_Wood</li>
-					</categories>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
