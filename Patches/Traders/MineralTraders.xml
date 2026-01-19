@@ -48,6 +48,30 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals"]/stockGenerators</xpath>
+        <value>
+          
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Coal</thingDef>
+            <countRange>50~200</countRange>
+          </li>
+
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
+        <value>
+          
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Coal</thingDef>
+            <countRange>100~300</countRange>
+          </li>
+
+        </value>
+      </li>
+
   </operations>
 </Operation>
 
