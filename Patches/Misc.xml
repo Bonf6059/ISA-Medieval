@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Add coal as a fuel source to everything except passive cooler -->
+  
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[not (defName="PassiveCooler")]/comps/li[@Class="CompProperties_Refuelable"]/fuelFilter/thingDefs<!--[li="WoodLog"]/li--></xpath>
+		<value>
+			<li>ISA_Coal</li>
+		</value>
+	</Operation>
+
+</Patch>
