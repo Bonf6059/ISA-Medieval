@@ -647,6 +647,8 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<!-- WorkBench from medieval overhaul -->
+
 	<ThingDef ParentName="ISA_1X3WorkbenchBase">
 		<defName>ISA_Workbench</defName>
 		<label>workbench</label>
