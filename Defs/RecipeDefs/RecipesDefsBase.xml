@@ -38,7 +38,7 @@
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<recipeUsers>
-			<!-- <li>VFEM2_AlchemicalWorkbench</li> -->
+			<!-- <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li> -->
 			<li>DrugLab</li>
 			<li>ISA_AlchemyTable</li>
 		</recipeUsers>
