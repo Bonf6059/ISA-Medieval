@@ -7,6 +7,11 @@
 	<modIconPath IgnoreIfNoMatchingField="True">UI/ISA_MedievalLogo</modIconPath>
 	<modDependencies>
 		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+	 	</li>
+		<li>
 			<packageId>syrchalis.processor.framework</packageId>
 			<displayName>[SYR] Processor Framework</displayName>
 			<downloadUrl>https://github.com/ViralReaction/ProcessorFramework</downloadUrl>
@@ -18,6 +23,7 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>syrchalis.processor.framework</li>
 		<li>Van.Beasts</li>
