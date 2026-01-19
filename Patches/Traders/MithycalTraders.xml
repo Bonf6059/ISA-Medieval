@@ -21,14 +21,14 @@
         </value>
       </li>
 
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
         <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
         <value>
         <li>ISA_Caravan_Mythological</li>
         </value>
       </li>
 
-      <li Class="PatchOperationAdd">
+      <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Medieval2">
         <xpath>/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/caravanTraderKinds</xpath>
         <value>
         <li>ISA_Caravan_Mythological</li>
