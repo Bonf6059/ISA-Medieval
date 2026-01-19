@@ -7,8 +7,14 @@
 		Cloth Sack = 3 stacks
 	-->
 
+	<!-- This should render the storage on top of the items, for a less laggy solution (items are listed in the storage but aren't on the map) you need C# -->
+	
+	<ThingDef Name="ISA_ShelfBase" ParentName="ShelfBase" Abstract="True">
+		<altitudeLayer>BuildingAbove</altitudeLayer>
+	</ThingDef>
+	
 	<!-- ==================== Storage Base ==================== -->
-	<ThingDef Name="ISA_LumberStorageBase" ParentName="ShelfBase" Abstract="True">
+	<ThingDef Name="ISA_LumberStorageBase" ParentName="ISA_ShelfBase" Abstract="True">
 		<thingClass>Building_Storage</thingClass>
 <!--		<researchPrerequisites Inherit="false">
 			<li>ISA_Lumber</li>
@@ -35,7 +41,7 @@
 		</building>
 	</ThingDef>
 	
-	<ThingDef Name="ISA_BrickStorageBase" ParentName="ShelfBase" Abstract="True">
+	<ThingDef Name="ISA_BrickStorageBase" ParentName="ISA_ShelfBase" Abstract="True">
 		<thingClass>Building_Storage</thingClass>
 		<researchPrerequisites Inherit="false">
 			<li>Stonecutting</li>
@@ -44,7 +50,7 @@
 		<designatorDropdown>ISA_Storage_Brick</designatorDropdown>
 	</ThingDef>
 
-	<ThingDef Name="ISA_StorageBase" ParentName="ShelfBase" Abstract="True">
+	<ThingDef Name="ISA_StorageBase" ParentName="ISA_ShelfBase" Abstract="True">
 		<thingClass>Building_Storage</thingClass>
 		<researchPrerequisites Inherit="false">
 			<li>ISA_RusticStorage</li>
@@ -915,7 +921,7 @@
 	</ThingDef>
 
 	<!--== Coal Ore Barrel ==-->
-<!--	<ThingDef ParentName="ISA_BarrelBase">
+	<ThingDef ParentName="ISA_BarrelBase">
 		<defName>ISA_BarrelCoalOre</defName>
 		<label>barrel of coal ore</label>
 		<description>A cylindrical barrel reserved for coal ore to save space. Can hold up to 4 stacks of coal ore. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
@@ -944,7 +950,7 @@
 			</defaultStorageSettings>
 		</building>
 		<designatorDropdown>ISA_Storage_Barrel</designatorDropdown>
-	</ThingDef>  -->
+	</ThingDef>
 
 	<!--== Textiles Barrel ==-->
 	<ThingDef ParentName="ISA_BarrelBase">
@@ -1460,7 +1466,7 @@
 
 	<!--======================= Shelf ==============================-->
 
-	<ThingDef ParentName="ISA_StorageBase" Name="ISA_ShelfBase" Abstract="True">
+	<ThingDef ParentName="ISA_StorageBase" Name="ISA_AlchemyShelfBase" Abstract="True">
 		<defName>ISA_ShelfFilled1c</defName>
 		<label>filled shelf</label>
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
@@ -1498,9 +1504,9 @@
 		<designatorDropdown>ISA_Storage_Shelf</designatorDropdown>
 	</ThingDef>
 
-	<!-- ===== Alchemy Shelfs ===== -->
+	<!-- ===== Alchemy Shelves ===== -->
 	<!-- Shelf Herbs -->
-<!--	<ThingDef ParentName="ISA_ShelfBase">
+<!--	<ThingDef ParentName="ISA_AlchemyShelfBase">
 		<defName>ISA_Shelf_AssortedHerbs</defName>
 		<label>shelf (assorted herbs)</label>
 		<graphicData>
@@ -1538,7 +1544,7 @@
 		</building>
 	</ThingDef>	-->
 	
-	<ThingDef ParentName="ISA_ShelfBase">
+	<ThingDef ParentName="ISA_AlchemyShelfBase">
 		<defName>ISA_Shelf_GreenHerbs</defName>
 		<label>shelf (green herbs)</label>
 		<graphicData>
@@ -1572,7 +1578,7 @@
 		</building>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_ShelfBase">
+	<ThingDef ParentName="ISA_AlchemyShelfBase">
 		<defName>ISA_Shelf_RedHerbs</defName>
 		<label>shelf (red herbs)</label>
 		<graphicData>
@@ -1606,7 +1612,7 @@
 	
 	<!-- Drugs -->
 
-<!--	<ThingDef ParentName="ISA_ShelfBase">
+<!--	<ThingDef ParentName="ISA_AlchemyShelfBase">
 		<defName>ISA_Shelf_Paregoric</defName>
 		<label>shelf (paregoric)</label>
 		<graphicData>
