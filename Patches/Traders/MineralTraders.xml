@@ -60,26 +60,4 @@
   </operations>
 </Operation>
 
-<Operation MayRequire="ISA.RandomPatches,OskarPotocki.VFE.Medieval2" Class="PatchOperationSequence">
- <!-- <success>Always</success>  -->
-    <operations>
-       <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
-
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/FactionDef[@Name="VFEM2_VikingBase"]/caravanTraderKinds</xpath>
-        <value>
-        <li>ISA_Caravan_Minerals</li>
-        </value>
-      </li>
-
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/FactionDef[@Name="VFEM2_MedievalFactionBase"]/caravanTraderKinds</xpath>
-        <value>
-        <li>ISA_Caravan_Minerals</li>
-        </value>
-      </li>
-
-  </operations>
-</Operation>
-
 </Patch>
