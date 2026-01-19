@@ -1224,7 +1224,7 @@
 		</building>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_LargeShelfBase">
+	<ThingDef ParentName="ISA_LargeShelfBase" MayRequireAnyOf="ISA.hornetkeeping,OskarPotocki.VFE.Medieval2">
 		<defName>ISA_LargeShelf_Mead</defName>
 		<label>large mead shelf</label>
 		<graphicData>
@@ -1236,8 +1236,8 @@
 					<thingDefs>
 						<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
 						<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
-						<li>VFEM2_Mead</li>
-						<li>VFEM2_Honey</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1247,8 +1247,8 @@
 					<thingDefs>
 						<li MayRequire="ISA.hornetkeeping">ISA_HornetMead</li>
 						<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
-						<li>VFEM2_Mead</li>
-						<li>VFEM2_Honey</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Mead</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Honey</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
