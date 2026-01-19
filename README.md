@@ -4,7 +4,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Ideas for possible next updates
 
-- Add lemon cakes
 - Add Scribe table to make books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
