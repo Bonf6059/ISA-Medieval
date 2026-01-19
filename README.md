@@ -15,6 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added Coal as a fuel source
 - Added WorkBench
 - Removed Lemons - I think it was just bloat (as if it was the only thing)
+- Removed dependecy from VanillaFactionExpandedMedieval2
 
 29/12/2025
 - Added animal, apparel and weapons from [ISA] Monster Hunters
