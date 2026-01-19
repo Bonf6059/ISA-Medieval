@@ -102,7 +102,7 @@
   
      <!-- Replace Mead Texture -->
 
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationReplace" MayRequire="OskarPotocki.VFE.Medieval2">
     <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/graphicData/texPath</xpath>
     <value>
       <texPath>Items/Drinks/Mead</texPath>
@@ -111,7 +111,7 @@
 
 	<!-- Replace Honey Texture -->
 
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationReplace" MayRequire="OskarPotocki.VFE.Medieval2">
     <xpath>/Defs/ThingDef[defName="VFEM2_Honey"]/graphicData/texPath</xpath>
     <value>
       <texPath>Items/Food/RawFood/RawHoney</texPath>
