@@ -4,7 +4,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Ideas for possible next updates
 
-- Add Scribe table to make books
+- Add Scribe table to make books (Add press to make wood pulp more efficient than crafting spot and scribe table that need leather and paper to make - vanilla - skill trainers with texture replaced to look like books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Check wether ISA_alcohol work with the vanilla gene
