@@ -264,7 +264,7 @@
 
 <!-- With Epochs Pottery OR Epochs Golems loaded -->
 	
- <!--     <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolem" ParentName="ISA_MineShaftBase">
+ <!--     <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolems" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeClay</defName>
 		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>200</workAmount>
@@ -275,7 +275,7 @@
 	    	</products>
 	</RecipeDef>	-->
 
-      <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolem" ParentName="ISA_MineShaftBase">
+      <RecipeDef MayRequireAnyOf="det.epochspottery,det.epochsgolems" ParentName="ISA_MineShaftBase">
     		<defName>ISA_MakeClayBulk</defName>
     		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>2000</workAmount>
