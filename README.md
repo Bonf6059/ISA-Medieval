@@ -8,7 +8,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Check wether ISA_alcohol work with the vanilla gene
-- Add separate recipe in the mines when epoch golem is active
 
 # Old updates
 
