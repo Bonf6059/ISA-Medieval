@@ -73,6 +73,8 @@
 					</li>
 
 					<!-- Plants -->
+
+			<!-- Disabled because I added grain that makes the same -->
 					
 		<!--			<li Class="PatchOperationAdd">
 						<xpath>/Defs/ThingDef[defName="Plant_Haygrass"]</xpath>
