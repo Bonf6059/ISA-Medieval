@@ -482,7 +482,7 @@
       </li>
       <li Class="CompProperties_Glower">
 		<overlightRadius>11</overlightRadius>
-        <glowRadius>11</glowRadius>
+        <glowRadius>12</glowRadius>
         <glowColor>(255,170,77,0)</glowColor>
       </li>
       <li Class="CompProperties_HeatPusher">
