@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-<!-- This is the cooler alternativ to pyrinth from "Epochs-Pyrinth" -->
+<!-- This is the cooler alternative to pyrinth from "Epochs-Pyrinth" -->
  
   <ThingDef MayRequire="Ludeon.Rimworld.Royalty" Name="ISA_CriopyrinthBrazier" ParentName="FurnitureBase">
     <defName>ISA_CriopyrinthBrazier</defName>
@@ -66,6 +66,9 @@
           <!--    <li>ISA_CriopyrinthLamp</li>	-->
               <li>ISA_CriopyrinthWallLamp</li>
               <li>ISA_CriopyrinthBrazier</li>
+          <!--    <li>ISA_ShinypyrinthLamp</li>	-->
+              <li>ISA_ShinypyrinthWallLamp</li>
+              <li>ISA_ShinypyrinthBrazier</li>
 			  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
               <li MayRequire="det.epochspyrinth">DV_PyrinthWallLamp</li>
               <li MayRequire="det.epochspyrinth">DV_PyrinthBrazier</li>
@@ -435,4 +438,194 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+<!-- This is the brighter alternative to pyrinth from "Epochs-Pyrinth" -->
+ 
+  <ThingDef MayRequire="Ludeon.Rimworld.Royalty" Name="ISA_ShinypyrinthBrazier" ParentName="FurnitureBase">
+    <defName>ISA_ShinypyrinthBrazier</defName>
+    <label>Shinypyrinth pylon</label>
+    <description>A bowl-shaped furnishing clasping a large Shinypyrinth shard. Will light the surroundings and heat the area. It's bright enough to grow plants</description>
+    <category>Building</category>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.15</fillPercent>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Mass>15</Mass>
+      <MeditationFocusStrength>0.0</MeditationFocusStrength>
+    </statBases>
+    <selectable>true</selectable>
+    <designationCategory>Furniture</designationCategory>
+    <uiOrder>2820</uiOrder>
+    <uiIconOffset>(0, -0.04)</uiIconOffset>
+    <uiIconScale>0.9</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <stuffCategories>
+      <li>Metallic</li>
+	  <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <ISA_Shinypyrinth>25</ISA_Shinypyrinth>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+      <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+      <li>PlaceWorker_GlowRadius</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Effecter">
+        <effecterDef>ISA_ShinypyrinthSparkingEffect</effecterDef>
+      </li>
+      <li Class="CompProperties_Glower">
+		<overlightRadius>7</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(255,170,77,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>15</heatPerSecond>
+        <heatPushMinTemperature>18</heatPushMinTemperature>
+      </li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes><li>Flame</li></focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_Lit">
+            <offset>0.15</offset>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefsLit">
+            <defs>
+              <li>Campfire</li>
+              <li>TorchLamp</li>
+              <li>TorchWallLamp</li>
+			  <!--    <li>ISA_CriopyrinthLamp</li>	-->
+              <li>ISA_CriopyrinthWallLamp</li>
+              <li>ISA_CriopyrinthBrazier</li>
+          <!--    <li>ISA_ShinypyrinthLamp</li>	-->
+              <li>ISA_ShinypyrinthWallLamp</li>
+              <li>ISA_ShinypyrinthBrazier</li>
+			  <li MayRequire="det.epochspyrinth">DV_PyrinthLamp</li>
+              <li MayRequire="det.epochspyrinth">DV_PyrinthWallLamp</li>
+              <li MayRequire="det.epochspyrinth">DV_PyrinthBrazier</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+            </defs>
+            <offsetPerBuilding>0.02</offsetPerBuilding>
+            <radius>9.9</radius>
+            <maxBuildings>8</maxBuildings>
+            <explanationKey>MeditationFocusPerFlame</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+            <drawRingRadius>false</drawRingRadius>
+          </li>
+        </offsets>
+      </li>
+    </comps>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <rotatable>true</rotatable>
+    <graphicData> <!-- art+to -->
+      <texPath>Building/Temperature/ShinypyrinthBrazier/ShinypyrinthBrazier</texPath>
+      <drawSize>(2.7,2.7)</drawSize>
+      <drawRotated>false</drawRotated>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.55, 0.35, 0.3)</volume>
+        <offset>(0, 0, -0.28)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.3,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <building>
+      <paintable>true</paintable>
+    </building>
+	<researchPrerequisites>
+		<li>ComplexFurniture</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>ISA_ShinypyrinthHolder</defName>
+    <label>Shinypyrinth holder</label>
+    <description>A volatile device that houses crumbled Shinypyrinth crystals. A steady, reliable source of cool air that can't be modified. More stable than it's pyrinth counterpart it won't explode upon being damaged.</description>
+    <graphicData>
+      <texPath>Building/Temperature/ShinypyrinthHolder/ShinypyrinthHolder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.5,0.3,0.7)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.234375,0,0.515625,0.984375)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <blockWind>true</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories>
+      <li>BuildingsTemperature</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <ISA_Shinypyrinth>20</ISA_Shinypyrinth>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>14</heatPerSecond>
+        <heatPushMinTemperature>16</heatPushMinTemperature>
+      </li>
+      <li Class="CompProperties_Effecter">
+        <effecterDef>ISA_ShinypyrinthSparkingEffectSmall</effecterDef>
+      </li>
+      <li Class="CompProperties_Glower">
+		<overlightRadius>5</overlightRadius>
+        <glowRadius>10</glowRadius>
+        <glowColor>(255,170,77,0)</glowColor>
+      </li>
+    </comps>
+    <designationCategory>Temperature</designationCategory>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<researchPrerequisites>
+		<li>ComplexFurniture</li>
+	</researchPrerequisites>
+  </ThingDef>
+
 </Defs>
