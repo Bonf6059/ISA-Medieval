@@ -249,7 +249,7 @@
 
 
     <RecipeDef ParentName="ISA_MineShaftBase">
-		<defName>ISA_MakeShinypyrinth</defName>
+		<defName>ISA_MakeShinypyrinthBulk</defName>
 		<description>Mine deep down underground to obtain Shinypyrinth</description>
 	    	<workAmount>3000</workAmount>
 	    	<label>gather Shinypyrinth x10</label>
