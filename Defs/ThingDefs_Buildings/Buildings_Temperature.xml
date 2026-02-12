@@ -481,8 +481,8 @@
         <effecterDef>ISA_ShinypyrinthSparkingEffect</effecterDef>
       </li>
       <li Class="CompProperties_Glower">
-		<overlightRadius>7</overlightRadius>
-        <glowRadius>14</glowRadius>
+		<overlightRadius>11</overlightRadius>
+        <glowRadius>11</glowRadius>
         <glowColor>(255,170,77,0)</glowColor>
       </li>
       <li Class="CompProperties_HeatPusher">
@@ -526,6 +526,7 @@
         </offsets>
       </li>
     </comps>
+	<specialDisplayRadius>9.95</specialDisplayRadius>
     <canOverlapZones>false</canOverlapZones>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -616,11 +617,12 @@
         <effecterDef>ISA_ShinypyrinthSparkingEffectSmall</effecterDef>
       </li>
       <li Class="CompProperties_Glower">
-		<overlightRadius>5</overlightRadius>
+		<overlightRadius>10</overlightRadius>
         <glowRadius>10</glowRadius>
         <glowColor>(255,170,77,0)</glowColor>
       </li>
     </comps>
+	<specialDisplayRadius>8.29</specialDisplayRadius>
     <designationCategory>Temperature</designationCategory>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	<researchPrerequisites>
