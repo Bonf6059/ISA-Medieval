@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Criopyrinth -->
+  
   <ThingDef ParentName="BaseFilth">
     <defName>ISA_Filth_Criopyrinth</defName>
     <label>Criopyrinth rubble</label>
@@ -46,5 +48,55 @@
       </li>
     </comps>
   </ThingDef>
+
+<!-- Shinypyrinth -->
+  
+  <ThingDef ParentName="BaseFilth">
+    <defName>ISA_Filth_Shinypyrinth</defName>
+    <label>Shinypyrinth rubble</label>
+    <graphicData>
+      <texPath>Building/Misc/Filth/ShinypyrinthFilth</texPath>
+    </graphicData>
+    <filth>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+    </filth>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>ISA_MineableShinypyrinth</defName>
+    <label>Shinypyrinth</label>
+    <description>Opaque, crystallized Shinypyrinth, hot to the touch. It glows and heats the air around it, it produces a lot of light.</description>
+    <graphicData>
+      <texPath>Building/Misc/Natural/Linked/Shinypyrinth_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <filthLeaving>ISA_Filth_Shinypyrinth</filthLeaving>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>ISA_Shinypyrinth</mineableThing>
+      <mineableYield>12</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>5~6</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+    <comps inherit="False">
+      <li Class="CompProperties_Glower">
+        <overlightRadius>2</overlightRadius>
+        <glowRadius>4</glowRadius>
+        <glowColor>(255,170,77,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>2.5</heatPerSecond>
+        <heatPushMaxTemperature>15</heatPushMaxTemperature>
+      </li>
+    </comps>
+  </ThingDef>
+
 
 </Defs>
