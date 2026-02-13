@@ -13,7 +13,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 12/02/2026
-- Added Shinypyrinth
+- Added Shinypyrinth, it's a light source strong enough to grow plants
 
 19/01/2026
 - Added Coal as a fuel source
