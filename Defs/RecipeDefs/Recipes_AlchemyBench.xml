@@ -343,7 +343,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>PsychoidLeaves</li>
+						<li>ISA_RawHerb</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -354,7 +354,7 @@
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
 				<li>ISA_Paregoric</li>
-				<li>PsychoidLeaves</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -362,7 +362,7 @@
 				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
 				<li>ISA_Paregoric</li>
-				<li>PsychoidLeaves</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
