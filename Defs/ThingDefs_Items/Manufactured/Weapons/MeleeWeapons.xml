@@ -6,7 +6,7 @@
     <label>shepherd's crook</label>
     <description>A shaped stick, with a hook at one end, for handling animals and bashing enemies to death. This weapon is so old that it is believed to be almost 20.000 years old.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <texPath>Items/Weapons/Melee/ISA_ShepherdCrook</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.1</uiIconScale>
@@ -75,7 +75,7 @@
     <label>ygeia's rod</label>
     <description>A shaped stick, with two serpents at one end. It is ruomored that only the best craftsman can make this rod. It has intricate decorations, difficult to replicate.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <texPath>Items/Weapons/Melee/ISA_YgeiaRod</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
    <!-- <uiIconScale>1.1</uiIconScale>	-->
