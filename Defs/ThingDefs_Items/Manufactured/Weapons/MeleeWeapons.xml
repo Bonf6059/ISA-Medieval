@@ -94,7 +94,8 @@
     <equippedStatOffsets>
       <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
       <PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
-	  <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
+	  <MedicalTendSpeed>0.1</MedicalTendSpeed>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>
 	</equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
