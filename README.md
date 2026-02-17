@@ -11,6 +11,11 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+17/02/2026
+- Replaced psychoid leaves with raw herbs in crivicine scent
+- Added sheperd's crook and ygeia's rod
+
+
 12/02/2026
 - Added Shinypyrinth, it's a light source strong enough to grow plants
 
