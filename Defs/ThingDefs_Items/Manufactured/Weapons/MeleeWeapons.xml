@@ -59,4 +59,79 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="BasePsychicWeaponMelee">
+    <defName>ISA_YgeiaRod</defName>
+    <label>ygeia's rod</label>
+    <description>A shaped stick, with two serpents at one end. It is ruomored that only the best craftsman can make this rod. It has intricate decorations, difficult to replicate.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Club</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+   <!-- <uiIconScale>1.1</uiIconScale>	-->
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+	  <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
+	</equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>Smithing</researchPrerequisite>
+	   <skillRequirements>
+			<Crafting>10</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+	<researchPrerequisites>
+		<li>Smithing</li>
+	</researchPrerequisites>
+	<modExtensions>
+		<li Class="ShowTools.ToolExtension">
+			<workGiverDefs>
+				<li>DoctorTendToAnimals</li>
+				<li>DoctorTendToSelfEmergency</li>
+				<li>DoctorTendToSelf</li>
+				<li>DoctorTendToHumanlikes</li>
+				<li>DoctorTendEmergency</li>
+			</workGiverDefs>
+		</li>
+	</modExtensions>
+  </ThingDef>
+
 </Defs>
