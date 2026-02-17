@@ -57,6 +57,17 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+	<modExtensions MayRequire="Van.DATools">
+		<li Class="ShowTools.ToolExtension">
+			<workGiverDefs>
+				<li>TakeRoamingAnimalsToPen</li>
+				<li>TakeToPen</li>
+				<li>Tame</li>
+				<li>Train</li>
+				<li>RebalanceAnimalsInPens</li>
+			</workGiverDefs>
+		</li>
+	</modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BasePsychicWeaponMelee">
@@ -121,7 +132,7 @@
 	<researchPrerequisites>
 		<li>Smithing</li>
 	</researchPrerequisites>
-	<modExtensions>
+	<modExtensions MayRequire="Van.DATools">
 		<li Class="ShowTools.ToolExtension">
 			<workGiverDefs>
 				<li>DoctorTendToAnimals</li>
