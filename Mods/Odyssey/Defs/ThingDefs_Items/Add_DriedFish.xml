@@ -7,7 +7,7 @@
 		<label>dried fish</label>
 		<description>Dried fish to preserve and prolong shelf life for later use as an ingredient in meals.</description>
 		<graphicData>
-			<texPath>Things/Item/Meal/DriedFishRaw</texPath>
+			<texPath>Items/Food/PreservedFood/DriedFishRaw</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
