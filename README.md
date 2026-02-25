@@ -8,11 +8,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
+- Add dried herbs
+- Add smoker
 
 # Old updates
 
 25/02/2026
-- Forge Bellows from VFEM2 now don't require hard leather but any leather will do
+- Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
+- Added drying rack (with dried meat, fish, insect and human meat)
 
 17/02/2026
 - Replaced psychoid leaves with raw herbs in crivicine scent
