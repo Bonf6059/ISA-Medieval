@@ -5,7 +5,7 @@
 
 <!-- Dried Meats -->
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>DankPyon_DriedMeat</defName>
+		<defName>ISA_DriedMeat</defName>
 		<label>dried Meat</label>
 		<description>Dried meat to preserve and prolong shelf life for later use as an ingredient in meals.</description>
 		<graphicData>
@@ -21,7 +21,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>DankPyon_AteDriedMeat</tasteThought>
+			<tasteThought>ISA_AteDriedMeat</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
@@ -44,7 +44,7 @@
 
 	<!-- Dried Human Meats -->
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>DankPyon_DriedMeat_Human</defName>
+		<defName>ISA_DriedMeat_Human</defName>
 		<label>dried Human Meat</label>
 		<description>>Dried meat to preserve and prolong shelf life for later use as an ingredient in meals. Does not rehydrate very well and only true cannibals can stomach it.</description>
 		<graphicData>
@@ -60,7 +60,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>DankPyon_AteDriedMeat</tasteThought>
+			<tasteThought>ISA_AteDriedMeat</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
@@ -82,7 +82,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>DankPyon_DriedMeat_Insect</defName>
+		<defName>ISA_DriedMeat_Insect</defName>
 		<label>dried Insect Meat</label>
 		<description>Dried insect meat to preserve and prolong shelf life.Does not rehydrate very well and not many can stomach it</description>
 		<graphicData>
@@ -98,7 +98,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>DankPyon_AteDriedMeat</tasteThought>
+			<tasteThought>ISA_AteDriedMeat</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
