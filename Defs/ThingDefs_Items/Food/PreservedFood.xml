@@ -9,7 +9,7 @@
 		<label>dried Meat</label>
 		<description>Dried meat to preserve and prolong shelf life for later use as an ingredient in meals.</description>
 		<graphicData>
-			<texPath>Things/Item/Meal/DriedMeat</texPath>
+			<texPath>Items/Food/PreservedFood/DriedMeat</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -48,7 +48,7 @@
 		<label>dried Human Meat</label>
 		<description>>Dried meat to preserve and prolong shelf life for later use as an ingredient in meals. Does not rehydrate very well and only true cannibals can stomach it.</description>
 		<graphicData>
-			<texPath>Things/Item/Meal/DriedHumanMeat</texPath>
+			<texPath>Items/Food/PreservedFood/DriedHumanMeat</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -86,7 +86,7 @@
 		<label>dried Insect Meat</label>
 		<description>Dried insect meat to preserve and prolong shelf life.Does not rehydrate very well and not many can stomach it</description>
 		<graphicData>
-			<texPath>Things/Item/Meal/DriedInsectMeat</texPath>
+			<texPath>Items/Food/PreservedFood/DriedInsectMeat</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
