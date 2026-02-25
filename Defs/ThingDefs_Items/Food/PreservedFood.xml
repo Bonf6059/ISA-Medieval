@@ -21,7 +21,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>ISA_AteDriedMeat</tasteThought>
+			<!--	<tasteThought>ISA_AteDriedMeat</tasteThought>	-->
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
@@ -60,7 +60,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>ISA_AteDriedMeat</tasteThought>
+			<!--	<tasteThought>ISA_AteDriedMeat</tasteThought>	-->
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
@@ -98,7 +98,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>ISA_AteDriedMeat</tasteThought>
+			<!--	<tasteThought>ISA_AteDriedMeat</tasteThought>	-->
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
