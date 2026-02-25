@@ -17,7 +17,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-   		<xpath>/Defs/ThingDef[defName="VFEM2_ForgeBellows"]/costList</xpath>
+   		<xpath>/Defs/ThingDef[defName="VFEM2_ForgeBellows"]</xpath>
    		<value>
     		<stuffCategories>
 				<li>Leathery</li>
