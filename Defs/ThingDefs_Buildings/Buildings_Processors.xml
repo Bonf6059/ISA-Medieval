@@ -268,7 +268,7 @@
 		</statBases>
 		<size>(2,1)</size>
 		<stuffCategories>
-			<li>WoodLog</li>
+			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
 		<thingClass>Building_WorkTable</thingClass>
@@ -330,7 +330,7 @@
 		</statBases>
 		<size>(2,2)</size>
 		<stuffCategories>
-			<li>WoodLog</li>
+			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<comps>
