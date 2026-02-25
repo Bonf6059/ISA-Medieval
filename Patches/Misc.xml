@@ -10,4 +10,19 @@
 		</value>
 	</Operation>
 
+<!-- Replaces hard leather with generic leathery material -->
+	
+	<Operation Class="PatchOperationRemove" MayRequire="OskarPotocki.VFE.Medieval2">
+		<xpath>/Defs/ThingDef[defName="VFEM2_ForgeBellows"]/costList/VFEM2_HardLeather</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+   		<xpath>/Defs/ThingDef[defName="VFEM2_ForgeBellows"]/costList</xpath>
+   		<value>
+    		<stuffCategories>
+				<li>Leathery</li>
+   			</stuffCategories>
+    	</value>
+  	</Operation>
+	
 </Patch>
