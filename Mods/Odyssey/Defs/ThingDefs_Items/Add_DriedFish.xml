@@ -3,7 +3,7 @@
   
 	<!-- Dried Fish -->
 	<ThingDef ParentName="OrganicProductBase">
-		<defName>DankPyon_DriedFish</defName>
+		<defName>ISA_DriedFish</defName>
 		<label>dried fish</label>
 		<description>Dried fish to preserve and prolong shelf life for later use as an ingredient in meals.</description>
 		<graphicData>
@@ -19,7 +19,7 @@
 			<preferability>DesperateOnlyForHumanlikes</preferability>
 			<ingestEffect>EatMeat</ingestEffect>
 			<ingestSound>RawMeat_Eat</ingestSound>
-			<tasteThought>DankPyon_AteDriedMeat</tasteThought>
+			<tasteThought>ISA_AteDriedMeat</tasteThought>
 			<optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
 			<optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 		</ingestible>
