@@ -246,7 +246,7 @@
 		<description>A wooden rack to dry goods under the sun to dehydrate and preserve them for a longer shelf life.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Building/Production/DryingRack/DryingRackEmpty/DryingRackSmall</texPath>
+			<texPath>Building/Production/DryingRack/DryingRackSmall/DryingRackSmall</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>
@@ -308,7 +308,7 @@
 		<description>A wooden rack to dry goods under the sun for preservation and long time use.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
-			<texPath>Building/Production/DryingRack/DryingRackEmpty/DryingRackBig</texPath>
+			<texPath>Building/Production/DryingRack/DryingRackBig/DryingRackBig</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>
