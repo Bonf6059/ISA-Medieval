@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Dried Fish-->
+	<ProcessorFramework.ProcessDef>
+		<defName>ISA_DriedFishProcess</defName>
+		<thingDef>ISA_DriedFish</thingDef>
+		<ingredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>ISA_DriedFish</li>
+			</disallowedThingDefs>
+		</ingredientFilter>
+		<processDays>2.5</processDays><!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>1.0</capacityFactor>
+		<efficiency>0.8</efficiency>
+		<usesTemperature>true</usesTemperature>
+		<temperatureSafe>-99.0~99.0</temperatureSafe>
+		<temperatureIdeal>21.0~99.0</temperatureIdeal>
+		<ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour><!-- percent per degree per hour -->
+		<speedBelowSafe>0.1</speedBelowSafe>
+		<speedAboveSafe>1.0</speedAboveSafe>
+		<sunFactor>0.5~1.0</sunFactor>
+		<rainFactor>1.0~0.0</rainFactor>
+		<snowFactor>1.0~0.0</snowFactor>
+		<windFactor>0.75~1.25</windFactor>
+		<unpoweredFactor>0.0</unpoweredFactor>
+		<unfueledFactor>1.0</unfueledFactor>
+		<powerUseFactor>1.0</powerUseFactor>
+		<fuelUseFactor>1.0</fuelUseFactor>
+		<filledGraphicSuffix>FilledFish</filledGraphicSuffix>
+		<usesQuality>false</usesQuality>
+		<qualityDays>(1, 2, 3, 4, 5, 6, 7)</qualityDays>
+		<color>(255, 255, 255)</color><!-- 0-255 or 0.0-1.0 -->
+		<customLabel/>
+		<destroyChance>0.0</destroyChance>
+		<useStatForEfficiency>true</useStatForEfficiency>
+		<efficiencyStat>Nutrition</efficiencyStat>
+		<statBaselineValue>0.05</statBaselineValue>
+	</ProcessorFramework.ProcessDef>
+ 
+</Defs>
