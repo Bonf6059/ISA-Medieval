@@ -16,6 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
 - Added drying rack (with dried meat, fish, insect and human meat)
+- Removed bloat and reorganized patches
 
 17/02/2026
 - Replaced psychoid leaves with raw herbs in crivicine scent
