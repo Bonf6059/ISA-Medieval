@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+     <!-- Replace Mead Texture -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="OskarPotocki.VFE.Medieval2">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Mead"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Items/Drinks/Mead</texPath>
+    </value>
+  </Operation>
+
+	<!-- Replace Honey Texture -->
+
+  <Operation Class="PatchOperationReplace" MayRequire="OskarPotocki.VFE.Medieval2">
+    <xpath>/Defs/ThingDef[defName="VFEM2_Honey"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Items/Food/RawFood/RawHoney</texPath>
+    </value>
+  </Operation>
+	
+	
+</Patch>
