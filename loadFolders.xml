@@ -3,5 +3,6 @@
 		<li>/</li>
 		<!--<li>1.6</li>-->	
 		<li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
+		<li IfModActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2</li>
 	</v1.6>
 </loadFolders>
