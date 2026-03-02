@@ -163,10 +163,10 @@
 		<defName>ISA_MakeSteelBulk</defName>
 		<description>Mine deep down underground to obtain steel</description>
 		<workAmount>4500</workAmount>
-		<label>mine steel x5</label>
-		<jobString>Mining 5 steel.</jobString>
+		<label>mine steel x10</label>
+		<jobString>Mining 10 steel.</jobString>
 		<products>
-			<Steel>5</Steel>
+			<Steel>10</Steel>
 		</products>
 	</RecipeDef>
 	
@@ -174,10 +174,10 @@
 		<defName>ISA_MakeSilverBulk</defName>
 		<description>Mine deep down underground to obtain silver</description>
 		<workAmount>3000</workAmount>
-		<label>mine silver x5</label>
-		<jobString>Mining 5 silver.</jobString>
+		<label>mine silver x10</label>
+		<jobString>Mining 10 silver.</jobString>
 		<products>
-			<Silver>5</Silver>
+			<Silver>10</Silver>
 		</products>
 	</RecipeDef>
 
@@ -302,10 +302,10 @@
     		<defName>ISA_MakeClayBulk</defName>
     		<description>Mine deep down underground to obtain clay</description>
 	    	<workAmount>2000</workAmount>
-	    	<label>gather clay x10</label>
-    		<jobString>Mining 10 clay</jobString>
+	    	<label>gather clay x20</label>
+    		<jobString>Mining 20 clay</jobString>
     		<products>
-    			<DV_Clay>10</DV_Clay>
+    			<DV_Clay>20</DV_Clay>
     		</products>
     	</RecipeDef>	
 	
