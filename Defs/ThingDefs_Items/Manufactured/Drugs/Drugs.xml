@@ -261,11 +261,11 @@
 			<statFactors>
 				<IncomingDamageFactor>0.5</IncomingDamageFactor>
 			</statFactors>
-			<painFactor>0.75</painFactor>
+			<painFactor>0.70</painFactor>
 			<capMods>
           		<li>
            			<capacity>Moving</capacity>
-           			<offset>-0.2</offset>
+           			<offset>-0.3</offset>
          		</li>
         	</capMods>
         </li>
