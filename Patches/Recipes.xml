@@ -45,5 +45,14 @@
 			<li>ISA_AppleJuiceIntoCider</li>
 		</value>
 	</Operation>
+
+<!-- Lower the amount of work to produce Karhal from dark ages beasts -->
+<!-- Just in case, this is literally half of what it took -->
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="DA_Make_Karhan"]/workAmount</xpath>
+    <value>
+    	<workAmount>17,500</workAmount>
+    </value>
+  </Operation>
 	
 </Patch>
