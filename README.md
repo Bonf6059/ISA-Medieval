@@ -10,6 +10,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add dried herbs
 - Add smoker
+- Potion to increase shooting accuracy (look at det venator xenotype)
 
 # Old updates
 
