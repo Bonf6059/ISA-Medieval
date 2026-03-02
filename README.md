@@ -14,7 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 02/03/2026
-- Boosted outputs for the mining shaft
+- Boosted rates for the mineshaft
   
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
