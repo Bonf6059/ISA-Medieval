@@ -14,22 +14,22 @@
       
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ISA_Mindwort</thingDef>
-				<countRange>5~24</countRange>
+				<countRange>10~34</countRange>
 			</li>
 			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ISA_Poppy</thingDef>
-				<countRange>5~24</countRange>
+				<countRange>10~34</countRange>
 			</li>
 			
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ISA_FlyAgaric</thingDef>
-				<countRange>5~24</countRange>
+				<countRange>10~34</countRange>
 			</li>
 
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
-				<countRange>10~24</countRange>
+				<countRange>10~34</countRange>
 			</li>
 
    		    <li Class="StockGenerator_SingleDef">
@@ -41,12 +41,17 @@
 
 			<li Class="StockGenerator_SingleDef">
         		<thingDef>ISA_GalixPill</thingDef>
-        		<countRange>-5~20</countRange>
+        		<countRange>5~20</countRange>
       		</li>
 			
 			<li Class="StockGenerator_SingleDef">
         		<thingDef>ISA_Paregoric</thingDef>
-        		<countRange>-10~10</countRange>
+        		<countRange>5~24</countRange>
+      		</li>
+
+			<li Class="StockGenerator_SingleDef">
+        		<thingDef>ISA_Rathix</thingDef>
+        		<countRange>5~24</countRange>
       		</li>
       
     		<li Class="StockGenerator_SingleDef">
