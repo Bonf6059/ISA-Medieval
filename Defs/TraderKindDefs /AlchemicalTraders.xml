@@ -36,6 +36,11 @@
    		      <thingDef>ISA_HerbalExtract</thingDef>
     		  <countRange>10~20</countRange>
 			</li>
+
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_RawHerb</thingDef>
+				<countRange>50~234</countRange>
+			</li>
 			
       <!-- Drugs -->
 
