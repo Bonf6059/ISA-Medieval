@@ -489,4 +489,108 @@
 		</products>
 	</RecipeDef>
 
+<!-- Rathix -->
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Rathix</defName>
+		<label>make rathix</label>
+		<description>Make rathix.</description>
+		<jobString>Making rathix.</jobString>
+		<workAmount>570</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DA_Sangonite</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Rathix>5</ISA_Rathix>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_RathixBulk</defName>
+		<label>make rathix in x5</label>
+		<description>Make rathix x5.</description>
+		<jobString>Making rathix x5.</jobString>
+		<workAmount>2850</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DA_Sangonite</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Rathix>25</ISA_Rathix>
+		</products>
+	</RecipeDef>
+	
 </Defs>
