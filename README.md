@@ -15,6 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 02/03/2026
 - Boosted rates for the mineshaft
+- Halfed the amount of time needed to produce Karhan from "Dark ages beasts and monsters"
   
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
