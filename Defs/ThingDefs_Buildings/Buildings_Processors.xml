@@ -348,6 +348,7 @@
 					<li>ISA_DriedMeatProcess</li>
 					<li>ISA_DriedMeatHumanProcess</li>
 					<li>ISA_DriedMeatInsectProcess</li>
+					<li>ISA_DriedHerbProcess</li>
 					<li MayRequire="Ludeon.RimWorld.Odyssey">ISA_DriedFishProcess</li>
 				</processes>
 			</li>
