@@ -11,7 +11,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add smoker
 - Potion to increase shooting accuracy (look at det venator xenotype) called "owling potion" it grants small boost to sight and better shooting skills. It's made with owlcat eggs (bisogna capire se producono uova non fecondate) some herbs as usual and mindworth
 - Update deer and wolf hood descriptions
-- Delete shinypyrinth(make sure that patch for pyrinth brazier ISA_Patches works)
 
 # Old updates
 
@@ -22,6 +21,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added Rathix potion
 - Added recipe to dry herbs to make hay to the drying rack
 - Added deer and wolf hood
+- Deleted shinypyrinth
   
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
