@@ -3,7 +3,7 @@
 
 <!-- Wolf Hood -->
 
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="HatMakeableBase" Name="ISA_AnimalHood">
     <defName>ISA_WolfHood</defName>
     <label>wolf hood</label>
     <description>This impressive looking hood is traditionally worn by tribal chiefs to impress outsiders.
@@ -47,7 +47,7 @@ Gives small boosts in social interactions.</description>
       <bodyPartGroups>
 	      <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Hoods/ArcticWolfHood</wornGraphicPath>
+      <wornGraphicPath>Pawn/HumanLike/Apparel/Wolf/ArcticWolfHood</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -65,7 +65,7 @@ Gives small boosts in social interactions.</description>
 
 <!-- Deer Hood -->
 
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="ISA_AnimalHood">
     <defName>ISA_DeerHood</defName>
     <label>deer hood</label>
     <description>This hood is traditionally worn by hunters in a tribe to confuse prey.
@@ -75,23 +75,6 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
       <texPath>Pawn/HumanLike/Apparel/Deer/DeerHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>25</costStuffCount>
-    <recipeMaker>
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-        <li>CraftingSpot</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-      <factionPrerequisiteTags>
-        <li>Tribal</li>
-      </factionPrerequisiteTags>
-    </recipeMaker>
     <statBases>
       <WorkToMake>2500</WorkToMake>
       <MaxHitPoints>80</MaxHitPoints>		  
@@ -108,7 +91,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
       <bodyPartGroups>
 	<li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparel/Hoods/DeerHood</wornGraphicPath>
+      <wornGraphicPath>Pawn/HumanLike/Apparel/Deer/DeerHood</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
