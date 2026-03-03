@@ -10,6 +10,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
 - Potion to increase shooting accuracy (look at det venator xenotype) called "owling potion" it grants small boost to sight and better shooting skills. It's made with owlcat eggs (bisogna capire se producono uova non fecondate) some herbs as usual and mindworth
+- Update deer and wolf hood descriptions
 
 # Old updates
 
@@ -19,6 +20,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added textures for WIP potions
 - Added Rathix potion
 - Added recipe to dry herbs to make hay to the drying rack
+- Added deer and wolf hood
   
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
