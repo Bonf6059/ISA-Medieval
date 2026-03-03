@@ -11,6 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add smoker
 - Potion to increase shooting accuracy (look at det venator xenotype) called "owling potion" it grants small boost to sight and better shooting skills. It's made with owlcat eggs (bisogna capire se producono uova non fecondate) some herbs as usual and mindworth
 - Update deer and wolf hood descriptions
+- Delete shinypyrinth (look at ISA_Patches to do list before doing it)
 
 # Old updates
 
