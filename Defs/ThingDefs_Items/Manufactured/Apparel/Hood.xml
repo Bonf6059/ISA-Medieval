@@ -10,7 +10,7 @@
 Gives small boosts in social interactions.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Apparel/Hoods/ArcticWolfHood</texPath>
+      <texPath>Pawn/HumanLike/Apparel/Wolf/ArcticWolfHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 	<costStuffCount>25</costStuffCount>
@@ -72,7 +72,7 @@ Gives small boosts in social interactions.</description>
 This hood is made from leather and carved animal bones to resemble a deer.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Apparel/Hoods/DeerHood</texPath>
+      <texPath>Pawn/HumanLike/Apparel/Deer/DeerHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>25</costStuffCount>
