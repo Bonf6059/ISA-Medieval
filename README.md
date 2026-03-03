@@ -8,10 +8,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
-- Add dried herbs
 - Add smoker
 - Potion to increase shooting accuracy (look at det venator xenotype)
-- Potion Rathix to transform a pawn in a stone wall, slow but sturdy it may add the heddif of the stone golem idk.
 
 # Old updates
 
@@ -19,6 +17,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Boosted rates for the mineshaft
 - Halfed the amount of time needed to produce Karhan from "Dark ages beasts and monsters"
 - Added textures for WIP potions
+- Added Rathix potion
+- Added recipe to dry herbs to make hay to the drying rack
   
 25/02/2026
 - Forge Bellows from VFEM2 now doesn't require hard leather but any leather will do
