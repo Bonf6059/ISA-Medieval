@@ -9,7 +9,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
-- Potion to increase shooting accuracy (look at det venator xenotype)
+- Potion to increase shooting accuracy (look at det venator xenotype) called "owling potion" it grants small boost to sight and better shooting skills. It's made with owlcat eggs (bisogna capire se producono uova non fecondate) some herbs as usual and mindworth
 
 # Old updates
 
