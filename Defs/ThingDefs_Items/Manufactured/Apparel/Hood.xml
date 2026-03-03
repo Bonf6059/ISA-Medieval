@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Wolf Hood -->
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ISA_WolfHood</defName>
+    <label>wolf hood</label>
+    <description>This impressive looking hood is traditionally worn by tribal chiefs to impress outsiders.
+Gives small boosts in social interactions.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Apparel/Hoods/ArcticWolfHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Leathery</li>
+	</stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <factionPrerequisiteTags>
+        <li>Tribal</li>
+      </factionPrerequisiteTags>	  
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>		  
+      <Mass>1.2</Mass>
+	  <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+	  <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+	  <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+	  <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+  	<SocialImpact>0.1</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+	      <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Hoods/ArcticWolfHood</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      </apparel>
+		  <tradeTags>
+		      <li>BasicClothing</li>
+		  </tradeTags>
+  </ThingDef>
+
+<!-- Deer Hood -->
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ISA_DeerHood</defName>
+    <label>deer hood</label>
+    <description>This hood is traditionally worn by hunters in a tribe to confuse prey.
+This hood is made from leather and carved animal bones to resemble a deer.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Apparel/Hoods/DeerHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <recipeMaker>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <factionPrerequisiteTags>
+        <li>Tribal</li>
+      </factionPrerequisiteTags>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>		  
+      <Mass>1.2</Mass>
+	  <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+	  <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+	  <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+	  <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <generateCommonality>0.1</generateCommonality>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+	<li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Hoods/DeerHood</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Tribal</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+		<tradeTags>
+		      <li>BasicClothing</li>
+		</tradeTags>
+  </ThingDef>
+
+</Defs>
