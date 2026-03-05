@@ -102,7 +102,7 @@
   <ThingDef ParentName="RoughPlantBase">
 		<defName>ISA_RawHerb</defName>
 		<label>raw herbs</label>
-		<description>Raw herbs.</description>
+		<description>A bundle of raw herbs. It's difficult to pinpoint what kind of herb they are. While not very useful on their own, except for feeding animals, they are commonly used in a variety of alchemical recipes due to their ability to absorb some types of toxins if paired with the right ingredients.</description>
 		<graphicData>
 			<texPath>Items/Food/RawFood/RawHerb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
