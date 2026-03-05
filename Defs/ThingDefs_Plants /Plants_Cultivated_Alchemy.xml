@@ -106,7 +106,7 @@
 			<harvestTag>Standard</harvestTag>
 			<maxMeshCount>4</maxMeshCount>
 			<harvestedThingDef>ISA_RawHerb</harvestedThingDef>
-			<harvestYield>2</harvestYield>
+			<harvestYield>4</harvestYield>
 			<harvestWork>200</harvestWork>
 			<sowTags>
 				<li>Ground</li>
