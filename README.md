@@ -19,7 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Halfed the amount of time needed to produce Karhan from "Dark ages beasts and monsters"
 - Added textures for WIP potions
 - Added Rathix potion
-- Added recipe to dry herbs to make hay to the drying rack
+- Added recipe to dry herbs to make hay on the drying rack
 - Added deer and wolf hood
 - Deleted shinypyrinth
   
