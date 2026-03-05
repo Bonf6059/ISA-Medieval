@@ -217,7 +217,7 @@
 	<selectable>true</selectable>
 	<costList>
 		<ISA_Criopyrinth>5</ISA_Criopyrinth>
-		<Steel>10<Steel>
+		<Steel>10</Steel>
 	</costList>
 	<stuffCategories>
 		<li>Woody</li>
