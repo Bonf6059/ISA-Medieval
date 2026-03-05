@@ -188,12 +188,12 @@
 	<!-- IceChest by medieval overhaul -->
 	
 <ThingDef ParentName="BuildingBase">
-	<defName>DankPyon_IceChest</defName>
+	<defName>ISA_IceChest</defName>
 	<label>ice chest</label>
 	<description>An insulated chest to store criopyrinth and passively cool the surrounding environment.</description>
 	<category>Building</category>
 	<graphicData>
-		<texPath>Things/Building/Misc/IceChest</texPath>
+		<texPath>Building/Temperature/IceChest/IceChest</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
 		<drawSize>(4,3)</drawSize>
 		<damageData>
@@ -216,8 +216,8 @@
 	</statBases>
 	<selectable>true</selectable>
 	<costList>
-		<ISA_Criopyrinth>10</ISA_Criopyrinth>
-		<Steel>5<Steel>
+		<ISA_Criopyrinth>5</ISA_Criopyrinth>
+		<Steel>10<Steel>
 	</costList>
 	<stuffCategories>
 		<li>Woody</li>
@@ -233,7 +233,7 @@
 		<li Class="CompProperties_HeatPusher">
 			<compClass>CompHeatPusherPowered</compClass>
 			<heatPerSecond>-11</heatPerSecond>
-			<heatPushMinTemperature>10</heatPushMinTemperature>
+			<heatPushMinTemperature>16</heatPushMinTemperature>
 		</li>
 	</comps>
 	<designationCategory>Temperature</designationCategory>
