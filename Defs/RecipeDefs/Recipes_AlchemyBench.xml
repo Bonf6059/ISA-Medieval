@@ -251,62 +251,6 @@
 		</products>
 	</RecipeDef>
 
-<!-- Healing Oil -->
-
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_HealingOil</defName>
-		<label>make healing oil</label>
-		<description>Make healing oil.</description>
-		<jobString>Making healing oil.</jobString>
-		<workAmount>270</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li MayRequire="Van.Beasts">DA_EmperorPearls</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>HemogenPack</li>
-					</thingDefs>
-				</filter>
-				<count>3</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_FlyAgaric</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li MayRequire="Van.Beasts">DA_EmperorPearls</li>
-				<li>HemogenPack</li>
-				<li>ISA_FlyAgaric</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li MayRequire="Van.Beasts">DA_EmperorPearls</li>
-				<li>HemogenPack</li>
-				<li>ISA_FlyAgaric</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_HealingOil>10</ISA_HealingOil>
-		</products>
-		<researchPrerequisites>
-			<li>ISA_AdvancedDrugsMaking</li>
-		</researchPrerequisites>	
-	</RecipeDef>
-
 <!-- Crivice Scent -->
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
@@ -590,6 +534,124 @@
 		</defaultIngredientFilter>
 		<products>
 			<ISA_Rathix>25</ISA_Rathix>
+		</products>
+	</RecipeDef>
+
+<!-- Silvarn -->
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Silvarn</defName>
+		<label>make silvarn</label>
+		<description>Make silvarn.</description>
+		<jobString>Making silvarn.</jobString>
+		<workAmount>340</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EggArcticOwlcatUnfertilized</li>
+						<li>EggArcticOwlcatFertilized</li>
+						<li>EggOwlcatUnfertilized</li>
+						<li>EggOwlcatFertilized</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>EggArcticOwlcatUnfertilized</li>
+				<li>EggArcticOwlcatFertilized</li>
+				<li>EggOwlcatUnfertilized</li>
+				<li>EggOwlcatFertilized</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>EggArcticOwlcatUnfertilized</li>
+				<li>EggOwlcatUnfertilized</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Silvarn>2</ISA_Silvarn>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_SilvarnBulk</defName>
+		<label>make silvarn x5</label>
+		<description>Make silvarn x5.</description>
+		<jobString>Making silvarn x5.</jobString>
+		<workAmount>1700</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EggArcticOwlcatUnfertilized</li>
+						<li>EggArcticOwlcatFertilized</li>
+						<li>EggOwlcatUnfertilized</li>
+						<li>EggOwlcatFertilized</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>EggArcticOwlcatUnfertilized</li>
+				<li>EggArcticOwlcatFertilized</li>
+				<li>EggOwlcatUnfertilized</li>
+				<li>EggOwlcatFertilized</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>EggArcticOwlcatUnfertilized</li>
+				<li>EggOwlcatUnfertilized</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Silvarn>10</ISA_Silvarn>
 		</products>
 	</RecipeDef>
 	
