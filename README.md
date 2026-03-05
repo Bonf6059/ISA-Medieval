@@ -11,6 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add smoker
 - Update deer and wolf hood descriptions
 - Add desert specific stuff
+- Update/Add research projects
 
 # Old updates
 
