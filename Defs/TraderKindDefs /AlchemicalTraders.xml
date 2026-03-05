@@ -59,11 +59,6 @@
         		<countRange>5~24</countRange>
       		</li>
       
-    		<li Class="StockGenerator_SingleDef">
-        		<thingDef>ISA_HealingOil</thingDef>
-		        <countRange>-10~5</countRange>
-      		</li>
-      
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<countRange>2~4</countRange>
