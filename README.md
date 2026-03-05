@@ -17,7 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 05/03/2026
 - Added Rathix potion
 - Added Silvarn potion
-- Added Dravik potion
+- Added Dravik potion (opium, red ink, fly agaric)
 
 02/03/2026
 - Boosted rates for the mineshaft
