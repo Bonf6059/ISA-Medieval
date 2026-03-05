@@ -18,6 +18,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added Rathix potion
 - Added Silvarn potion
 - Added Dravik potion (opium, red ink, fly agaric)
+- Updated raw herb (item) and herb (plant) description
+- Increased drop for raw herb plant
 
 02/03/2026
 - Boosted rates for the mineshaft
