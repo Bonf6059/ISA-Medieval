@@ -10,7 +10,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
 - Update deer and wolf hood descriptions
-- Pozione berserk chiamata Dravik
 
 # Old updates
 
