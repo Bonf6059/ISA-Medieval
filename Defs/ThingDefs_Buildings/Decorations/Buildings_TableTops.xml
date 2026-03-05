@@ -51,7 +51,7 @@
 		<description>A small box used as a cash register.</description>
 		<category>Building</category>
 		<graphicData>
-			<texPath>Building/Furnitures/Decorations/CashRegister</texPath>
+			<texPath>Building/Furnitures/Decorations/CashRegister/CashRegister</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
