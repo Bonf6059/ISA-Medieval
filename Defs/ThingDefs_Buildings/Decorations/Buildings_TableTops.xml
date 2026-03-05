@@ -77,9 +77,6 @@
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<minifiedDef>MinifiedThing</minifiedDef>		
-		<thingCategories>
-			<li>BuildingsFurniture</li>
-		</thingCategories>
 	</ThingDef>
 	
 	<!-- Beverages -->
