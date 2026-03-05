@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- =============== Rathix =============== -->
+	
+	<ThingDef ParentName="MedicineBase">
+		<defName>ISA_Rathix</defName>
+		<label>rathix</label>
+		<description>A potent concoction made from sangonite and flyagaric, it is believed that it grants the sturdiness of a rock troll to whoever ingests it. It's blood red colour and the strong smell is offputting to the majority of people. It carries a risk of addiction with prolonged use.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks><HediffDef>ISA_High_Rathix</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/Rathix</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>350</MarketValue> <!-- (Mixture Market value / cauldron drop ammount) + 20-->
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+    		<foodType>Fluid</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_Rathix</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+		<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>1000</listOrder>
+			<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+		</li>
+		</comps>
+	</ThingDef>
+  
+  <HediffDef>
+    <defName>ISA_High_Rathix</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>rathix</label>
+    <description>A temporary state of pain relief and increased fisical resistance.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+			<statFactors>
+				<IncomingDamageFactor>0.5</IncomingDamageFactor>
+			</statFactors>
+			<painFactor>0.70</painFactor>
+			<capMods>
+          		<li>
+           			<capacity>Moving</capacity>
+           			<offset>-0.3</offset>
+         		</li>
+        	</capMods>
+        </li>
+		
+      </stages>
+  </HediffDef>
+
+	<ThoughtDef>
+		<defName>ISA_Thought_Rathix</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>ISA_High_Rathix</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+		<li>
+			<label>drank rathix</label>
+			<description>Drinking this concoction makes me feel so stiff.</description>
+			<baseMoodEffect>-2</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- =============== Silvarn =============== -->
+	
+	<ThingDef ParentName="MedicineBase">
+		<defName>ISA_Silvarn</defName>
+		<label>silvarn</label>
+		<description>It is often used during hunts to see clearly even in adverse weather. It's especially common in nordern regions due to the common snowstorms.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks><HediffDef>ISA_High_Silvarn</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/Silvarn</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>350</MarketValue> <!-- (Mixture Market value / cauldron drop ammount) + 20-->
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+    		<foodType>Processed</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.21,0,0.05)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Snort {0}</ingestCommandString>
+			<ingestReportString>Snorting {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_Silvarn</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+		<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>1000</listOrder>
+			<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+		</li>
+		</comps>
+	</ThingDef>
+  
+  <HediffDef>
+    <defName>ISA_High_Silvarn</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>silvarn</label>
+    <description>A temporary state of increased sight and sharpness of mind.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+			<statFactors>
+				<HuntingStealth>1.10</HuntingStealth>
+				<ShootingAccuracyFactor_Long>1.05</ShootingAccuracyFactor_Long>
+    			<ShootingAccuracyFactor_Medium>1.10</ShootingAccuracyFactor_Medium>
+    			<ShootingAccuracyFactor_Short>1.15</ShootingAccuracyFactor_Short>
+			</statFactors>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.10</offset>
+				</li>
+        	</capMods>
+        </li>
+		
+      </stages>
+  </HediffDef>
+
+	<ThoughtDef>
+		<defName>ISA_Thought_Silvarn</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>ISA_High_Silvarn</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+		<li>
+			<label>snorted silvarn</label>
+			<description>I never tought that I would be able to see this clearly.</description>
+			<baseMoodEffect>2</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- =============== Paregoric =============== -->
+	
+	<ThingDef ParentName="MedicineBase">
+		<defName>ISA_Paregoric</defName>
+		<label>paregoric</label>
+		<description>A potent tincture made from mindwort for its healing properties and opium for pain relief, but carries a risk of addiction with prolonged use.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks><HediffDef>ISA_High_Paregoric</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/Paregoric</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>235</MarketValue> <!-- (Mixture Market value / cauldron drop ammount) + 20-->
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+    		<foodType>Fluid</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_Paregoric</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+		<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>1000</listOrder>
+			<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+		</li>
+		</comps>
+	</ThingDef>
+  
+  <HediffDef>
+    <defName>ISA_High_Paregoric</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>paregoric</label>
+    <description>A temporary state of pain relief and increased healing.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+			<painFactor>0.75</painFactor>
+			<statOffsets>
+				<InjuryHealingFactor>0.25</InjuryHealingFactor>
+				<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+			</statOffsets>
+        </li>
+		
+      </stages>
+  </HediffDef>
+
+	<ThoughtDef>
+		<defName>ISA_Thought_Paregoric</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>ISA_High_Paregoric</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+		<li>
+			<label>drank paregoric</label>
+			<description>Drinking this medicine ensures me of my health.</description>
+			<baseMoodEffect>2</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
+
+  <!-- =============== Scents =============== -->
+
+  <ThingDef ParentName="ISA_CriviceScentBase">
+    <defName>ISA_CriviceScent</defName>
+    <label>crivice scent</label>
+    <description>A mixture of bone marrow extracted from the antlers of a goldilox and several herbs and medicines. It is consumed by burning the concoction and inhaling the fumes, which drastically increase one's ability to regenerate and heal from any injury.\n\n It can boost massively the regenerative ability of the body to the point where it can form new limbs or organs as needed.</description>
+	  <graphicData>
+      <texPath>Items/Resources/Drugs/CriviceScent</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>1300</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>600</useDuration>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_FixWorstHealthCondition</compClass>
+      </li>
+  <!--    <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>	-->
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  <RecipeDef>
+    <defName>AdministerCriviceScent</defName>
+    <label>administer crivice scent</label>
+    <description>Administer a crivice scent.</description>
+    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <jobString>Administering crivice scent.</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>600</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgeryOutcomeEffect IsNull="True"/>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ISA_CriviceScent</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ISA_CriviceScent</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<!--  <ThingDef ParentName="ISA_CriviceScentBase">
+    <defName>MechSerumResurrector</defName>
+    <label>resurrector mech serum</label>
+    <description>A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.\n\nThe resurrected also experience limited retrograde amnesia, forgetting some recent memories and social interactions.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/MechSerumResurrector</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>1700</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>0</useDuration>
+        <warmupMote>Mote_ResurrectAbility</warmupMote>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef> 	-->
+  
+</Defs>
