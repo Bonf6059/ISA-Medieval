@@ -10,13 +10,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
 - Update deer and wolf hood descriptions
+- Add desert specific stuff
 
 # Old updates
 
 05/03/2026
 - Added Rathix potion
 - Added Silvarn potion
-- Added Dravik potion (opium, red ink, fly agaric)
+- Added Dravik potion
 - Updated raw herb (item) and herb (plant) description
 - Increased drop for raw herb plant
 
