@@ -654,5 +654,109 @@
 			<ISA_Silvarn>10</ISA_Silvarn>
 		</products>
 	</RecipeDef>
+
+<!-- Dravik -->
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_Dravik</defName>
+		<label>make dravik</label>
+		<description>Make dravik.</description>
+		<jobString>Making dravik.</jobString>
+		<workAmount>470</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DA_RedTear</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Dravik>1</ISA_Dravik>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_DravikBulk</defName>
+		<label>make dravik x5</label>
+		<description>Make dravik x5.</description>
+		<jobString>Making dravik x5.</jobString>
+		<workAmount>2350</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_FlyAgaric</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DA_RedTear</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_Dravik>5</ISA_Dravik>
+		</products>
+	</RecipeDef>
 	
 </Defs>
