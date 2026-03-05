@@ -11,12 +11,10 @@
 		</graphicData>
 		<uiIconScale>0.85</uiIconScale>
 		<uiIconOffset>(0, 0.25)</uiIconOffset>
-
 		<building>
 			<paintable>false</paintable>
 			<isEdifice>false</isEdifice>
 		</building>
-
 		<size>(1,1)</size>
 		<surfaceType>Item</surfaceType>
 		<canOverlapZones>false</canOverlapZones>
@@ -45,6 +43,45 @@
 		<designationCategory>Furniture</designationCategory>
 	</ThingDef>
 
+	<!-- Cash register - Money Box -->
+  
+  	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables">
+		<defName>ISA_CashRegister</defName>
+		<label>cash register</label>
+		<description>A small box used as a cash register.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/CashRegister</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<rotatable>true</rotatable>
+		<fillPercent>0.2</fillPercent>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>0.2</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<minifiedDef>MinifiedThing</minifiedDef>		
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<!-- Beverages -->
 	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_BeveragesGroup" Abstract="true">
 		<designatorDropdown>ISA_Beverages</designatorDropdown>
