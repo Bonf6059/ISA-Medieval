@@ -22,6 +22,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Increased drop for raw herb plant
 - Deleted healing oil
 - Moved some code around
+- Added cash register (missing texture)
 
 02/03/2026
 - Boosted rates for the mineshaft
