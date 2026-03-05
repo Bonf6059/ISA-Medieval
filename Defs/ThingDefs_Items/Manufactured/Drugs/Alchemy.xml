@@ -61,7 +61,7 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.5</severityPerDay>
+        <severityPerDay>-1.5</severityPerDay>	<!-- 24h / severityPerDay = how many hours it lasts -->
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
@@ -102,7 +102,7 @@
 	<ThingDef ParentName="MedicineBase">
 		<defName>ISA_Silvarn</defName>
 		<label>silvarn</label>
-		<description>It is often used during hunts to see clearly even in adverse weather. It's especially common in nordern regions due to the common snowstorms.</description>
+		<description>Silvarn or as commonly known "Owling potion" gets its name by snow owlcats and the white,silvery colour of their feathers. It is often used during hunts to see clearly even in adverse weather. It's especially common in nordern regions, where it was first created, due to the common snowstorms.</description>
 		<possessionCount>10</possessionCount>
 		<descriptionHyperlinks><HediffDef>ISA_High_Silvarn</HediffDef></descriptionHyperlinks>
 		<graphicData>
@@ -157,7 +157,7 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.5</severityPerDay>
+        <severityPerDay>-1</severityPerDay>		<!-- 24h / severityPerDay = how many hours it lasts -->
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
@@ -172,13 +172,17 @@
 			<capMods>
 				<li>
 					<capacity>Consciousness</capacity>
+					<offset>0.05</offset>
+				</li>
+				<li>
+					<capacity>Sight</capacity>
 					<offset>0.10</offset>
 				</li>
         	</capMods>
         </li>
 		
       </stages>
-  </HediffDef>
+  	</HediffDef>
 
 	<ThoughtDef>
 		<defName>ISA_Thought_Silvarn</defName>
@@ -191,6 +195,114 @@
 			<label>snorted silvarn</label>
 			<description>I never tought that I would be able to see this clearly.</description>
 			<baseMoodEffect>2</baseMoodEffect>
+		</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- =============== Dravik =============== -->
+	
+	<ThingDef ParentName="MedicineBase">
+		<defName>ISA_Dravik</defName>
+		<label>dravik</label>
+		<description>Also known as the "curse of the desert", is a potent drug that should be used carefully. While not as addicting as its base components, it's still very dangerous. It increases muscular activity and reduces pain, but it takes a heavy toll on mental health; some people mistake the burning sensation it gives as being on fire.</description>
+		<possessionCount>10</possessionCount>
+		<descriptionHyperlinks><HediffDef>ISA_High_Dravik</HediffDef></descriptionHyperlinks>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/Dravik</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>520</MarketValue> <!-- (Mixture Market value / cauldron drop ammount) + 20-->
+			<Mass>0.5</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<techLevel>Medieval</techLevel>
+		<ingestible>
+    		<foodType>Processed</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.21,0,0.05)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_Dravik</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		
+		<comps>
+		<li Class="CompProperties_Drug">
+			<listOrder>1000</listOrder>
+			<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+		</li>
+		</comps>
+	</ThingDef>
+  
+  <HediffDef>
+    <defName>ISA_High_Dravik</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>dravik</label>
+    <description>A temporary state of increased muscles activity and physical performance.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>		<!-- 24h / severityPerDay = how many hours it lasts -->
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+			<statFactors>
+				<RestFallRateFactor>0.66</RestFallRateFactor>
+			</statFactors>
+			<painFactor>0.66</painFactor>
+			<statOffsets>
+				<MeleeHitChance>0.15</MeleeHitChance>
+				<MeleeDodgeChance>0.10</MeleeDodgeChance>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.10</offset>
+				</li>
+				<li>
+					<capacity>BloodPumping</capacity>
+					<offset>0.20</offset>
+				</li>
+				<li>
+					<capacity>Moving</capacity>
+					<offset>0.15</offset>
+				</li>
+        	</capMods>
+        </li>
+		
+      </stages>
+  </HediffDef>
+
+	<ThoughtDef>
+		<defName>ISA_Thought_Dravik</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>ISA_High_Dravik</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<stages>
+		<li>
+			<label>drank dravik</label>
+			<description>My heart is racing, my muscles are on fire. What was in that thing!</description>
+			<baseMoodEffect>-7</baseMoodEffect>
 		</li>
 		</stages>
 	</ThoughtDef>
@@ -255,7 +367,7 @@
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1.5</severityPerDay>
+        <severityPerDay>-1.5</severityPerDay>	<!-- 24h / severityPerDay = how many hours it lasts -->
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
