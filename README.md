@@ -9,17 +9,20 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
-- Potion to increase shooting accuracy (look at det venator xenotype) called "Silvarn the owling potion" it grants small boost to sight and better shooting skills. It's made with owlcat eggs (bisogna capire se producono uova non fecondate) some herbs as usual and mindworth
 - Update deer and wolf hood descriptions
 - Pozione berserk chiamata Dravik
 
 # Old updates
 
+05/03/2026
+- Added Rathix potion
+- Added Silvarn potion
+- Added Dravik potion
+
 02/03/2026
 - Boosted rates for the mineshaft
 - Halfed the amount of time needed to produce Karhan from "Dark ages beasts and monsters"
 - Added textures for WIP potions
-- Added Rathix potion
 - Added recipe to dry herbs to make hay on the drying rack
 - Added deer and wolf hood
 - Deleted shinypyrinth
