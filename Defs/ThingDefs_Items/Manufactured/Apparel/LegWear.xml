@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="ApparelMakeableBase" Name="ISA_Base_ArmoredPants" Abstract="True">
 		<thingCategories>
-			<li>ISA_Legwear</li>
+			<li>Apparel</li>
 		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
