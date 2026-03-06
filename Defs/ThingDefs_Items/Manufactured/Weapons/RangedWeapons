@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Da cambiare workbench dove sono prodotti; da cambiare proiettili; da creare ricerca "ISA_RangedWeapons" -->
+<!-- Da cambiare proiettili; da creare ricerca "ISA_RangedWeapons" -->
 
   <!-- ============================== Crossbows ========================== -->
   <ThingDef ParentName="BaseWeaponNeolithic">
@@ -38,7 +38,8 @@
     </weaponClasses>
     <recipeMaker>
       <recipeUsers Inherit="False">
-        <li>DankPyon_Workbench</li>  
+	    	<li>FueledSmithy</li>
+	    	<li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
       <skillRequirements>
@@ -138,7 +139,8 @@
     </tools>
     <recipeMaker>
       <recipeUsers>
-        <li>DankPyon_Workbench</li>
+        	<li>FueledSmithy</li>
+	        <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
       <skillRequirements>
