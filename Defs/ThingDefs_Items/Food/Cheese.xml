@@ -6,7 +6,6 @@
 	<ThingDef ParentName="ISA_CheeseBase">
 		<defName>ISA_MealCheese</defName>
 		<label>cheese</label>
-		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
 			<texPath>Items/Food/Cheese/Cheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -19,7 +18,6 @@
 	<ThingDef ParentName="ISA_CheeseBase">
 		<defName>ISA_MealSheepCheese</defName>
 		<label>sheep cheese</label>
-		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
 			<texPath>Items/Food/Cheese/SheepCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -32,9 +30,20 @@
 	<ThingDef ParentName="ISA_CheeseBase">
 		<defName>ISA_MealGoatCheese</defName>
 		<label>goat cheese</label>
-		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<graphicData>
 			<texPath>Items/Food/Cheese/GoatCheese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!-- Rox Cheese -->
+	
+	<ThingDef ParentName="ISA_CheeseBase">
+		<defName>ISA_MealRoxCheese</defName>
+		<label>rox cheese</label>
+		<graphicData>
+			<texPath>Items/Food/Cheese/RoxCheese</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
