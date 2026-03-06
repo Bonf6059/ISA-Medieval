@@ -114,7 +114,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 		<label>Cultist Hood</label>
 		<description>A thick, padded hood favored by cultists, offering insulation and minor blunt protection. Its sturdy design provides decent head protection on its own.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/CultistHood/CultistHood</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/CultistHood/CultistHood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<generateCommonality>0.50</generateCommonality>
@@ -132,7 +132,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/CultistHood/CultistHood</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/CultistHood/CultistHood</wornGraphicPath>
 			<tags>
 				<li>Tribal</li>
 			</tags>
