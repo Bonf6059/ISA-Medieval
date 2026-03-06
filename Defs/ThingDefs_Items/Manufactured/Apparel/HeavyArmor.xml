@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>DankPyon_Apparel_Brigandine</defName>
+		<defName>ISA_Apparel_Brigandine</defName>
 		<label>brigandine</label>
 		<description>Two layers of armor give way to this fantastically protective, yet cumbersome, suit, consisting of internal strong-forged overlapping layers of metal plates riveted to the fabric for protecting vitals and extremities.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/HeavyArmor/Brigandine</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/Brigandine/Brigandine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -43,15 +43,14 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/HeavyArmor/Brigandine</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/Brigandine/Brigandine</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>DankPyon_Knight</li>
-				<li>DankPyon_HedgeKnight</li>
-
+				<!--<li>DankPyon_Knight</li>
+				<li>DankPyon_HedgeKnight</li>-->
 				<li>MedievalMilitaryAdvanced</li>
 			</tags>
 			<defaultOutfitTags>
@@ -78,11 +77,11 @@
 	</ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
-		<defName>DankPyon_Apparel_Breast_Plate</defName>
+		<defName>ISA_Apparel_Breast_Plate</defName>
 		<label>breast plate</label>
 		<description>A strong metal cuirass forged to encompass the torso while leaving the limbs exposed. Rather lightweight and protective.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/HeavyArmor/Chest_Plate</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/ChestPlate/Chest_Plate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -117,14 +116,13 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/HeavyArmor/Chest_Plate</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/ChestPlate/Chest_Plate</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>DankPyon_Knight</li>
-
+				<!--<li>DankPyon_Knight</li>-->
 				<li>MedievalMilitary</li>
 				<li>MedievalMilitaryAdvanced</li>
 			</tags>
@@ -152,11 +150,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorSmithableBase">
-		<defName>DankPyon_Apparel_FullPlate_Roxmont</defName>
+		<defName>ISA_Apparel_FullPlate_Roxmont</defName>
 		<label>full plate (roxmont)</label>
 		<description>Few men can don armor as protective as the full plate set, which offers the greatest protection in the form of layered metal plates. They are nobles, lords, and men with the fortune required to purchase the masterfully crafted armor that effectively blocks many attacks. Light shining against the polished metal tells the enemy that the wearer is not only rich but also a lord of war. \n\nWorn by the noble knights and champions of the Roxmont house. Specially fitted with rox fur to provide resistance against the harsh winters of the north.</description>
 		<graphicData>
-			<texPath>HouseRoxmont/Apparel/HeavyArmor/FullPlateRox</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/FullPlateRox/FullPlateRox</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -166,16 +164,13 @@
 			</skillRequirements>
 			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
-
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>200</costStuffCount>
-
 		<costList>
-			<DankPyon_Leather_Rox>60</DankPyon_Leather_Rox>
+			<ISA_Leather_Rox>60</ISA_Leather_Rox>
 		</costList>
-
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
 			<MaxHitPoints>310</MaxHitPoints>
@@ -190,7 +185,6 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-1.2</MoveSpeed>
 		</equippedStatOffsets>
-
 		<techLevel>Neolithic</techLevel>
 		<thingCategories>
 			<li>Apparel</li>
@@ -203,13 +197,13 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>HouseRoxmont/Apparel/HeavyArmor/FullPlateRox</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/HeavyArmor/FullPlateRox/FullPlateRox</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
 			</layers>
 			<tags Inherit="False">
-				<li>DankPyon_HeraldicChainMailRoxmont</li>
+				<!--<li>DankPyon_HeraldicChainMailRoxmont</li>-->
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
