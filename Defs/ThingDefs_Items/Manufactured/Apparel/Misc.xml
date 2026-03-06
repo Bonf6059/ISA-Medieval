@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>DankPyon_Apparel_Leather_Tunic</defName>
+		<label>vest</label>
+		<description>A simple vest stitched from treated and tanned leathers, both comfortable and pragmatic. The thick leather is a decent balance between protection and encumbrance.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/LightArmor/Leather_Tunic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/LightArmor/Leather_Tunic</wornGraphicPath>
+			<tags>
+				<li>DankPyon_Peasant</li>
+				<li>DankPyon_BrigandThug</li>
+				<li>DankPyon_Mercenary</li>
+				<li>DankPyon_MercenaryHeavy</li>
+				<li>DankPyon_Archer</li>
+				<li>DankPyon_Footman</li>
+				<li>DankPyon_Billman</li>
+				<li>DankPyon_Knight</li>
+				<li>DankPyon_HedgeKnight</li>
+				<li>MedievalBasic</li>
+			</tags>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Dankpyon_Apparel_Gambeson</defName>
+		<label>gambeson</label>
+		<description>A lightweight protective garment layered with tautly stitched linens, between which a dense stuffing of oakum or wool sits. Quite insulating and provides decent protection against cuts and blows.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/LightArmor/Gambeson</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>70</costStuffCount>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>4</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/LightArmor/Gambeson</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<tags>
+				<li>DankPyon_Peasant</li>
+				<li>DankPyon_BrigandThug</li>
+				<li>DankPyon_Mercenary</li>
+				<li>DankPyon_MercenaryHeavy</li>
+				<li>DankPyon_Archer</li>
+				<li>DankPyon_Footman</li>
+				<li>DankPyon_Billman</li>
+				<li>DankPyon_Knight</li>
+				<li>DankPyon_HedgeKnight</li>
+				<li>MedievalMilitaryBasic</li>
+			</tags>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>
