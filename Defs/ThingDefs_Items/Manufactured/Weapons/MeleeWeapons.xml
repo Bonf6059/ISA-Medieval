@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- =========== Misc =========== -->
+	
   <ThingDef ParentName="BaseMeleeWeapon_Blunt">
     <defName>ISA_ShepherdCrook</defName>
     <label>shepherd's crook</label>
@@ -215,4 +217,590 @@
 		</recipeMaker>
 	</ThingDef>
 
+<!-- =========== Axes =========== -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ==================== Cleavers ==================== -->
+
+	<ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
+		<defName>DankPyon_MeleeWeapon_ButcherCleaver</defName>
+		<label>butcher's cleaver</label>
+		<description>A heavy blade used for chopping meat and bone, the cleaver excels for preparing food and dismembering animals. However, its sharp edge also makes it effective as a deadly weapon.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Cleavers/ButchersCleaver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+			<ButcheryFleshSpeed>0.25</ButcheryFleshSpeed>
+		</equippedStatOffsets>
+
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_Hatchet</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16.75</power>
+				<cooldownTime>2.16</cooldownTime>
+				<armorPenetration>0.3</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_BasicBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- ==================== Axes ==================== -->
+
+	<ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+		<defName>DankPyon_MeleeWeapon_Bardiche</defName>
+		<label>bardiche</label>
+		<description>An axe inspired by pikes, the bardiche features an axe head extended like a pike’s head. The design makes this two-handed weapon adaptable to many situations, as it can split unarmored enemies just as easily as it can split a shield.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Axes/Bardiche</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<Mass>2.75</Mass>
+		</statBases>
+
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>70</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_Bardiche</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>3.1</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
+		<defName>DankPyon_MeleeWeapon_Greataxe</defName>
+		<label>greataxe</label>
+		<description>A heavier version of the two-handed axe, the greataxe’s weight allows for high raw damage as well as solid durability. A great option for splitting shields or unarmored enemies. Requires great strength to wield effectively.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Axes/Greataxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+
+		<statBases>
+			<WorkToMake>17500</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>80</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_Greataxe</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>31</power>
+				<cooldownTime>3.2</cooldownTime>
+				<armorPenetration>0.4</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+<!-- =========== Maces =========== -->
+
+	<ThingDef ParentName="DankPyon_Base_Blunt_Oversize">
+		<defName>DankPyon_MeleeWeapon_TwoHandedHammer</defName>
+		<label>two-handed hammer</label>
+		<description>An upgrade to the mallet, the two-handed hammer stacks a heavy metal head to multiply the force dealt to targets. The sheer force of hammer blows can crack solid plates and split strong shields.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Hammers/TwoHandedHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
+
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+
+		<costStuffCount>90</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+
+		<weaponTags>
+			<li>DankPyon_TwoHandedHammer</li>
+
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26.75</power>
+				<cooldownTime>3.15</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+		<ThingDef ParentName="DankPyon_Base_Blunt_NormalSize">
+		<defName>DankPyon_MeleeWeapon_Bludgeon</defName>
+		<label>bludgeon</label>
+		<description>The first version of the club, which is also more practical in battle. The metal head allows for greater armor penetration and can easily break the bones of unarmored foes.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Maces/Bludgeon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>1.10</Mass>
+		</statBases>
+
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_Bludgeon</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15.7</power>
+				<armorPenetration>0.20</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_BasicMaces</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_Base_Blunt_NormalSize">
+		<defName>DankPyon_MeleeWeapon_MorningStar</defName>
+		<label>morning star</label>
+		<description>A fierce and deadly mace loved by raiders and bandits for its blunt damage, as well as puncturing damage thanks to the spikes mounted around the head.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Maces/MorningStar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1.3</Mass>
+		</statBases>
+
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_MorningStar</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17.5</power>
+				<cooldownTime>2.16</cooldownTime>
+				<armorPenetration>0.20</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_Base_Blunt_NormalSize">
+		<defName>DankPyon_MeleeWeapon_WingedMace</defName>
+		<label>winged mace</label>
+		<description>Resembling an arrow with feathering, the winged mace features protruded ridges around the metal head, which further boasts armor penetration. Best when used against enemies turtling behind heavy plate armor.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Maces/WingedMace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+
+		<weaponTags>
+			<li>DankPyon_WingedMace</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2.2</cooldownTime>
+				<armorPenetration>0.20</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+	
+<!-- =========== Swords =========== -->
+
+	<ThingDef ParentName="DankPyon_Base_SharpSword_NormalSize">
+		<defName>DankPyon_MeleeWeapon_ArmingSword</defName>
+		<label>arming sword</label>
+		<description>Many warriors see their weapons as tools, and so the most common swords are those most practical. Arming swords, praised for their light weight, fullered blade, and efficient craftsmanship, prove useful for both novices and veterans alike. Swords can bring warriors wealth, so when choosing the tool for warfare, one would be lucky to wield an arming sword.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Swords/ArmingSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>14500</WorkToMake>
+			<Mass>1.25</Mass>
+		</statBases>
+
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+
+		<weaponTags>
+			<li>DankPyon_ArmingSword</li>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>19.25</power>
+				<cooldownTime>2.15</cooldownTime>
+				<armorPenetration>0.2</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_Base_SharpSword_NormalSize">
+		<defName>DankPyon_MeleeWeapon_FencingSword</defName>
+		<label>fencing sword</label>
+		<description>An elegant weapon both light and deadly, the fencing sword requires great skill to use effectively. However, mastery of such a weapon can lead duelists to many victories even against mails, as precise strikes can pierce weak points.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Swords/FencingSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+
+		<weaponTags>
+			<li>DankPyon_FencingSword</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18.25</power>
+				<cooldownTime>2.05</cooldownTime>
+				<armorPenetration>0.2</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_Base_SharpSword_Oversize">
+		<defName>DankPyon_MeleeWeapon_Longsword</defName>
+		<label>longsword</label>
+		<description>Where shorter and lighter blades are most useful in shield walls, the longsword shines in skirmishes and duels. By increasing the length, and consequently ditching a shield, a warrior can increase reach to inflict high damage through swings and even thrusts. Do not assume that the increased size brings increased weight, as a swift strike from a longsword has caught many enemies off-guard.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Swords/Longsword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+
+		<weaponTags>
+			<li>DankPyon_Longsword</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>2.79</cooldownTime>
+				<armorPenetration>0.25</armorPenetration>
+			</li>
+		</tools>
+
+		<recipeMaker>
+			<researchPrerequisite>DankPyon_MilitaryBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+	
 </Defs>
