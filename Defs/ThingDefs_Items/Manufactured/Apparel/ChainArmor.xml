@@ -1,6 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>ISA_Apparel_Heavy_Hauberk</defName>
+		<label>heavy hauberk</label>
+		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_Pad</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ISA_ChainArmor</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<statBases>
+			<WorkToMake>28000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>8</Mass>
+			<StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_Pad</wornGraphicPath>
+			<tags>
+				<!--<li>DankPyon_BrigandRaider</li>
+				<li>DankPyon_BrigandLeader</li>
+				<li>DankPyon_Mercenary</li>
+				<li>DankPyon_Archer</li>
+				<li>DankPyon_Footman</li>
+				<li>DankPyon_Billman</li>-->
+				<li>MedievalMilitaryDecent</li>
+				<li>MedievalMilitaryBasic</li>
+			</tags>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
 
+	<ThingDef ParentName="ArmorSmithableBase" Name="ISA_HeraldicHauberkBase">
+		<defName>ISA_Apparel_Heraldic_HauberkAmboise</defName>
+		<label>heraldic heavy hauberk (Amboise)</label>
+		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Amboise.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker Inherit="False"/>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<statBases>
+			<WorkToMake>28000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>8</Mass>
+			<StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.8</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic1</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags>
+				<li>ISA_HeraldicChainMailAmboise</li>
+			</tags>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_HeraldicHauberkBase">
+		<defName>ISA_Apparel_Heraldic_HauberkSoren</defName>
+		<label>heraldic heavy hauberk (Soren)</label>
+		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Soren.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic2</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic2</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<tags Inherit="False">
+				<li>ISA_HeraldicChainMailSoren</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+	
 	<ThingDef ParentName="ISA_HeraldicHauberkBase">
 		<defName>ISA_Apparel_Heraldic_Hauberk_Roxmont</defName>
 		<label>heraldic heavy hauberk (roxmont)</label>
