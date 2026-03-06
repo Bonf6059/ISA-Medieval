@@ -107,4 +107,43 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 		</tradeTags>
   </ThingDef>
 
+<!-- Cultist Hood -->
+
+	<ThingDef ParentName="ISA_HatMakeableBase">
+		<defName>ISA_Headgear_CultistHood</defName>
+		<label>Cultist Hood</label>
+		<description>A thick, padded hood favored by cultists, offering insulation and minor blunt protection. Its sturdy design provides decent head protection on its own.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/CultistHood/CultistHood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<generateCommonality>0.50</generateCommonality>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>2200</WorkToMake>
+			<Mass>0.15</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/CultistHood/CultistHood</wornGraphicPath>
+			<tags>
+				<li>Tribal</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+	
 </Defs>
