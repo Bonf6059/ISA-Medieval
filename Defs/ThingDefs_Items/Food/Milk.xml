@@ -78,7 +78,7 @@
 		<label>rox milk</label>
 		<description>Milk from a Rox.</description>
 		<graphicData>
-			<texPath>Items/Food/RawFood/AnimalProducts/RoxMilk/RoxMilk</texPath>
+			<texPath>Items/Food/RawFood/AnimalProducts/RoxMilk</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
