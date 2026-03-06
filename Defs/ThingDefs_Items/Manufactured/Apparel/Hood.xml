@@ -10,7 +10,7 @@
 Gives small boosts in social interactions.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Pawn/HumanLike/Apparel/Wolf/ArcticWolfHood</texPath>
+      <texPath>Pawn/HumanLike/Apparel/Headgear/Wolf/ArcticWolfHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 	<costStuffCount>25</costStuffCount>
@@ -47,7 +47,7 @@ Gives small boosts in social interactions.</description>
       <bodyPartGroups>
 	      <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Pawn/HumanLike/Apparel/Wolf/ArcticWolfHood</wornGraphicPath>
+      <wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/Wolf/ArcticWolfHood</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -72,7 +72,7 @@ Gives small boosts in social interactions.</description>
 This hood is made from leather and carved animal bones to resemble a deer.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>Pawn/HumanLike/Apparel/Deer/DeerHood</texPath>
+      <texPath>Pawn/HumanLike/Apparel/Headgear/Deer/DeerHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -91,7 +91,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
       <bodyPartGroups>
 	<li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Pawn/HumanLike/Apparel/Deer/DeerHood</wornGraphicPath>
+      <wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/Deer/DeerHood</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
