@@ -24,7 +24,7 @@
 				<woolAmount>160</woolAmount>
 			</li>
 			<li Class="CompProperties_Milkable">
-				<milkDef>Milk</milkDef>
+				<milkDef>ISA_RoxMilk</milkDef>
 				<milkIntervalDays>1</milkIntervalDays>
 				<milkAmount>10</milkAmount>
 			</li>
