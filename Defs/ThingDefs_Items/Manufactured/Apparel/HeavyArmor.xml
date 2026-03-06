@@ -48,11 +48,11 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<!--<li>DankPyon_Knight</li>
-				<li>DankPyon_HedgeKnight</li>-->
+			<!--<tags>
+				<li>DankPyon_Knight</li>
+				<li>DankPyon_HedgeKnight</li>
 				<li>MedievalMilitaryAdvanced</li>
-			</tags>
+			</tags>-->
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -121,11 +121,11 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<!--<li>DankPyon_Knight</li>-->
+			<!--<tags>
+				<li>DankPyon_Knight</li>
 				<li>MedievalMilitary</li>
 				<li>MedievalMilitaryAdvanced</li>
-			</tags>
+			</tags>-->
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -202,9 +202,9 @@
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<tags Inherit="False">
-				<!--<li>DankPyon_HeraldicChainMailRoxmont</li>-->
-			</tags>
+			<!--<tags Inherit="False">
+				<li>DankPyon_HeraldicChainMailRoxmont</li>
+			</tags>-->
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
