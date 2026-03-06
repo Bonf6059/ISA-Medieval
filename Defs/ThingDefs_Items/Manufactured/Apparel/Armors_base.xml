@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--
+
+<dataNorth>
+	<layer>X</layer>
+</dataNorth>
+
+X
+> 60 Above Head, below body
+> 90 Above body
+
+
+<dataSouth>
+	<layer>X</layer>
+</dataSouth>
+
+X
+< 50 below helmet, above head
+< 40 below head
+-->
+
+	<ThingDef ParentName="HatMakeableBase" Name="ISA_HatMakeableBase" Abstract="True">
+		<smeltable>false</smeltable>
+		<techLevel>Medieval</techLevel>
+		<tradeability>Sellable</tradeability>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<drawData>
+				<dataNorth>
+					<layer>95</layer>
+				</dataNorth>
+			</drawData>
+		</apparel>
+	</ThingDef>
+
+	<!-- ==================== Helmets ==================== -->
+	
+	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="ISA_ArmorHelmetMakeableBase" Abstract="True">
+		<smeltable>true</smeltable>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<apparel>
+			<drawData>
+				<dataNorth>
+					<layer>95</layer>
+				</dataNorth>
+			</drawData>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+  
+</Defs>
