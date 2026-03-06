@@ -147,7 +147,8 @@
 		</li>
 	</modExtensions>
   </ThingDef>
-
+	
+<!-- =========== Axes =========== -->
 	<!--Waraxe -->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>ISA_MeleeWeapon_RoxWaraxe</defName>
@@ -216,79 +217,6 @@
 		</skillRequirements>
 		</recipeMaker>
 	</ThingDef>
-
-<!-- =========== Axes =========== -->
-
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-
-	<!-- ==================== Cleavers ==================== -->
-
-	<ThingDef ParentName="DankPyon_Base_SharpAxe_NormalSize">
-		<defName>DankPyon_MeleeWeapon_ButcherCleaver</defName>
-		<label>butcher's cleaver</label>
-		<description>A heavy blade used for chopping meat and bone, the cleaver excels for preparing food and dismembering animals. However, its sharp edge also makes it effective as a deadly weapon.</description>
-		<graphicData>
-			<texPath>Things/Item/Equipment/WeaponMelee/Cleavers/ButchersCleaver</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<techLevel>Medieval</techLevel>
-		<!-- <equippedAngleOffset>-65</equippedAngleOffset> -->
-
-		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>1.5</Mass>
-		</statBases>
-		<equippedStatOffsets>
-			<ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
-			<ButcheryFleshSpeed>0.25</ButcheryFleshSpeed>
-		</equippedStatOffsets>
-
-		<costStuffCount>30</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costList>
-			<WoodLog>20</WoodLog>
-		</costList>
-
-		<weaponTags>
-			<li>DankPyon_Hatchet</li>
-			<li>MedievalMeleeBasic</li>
-		</weaponTags>
-
-		<tools>
-			<li>
-				<label>shaft</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>13</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>edge</label>
-				<labelUsedInLogging>false</labelUsedInLogging>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16.75</power>
-				<cooldownTime>2.16</cooldownTime>
-				<armorPenetration>0.3</armorPenetration>
-			</li>
-		</tools>
-
-		<recipeMaker>
-			<researchPrerequisite>DankPyon_BasicBlades</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>2</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-	</ThingDef>
-
-	<!-- ==================== Axes ==================== -->
 
 	<ThingDef ParentName="DankPyon_Base_SharpAxe_Oversize">
 		<defName>DankPyon_MeleeWeapon_Bardiche</defName>
