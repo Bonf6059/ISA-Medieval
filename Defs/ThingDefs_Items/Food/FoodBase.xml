@@ -3,6 +3,7 @@
 
 	<!-- Cheese -->
 	<ThingDef ParentName="MealBase" Name="ISA_CheeseBase" Abstract="True">
+		<description>A sharp-tasting wheel of cheese, created by a special process of purposely curdling animal milk. It makes for both a tasty treat on its own, as well as a versatile ingredient in meals.</description>
 		<thingClass>ThingWithComps</thingClass>
 		<tickerType>Rare</tickerType>
 		<statBases>
