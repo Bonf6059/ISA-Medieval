@@ -31,6 +31,16 @@
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
+	<ProcessorFramework.ProcessDef ParentName="ISA_CheesePressBase">
+		<defName>ISA_RoxMilkIntoCheese</defName>
+		<thingDef>ISA_MealRoxCheese</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_RoxMilk</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
 	<ProcessorFramework.ProcessDef MayRequire="Van.Beasts" ParentName="ISA_CheesePressBase">
 		<defName>ISA_MufftonMilkIntoCheese</defName>
 		<thingDef>ISA_MealMufftonCheese</thingDef>
