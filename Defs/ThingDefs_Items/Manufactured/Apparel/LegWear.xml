@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="ApparelMakeableBase" Name="DankPyon_Base_ArmoredPants" Abstract="True">
+	<ThingDef ParentName="ApparelMakeableBase" Name="ISA_Base_ArmoredPants" Abstract="True">
 		<thingCategories>
-			<li>DankPyon_Legwear</li>
+			<li>ISA_Legwear</li>
 		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
@@ -20,8 +20,8 @@
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_Base_ArmoredPants">
-		<defName>DankPyon_Apparel_ChaussesPadded</defName>
+	<ThingDef ParentName="ISA_Base_ArmoredPants">
+		<defName>ISA_Apparel_ChaussesPadded</defName>
 		<label>padded chausses</label>
 		<description>A quilted legwear that provides protection with padded fabric.</description>
 		<graphicData>
@@ -43,7 +43,7 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>DankPyon_ProtectiveClothing</researchPrerequisite>
+			<!--<researchPrerequisite>DankPyon_ProtectiveClothing</researchPrerequisite>-->
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -52,7 +52,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<apparel>
-			<tags>
+			<!--<tags>
 				<li>DankPyon_Peasant</li>
 				<li>DankPyon_BrigandThug</li>
 				<li>DankPyon_BrigandRaider</li>
@@ -62,12 +62,12 @@
 				<li>DankPyon_Footman</li>
 				<li>DankPyon_Billman</li>
 				<li>MedievalMilitaryBasic</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_Base_ArmoredPants">
-		<defName>DankPyon_Apparel_ChaussesPlate</defName>
+	<ThingDef ParentName="ISA_Base_ArmoredPants">
+		<defName>ISA_Apparel_ChaussesPlate</defName>
 		<label>plate chausses</label>
 		<description>A pair of plate chausses to protect the leg with exceptionally crafted plates fitted to the wearer. It's strong riveted plate and finely articulated structure provides almost complete mobility.</description>
 		<graphicData>
@@ -95,16 +95,15 @@
 			<recipeUsers Inherit="False">
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
-				<li>DankPyon_Anvil</li>
 			</recipeUsers>
 		</recipeMaker>
 		<apparel>
-			<tags>
+			<!--<tags>
 				<li>DankPyon_Knight</li>
 				<li>DankPyon_HedgeKnight</li>
 				<li>MedievalMilitaryAdvanced</li>
 				<li>MedievalPrestigeCombatGear</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 
