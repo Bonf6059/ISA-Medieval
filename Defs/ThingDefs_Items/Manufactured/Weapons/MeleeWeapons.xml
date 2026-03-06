@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Da creare la ricerca "ISA_BluntWeapons" -->
+	
 	<!-- =========== Misc =========== -->
 
 <!-- Shepherd Crook -->
@@ -131,7 +133,6 @@
 		<li>FueledSmithy</li>
 		<li>ElectricSmithy</li>
 	  </recipeUsers>
-	  <researchPrerequisite>Smithing</researchPrerequisite>
 	   <skillRequirements>
 			<Crafting>10</Crafting>
 	  </skillRequirements>
@@ -271,7 +272,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryBlades</researchPrerequisite>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -382,7 +383,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryMaces</researchPrerequisite>
+			<researchPrerequisite>ISA_BluntWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -436,7 +437,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_BasicMaces</researchPrerequisite>
+			<researchPrerequisite>ISA_BluntWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>3</Crafting>
 			</skillRequirements>
@@ -490,7 +491,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryMaces</researchPrerequisite>
+			<researchPrerequisite>ISA_BluntWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -544,7 +545,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryMaces</researchPrerequisite>
+			<researchPrerequisite>ISA_BluntWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -597,7 +598,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryBlades</researchPrerequisite>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -700,7 +701,7 @@
 			</li>
 		</tools>
 		<recipeMaker>
-			<researchPrerequisite>ISA_MilitaryBlades</researchPrerequisite>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
