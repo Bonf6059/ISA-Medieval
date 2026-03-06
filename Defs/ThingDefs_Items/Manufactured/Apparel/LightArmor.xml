@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>DankPyon_Apparel_Padded_Surcoat</defName>
+		<defName>ISA_Apparel_Padded_Surcoat</defName>
 		<label>padded surcoat</label>
 		<description>A cloth mantle vest, sewn similarly to a gambeson, with a thick wool filling. Provides additional padding when worn but fails to deflect spear thrusts that come under shields.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/LightArmor/Padded_Coat</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/LightArmor/PaddedCoat/Padded_Coat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -38,8 +38,8 @@
 				<li>Shoulders</li>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/LightArmor/Padded_Coat</wornGraphicPath>
-			<tags>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/LightArmor/PaddedCoat/Padded_Coat</wornGraphicPath>
+			<!--<tags>
 				<li>DankPyon_Peasant</li>
 				<li>DankPyon_BrigandThug</li>
 				<li>DankPyon_Mercenary</li>
@@ -50,7 +50,7 @@
 				<li>DankPyon_Knight</li>
 				<li>DankPyon_HedgeKnight</li>
 				<li>MedievalMilitaryBasic</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>OnSkin</li>
 			</layers>
