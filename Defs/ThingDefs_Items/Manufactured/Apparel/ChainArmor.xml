@@ -18,7 +18,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>ISA_ChainArmor</researchPrerequisite>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -48,16 +48,16 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_Pad/Chain_Mail_Pad</wornGraphicPath>
-			<tags>
-				<!--<li>DankPyon_BrigandRaider</li>
+			<!--<tags>
+				<li>DankPyon_BrigandRaider</li>
 				<li>DankPyon_BrigandLeader</li>
 				<li>DankPyon_Mercenary</li>
 				<li>DankPyon_Archer</li>
 				<li>DankPyon_Footman</li>
-				<li>DankPyon_Billman</li>-->
+				<li>DankPyon_Billman</li>
 				<li>MedievalMilitaryDecent</li>
 				<li>MedievalMilitaryBasic</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -106,9 +106,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadAmboise/Chain_Mail_PadHeraldic3</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
+			<!--<tags>
 				<li>ISA_HeraldicChainMailAmboise</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -129,9 +129,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadSoren/Chain_Mail_PadHeraldic2</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags Inherit="False">
+			<!--<tags Inherit="False">
 				<li>ISA_HeraldicChainMailSoren</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 	
@@ -146,9 +146,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags Inherit="False">
+			<!--<tags Inherit="False">
 				<li>ISA_HeraldicChainMailRoxmont</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 
