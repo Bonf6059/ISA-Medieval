@@ -3,37 +3,12 @@
 
 	<!-- ==================== Padded Helmets ==================== -->
 	
-	<ThingDef ParentName="ArmorHelmetMakeableBase" Name="DankPyon_ArmorHelmetMakeableBase" Abstract="True">
-		<smeltable>true</smeltable>
-		<techLevel>Medieval</techLevel>
-		<recipeMaker>
-			<recipeUsers>
-				<li>ElectricSmithy</li>
-				<li>FueledSmithy</li>
-				<li>DankPyon_Anvil</li>
-			</recipeUsers>
-		</recipeMaker>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<apparel>
-			<drawData>
-				<dataNorth>
-					<layer>95</layer>
-				</dataNorth>
-			</drawData>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-	</ThingDef>
-	
-	<ThingDef ParentName="DankPyon_ArmorHelmetMakeableBase">
-		<defName>DankPyon_Headgear_PaddedKettleHelmet</defName>
+	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
+		<defName>ISA_Headgear_PaddedKettleHelmet</defName>
 		<label>padded kettle</label>
 		<description>A wide-rimmed kettle helmet paired with a thick padded coif, offering good protection of the head.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/PaddedKettle/PaddedKettle</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/PaddedKettle/PaddedKettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -41,10 +16,8 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 			<researchPrerequisites>
-				<li>DankPyon_ProtectiveClothing</li>
 				<li>Smithing</li>
 			</researchPrerequisites>
-			<!-- <researchPrerequisite>DankPyon_ProtectiveClothing</researchPrerequisite> -->
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
@@ -65,38 +38,35 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/PaddedKettle/PaddedKettle</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/PaddedKettle/PaddedKettle</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
+			<!--<tags>
 				<li>DankPyon_BrigandRaider</li>
 				<li>DankPyon_FootmanHelmet</li>
 				<li>DankPyon_BillmanHelmet</li>
 				<li>DankPyon_MercenaryHeavyHelmet</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
-				<li>DankPyon_InnerHelmet</li>
 			</layers>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 	</ThingDef>
 
-	<!-- ==================== Chain ==================== -->
-
 	<!-- ==================== Heavy Helm ==================== -->
-	<ThingDef ParentName="DankPyon_ArmorHelmetMakeableBase">
-		<defName>DankPyon_Headgear_ChainNasalHelmet</defName>
+	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
+		<defName>ISA_Headgear_ChainNasalHelmet</defName>
 		<label>chain nasal helm</label>
 		<description>A chainmail coif coupled with a simple round nasal helmet, offering excellent protection of the head.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainNasal/ChainNasal</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/ChainNasal/ChainNasal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -115,24 +85,24 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainNasal/ChainNasal</wornGraphicPath>
-			<tags>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainNasal/ChainNasal</wornGraphicPath>
+			<!--<tags>
 				<li>DankPyon_BrigandLeader</li>
 				<li>DankPyon_FootmanHelmet</li>
 				<li>DankPyon_MercenaryHeavy</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
 			</layers>
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_ArmorHelmetMakeableBase">
-		<defName>DankPyon_Headgear_ChainNasalRedHelmet</defName>
+	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
+		<defName>ISA_Headgear_ChainNasalRedHelmet</defName>
 		<label>chain nasal helm (bandana)</label>
 		<description>A variation of the chain skull cap crafted as a chainmail coif coupled with a nasal helmet. Offers the same level of protection for the head, but the strip of red cloth tied around the forehead displays authority.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainNasalRed/ChainNasalRed</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/ChainNasalRed/ChainNasalRed</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -140,7 +110,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -159,14 +129,14 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainNasalRed/ChainNasalRed</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainNasalRed/ChainNasalRed</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
+			<!--<tags>
 				<li>DankPyon_BrigandRaider</li>
 				<li>DankPyon_BrigandLeader</li>
 				<li>DankPyon_FootmanHelmet</li>
 				<li>DankPyon_MercenaryHeavy</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -174,19 +144,19 @@
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_ArmorHelmetMakeableBase">
-		<defName>DankPyon_Headgear_ChainKettleHelmet</defName>
+	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
+		<defName>ISA_Headgear_ChainKettleHelmet</defName>
 		<label>chain kettle helm</label>
 		<description>A wide-rimmed kettle helmet paired with a chainmail coif, offering excellent protection of the head while providing comfortable shade from the sun.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainKettle/ChainKettle</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/ChainKettle/ChainKettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -205,12 +175,12 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/ChainKettle/ChainKettle</wornGraphicPath>
-			<tags>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainKettle/ChainKettle</wornGraphicPath>
+			<!--<tags>
 				<li>DankPyon_BrigandLeader</li>
 				<li>DankPyon_FootmanHelmet</li>
 				<li>DankPyon_MercenaryHeavy</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -220,12 +190,12 @@
 	<!-- ==================== Plate Helmets ==================== -->
 
 
-	<ThingDef ParentName="DankPyon_ArmorHelmetMakeableBase" Name="DankPyon_SalletBase">
-		<defName>DankPyon_Headgear_SalletHelmet</defName>
+	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase" Name="ISA_SalletBase">
+		<defName>ISA_Headgear_SalletHelmet</defName>
 		<label>sallet (visored)</label>
 		<description>A sleek three-part helmet consisting of a top, visor, and bevor to protect the head, face, respectively. Lightweight, and very protective, though it hinders eyesight significantly.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/SalletVisored/SalletVisored</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/SalletVisored/SalletVisored</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -253,27 +223,27 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/SalletVisored/SalletVisored</wornGraphicPath>
-			<tags>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/SalletVisored/SalletVisored</wornGraphicPath>
+			<!--<tags>
 				<li>DankPyon_KnightHelmet</li>
 				<li>DankPyon_HedgeKnightHelmet</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
 			</layers>
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="DankPyon_SalletBase">
-		<defName>DankPyon_Headgear_SalletGryphon</defName>
+	<ThingDef ParentName="ISA_SalletBase">
+		<defName>ISA_Headgear_SalletGryphon</defName>
 		<label>sallet (gryphon)</label>
 		<description>A sleek three-part helmet consisting of a top, visor, and bevor to protect the head, face, respectively. Lightweight, and very protective, though it hinders eyesight significantly.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Headgear/SalletGryphon/SalletGryphon</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Headgear/SalletGryphon/SalletGryphon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headgear/SalletGryphon/SalletGryphon</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/SalletGryphon/SalletGryphon</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
@@ -308,9 +278,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmAmboise/HeraldicHelmAmboise</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags Inherit="False">
+			<!--<tags Inherit="False">
 				<li>ISA_HeraldicHelmAmboise</li>
-			</tags>
+			</tags>-->
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -330,9 +300,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmSoren/HeraldicHelmSoren</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags Inherit="False">
+			<!--<tags Inherit="False">
 				<li>ISA_HeraldicHelmSoren</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 
@@ -365,9 +335,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmRoxmont/HeraldicHelmRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags Inherit="False">
+			<!--<tags Inherit="False">
 				<li>ISA_HeraldicHelmRoxmont</li>
-			</tags>
+			</tags>-->
 		</apparel>
 	</ThingDef>
 
