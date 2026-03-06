@@ -59,6 +59,7 @@
 					<li>ISA_MilkIntoCheese</li>
 					<li>ISA_SheepMilkIntoCheese</li>
 					<li>ISA_GoatMilkIntoCheese</li>
+					<li>ISA_RoxMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
 					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
 					<li>ISA_AppleIntoJuice</li>
@@ -79,7 +80,6 @@
 		<label>stew pot</label>
 		<description>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.\n\nThis building gives off a significant amount of heat.\n\nStew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.\n\n\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		
 		<graphicData>
 			<texPath>Building/Production/StewPot/ISA_StewPot</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -92,8 +92,11 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
 		<costList>
-			<Steel>50</Steel>
 			<WoodLog>20</WoodLog>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
