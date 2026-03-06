@@ -6,7 +6,7 @@
 		<label>heavy hauberk</label>
 		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_Pad</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_Pad/Chain_Mail_Pad</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -47,7 +47,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_Pad</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_Pad/Chain_Mail_Pad</wornGraphicPath>
 			<tags>
 				<!--<li>DankPyon_BrigandRaider</li>
 				<li>DankPyon_BrigandLeader</li>
@@ -72,7 +72,7 @@
 		<label>heraldic heavy hauberk (Amboise)</label>
 		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Amboise.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic1</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadAmboise/Chain_Mail_PadHeraldic3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -104,7 +104,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic1</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadAmboise/Chain_Mail_PadHeraldic3</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
 				<li>ISA_HeraldicChainMailAmboise</li>
@@ -124,10 +124,10 @@
 		<label>heraldic heavy hauberk (Soren)</label>
 		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Soren.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic2</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadSoren/Chain_Mail_PadHeraldic2</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChainArmor/Chain_Mail_PadHeraldic2</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadSoren/Chain_Mail_PadHeraldic2</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags Inherit="False">
 				<li>ISA_HeraldicChainMailSoren</li>
@@ -140,7 +140,7 @@
 		<label>heraldic heavy hauberk (roxmont)</label>
 		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Roxmont.</description>
 		<graphicData>
-			<texPath>HouseRoxmont/Apparel/ChainArmor/Chain_Mail_PadRoxmont</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</texPath>
 		</graphicData>
 
 		<apparel>
