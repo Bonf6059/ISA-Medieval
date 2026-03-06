@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Da cambiare workbench dove sono prodotti; da cambiare proiettili; da creare ricerca "ISA_RangedWeapons" -->
+
   <!-- ============================== Crossbows ========================== -->
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>ISA_Crossbow</defName>
     <label>crossbow</label>
     <description>A projectile launching weapon that, much like the bow, relies on a string pulled back for tension and propels a projectile upon release. However, the crossbow allows the wielder to maintain the draw thanks to the crossbow’s locking mechanism, thus making the ranged weapon both accessible to novices and powerful in combat.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Crossbow</texPath>
+      <texPath>Items/Weapons/Ranged/Crossbow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
@@ -38,7 +40,7 @@
       <recipeUsers Inherit="False">
         <li>DankPyon_Workbench</li>  
       </recipeUsers>
-      <researchPrerequisite>ISA_Crossbow</researchPrerequisite>
+      <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -81,11 +83,11 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponNeolithic">
-    <defName>Bow_War</defName>
+    <defName>ISA_WarBow</defName>
     <label>war bow</label>
     <description>A long bow carved from beautiful yew with tips steamed to provide slight bend and painted to keep the bow from shattering under stress—and the bow indeed experiences stress as the long body allows the hemp strand to pull further and with more tension. This helps arrows fly further and better penetrate surfaces, making the war bow a deadly weapon for combat.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BowWar</texPath>
+      <texPath>Items/Weapons/Ranged/BowWar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -107,7 +109,7 @@
       <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
-      <li>DankPyon_Warbow</li>
+      <li>ISA_Warbow</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -138,7 +140,7 @@
       <recipeUsers>
         <li>DankPyon_Workbench</li>
       </recipeUsers>
-      <researchPrerequisite>DankPyon_WarBow</researchPrerequisite>
+      <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
