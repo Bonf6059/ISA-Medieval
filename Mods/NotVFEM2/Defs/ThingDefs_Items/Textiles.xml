@@ -5,7 +5,7 @@
 		<label>hardweave</label>
 		<description>Woven from smokeleaf, hardweave, sometimes called canvas, has threads alternated over and under adjacent threads to create a strong and even surface. Whilst only slightly more insulating than cloth, it’s much more resistant to damage.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/Hardweave</texPath>
+			<texPath>Items/Resources/Textile/Hardweave</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
