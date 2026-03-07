@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ISA_Make_Sweetroll</defName>
+		<label>make sweetrolls</label>
+		<description>Make sweetrolls out of honey and eggs.</description>
+		<jobString>Making sweetrolls.</jobString>
+		<workAmount>450</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<ISA_Sweetroll>10</ISA_Sweetroll>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li MayRequire="ISA.hornetkeeping">ISA_HornetHoney</li>
+        <li>ISA_Flour</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Foods</li>
+			</categories>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<!--<researchPrerequisite>VFEM2_Beekeeping</researchPrerequisite>-->
+	</RecipeDef>
+</Defs>
