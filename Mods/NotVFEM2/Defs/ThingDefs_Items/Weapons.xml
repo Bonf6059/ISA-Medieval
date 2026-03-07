@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>ISA_MeleeWeapon_Pike</defName>
+    <label>pike</label>
+    <description>A long, unwieldy polearm tipped with a sharp point for stabbing opponents. The reach of the pike allows to strike enemies much further away.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/LongSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+    </graphicData>
+    <uiIconScale>0.8</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>ISA_Pike</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>ISA_Medieval</li>
+    </weaponClasses>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>6.5</Mass>
+      <VEF_MeleeWeaponRange>2.84</VEF_MeleeWeaponRange>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>3.9</cooldownTime>
+        <armorPenetration>0.2</armorPenetration>
+      </li>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>4.2</cooldownTime>
+        <armorPenetration>0.2</armorPenetration>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <armorPenetration>0.5</armorPenetration>
+        <cooldownTime>4.2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>332</displayPriority>
+    </recipeMaker>
+    <modExtensions>
+      <li Class="VEF.Things.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>
