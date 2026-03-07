@@ -6,7 +6,7 @@
     <label>palisade</label>
     <description>An impassable fence made out of vertically-standing wooden stakes. Slow to build but requires little resources. Incapable of holding a roof.</description>
     <thingClass>Building</thingClass>
-    <category>Building</category>
+    <category>ThingWithComps</category>
     <graphicData>
       <texPath>Building/Structures/Palisade/Palisade_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +98,7 @@
     <defName>ISA_CastleWall</defName>
     <label>castle wall</label>
     <description>An incredibly resistant impassable wall made out of oversized stone blocks. Very slow to build. Capable of holding a roof. If castle wall sustains enough damage, it becomes a chest-high passable cover that when repaired, turns into an impassable wall again.</description>
-    <thingClass>VFEMedieval.CastleWall</thingClass>
+    <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>
       <texPath>Building/Structures/CastleWall/CastleWall_Atlas</texPath>
