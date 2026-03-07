@@ -13,10 +13,10 @@
     <uiIconScale>0.8</uiIconScale>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>ISA_Pike</li>
+      <li>MedievalMeleeDecent</li>
     </weaponTags>
     <weaponClasses>
-      <li>ISA_Medieval</li>
+      <li>Melee</li>
     </weaponClasses>
     <costStuffCount>100</costStuffCount>
     <thingSetMakerTags>
