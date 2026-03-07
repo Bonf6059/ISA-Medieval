@@ -116,7 +116,7 @@
 		<defName>ISA_2x1CastleGate</defName>
 		<label>castle gate (medium)</label>
 		<description>An incredibly resistant door made out of oversized stone blocks, with a latticed grille protecting the passage. Very slow to build. It’s a good choice if you want to keep the enemies out - or in. The door requires walls on either side to function. Castle gates take a long time to open.</description>
-		<thingClass>VFEMedieval.CastleGate</thingClass>
+		<thingClass>Building_MultiTileDoor</thingClass>
 		<statBases>
 			<WorkToBuild>5000</WorkToBuild>
 			<MaxHitPoints>800</MaxHitPoints>
@@ -174,7 +174,7 @@
 		<defName>ISA_3x1CastleGate</defName>
 		<label>castle gate (large)</label>
 		<description>An incredibly resistant door made out of oversized stone blocks, with a latticed grille protecting the passage. Very slow to build. It’s a good choice if you want to keep the enemies out - or in. The door requires walls on either side to function. Castle gates take a long time to open.</description>
-		<thingClass>VFEMedieval.CastleGate</thingClass>
+		<thingClass>Building_MultiTileDoor</thingClass>
 		<statBases>
 			<WorkToBuild>7000</WorkToBuild>
 			<MaxHitPoints>1200</MaxHitPoints>
