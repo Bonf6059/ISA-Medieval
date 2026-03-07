@@ -6,7 +6,7 @@
     <label>palisade</label>
     <description>An impassable fence made out of vertically-standing wooden stakes. Slow to build but requires little resources. Incapable of holding a roof.</description>
     <thingClass>Building</thingClass>
-    <category>ThingWithComps</category>
+    <category>Building</category>
     <graphicData>
       <texPath>Building/Structures/Palisade/Palisade_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
