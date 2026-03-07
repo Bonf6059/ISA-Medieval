@@ -96,7 +96,7 @@
 				<drawSize>(4.1, 2.3)</drawSize>
 			</doorTopGraphic>
 			<doorSupportGraphic>
-				<texPath>Building/Structures/Gate/CastleDoor/CastleDoor3x1_Support_east</texPath>
+				<texPath>Building/Structures/Gate/CastleDoor/CastleDoor3x1_Support</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<drawSize>(4.1, 2.3)</drawSize>
 			</doorSupportGraphic>
