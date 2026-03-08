@@ -47,6 +47,7 @@ Gives small boosts in social interactions.</description>
       <bodyPartGroups>
 	      <li>FullHead</li>
       </bodyPartGroups>
+	  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
       <wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/Wolf/ArcticWolfHood</wornGraphicPath>
       <layers>
         <li>Overhead</li>
@@ -143,6 +144,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		</apparel>
 	</ThingDef>
 	
