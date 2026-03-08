@@ -31,6 +31,7 @@
     </equippedStatOffsets>
     <weaponTags>
       <li>ISA_Crossbow</li>
+      <li>NeolithicRangedHeavy</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -50,7 +51,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DankPyon_Arrow_Crossbow</defaultProjectile>
+        <defaultProjectile>ISA_Arrow_Crossbow</defaultProjectile>
         <warmupTime>1.35</warmupTime>
         <range>25.9</range>
         <soundCast>Bow_Recurve</soundCast>
@@ -69,7 +70,7 @@
     </tools>
   </ThingDef>
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>DankPyon_Arrow_Crossbow</defName>
+    <defName>ISA_Arrow_Crossbow</defName>
     <label>hunting bow arrow</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
@@ -111,6 +112,7 @@
     </statBases>
     <weaponTags>
       <li>ISA_Warbow</li>
+      <li>NeolithicRangedHeavy</li>
     </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
@@ -120,7 +122,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DankPyon_Arrow_War</defaultProjectile>
+        <defaultProjectile>ISA_Arrow_War</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>31</range>
         <soundCast>Bow_Large</soundCast>
@@ -149,7 +151,7 @@
     </recipeMaker>
   </ThingDef>
   <ThingDef ParentName="BaseProjectileNeolithic">
-    <defName>DankPyon_Arrow_War</defName>
+    <defName>ISA_Arrow_War</defName>
     <label>war bow arrow</label>
     <graphicData>
       <texPath>Things/Projectile/Arrow_Small</texPath>
