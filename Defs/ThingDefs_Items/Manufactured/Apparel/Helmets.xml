@@ -322,6 +322,7 @@
 		</costList>
 
 		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
