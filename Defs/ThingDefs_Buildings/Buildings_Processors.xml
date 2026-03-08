@@ -71,6 +71,7 @@
 		<researchPrerequisites>
 			<li>ISA_PresserResearch</li>
 		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 
 	<!-- ===== Stew Pot ===== -->
@@ -167,6 +168,7 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 
 	<!-- CrabBay -->
@@ -303,6 +305,7 @@
 		<researchPrerequisites>
 			<li>Pemmican</li>
 		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 
 	<!-- Drying Rack 2x2-->
@@ -365,5 +368,6 @@
 		<researchPrerequisites>
 			<li>Pemmican</li>
 		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 </Defs>
