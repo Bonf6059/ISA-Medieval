@@ -117,6 +117,7 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<researchPrerequisite>PlateArmor</researchPrerequisite>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_HeraldicHauberkBase">
