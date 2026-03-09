@@ -48,9 +48,9 @@
   <!--<soundDoorOpenManual>VFEM2_CastleGate_OpenManual</soundDoorOpenManual>
 			<soundDoorCloseManual>VFEM2_CastleGate_CloseManual</soundDoorCloseManual>  -->
 		</building>
-		<!--<researchPrerequisites>
-			<li>VFEM2_MedievalArchitecture</li>
-		</researchPrerequisites>-->
+		<researchPrerequisites>
+			<li>ISA_MedievalDefences</li>
+		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_MultiCellDoor</li>
 		</placeWorkers>
@@ -103,9 +103,9 @@
 			<!--<soundDoorOpenManual>VFEM2_CastleGate_OpenManual</soundDoorOpenManual>
 			<soundDoorCloseManual>VFEM2_CastleGate_CloseManual</soundDoorCloseManual>-->
 		</building>
-		<!--<researchPrerequisites>
-			<li>VFEM2_MedievalArchitecture</li>
-		</researchPrerequisites>-->
+		<researchPrerequisites>
+			<li>ISA_MedievalDefences</li>
+		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_MultiCellDoor</li>
 		</placeWorkers>
@@ -162,9 +162,9 @@
 			<!--<soundDoorOpenManual>VFEM2_CastleGate_OpenManual</soundDoorOpenManual>
 			<soundDoorCloseManual>VFEM2_CastleGate_CloseManual</soundDoorCloseManual>-->
 		</building>
-		<!--<researchPrerequisites>
-			<li>VFEM2_MedievalArchitecture</li>
-		</researchPrerequisites>-->
+		<researchPrerequisites>
+			<li>ISA_MedievalDefences</li>
+		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_MultiCellDoor</li>
 		</placeWorkers>
@@ -220,9 +220,9 @@
 			<!--<soundDoorOpenManual>VFEM2_CastleGate_OpenManual</soundDoorOpenManual>
 			<soundDoorCloseManual>VFEM2_CastleGate_CloseManual</soundDoorCloseManual>-->
 		</building>
-		<!--<researchPrerequisites>
-			<li>VFEM2_MedievalArchitecture</li>
-		</researchPrerequisites>-->
+		<researchPrerequisites>
+			<li>ISA_MedievalDefences</li>
+		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_MultiCellDoor</li>
 		</placeWorkers>
