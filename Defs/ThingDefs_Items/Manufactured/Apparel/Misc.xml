@@ -123,4 +123,61 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ISA_Apparel_Sackcloth</defName>
+		<label>Sackcloth</label>
+		<description>A quickly made ragged piece of clothing, sewn from bits and pieces of various leathers.</description>
+		<graphicData>
+			<texPath>Pawn/HumanLike/Apparel/Misc/Sackcloth/Sackcloth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+        		<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.25</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/Sackcloth/Sackcloth</wornGraphicPath>
+			<tags>
+				<!--<li>DankPyon_Peasant</li>
+				<li>DankPyon_BrigandThug</li>-->
+				<li>MedievalBasic</li>
+			</tags>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
 </Defs>
