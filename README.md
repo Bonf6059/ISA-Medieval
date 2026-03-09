@@ -15,6 +15,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+07/03/2026
+- Added several new armors, apparels and weapons
+  
 05/03/2026
 - Added Rathix potion
 - Added Silvarn potion
