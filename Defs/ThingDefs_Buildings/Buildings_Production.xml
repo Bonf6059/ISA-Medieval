@@ -415,4 +415,82 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<ThingDef ParentName="BuildingBase">
+    	<defName>ISA_BrewKettle</defName>
+    	<label>brewing kettle</label>
+    	<description>A rustic brew kettle used to brew anything that comes to mind, this one looks like it has been modified to make alchemycal concoction.</description>
+    	<drawerType>MapMeshAndRealTime</drawerType>
+    	<graphicData>
+    	  <texPath>Building/Production/BrewKettle/BrewKettle</texPath>
+		  <drawSize>4.1</drawSize>
+    	  <graphicClass>Graphic_Single</graphicClass>
+    	  <damageData>
+    	    <rect>(0.05,0.1,0.9,0.9)</rect>
+    	  </damageData>
+    	  <shadowData>
+    	    <volume>(0.75, 0.35, 0.33)</volume>
+    	  </shadowData>
+    	</graphicData>
+		<size>(2,2)</size>
+    	<minifiedDef>MinifiedThing</minifiedDef>
+    	<altitudeLayer>Building</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+    	<fillPercent>0.45</fillPercent>
+    	<pathCost>42</pathCost>
+    	<statBases>
+    	  <WorkToBuild>1200</WorkToBuild>
+    	  <Mass>14</Mass>
+    	  <MaxHitPoints>180</MaxHitPoints>
+    	  <Flammability>0</Flammability>
+    	</statBases>
+		<stuffCategories>
+    	  <li>Metallic</li>
+    	</stuffCategories>
+		<comps>
+  			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+   				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+    			<fuelCapacity>60.0</fuelCapacity>
+    			<fuelFilter>
+				    <thingDefs>
+        				<li>WoodLog</li>
+						<li>ISA_Coal</li>
+      				</thingDefs>
+    			</fuelFilter>
+			    <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+  				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+  			</li>
+  			<li Class="ProcessorFramework.CompProperties_Processor">
+    			<capacity>100</capacity>
+    			<independentProcesses>false</independentProcesses>
+    			<parallelProcesses>false</parallelProcesses>
+    			<dropIngredients>false</dropIngredients>
+    			<showProductIcon>false</showProductIcon>
+    			<barOffset>(0.0, -0.7)</barOffset>
+    			<barScale>(1.2, 1.2)</barScale>
+    			<colorCoded>true</colorCoded>
+    			<processes>
+      				<li>SD_ShroomaleBrewing</li>
+    			</processes>
+  			</li>
+ 		</comps>
+ 		<tickerType>Rare</tickerType>
+  		<rotatable>false</rotatable>
+		<designationCategory>Production</designationCategory>
+    	<uiOrder>2790</uiOrder>
+    	<building>
+      		<buildingTags>
+        		<li>Production</li>
+      		</buildingTags>
+      		<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    	</building>
+		<costStuffCount>75</costStuffCount>
+    	<researchPrerequisites>
+	   		<li>ShroomAleResearch</li>
+    	</researchPrerequisites>
+    	<thingCategories>
+      		<li>ISA_DrugsMaking</li>
+    	</thingCategories>
+  	</ThingDef>
+	
 </Defs>
