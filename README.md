@@ -24,6 +24,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Several processors (buildings) are now minifiable
 - Added hardweave
 - Added Castle gate, walls, palisade
+- Added sweetrolls
   
 05/03/2026
 - Added Rathix potion
