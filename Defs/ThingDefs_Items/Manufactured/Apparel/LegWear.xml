@@ -43,7 +43,7 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<!--<researchPrerequisite>DankPyon_ProtectiveClothing</researchPrerequisite>-->
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
