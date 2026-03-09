@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!--=========================== Minerals ==============================-->
 	
 	<ResearchProjectDef>
 		<defName>ISA_MiningResearch</defName>
 		<label>mining</label>
 		<description>Learn safety precautions and the proper way to build a mineshaft to mine resources and stones.</description>
-		<baseCost>700</baseCost>
+		<baseCost>500</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>0.0</researchViewX>
@@ -125,18 +127,47 @@
 			<li>ComplexFurniture</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
+	
+	<!--=========================== Warfare ==============================-->
 	<ResearchProjectDef>
-		<defName>ISA_RusticStorage</defName>
-		<label>Rustic storage</label>
-		<description>Create buildings that allows you to store items more efficiently to save space.</description>
-		<baseCost>400</baseCost>
+		<defName>ISA_BluntWeapons</defName>
+		<label>blunt weapons</label>
+		<description>Learn how to smith blunt weapons, like a club but better.</description>
+		<baseCost>700</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>4</researchViewX>
-		<researchViewY>1.2</researchViewY>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
 		<prerequisites>
-			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_MedievalDefences</defName>
+		<label>medieval defences</label>
+		<description>Build castle walls and gates.</description>
+		<baseCost>700</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
+		<prerequisites>
+			<li>Stonecutting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ISA_ChainArmors</defName>
+		<label>chain armors</label>
+		<description>Smith suits of chain armor from metal. This heavy armor slows movement, but protects very effectively.</description>
+		<baseCost>500</baseCost>
+		<tab>ISA_MedievalResearchTab</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>2.0</researchViewX>
+		<researchViewY>3.0</researchViewY>
+		<prerequisites>
+			<li>Smithing</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	
