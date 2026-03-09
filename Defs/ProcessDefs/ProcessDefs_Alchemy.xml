@@ -9,6 +9,7 @@
 				<li>ISA_ParegoricMush</li>
 			</thingDefs>
 		</ingredientFilter>
+		<efficiency>3</efficiency>
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
@@ -19,6 +20,7 @@
 				<li>ISA_RathixMush</li>
 			</thingDefs>
 		</ingredientFilter>
+		<efficiency>2</efficiency>
 	</ProcessorFramework.ProcessDef>
   
 	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
@@ -29,6 +31,7 @@
 				<li>ISA_DravikMush</li>
 			</thingDefs>
 		</ingredientFilter>
+		<efficiency>2</efficiency>
 	</ProcessorFramework.ProcessDef>
 		
 </Defs>
