@@ -16,7 +16,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 09/03/2026
-- Added brew kettle, it does nothing atm
+- Added brew kettle
+- Changed how potions are produced, now the alchemy bench produces a mush that must be processed by the brew kettle
 - Updated/Added research projects
 - Wolf hood lowers "hunting stealth"; Deer hood increases "hunting stealth"; Cultist hood lowers "social impact"
 
