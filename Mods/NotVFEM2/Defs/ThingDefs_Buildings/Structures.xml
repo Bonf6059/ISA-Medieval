@@ -185,9 +185,9 @@
         <multiplier>2</multiplier>
       </li>
     </damageMultipliers>
-    <!--<researchPrerequisites>
-      <li>VFEM2_MedievalArchitecture</li>
-    </researchPrerequisites>-->
+		<researchPrerequisites>
+			<li>ISA_MedievalDefences</li>
+		</researchPrerequisites>
   </ThingDef>
   
 </Defs>
