@@ -42,7 +42,7 @@
 	    	<li>FueledSmithy</li>
 	    	<li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -144,7 +144,7 @@
         	<li>FueledSmithy</li>
 	        <li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>ISA_RangedWeapons</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
