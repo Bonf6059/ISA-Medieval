@@ -75,7 +75,7 @@
 		<defName>ISA_AdvancedDrugsMaking</defName>
 		<label>advanced medicine and drugs production</label>
 		<description>Learn how to make incredible drugs to heal even the worst injuries</description>
-		<baseCost>1200</baseCost>
+		<baseCost>1000</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>1.5</researchViewX>
