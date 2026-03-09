@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- Dried Meat-->
-	<ProcessorFramework.ProcessDef>
+	<ProcessorFramework.ProcessDef ParentName="ISA_DryingRackBase">
 		<defName>ISA_DriedMeatProcess</defName>
 		<thingDef>ISA_DriedMeat</thingDef>
 		<ingredientFilter>
@@ -24,7 +24,7 @@
 	</ProcessorFramework.ProcessDef>
 
 	<!-- Dried Human Meat Process-->
-	<ProcessorFramework.ProcessDef>
+	<ProcessorFramework.ProcessDef ParentName="ISA_DryingRackBase">
 		<defName>ISA_DriedMeatHumanProcess</defName>
 		<thingDef>ISA_DriedMeat_Human</thingDef>
 		<ingredientFilter>
@@ -39,7 +39,7 @@
 	</ProcessorFramework.ProcessDef>
 
 	<!-- Dried Insect Meat Process-->
-	<ProcessorFramework.ProcessDef>
+	<ProcessorFramework.ProcessDef ParentName="ISA_DryingRackBase">
 		<defName>ISA_DriedMeatInsectProcess</defName>
 		<thingDef>ISA_DriedMeat_Insect</thingDef>
 		<ingredientFilter>
@@ -50,8 +50,8 @@
 		<filledGraphicSuffix>FilledMeat</filledGraphicSuffix>
 	</ProcessorFramework.ProcessDef>
 
-	<!-- Dried Human Meat Process-->
-	<ProcessorFramework.ProcessDef>
+	<!-- Dried herb Process-->
+	<ProcessorFramework.ProcessDef ParentName="ISA_DryingRackBase">
 		<defName>ISA_DriedHerbProcess</defName>
 		<thingDef>Hay</thingDef>
 		<ingredientFilter>
