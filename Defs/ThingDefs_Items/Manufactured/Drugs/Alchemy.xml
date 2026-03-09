@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef ParentName="ResourceBase" Name="ISA_AlchemyMushBase">
+		<defName>ISA_RathixMush</defName>
+		<label>rathix mush</label>
+		<description>A mix of various ingredients. It needs to be distilled in the brew kettle to produce something usable.</description>
+		<graphicData>
+			<texPath>Items/Resources/Misc/AlchemyMush/RathixMush</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>4.5</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.2</Flammability>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<researchPrerequisites>
+			<li>ISA_AdvancedDrugsMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_AlchemyMushBase">
+		<defName>ISA_DravikMush</defName>
+		<label>dravik mush</label>
+		<graphicData>
+			<texPath>Items/Resources/Misc/AlchemyMush/DravikMush</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_AlchemyMushBase">
+		<defName>ISA_ParegoricMush</defName>
+		<label>dravik mush</label>
+		<graphicData>
+			<texPath>Items/Resources/Misc/AlchemyMush/ParegoricMush</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
 <!-- =============== Rathix =============== -->
 	
 	<ThingDef ParentName="MedicineBase">
