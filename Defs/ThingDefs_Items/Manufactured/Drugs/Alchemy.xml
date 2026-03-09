@@ -25,6 +25,12 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedDrugsMaking</li>
 		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>8</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_AlchemyMushBase">
