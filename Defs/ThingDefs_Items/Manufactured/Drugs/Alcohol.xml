@@ -30,6 +30,9 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_MustWineBase">
@@ -178,9 +181,6 @@
 			</li>	-->
 			<li MayRequire="vanillaexpanded.vcooke" Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>
-		<researchPrerequisites>
-			<li>Brewing</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 <!-- Berry Wine -->
