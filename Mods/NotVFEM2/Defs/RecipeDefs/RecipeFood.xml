@@ -59,6 +59,8 @@
 			</categories>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
-		<!--<researchPrerequisite>VFEM2_Beekeeping</researchPrerequisite>-->
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
 	</RecipeDef>
 </Defs>
