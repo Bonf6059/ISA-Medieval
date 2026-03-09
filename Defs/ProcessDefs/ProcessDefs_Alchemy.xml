@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
+		<defName>ISA_MushInParegoric</defName>
+		<thingDef>ISA_Paregoric</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_ParegoricMush</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
+		<defName>ISA_MushInRathix</defName>
+		<thingDef>ISA_Rathix</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_RathixMush</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+  
+	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
+		<defName>ISA_MushInDravik</defName>
+		<thingDef>ISA_Dravik</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_DravikMush</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+		
+</Defs>
