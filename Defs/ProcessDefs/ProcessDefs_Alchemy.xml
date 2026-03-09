@@ -9,7 +9,7 @@
 				<li>ISA_ParegoricMush</li>
 			</thingDefs>
 		</ingredientFilter>
-		<efficiency>3</efficiency>
+		<efficiency>3</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
@@ -20,7 +20,7 @@
 				<li>ISA_RathixMush</li>
 			</thingDefs>
 		</ingredientFilter>
-		<efficiency>2</efficiency>
+		<efficiency>2</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
 	</ProcessorFramework.ProcessDef>
   
 	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
@@ -31,7 +31,7 @@
 				<li>ISA_DravikMush</li>
 			</thingDefs>
 		</ingredientFilter>
-		<efficiency>2</efficiency>
+		<efficiency>2</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
 	</ProcessorFramework.ProcessDef>
 		
 </Defs>
