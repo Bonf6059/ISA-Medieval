@@ -18,6 +18,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 09/03/2026
 - Added brew kettle, it does nothing atm
 - Updated/Added research projects
+- Wolf hood lowers "hunting stealth"; Deer hood increases "hunting stealth"; Cultist hood lowers "social impact"
 
 07/03/2026
 - Added several new armors, apparels and weapons
