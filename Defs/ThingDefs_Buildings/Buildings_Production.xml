@@ -489,7 +489,7 @@
 	   		<li>ShroomAleResearch</li>
     	</researchPrerequisites>
     	<thingCategories>
-      		<li>ISA_DrugsMaking</li>
+      		<li>ISA_AdvancedDrugsMaking</li>
     	</thingCategories>
   	</ThingDef>
 	
