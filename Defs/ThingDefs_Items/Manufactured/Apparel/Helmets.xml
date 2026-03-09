@@ -66,7 +66,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<researchPrerequisite>ISA_ChainArmors</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -110,7 +110,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<researchPrerequisite>ISA_ChainArmors</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -156,7 +156,7 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<researchPrerequisite>ISA_ChainArmors</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
@@ -202,7 +202,6 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
@@ -315,12 +314,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-
 		<costList>
 			<ISA_Leather_Rox>30</ISA_Leather_Rox>
 			<ISA_RoxHorn>2</ISA_RoxHorn>
 		</costList>
-
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>10</Crafting>
@@ -333,9 +330,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
-
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmRoxmont/HeraldicHelmRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
