@@ -22,6 +22,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 07/03/2026
 - Added several new armors, apparels and weapons
 - Several processors (buildings) are now minifiable
+- Added hardweave
   
 05/03/2026
 - Added Rathix potion
