@@ -40,7 +40,8 @@ Gives small boosts in social interactions.</description>
 	  <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-  	<SocialImpact>0.1</SocialImpact>
+	  	<SocialImpact>0.1</SocialImpact>
+		<HuntingStealth>-0.05</HuntingStealth>
     </equippedStatOffsets>
     <generateCommonality>0.1</generateCommonality>
     <apparel>
@@ -85,6 +86,9 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 	  <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 	  <EquipDelay>1.2</EquipDelay>
     </statBases>
+	<equippedStatOffsets>
+		<HuntingStealth>0.1</HuntingStealth>
+    </equippedStatOffsets>
     <generateCommonality>0.1</generateCommonality>
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -132,6 +136,9 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>-0.15</SocialImpact>
+		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/CultistHood/CultistHood</wornGraphicPath>
 			<tags>
