@@ -12,8 +12,12 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Update deer and wolf hood descriptions
 - Add desert specific stuff
 - Update/Add research projects
+- Decidere se usare il brew kettle come un processore o no, in un caso bisogna creare dei thingdef che poi verranno processati (si può usare solo 1 input) oppure farlo normale e rimuovere le ricette dal banco alchemico/fare le ricette in BULK non in bulk qui.
 
 # Old updates
+
+09/03/2026
+- Added brew kettle, it does nothing atm
 
 07/03/2026
 - Added several new armors, apparels and weapons
