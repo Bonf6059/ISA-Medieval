@@ -49,6 +49,7 @@ X
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
+			<researchPrerequisite>PlateArmor</researchPrerequisite>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -63,7 +64,6 @@ X
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<researchPrerequisite>PlateArmor</researchPrerequisite>
 	</ThingDef>
   
 </Defs>
