@@ -76,7 +76,17 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<recipeMaker Inherit="False"/>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ISA_ChainArmors</researchPrerequisite>
+		</recipeMaker>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -117,7 +127,6 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
-		<researchPrerequisite>ISA_ChainArmors</researchPrerequisite>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_HeraldicHauberkBase">
