@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RecipeDef>
+		<defName>ISA_Make_Hardweave</defName>
+		<label>weave hardweave from smokeleaf leaves</label>
+		<description>Weave smokeleaf threads together to create resistant alternative to cloth.</description>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<jobString>Weaving hardweave.</jobString>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<workSkill>Crafting</workSkill>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>900</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ISA_Hardweave>25</ISA_Hardweave>
+		</products>
+	</RecipeDef>
+</Defs>
