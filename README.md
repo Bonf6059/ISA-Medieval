@@ -11,7 +11,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add smoker
 - Update deer and wolf hood descriptions
 - Add desert specific stuff
-- Decidere se usare il brew kettle come un processore o no, in un caso bisogna creare dei thingdef che poi verranno processati (si può usare solo 1 input) oppure farlo normale e rimuovere le ricette dal banco alchemico/fare le ricette in BULK non in bulk qui.
 
 # Old updates
 
