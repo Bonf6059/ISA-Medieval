@@ -238,6 +238,7 @@
 						<li>Milk</li>
 						<li>ISA_SheepMilk</li>
 						<li>ISA_GoatMilk</li>
+						<li>ISA_RoxMilk</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -257,6 +258,7 @@
 				<li>Milk</li>
 				<li>ISA_SheepMilk</li>
 				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -266,6 +268,7 @@
 				<li>Milk</li>
 				<li>ISA_SheepMilk</li>
 				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
@@ -295,6 +298,7 @@
 						<li>Milk</li>
 						<li>ISA_SheepMilk</li>
 						<li>ISA_GoatMilk</li>
+						<li>ISA_RoxMilk</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -314,6 +318,7 @@
 				<li>Milk</li>
 				<li>ISA_SheepMilk</li>
 				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -323,6 +328,7 @@
 				<li>Milk</li>
 				<li>ISA_SheepMilk</li>
 				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
