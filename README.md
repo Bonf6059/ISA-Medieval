@@ -11,6 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add smoker
 - Update deer and wolf hood descriptions
 - Add desert specific stuff
+- Add griffon from medieval overhaul and hydra from biomes!Caverns
 
 # Old updates
 
