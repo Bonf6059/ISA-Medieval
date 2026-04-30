@@ -15,6 +15,10 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+30/04/2026
+- Added new items to alchemycal traders
+- Added alchemycal traders to some factions so they can actually spawn now
+
 09/03/2026
 - Added brew kettle
 - Changed how potions are produced, now the alchemy bench produces a mush that must be processed by the brew kettle
