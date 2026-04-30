@@ -51,12 +51,17 @@
 			
 			<li Class="StockGenerator_SingleDef">
         		<thingDef>ISA_Paregoric</thingDef>
-        		<countRange>5~24</countRange>
+        		<countRange>7~24</countRange>
       		</li>
 
 			<li Class="StockGenerator_SingleDef">
         		<thingDef>ISA_Rathix</thingDef>
-        		<countRange>5~24</countRange>
+        		<countRange>7~24</countRange>
+      		</li>
+
+			<li Class="StockGenerator_SingleDef">
+        		<thingDef>ISA_Dravik</thingDef>
+        		<countRange>7~24</countRange>
       		</li>
       
 			<li Class="StockGenerator_Category">
