@@ -15,7 +15,7 @@
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinth</thingDef>
-            <countRange>-10~84</countRange>
+            <countRange>15~84</countRange>
           </li>
 
         </value>
@@ -27,7 +27,7 @@
           
           <li Class="StockGenerator_SingleDef">
             <thingDef>ISA_Criopyrinth</thingDef>
-            <countRange>-10~95</countRange>
+            <countRange>25~125</countRange>
           </li>
 
         </value>
