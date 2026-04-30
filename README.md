@@ -13,6 +13,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add desert specific stuff
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 
+- RAGIONARE SE CONVERTIRE TUTTO DA SYR.PROCESSOR FRAMEWORK A VANILLA EXPANDED PROCESSOR; COMPORTA REVAMPING FILE DEI PROCESSI E MODIFICA DEI COMP DELLE STRUTTURE
+
 # Old updates
 
 30/04/2026
