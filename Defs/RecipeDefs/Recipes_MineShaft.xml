@@ -288,7 +288,7 @@
 	
 	<!-- With StoneBorn Delights loaded -->
 	
-	<RecipeDef MayRequire="ISA.sbdelights" ParentName="ISA_MineShaftBase">
+	<RecipeDef MayRequire="det.sbdelights" ParentName="ISA_MineShaftBase">
 		<defName>ISA_MakeChunkGlimmer</defName>
 		<description>Mine deep down underground to obtain glimmer quartz chunk</description>
 	    	<workAmount>2350</workAmount>
