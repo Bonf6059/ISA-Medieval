@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!--========== TRADERS ==========-->
+
+<Operation Class="PatchOperationSequence">
+ <!-- <success>Always</success>  -->
+    <operations>
+      <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>ISA_Caravan_Medieval_Alchemist</li>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="TribeBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>ISA_Caravan_Medieval_Alchemist</li>
+        </value>
+      </li>	
+
+  </operations>
+</Operation>
+
+</Patch>
