@@ -64,16 +64,6 @@
         		<countRange>7~24</countRange>
       		</li>
 
-			<li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        		<thingDef>ISA_Pyrinthquartz</thingDef>
-        		<countRange>-5~15</countRange>
-      		</li>
-
-			<li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        		<thingDef>ISA_Criopyrinthquartz</thingDef>
-        		<countRange>-5~15</countRange>
-      		</li>
-      
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<countRange>2~4</countRange>
