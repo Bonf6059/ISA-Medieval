@@ -2,7 +2,7 @@
 <Patch>
 
       <Operation MayRequire="ISA.RandomPatches" Class="PatchOperationAdd">
-        <xpath>/Defs/TraderKindDef[@Name="DV_BaseGolem"]/recipes</xpath>
+        <xpath>/Defs/ThingDef[@Name="DV_BaseGolem"]/recipes</xpath>
         <value>
           <li>ISA_Golem_InstallCriopyrinthHeart</li>
         </value>
