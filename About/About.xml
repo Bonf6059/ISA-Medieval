@@ -23,6 +23,7 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>det.epochsgolems</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>OskarPotocki.VFE.Medieval2</li>
 		<li>syrchalis.processor.framework</li>
