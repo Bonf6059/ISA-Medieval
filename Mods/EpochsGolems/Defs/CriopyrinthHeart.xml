@@ -38,7 +38,7 @@
             <li>
 		        	<statFactors>
 				        <IncomingDamageFactor>1.1</IncomingDamageFactor>
-			          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+			          <ComfyTemperatureMax>1.5</ComfyTemperatureMax>
               </statFactors>
             </li>
         </stages>
