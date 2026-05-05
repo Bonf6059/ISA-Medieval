@@ -319,6 +319,7 @@
 	</ThingDef>
 
 	<!-- Drying Rack 2x2-->
+	
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_DryingRack_Big</defName>
 		<label>drying rack (2x2)</label>
@@ -384,6 +385,8 @@
     	</thingCategories>
 	</ThingDef>
 
+<!-- ===== Brew Kettle ===== -->
+	
 	<ThingDef ParentName="BuildingBase">
     	<defName>ISA_BrewKettle</defName>
     	<label>brewing kettle</label>
@@ -392,7 +395,7 @@
     	<graphicData>
     	  <texPath>Building/Production/BrewKettle/BrewKettle</texPath>
 		  <drawSize>4.1</drawSize>
-    	  <graphicClass>Graphic_Single</graphicClass>
+    	  <graphicClass>Graphic_Multi</graphicClass>
     	  <damageData>
     	    <rect>(0.05,0.1,0.9,0.9)</rect>
     	  </damageData>
