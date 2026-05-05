@@ -17,6 +17,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+05/05/2026
+- Brew Kettle can be rotated
+
 30/04/2026
 - Added new items to alchemycal traders
 - Added alchemycal traders to some factions so they can actually spawn now
