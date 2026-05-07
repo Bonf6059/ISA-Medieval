@@ -403,6 +403,7 @@
     	    <volume>(0.75, 0.35, 0.33)</volume>
     	  </shadowData>
     	</graphicData>
+		<rotatable>true</rotatable>
 		<size>(2,2)</size>
     	<minifiedDef>MinifiedThing</minifiedDef>
     	<altitudeLayer>Building</altitudeLayer>
