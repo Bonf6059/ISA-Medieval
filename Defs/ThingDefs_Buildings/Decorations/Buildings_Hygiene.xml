@@ -137,6 +137,7 @@
 			<Beauty>5</Beauty>
 		</statBases>
     <uiIconScale>0.75</uiIconScale>
+	  <rotatable>false</rotatable>
 		<size>(2,2)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>0</pathCost>
