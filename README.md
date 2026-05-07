@@ -19,6 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 05/05/2026
 - Brew Kettle can be rotated
+- Added new decorative buildings and removed duplicated code
 
 30/04/2026
 - Added new items to alchemycal traders
