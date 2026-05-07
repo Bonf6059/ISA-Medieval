@@ -37,6 +37,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designatorDropdown>ISA_Hygiene</designatorDropdown>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -69,6 +70,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designatorDropdown>ISA_Hygiene</designatorDropdown>
 	</ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -104,6 +106,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	  	<designatorDropdown>ISA_Hygiene</designatorDropdown>
 	</ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -143,6 +146,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	  	<designatorDropdown>ISA_Hygiene</designatorDropdown>
 	</ThingDef>
   
 </Defs>
