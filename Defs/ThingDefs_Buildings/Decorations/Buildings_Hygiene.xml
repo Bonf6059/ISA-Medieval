@@ -48,7 +48,7 @@
 		<graphicData>
 			<texPath>Building/Furnitures/Decorations/Bucket/Bucket</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1,1)</drawSize>
 		</graphicData>
 		<stuffCategories>
 			<li>Woody</li>
@@ -137,7 +137,6 @@
 			<Beauty>5</Beauty>
 		</statBases>
     <uiIconScale>0.75</uiIconScale>
-    <rotatable>true</rotatable>
 		<size>(2,2)</size>
 		<passability>PassThroughOnly</passability>
 		<pathCost>0</pathCost>
