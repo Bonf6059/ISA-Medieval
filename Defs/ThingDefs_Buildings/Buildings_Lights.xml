@@ -159,6 +159,7 @@
 	<researchPrerequisites>
 		<li>ISA_Cooling</li>
 	</researchPrerequisites>
+	<designationCategory>Furniture</designationCategory>
   </ThingDef>
 
 <!-- Criopyrinth Lamp - non funziona la texture e non capisco perchè -->
@@ -194,7 +195,6 @@
         <glowColor>(192,117,77,0)</glowColor>
       </li>
     </comps>
-    <designationCategory>Furniture</designationCategory>
     <uiOrder>2800</uiOrder>
   </ThingDef>	-->
 
