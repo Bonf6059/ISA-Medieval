@@ -156,7 +156,7 @@
 	</ThingDef>
 	
 	<!-- Berry Jam -->
-	<ThingDef ParentName="MealCooked" Name="ISA_JamBase">
+	<ThingDef ParentName="ISA_JamBase">
 		<defName>ISA_BerryJam</defName>
 		<label>berry jam</label>
 		<graphicData>
@@ -172,7 +172,7 @@
 	</ThingDef>
 	
 	<!-- Grape Jam -->
-	<ThingDef ParentName="MealCooked" Name="ISA_JamBase">
+	<ThingDef ParentName="ISA_JamBase">
 		<defName>ISA_GrapeJam</defName>
 		<label>grape jam</label>
 		<graphicData>
