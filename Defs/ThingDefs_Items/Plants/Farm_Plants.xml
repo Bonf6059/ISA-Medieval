@@ -63,6 +63,7 @@
 		<statBases>
 			<MarketValue>1.2</MarketValue>
 			<Mass>0.027</Mass>
+			<Nutrition>0.05</Nutrition>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Rottable">
@@ -112,6 +113,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
+			<Nutrition>0.05</Nutrition>
 		</statBases>
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
