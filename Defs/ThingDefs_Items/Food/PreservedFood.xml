@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--============== Preserved Food ===============-->
+<!--============== Preserved Meat ===============-->
 
 <!-- Dried Meats -->
 	<ThingDef ParentName="OrganicProductBase">
@@ -81,6 +81,7 @@
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
+	<!-- Dried Insect Meats -->
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>ISA_DriedMeat_Insect</defName>
 		<label>dried Insect Meat</label>
@@ -119,4 +120,71 @@
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
+<!--============== Preserved Fruit ===============-->
+	
+	<!-- Apple Jam -->
+	<ThingDef ParentName="MealCooked" Name="ISA_JamBase">
+		<defName>ISA_AppleJam</defName>
+		<label>apple jam</label>
+		<description>A sweet spread made by cooking fruits for a long time. Jam preserves the flavors of ripe fruit while often including pieces of fruit or pulp. It can be eaten on its own and doesn't rot so it's an easy way to store fruit for long periods of time.</description>
+		<graphicData>
+			<texPath>Items/Food/PreservedFood/Jam/AppleJam</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<Nutrition>0.12</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<!--	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			
+		</comps>	-->
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
+		</ingestible>
+	</ThingDef>
+	
+	<!-- Berry Jam -->
+	<ThingDef ParentName="MealCooked" Name="ISA_JamBase">
+		<defName>ISA_BerryJam</defName>
+		<label>berry jam</label>
+		<graphicData>
+			<texPath>Items/Food/PreservedFood/Jam/BerryJam</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Nutrition>0.12</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!-- Grape Jam -->
+	<ThingDef ParentName="MealCooked" Name="ISA_JamBase">
+		<defName>ISA_GrapeJam</defName>
+		<label>grape jam</label>
+		<graphicData>
+			<texPath>Items/Food/PreservedFood/Jam/GrapeJam</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Nutrition>0.12</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+	
 </Defs>
