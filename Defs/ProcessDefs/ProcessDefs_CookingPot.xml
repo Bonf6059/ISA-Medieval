@@ -30,7 +30,6 @@
 			</thingDefs>
 		</ingredientFilter>
 		<processDays>0.5</processDays><!-- in days, a day is 60,000 ticks -->
-		<capacityFactor>30.0</capacityFactor>
 		<efficiency>0.3</efficiency>
 	</ProcessorFramework.ProcessDef>
 
