@@ -89,7 +89,7 @@
 
 	<!-- Stew Pot  -->
 
-  <ProcessorFramework.ProcessDef Name="ISA_StewPotBase" Abstract="True">
+  <ProcessorFramework.ProcessDef Name="ISA_CookingPotBase" Abstract="True">
 		<processDays>2</processDays><!-- in days, a day is 60,000 ticks -->
 		<capacityFactor>30.0</capacityFactor>
 		<efficiency>10</efficiency>
