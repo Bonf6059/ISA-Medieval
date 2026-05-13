@@ -79,8 +79,6 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealLavish</preferability>
-			<ingestEffect>EatVegetarian</ingestEffect>
-			<ingestSound>Ingest_Drink</ingestSound>
 		</ingestible>
 
 	</ThingDef>
@@ -102,6 +100,8 @@
 		</statBases>
 		<ingestible>
 			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Drink</ingestSound>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 		</ingestible>
 	</ThingDef>
