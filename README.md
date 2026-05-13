@@ -11,6 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Update deer and wolf hood descriptions
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
+- Add greater compatibility to detvisor's "stoneborn cuisine"
 
 - CONVERTIRE TUTTO DA SYR.PROCESSOR FRAMEWORK A VANILLA EXPANDED PROCESSOR; COMPORTA REVAMPING FILE DEI PROCESSI E MODIFICA DEI COMP DELLE STRUTTURE - SE FATTO SI PUò TOGLIORE LA DEPENDENCIES (molte cose non avranno più bisogno del coso intermedio come il mosto delle pozioni e le zuppe crude quindi si possono togliere)
 
@@ -24,6 +25,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added emperor pearls to the crab bay
 - Soups can only be made with vegetables and are recognized as vegetarian
 - Stews are no longer vegetarian
+- Added compatibility to detvisor's "stoneborn cuisine" flour
 
 05/05/2026
 - Brew Kettle can be rotated
