@@ -32,14 +32,14 @@
 	<RecipeDef ParentName="ISA_CookStewBase">
 		<defName>ISA_MakeUncookedSoup</defName>
 		<label>Cook soup</label>
-		<description>Chop raw meat and vegetables in uncooked soup.</description>
+		<description>Chop vegetables in uncooked soup.</description>
 		<jobString>Cooking soup.</jobString>
     <workAmount>250</workAmount>
 		<ingredients>
 			<li>
 				<filter>
 					<categories>
-						<li>FoodRaw</li>
+						<li>PlantFoodRaw</li>
 					</categories>
 				</filter>
 				<count>5</count>
@@ -47,7 +47,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>FoodRaw</li>
+				<li>PlantFoodRaw</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
@@ -55,7 +55,7 @@
 		</products>
 	</RecipeDef>
 
-<!-- Bakes -->
+<!-- ============ Bakes ============ -->
 
 <!-- Bread -->
 	
