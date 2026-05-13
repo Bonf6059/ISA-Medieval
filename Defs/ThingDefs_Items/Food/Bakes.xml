@@ -19,6 +19,7 @@
 		</statBases>
 		<thingCategories>
 			<li>PlantMatter</li>
+			<li MayRequire="det.sbcuisine">SC_FlourRaw</li>
 		</thingCategories>
 		<comps>
 			<li Class="CompProperties_Rottable">
