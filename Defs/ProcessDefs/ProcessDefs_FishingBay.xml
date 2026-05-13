@@ -33,4 +33,14 @@
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
+	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_BayBase">
+		<defName>ISA_CrabRoe</defName>
+		<thingDef>ISA_LeviathanRoe</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>Kibble</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
 </Defs>
