@@ -91,7 +91,7 @@
 
   <ProcessorFramework.ProcessDef Name="ISA_StewPotBase" Abstract="True">
 		<processDays>2</processDays><!-- in days, a day is 60,000 ticks -->
-		<capacityFactor>1.0</capacityFactor>
+		<capacityFactor>30.0</capacityFactor>
 		<efficiency>10</efficiency>
 		<usesTemperature>false</usesTemperature>
 		<sunFactor>1.0~1.0</sunFactor>
