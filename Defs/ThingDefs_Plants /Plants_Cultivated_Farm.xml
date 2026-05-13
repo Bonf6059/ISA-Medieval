@@ -351,11 +351,11 @@
 				<li>Ground</li>
 			</sowTags>
 			<fertilitySensitivity>0.7</fertilitySensitivity>
-			<growDays>33</growDays>
+			<growDays>30</growDays>
 			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestAfterGrowth>0.33</harvestAfterGrowth>
 			<harvestedThingDef>ISA_RawApples</harvestedThingDef>
-			<harvestYield>20</harvestYield>
+			<harvestYield>22</harvestYield>
 			<sowMinSkill>3</sowMinSkill>
 			<mustBeWildToSow>false</mustBeWildToSow>
 			<sowResearchPrerequisites Inherit="False">
