@@ -186,7 +186,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>CrabBay</defName>
 		<label>crab bay</label>
-		<description>A small, closed-off area of water used to breed a variant of leviatan crabs. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
+		<description>A small, closed-off area of water used to breed a domesticad variant of leviatan crabs, they are smaller in size and are bred specifically to be eaten. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<drawSize>(5,5)</drawSize>
