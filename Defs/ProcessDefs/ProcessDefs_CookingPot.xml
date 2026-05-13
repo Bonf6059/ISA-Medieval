@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotBase">
+		<defName>ISA_Stew</defName>
+		<thingDef>ISA_CookedStew</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_UncookedStew</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotBase">
+		<defName>ISA_Soup</defName>
+		<thingDef>ISA_CookedSoup</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_UncookedSoup</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotBase" Name="ISA_CookingPotJamBase">
+		<defName>ISA_AppleJamRecipe</defName>
+		<thingDef>ISA_AppleJam</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_RawApples</li>
+			</thingDefs>
+		</ingredientFilter>
+		<processDays>0.5</processDays><!-- in days, a day is 60,000 ticks -->
+		<capacityFactor>30.0</capacityFactor>
+		<efficiency>0.3</efficiency>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotJamBase">
+		<defName>ISA_BerryJamRecipe</defName>
+		<thingDef>ISA_BerryJam</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+
+	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotJamBase">
+		<defName>ISA_GrapeJamRecipe</defName>
+		<thingDef>ISA_GrapeJam</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_RawGrapes</li>
+			</thingDefs>
+		</ingredientFilter>
+	</ProcessorFramework.ProcessDef>
+	
+	
+</Defs>
