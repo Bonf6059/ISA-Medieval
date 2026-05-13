@@ -17,6 +17,12 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+13/05/2026
+- Added Apple, berry and grape Jam made in the cooking pot
+- Changed stats for apple trees
+- Added nutrition values to raw grapes and tomatoes
+- Added fish roe made in the fishing bay
+
 05/05/2026
 - Brew Kettle can be rotated
 - Added new decorative buildings and removed duplicated code
