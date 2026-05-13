@@ -140,6 +140,7 @@
       		<preferability>RawTasty</preferability>
       		<foodType>AnimalProduct</foodType>
     	</ingestible>
+		<socialPropernessMatters>true</socialPropernessMatters>
 	</ThingDef>
 
 </Defs>
