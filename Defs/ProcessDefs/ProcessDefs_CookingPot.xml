@@ -31,6 +31,7 @@
 		</ingredientFilter>
 		<processDays>0.5</processDays><!-- in days, a day is 60,000 ticks -->
 		<efficiency>0.3</efficiency>
+		<capacityFactor>1.0</capacityFactor>
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_CookingPotJamBase">
