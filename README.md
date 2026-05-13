@@ -7,13 +7,12 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Scribe table to make books (Add press to make wood pulp more efficient than crafting spot and scribe table that need leather and paper to make - vanilla - skill trainers with texture replaced to look like books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
-- Rename the crabbay to fishingbay and make it so you can get fish (there is a category for fish like for meat)
 - Add smoker
 - Update deer and wolf hood descriptions
-- Add desert specific stuff
+- Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 
-- RAGIONARE SE CONVERTIRE TUTTO DA SYR.PROCESSOR FRAMEWORK A VANILLA EXPANDED PROCESSOR; COMPORTA REVAMPING FILE DEI PROCESSI E MODIFICA DEI COMP DELLE STRUTTURE - SE FATTO SI PUò TOGLIORE LA DEPENDENCIES
+- CONVERTIRE TUTTO DA SYR.PROCESSOR FRAMEWORK A VANILLA EXPANDED PROCESSOR; COMPORTA REVAMPING FILE DEI PROCESSI E MODIFICA DEI COMP DELLE STRUTTURE - SE FATTO SI PUò TOGLIORE LA DEPENDENCIES (molte cose non avranno più bisogno del coso intermedio come il mosto delle pozioni e le zuppe crude quindi si possono togliere)
 
 # Old updates
 
