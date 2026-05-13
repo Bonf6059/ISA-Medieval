@@ -77,7 +77,7 @@
     	</thingCategories>
 	</ThingDef>
 
-	<!-- ===== Stew Pot ===== -->
+	<!-- ===== Cooking Pot ===== -->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_CookingPot</defName>
