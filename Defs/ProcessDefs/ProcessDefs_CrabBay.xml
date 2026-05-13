@@ -33,7 +33,7 @@
 			</thingDefs>
 		</ingredientFilter>
 		<efficiency>0.01</efficiency>
-		<processDays>30</processDays><!-- in days, a day is 60,000 ticks -->
+		<processDays>60</processDays><!-- in days, a day is 60,000 ticks -->
 	</ProcessorFramework.ProcessDef>
 
 	<ProcessorFramework.ProcessDef ParentName="ISA_Processor_BayBase">
@@ -44,7 +44,7 @@
 				<li>Kibble</li>
 			</thingDefs>
 		</ingredientFilter>
-		<efficiency>0.25</efficiency>
+		<efficiency>0.1</efficiency>
 		<processDays>15</processDays><!-- in days, a day is 60,000 ticks -->
 	</ProcessorFramework.ProcessDef>
 
