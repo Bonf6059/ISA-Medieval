@@ -21,6 +21,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Changed stats for apple trees
 - Added nutrition values to raw grapes and tomatoes
 - Added leviathan roe made in the crab bay
+- Added emperor pearls to crab bay
 - Soups can only be made with vegetables and are recognized as vegetarian
 - Stews are no longer vegetarian
 
