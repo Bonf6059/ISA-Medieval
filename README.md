@@ -21,7 +21,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added Apple, berry and grape Jam made in the cooking pot
 - Changed stats for apple trees
 - Added nutrition values to raw grapes and tomatoes
-- Added fish roe made in the fishing bay
+- Added leviathan roe made in the crab bay
+- Soups can only be made with vegetables and are recognized as vegetarian
+- Stews are no longer vegetarian
 
 05/05/2026
 - Brew Kettle can be rotated
