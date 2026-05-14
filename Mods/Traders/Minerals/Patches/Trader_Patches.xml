@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!--========== MINERAL TRADERS ==========-->
+      <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+      <!-- Addons to the stock generator  -->
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="ISA_Caravan_Minerals" or defName="ISA_Orbital_Minerals"]/stockGenerators</xpath>
+        <value>
+          
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Coal</thingDef>
+            <countRange>150~300</countRange>
+          </li>
+
+          <li Class="StockGenerator_SingleDef">
+            <thingDef>ISA_Criopyrinth</thingDef>
+            <countRange>75~140</countRange>
+          </li>
+
+        </value>
+      </Operation>
+
+</Patch>
