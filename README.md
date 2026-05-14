@@ -26,6 +26,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Soups can only be made with vegetables and are recognized as vegetarian
 - Stews are no longer vegetarian
 - Added compatibility to detvisor's "stoneborn cuisine" flour
+- Updated minerals trader stock and fixed for better compatibility
 
 05/05/2026
 - Brew Kettle can be rotated
