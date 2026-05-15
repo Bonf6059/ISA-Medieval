@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ResourceBase" Name="ISA_AlchemyMushBase">
+<!--	<ThingDef ParentName="ResourceBase" Name="ISA_AlchemyMushBase">
 		<defName>ISA_RathixMush</defName>
 		<label>rathix mush</label>
 		<description>A mix of various ingredients. It needs to be distilled in the brew kettle to produce something usable.</description>
@@ -49,7 +49,7 @@
 			<texPath>Items/Resources/Misc/AlchemyMush/ParegoricMush</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-	</ThingDef>
+	</ThingDef>	-->
 	
 <!-- =============== Rathix =============== -->
 	
