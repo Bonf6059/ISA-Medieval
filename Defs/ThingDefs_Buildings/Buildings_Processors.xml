@@ -3,7 +3,9 @@
 
 <!-- Usa <minifiedDef>MinifiedThing</minifiedDef> per rendere le cose minifiable -->
 
-	<!-- ===== Presser ===== -->
+<!-- ======================= SYR Processor Framework ======================= -->
+	
+	<!-- Presser -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_Presser</defName>
 		<label>cheese press</label>
@@ -76,10 +78,145 @@
     	  <li>BuildingsProduction</li>
     	</thingCategories>
 	</ThingDef>
+	
+  	<!-- Drying rack -->
+  
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_DryingRack_Small</defName>
+		<label>drying rack (1x2)</label>
+		<description>A wooden rack to dry goods under the sun to dehydrate and preserve them for a longer shelf life.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Building/Production/DryingRack/DryingRackSmall/DryingRackSmall</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<altitudeLayer>Building</altitudeLayer>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>70</pathCost>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>5</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<thingClass>Building_WorkTable</thingClass>
+		<comps>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>100</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_DriedMeatProcess</li>
+					<li>ISA_DriedMeatHumanProcess</li>
+					<li>ISA_DriedMeatInsectProcess</li>
+					<li>ISA_DriedHerbProcess</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">ISA_DriedFishProcess</li>
+				</processes>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>Pemmican</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
 
-	<!-- ===== Cooking Pot ===== -->
+	<!-- Drying Rack 2x2 -->
 	
 	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_DryingRack_Big</defName>
+		<label>drying rack (2x2)</label>
+		<description>A wooden rack to dry goods under the sun for preservation and long time use.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Building/Production/DryingRack/DryingRackBig/DryingRackBig</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<altitudeLayer>Building</altitudeLayer>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>70</pathCost>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<comps>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>200</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_DriedMeatProcess</li>
+					<li>ISA_DriedMeatHumanProcess</li>
+					<li>ISA_DriedMeatInsectProcess</li>
+					<li>ISA_DriedHerbProcess</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">ISA_DriedFishProcess</li>
+				</processes>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>Pemmican</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
+	
+	<!--  Cooking Pot  -->
+	
+<!--	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_CookingPot</defName>
 		<label>cooking pot</label>
 		<description>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.\n\nThis building gives off a significant amount of heat.\n\nStew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.\n\n\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</description>
@@ -179,11 +316,11 @@
 		<thingCategories>
     	  <li>BuildingsProduction</li>
     	</thingCategories>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!-- CrabBay -->
 
-	<ThingDef ParentName="BuildingBase">
+<!--	<ThingDef ParentName="BuildingBase">
 		<defName>CrabBay</defName>
 		<label>crab bay</label>
 		<description>A small, closed-off area of water used to breed a domesticad variant of leviatan crabs, they are smaller in size and are bred specifically to be eaten. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
@@ -252,146 +389,11 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<tradeability>Sellable</tradeability>
 		<designationCategory>Production</designationCategory>
-	</ThingDef>
+	</ThingDef>	-->
 
-  	<!--Drying rack-->
-  
-	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_DryingRack_Small</defName>
-		<label>drying rack (1x2)</label>
-		<description>A wooden rack to dry goods under the sun to dehydrate and preserve them for a longer shelf life.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<texPath>Building/Production/DryingRack/DryingRackSmall/DryingRackSmall</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<rect>(0.05,0.1,0.9,0.9)</rect>
-			</damageData>
-		</graphicData>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<altitudeLayer>Building</altitudeLayer>
-		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.5</fillPercent>
-		<pathCost>70</pathCost>
-		<statBases>
-			<WorkToBuild>500</WorkToBuild>
-			<Mass>5</Mass>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(2,1)</size>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
-		<thingClass>Building_WorkTable</thingClass>
-		<comps>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>100</capacity>
-				<independentProcesses>false</independentProcesses>
-				<parallelProcesses>false</parallelProcesses>
-				<dropIngredients>true</dropIngredients>
-				<showProductIcon>true</showProductIcon>
-				<barOffset>(0.0, 0.25)</barOffset>
-				<barScale>(1.0, 1.0)</barScale>
-				<colorCoded>false</colorCoded>
-				<processes>
-					<li>ISA_DriedMeatProcess</li>
-					<li>ISA_DriedMeatHumanProcess</li>
-					<li>ISA_DriedMeatInsectProcess</li>
-					<li>ISA_DriedHerbProcess</li>
-					<li MayRequire="Ludeon.RimWorld.Odyssey">ISA_DriedFishProcess</li>
-				</processes>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<tickerType>Rare</tickerType>
-		<designationCategory>Production</designationCategory>
-		<researchPrerequisites>
-			<li>Pemmican</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>
-
-	<!-- Drying Rack 2x2-->
+<!--  Brew Kettle  -->
 	
-	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_DryingRack_Big</defName>
-		<label>drying rack (2x2)</label>
-		<description>A wooden rack to dry goods under the sun for preservation and long time use.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<texPath>Building/Production/DryingRack/DryingRackBig/DryingRackBig</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<rect>(0.05,0.1,0.9,0.9)</rect>
-			</damageData>
-		</graphicData>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<altitudeLayer>Building</altitudeLayer>
-		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.5</fillPercent>
-		<pathCost>70</pathCost>
-		<statBases>
-			<WorkToBuild>500</WorkToBuild>
-			<Mass>10</Mass>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<size>(2,2)</size>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<comps>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>200</capacity>
-				<independentProcesses>false</independentProcesses>
-				<parallelProcesses>false</parallelProcesses>
-				<dropIngredients>true</dropIngredients>
-				<showProductIcon>true</showProductIcon>
-				<barOffset>(0.0, 0.25)</barOffset>
-				<barScale>(1.0, 1.0)</barScale>
-				<colorCoded>false</colorCoded>
-				<processes>
-					<li>ISA_DriedMeatProcess</li>
-					<li>ISA_DriedMeatHumanProcess</li>
-					<li>ISA_DriedMeatInsectProcess</li>
-					<li>ISA_DriedHerbProcess</li>
-					<li MayRequire="Ludeon.RimWorld.Odyssey">ISA_DriedFishProcess</li>
-				</processes>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<tickerType>Rare</tickerType>
-		<designationCategory>Production</designationCategory>
-		<researchPrerequisites>
-			<li>Pemmican</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>
-
-<!-- ===== Brew Kettle ===== -->
-	
-	<ThingDef ParentName="BuildingBase">
+<!--	<ThingDef ParentName="BuildingBase">
     	<defName>ISA_BrewKettle</defName>
     	<label>brewing kettle</label>
     	<description>A rustic brew kettle used to brew anything that comes to mind, this one looks like it has been modified to make alchemycal concoction.</description>
@@ -469,5 +471,268 @@
     	<thingCategories>
       		<li>BuildingsProduction</li>
     	</thingCategories>
+  	</ThingDef> -->
+
+<!-- ======================= Vanilla Expanded Framework (Pipe system) ======================= -->
+
+	<!--  Cooking Pot  -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_CookingPot</defName>
+		<label>cooking pot</label>
+		<description>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.\n\nThis building gives off a significant amount of heat.\n\nStew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.\n\n\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Building/Production/StewPot/ISA_StewPot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<WoodLog>20</WoodLog>
+			<Steel>10</Steel>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>5</Mass>
+		</statBases>
+	        <building>
+				<isMealSource>true</isMealSource>
+				<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+				<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+				<workTableRoomRole>Kitchen</workTableRoomRole>
+				<workTableNotInRoomRoleFactor>1</workTableNotInRoomRoleFactor>
+	        </building>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>3</fuelConsumptionRate>
+				<fuelCapacity>20.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>ISA_Coal</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+				<heatPushMaxTemperature>36</heatPushMaxTemperature>
+			</li>
+		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+        		<processes>
+					<li>ISA_RawToStew</li>
+					<li>ISA_RawToSoup</li>
+					<li>ISA_AppleToJam</li>
+					<li>ISA_BerryToJam</li>
+					<li>ISA_GrapeToJam</li>
+        		</processes>
+        		<progressBarOffset>(0,4,-1)</progressBarOffset>
+        		<alwaysShowProgressBar>true</alwaysShowProgressBar>
+        		<inProgressTexture>Building/Production/StewPot/ISA_StewPotFilled</inProgressTexture>
+        		<finishedTexture>Building/Production/StewPot/ISA_StewPotFilled</finishedTexture>
+        		<hideSettings>true</hideSettings>
+			</li>
+      		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
+				<glowRadius>3</glowRadius>
+				<glowColor>(244, 112, 42,0)</glowColor>
+      		</li>
+		</comps>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
+
+	<!-- CrabBay -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>CrabBay</defName>
+		<label>crab bay</label>
+		<description>A small, closed-off area of water used to breed a domesticad variant of leviatan crabs, they are smaller in size and are bred specifically to be eaten. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<drawSize>(5,5)</drawSize>
+			<texPath>Building/Production/CrabBay/CrabBay</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>400</WoodLog>
+			<Kibble>100</Kibble>
+			<Cloth>100</Cloth>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>Fishing</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+        		<processes>
+					<li>ISA_KibbleToCrabMeat</li>
+					<li>ISA_KibbleToCrabChitin</li>
+					<li>ISA_KibbleToCrabPearl</li>
+					<li>ISA_KibbleToCrabRoe</li>
+        		</processes>
+        		<!--<progressBarOffset>(0,4,-1)</progressBarOffset>-->
+        		<alwaysShowProgressBar>false</alwaysShowProgressBar>
+        		<inProgressTexture>Building/Production/CrabBay/CrabBay</inProgressTexture>
+        		<finishedTexture>Building/Production/CrabBay/CrabBay</finishedTexture>
+        		<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+			<Mass>35</Mass>
+			<WorkToBuild>8000</WorkToBuild>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<size>(3, 3)</size>
+		<fillPercent>1.0</fillPercent>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+		<passability>Impassable</passability>
+		<rotatable>true</rotatable>
+		<canOverlapZones>true</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<tradeability>Sellable</tradeability>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+
+<!--  Brew Kettle  -->
+	
+	<ThingDef ParentName="BuildingBase">
+    	<defName>ISA_BrewKettle</defName>
+    	<label>brewing kettle</label>
+    	<description>A rustic brew kettle used to brew anything that comes to mind, this one looks like it has been modified to make alchemycal concoction.</description>
+    	<drawerType>MapMeshAndRealTime</drawerType>
+    	<graphicData>
+    	  <texPath>Building/Production/BrewKettle/BrewKettle</texPath>
+		  <drawSize>4.1</drawSize>
+    	  <graphicClass>Graphic_Multi</graphicClass>
+    	  <damageData>
+    	    <rect>(0.05,0.1,0.9,0.9)</rect>
+    	  </damageData>
+    	  <shadowData>
+    	    <volume>(0.75, 0.35, 0.33)</volume>
+    	  </shadowData>
+    	</graphicData>
+		<size>(2,2)</size>
+    	<minifiedDef>MinifiedThing</minifiedDef>
+    	<altitudeLayer>Building</altitudeLayer>
+    	<passability>PassThroughOnly</passability>
+    	<fillPercent>0.45</fillPercent>
+    	<pathCost>42</pathCost>
+    	<statBases>
+    	  <WorkToBuild>1200</WorkToBuild>
+    	  <Mass>14</Mass>
+    	  <MaxHitPoints>180</MaxHitPoints>
+    	  <Flammability>0</Flammability>
+    	</statBases>
+		<stuffCategories>
+    	  <li>Metallic</li>
+    	</stuffCategories>
+		<comps>
+  			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+   				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+    			<fuelCapacity>60.0</fuelCapacity>
+    			<fuelFilter>
+				    <thingDefs>
+        				<li>WoodLog</li>
+						<li>ISA_Coal</li>
+      				</thingDefs>
+    			</fuelFilter>
+			    <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+  				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+  			</li>
+		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+        		<processes>
+					<li>ISA_DistilParegoric</li>
+					<li>ISA_DistilRathix</li>
+					<li>ISA_DistilDravik</li>
+        		</processes>
+        		<progressBarOffset>(0,4,-1)</progressBarOffset>
+        		<alwaysShowProgressBar>true</alwaysShowProgressBar>
+        		<inProgressTexture>Building/Production/BrewKettle/BrewKettle</inProgressTexture>
+        		<finishedTexture>Building/Production/BrewKettle/BrewKettle</finishedTexture>
+        		<hideSettings>true</hideSettings>
+			</li>
+      		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
+				<glowRadius>5</glowRadius>
+				<glowColor>(244, 112, 42,0)</glowColor>
+      		</li>
+ 		</comps>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+ 		<tickerType>Rare</tickerType>
+  		<rotatable>false</rotatable>
+		<designationCategory>Production</designationCategory>
+    	<uiOrder>2790</uiOrder>
+    	<building>
+      		<buildingTags>
+        		<li>Production</li>
+      		</buildingTags>
+      		<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    	</building>
+		<costStuffCount>75</costStuffCount>
+    	<researchPrerequisites>
+	   		<li>ISA_AdvancedDrugsMaking</li>
+    	</researchPrerequisites>
+    	<thingCategories>
+      		<li>BuildingsProduction</li>
+    	</thingCategories>
   	</ThingDef>
+	
 </Defs>
