@@ -247,9 +247,9 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>30</costStuffCount>
-		<hasInteractionCell>False</hasInteractionCell>
+		<hasInteractionCell>False</hasInteractionCell>-->
 		<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<!--<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<building>
 			<buildingTags>
 				<li>Production</li>
