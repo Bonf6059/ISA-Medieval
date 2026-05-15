@@ -3,7 +3,7 @@
 
 <!-- Soups and Stew -->
 	
-	<RecipeDef ParentName="ISA_CookStewBase">
+<!--	<RecipeDef ParentName="ISA_CookStewBase">
 		<defName>ISA_MakeUncookedStew</defName>
 		<label>Cook stew</label>
 		<description>Chop raw meat and vegetables in uncooked stew.</description>
@@ -53,7 +53,7 @@
 		<products>
 			<ISA_UncookedSoup>5</ISA_UncookedSoup>
 		</products>
-	</RecipeDef>
+	</RecipeDef>	-->
 
 <!-- ============ Bakes ============ -->
 
