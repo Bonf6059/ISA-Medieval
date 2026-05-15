@@ -12,8 +12,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 - Add greater compatibility to detvisor's "stoneborn cuisine"
-
-- A SEGUITO DELLA CONVERSIONE DA SYR FRAMEWORK A VFE PIPE SYSTEM BISOGNA ELIMINARE TUTTE LE PARTI DUPLICATE O IN ECCESSO, AL MOMENTO LE HO SOLAMENTE NASCOSTE NEI COMMENTI (INCLUSI PROCESSI, PATCHES, RECIPES, STRUTTURE DI PROCESSO E ITEMS INSOMMA DA TUTTO)
   
 # Old updates
 
