@@ -5,7 +5,7 @@
 
 <!-- Uncooked Stew -->
 	
-  <Operation Class="PatchOperationAdd">
+<!--  <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "ElectricStove"]/recipes</xpath>
 		<value>
   			<li>ISA_MakeUncookedStew</li>
@@ -17,11 +17,11 @@
 		<value>
   			<li>ISA_MakeUncookedStew</li>
 		</value>
-	</Operation>
+	</Operation>	-->
 
 <!-- Uncooked Soup -->
 	
-  <Operation Class="PatchOperationAdd">
+ <!-- <Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName= "ElectricStove"]/recipes</xpath>
 		<value>
   			<li>ISA_MakeUncookedSoup</li>
@@ -33,7 +33,7 @@
 		<value>
   			<li>ISA_MakeUncookedSoup</li>
 		</value>
-	</Operation>
+	</Operation>	-->
 
 <!-- Add wine and cider Fermenting Barrel -->
 	
@@ -42,7 +42,6 @@
 		<value>
 			<li>ISA_MustIntoWine</li>
 			<li>ISA_MustIntoBerryWine</li>
-			<li>ISA_AppleJuiceIntoCider</li>
 		</value>
 	</Operation>
 
