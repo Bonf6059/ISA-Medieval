@@ -147,42 +147,6 @@
 		</costList>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_AppleJuice</defName>
-		<label>empty apple juice bottle</label>
-		<description>An empty apple juice bottle. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_AppleJuice</texPath>
-		</graphicData>
-		
-		<statBases>
-			<Beauty>5</Beauty>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-
-		<costList Inherit="false">
-			<ISA_JuiceApple>1</ISA_JuiceApple>
-		</costList>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_BeveragesGroup">
-		<defName>ISA_OnTop_Bottle_Cider</defName>
-		<label>empty cider bottle</label>
-		<description>An empty cider bottle. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Cider</texPath>
-		</graphicData>
-		
-		<statBases>
-			<Beauty>5</Beauty>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
-		</statBases>
-
-		<costList Inherit="false">
-			<ISA_Cider>1</ISA_Cider>
-		</costList>
-	</ThingDef>
-
 	<!-- Scribe Tools -->
 	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ScribeToolsGroup" Abstract="true">
 		<designatorDropdown>ISA_ScribeTools</designatorDropdown>
