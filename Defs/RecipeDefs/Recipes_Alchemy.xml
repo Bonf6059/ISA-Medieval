@@ -234,9 +234,15 @@
 			</li>
 			<li>
 				<filter>
-					<categories>
-						<li>ISA_Milk</li>
-					</categories>
+					<thingDefs>
+						<li>Milk</li>
+						<li>ISA_SheepMilk</li>
+						<li>ISA_GoatMilk</li>
+						<li>ISA_RoxMilk</li>
+						<li>DA_MufftonMilk</li>
+						<li>DA_RegalMilk</li>
+						<li MayRequire="det.sbcuisine">Milk</li>
+					</thingDefs>
 				</filter>
 				<count>1</count>
 			</li>
@@ -250,19 +256,27 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>ISA_Milk</li>
-			</categories>
 			<thingDefs>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
+				<li>DA_MufftonMilk</li>
+				<li>DA_RegalMilk</li>
+				<li MayRequire="det.sbcuisine">Milk</li>
 				<li>ISA_RawGarlic</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
-			<categories>
-				<li>ISA_Milk</li>
-			</categories>
 			<thingDefs>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
+				<li>DA_MufftonMilk</li>
+				<li>DA_RegalMilk</li>
+				<li MayRequire="det.sbcuisine">Milk</li>
 				<li>ISA_RawGarlic</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
@@ -289,9 +303,15 @@
 			</li>
 			<li>
 				<filter>
-					<categories>
-						<li>ISA_Milk</li>
-					</categories>
+					<thingDefs>
+						<li>Milk</li>
+						<li>ISA_SheepMilk</li>
+						<li>ISA_GoatMilk</li>
+						<li>ISA_RoxMilk</li>
+						<li>DA_MufftonMilk</li>
+						<li>DA_RegalMilk</li>
+						<li MayRequire="det.sbcuisine">Milk</li>
+					</thingDefs>
 				</filter>
 				<count>5</count>
 			</li>
@@ -305,19 +325,27 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>ISA_Milk</li>
-			</categories>
 			<thingDefs>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
+				<li>DA_MufftonMilk</li>
+				<li>DA_RegalMilk</li>
+				<li MayRequire="det.sbcuisine">Milk</li>
 				<li>ISA_RawGarlic</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
-			<categories>
-				<li>ISA_Milk</li>
-			</categories>
 			<thingDefs>
+				<li>Milk</li>
+				<li>ISA_SheepMilk</li>
+				<li>ISA_GoatMilk</li>
+				<li>ISA_RoxMilk</li>
+				<li>DA_MufftonMilk</li>
+				<li>DA_RegalMilk</li>
+				<li MayRequire="det.sbcuisine">Milk</li>
 				<li>ISA_RawGarlic</li>
 				<li>ISA_RawHerb</li>
 			</thingDefs>
@@ -449,7 +477,7 @@
 
 	<!-- Paregoric Mush-->
 
-		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+<!--		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_ParegoricMush</defName>
 		<label>make paregoric mush</label>
 		<description>Make paregoric mush.</description>
@@ -549,11 +577,11 @@
 		<products>
 			<ISA_ParegoricMush>25</ISA_ParegoricMush>
 		</products>
-	</RecipeDef>
+	</RecipeDef>-->
 	
 <!-- Rathix mush-->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+<!--	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_RathixMush</defName>
 		<label>make rathix mush</label>
 		<description>Make rathix mush.</description>
@@ -653,11 +681,11 @@
 		<products>
 			<ISA_RathixMush>25</ISA_RathixMush>
 		</products>
-	</RecipeDef>
+	</RecipeDef>-->
 	
 <!-- Dravik Mush -->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+<!--	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_DravikMush</defName>
 		<label>make dravik mush</label>
 		<description>Make dravik mush.</description>
@@ -758,4 +786,4 @@
 			<ISA_DravikMush>5</ISA_DravikMush>
 		</products>
 	</RecipeDef>	
-</Defs>
+</Defs>	-->
