@@ -29,102 +29,102 @@
         <countRange>100~250</countRange>
       </li>
       
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_DrogTusk</thingDef>
         <countRange>-3~7</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_GoldiloxHorn</thingDef>
         <countRange>-3~3</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_PetrifyingGland</thingDef>
         <countRange>-3~15</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_LarpahAntlers</thingDef>
         <countRange>-3~23</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_TrollMeat</thingDef>
         <countRange>-10~94</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_GiantBone</thingDef>
         <countRange>-25~140</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Sangonite</thingDef>
         <countRange>-10~154</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_EmperorPearls</thingDef>
         <countRange>-30~5</countRange>
       </li>
 
-	  <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+	  <li Class="StockGenerator_SingleDef">
         <thingDef>DA_WhiteTruffle</thingDef>
         <countRange>-30~5</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_Drog</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_Crestel</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_RockTroll</thingDef>
         <countRange>-50~120</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_Troll</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_Larpah</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_Barog</thingDef>
         <countRange>-50~120</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_WoolMuffton</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_WoolGoldilox</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_BlackChitin</thingDef>
         <countRange>-50~420</countRange>
       </li>
 
-      <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+      <li Class="StockGenerator_SingleDef">
         <thingDef>DA_LeviathanChitin</thingDef>
         <countRange>-50~120</countRange>
       </li>
 
-	  <li MayRequire="Van.Beasts" Class="StockGenerator_SingleDef">
+	  <li Class="StockGenerator_SingleDef">
         <thingDef>DA_Leather_SilverMole</thingDef>
         <countRange>-50~120</countRange>
       </li>
