@@ -22,6 +22,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Removed intermediate steps for the production of most things (expect for alcoholic beverages)
 - Removed Cider and apple juice
 - Replaced textures for all cakes
+- Removed decorative buildings
 
 13/05/2026
 - Added Apple, berry and grape Jam made in the cooking pot
