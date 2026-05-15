@@ -519,6 +519,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>ISA_PresserNotWorking</notWorkingKey>
         		<processes>
 					<li>ISA_MilkIntoCheese</li>
 					<li>ISA_SheepMilkIntoCheese</li>
@@ -624,6 +625,7 @@
 				<heatPushMaxTemperature>36</heatPushMaxTemperature>
 			</li>
 		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>ISA_CookingPotNotWorking</notWorkingKey>
         		<processes>
 					<li>ISA_RawToStew</li>
 					<li>ISA_RawToSoup</li>
@@ -684,6 +686,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>ISA_CrabBayNotWorking</notWorkingKey>
         		<processes>
 					<li>ISA_KibbleToCrabMeat</li>
 					<li>ISA_KibbleToCrabChitin</li>
@@ -770,6 +773,7 @@
   				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
   			</li>
 		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>ISA_BrewKettleNotWorking</notWorkingKey>
         		<processes>
 					<li>ISA_DistilParegoric</li>
 					<li>ISA_DistilRathix</li>
