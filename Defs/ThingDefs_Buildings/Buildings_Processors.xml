@@ -196,8 +196,8 @@
 					<li>ISA_SheepMilkIntoCheese</li>
 					<li>ISA_GoatMilkIntoCheese</li>
 					<li>ISA_RoxMilkIntoCheese</li>
-					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
-					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
+					<li>ISA_MufftonMilkIntoCheese</li>
+					<li>ISA_GoldiloxMilkIntoCheese</li>
 					<li>ISA_AppleIntoJuice</li>
 				</processes>
 			</li>
