@@ -194,7 +194,7 @@
 		<label>leviathan crab roe</label>
 		<description>Delicate crab eggs harvested from a smaller variant of leviathan crab, roe is prized for its briny, rich flavor and smooth texture.</description>
 		<graphicData>
-			<texPath>Items/Food/RawFood/AnimalProducts/Roe</texPath>
+			<texPath>Items/Food/PreservedFood/Roe</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
