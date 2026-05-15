@@ -74,7 +74,7 @@
 		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry.</description>
 		<graphicData>
 			<texPath>Items/Food/Bakes/Cakes/BerryPie</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>35</MarketValue>
@@ -105,7 +105,7 @@
 		<description>A pie that uses sliced apples for its principal filling ingredient, mixed together with profound spices. Typically covered with a lattice patterned crust then sprinkled with sugar for its finish.</description>
 		<graphicData>
 			<texPath>Items/Food/Bakes/Cakes/ApplePie</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>24</MarketValue>
@@ -137,7 +137,7 @@
 		<description>A dense, rich pie made from mashed pumpkin mixed with strong spices, layered atop a sweet, flakey crust. A fall-favorite desert.</description>
 		<graphicData>
 			<texPath>Items/Food/Bakes/Cakes/PumpkinPie</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>21</MarketValue>
@@ -169,7 +169,7 @@
 		<description>A moist and flavorful cake crafted from freshly grated carrots, infused with warm spices, and enveloped in a luscious cream cheese frosting. A classic indulgence perfect for any occasion.</description>
 		<graphicData>
 			<texPath>Items/Food/Bakes/Cakes/CarrotCake</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>21</MarketValue>
