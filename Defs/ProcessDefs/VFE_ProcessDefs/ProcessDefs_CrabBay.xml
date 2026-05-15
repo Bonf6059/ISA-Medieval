@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- CrabMeat -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_KibbleToCrabMeat</defName>
+        <label>Farming crabs for meat</label>
+        <description>Feed kibble to mini leviathan crabs to produce leviathan stripes.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Feed kibble to mini leviathan crabs to produce leviathan stripes</labelOverride>
+        <priorityInBillList>0</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>DA_LeviathanStripes</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>Kibble</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>1200000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>DA_LeviathanStripes</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+  <!-- CrabChitin -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_KibbleToCrabChitin</defName>
+        <label>Farming crabs for their chitin</label>
+        <description>Feed kibble to mini leviathan crabs to harvest their chitin.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Feed kibble to mini leviathan crabs to harvest their chitin</labelOverride>
+        <priorityInBillList>1</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>DA_LeviathanChitin</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>Kibble</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>1200000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>DA_LeviathanChitin</thing>
+                <count>20</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+    <!-- CrabPearl -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_KibbleToCrabPearl</defName>
+        <label>Farming crabs for their pearls</label>
+        <description>Feed kibble to mini leviathan crabs to harvest their pearls.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Feed kibble to mini leviathan crabs to harvest their pearls</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>DA_EmperorPearls</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>Kibble</thing>
+                <countNeeded>100</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>3600000</ticks>  <!-- a day is 60,000 ticks; this is 60 days (1 year) -->
+        <results>
+            <li>
+                <thing>DA_EmperorPearls</thing>
+                <count>1</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+    <!-- CrabRoe -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_KibbleToCrabRoe</defName>
+        <label>Farming crabs for their roe</label>
+        <description>Feed kibble to mini leviathan crabs to harvest their roe before it hatches.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Feed kibble to mini leviathan crabs to harvest their roe</labelOverride>
+        <priorityInBillList>3</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_LeviathanRoe</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>Kibble</thing>
+                <countNeeded>30</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>900000</ticks>  <!-- a day is 60,000 ticks; this is 15 days (1 month) -->
+        <results>
+            <li>
+                <thing>ISA_LeviathanRoe</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+  
+</Defs>
