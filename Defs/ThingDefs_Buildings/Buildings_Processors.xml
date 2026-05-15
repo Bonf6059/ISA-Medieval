@@ -5,80 +5,6 @@
 
 <!-- ======================= SYR Processor Framework ======================= -->
 	
-	<!-- Presser -->
-	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_Presser</defName>
-		<label>cheese press</label>
-		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<drawSize>(2,2)</drawSize>
-			<texPath>Building/Production/CheesePress/CheesePress</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<shadowData>
-				<volume>(0.75, 0.35, 0.33)</volume>
-			</shadowData>
-		</graphicData>
-		<neverMultiSelect>true</neverMultiSelect>
-		<fillPercent>0.45</fillPercent>
-		<pathCost>60</pathCost>
-		<statBases>
-			<WorkToBuild>600</WorkToBuild>
-			<Mass>10</Mass>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
-		<hasInteractionCell>False</hasInteractionCell>
-		<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<building>
-			<buildingTags>
-				<li>Production</li>
-			</buildingTags>
-		</building>
-		<size>(2,1)</size>
-		<thingClass>Building_WorkTable</thingClass>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>100</capacity>
-				<independentProcesses>false</independentProcesses>
-				<parallelProcesses>false</parallelProcesses>
-				<dropIngredients>true</dropIngredients>
-				<showProductIcon>true</showProductIcon>
-				<barOffset>(0.0, 0.25)</barOffset>
-				<barScale>(1.0, 1.0)</barScale>
-				<colorCoded>false</colorCoded>
-				<processes>
-					<li>ISA_MilkIntoCheese</li>
-					<li>ISA_SheepMilkIntoCheese</li>
-					<li>ISA_GoatMilkIntoCheese</li>
-					<li>ISA_RoxMilkIntoCheese</li>
-					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
-					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
-					<li>ISA_AppleIntoJuice</li>
-				</processes>
-			</li>
-		</comps>
-		<tickerType>Rare</tickerType>
-		<designationCategory>Production</designationCategory>
-		<researchPrerequisites>
-			<li>ISA_PresserResearch</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>
-	
   	<!-- Drying rack -->
   
 	<ThingDef ParentName="BuildingBase">
@@ -213,6 +139,79 @@
     	  <li>BuildingsProduction</li>
     	</thingCategories>
 	</ThingDef>
+
+	<!-- Presser -->
+<!--	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_Presser</defName>
+		<label>cheese press</label>
+		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+			<texPath>Building/Production/CheesePress/CheesePress</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
+		</graphicData>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<hasInteractionCell>False</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<size>(2,1)</size>
+		<thingClass>Building_WorkTable</thingClass>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>100</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_MilkIntoCheese</li>
+					<li>ISA_SheepMilkIntoCheese</li>
+					<li>ISA_GoatMilkIntoCheese</li>
+					<li>ISA_RoxMilkIntoCheese</li>
+					<li MayRequire="Van.Beasts">ISA_MufftonMilkIntoCheese</li>
+					<li MayRequire="Van.Beasts">ISA_GoldiloxMilkIntoCheese</li>
+					<li>ISA_AppleIntoJuice</li>
+				</processes>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>ISA_PresserResearch</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>	-->
 	
 	<!--  Cooking Pot  -->
 	
@@ -475,6 +474,80 @@
 
 <!-- ======================= Vanilla Expanded Framework (Pipe system) ======================= -->
 
+	<!-- Presser -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_Presser</defName>
+		<label>cheese press</label>
+		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+			<texPath>Building/Production/CheesePress/CheesePress</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
+		</graphicData>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<hasInteractionCell>False</hasInteractionCell>
+		<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<size>(2,1)</size>
+		<thingClass>Building_WorkTable</thingClass>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+        		<processes>
+					<li>ISA_MilkIntoCheese</li>
+					<li>ISA_SheepMilkIntoCheese</li>
+					<li>ISA_GoatMilkIntoCheese</li>
+					<li>ISA_RoxMilkIntoCheese</li>
+					<li>ISA_MufftonMilkIntoCheese</li>
+					<li>ISA_GoldiloxMilkIntoCheese</li>
+        		</processes>
+        		<progressBarOffset>(0,4,-1)</progressBarOffset>
+        		<alwaysShowProgressBar>true</alwaysShowProgressBar>
+        		<inProgressTexture>Building/Production/CheesePress/CheesePressFilled</inProgressTexture>
+        		<finishedTexture>Building/Production/CheesePress/CheesePressFilled</finishedTexture>
+        		<hideSettings>true</hideSettings>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>ISA_PresserResearch</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
+	
 	<!--  Cooking Pot  -->
 	
 	<ThingDef ParentName="BuildingBase">
