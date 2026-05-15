@@ -77,7 +77,7 @@
         </descriptionHyperlinks>
         <ingredients>
             <li>
-                <thingCategory>ISA_RawApples</thingCategory>
+                <thing>ISA_RawApples</thing>
                 <countNeeded>50</countNeeded>
             </li>
         </ingredients>
@@ -108,7 +108,7 @@
         </descriptionHyperlinks>
         <ingredients>
             <li>
-                <thingCategory>RawBerries</thingCategory>
+                <thing>RawBerries</thing>
                 <countNeeded>50</countNeeded>
             </li>
         </ingredients>
@@ -139,7 +139,7 @@
         </descriptionHyperlinks>
         <ingredients>
             <li>
-                <thingCategory>ISA_RawGrapes</thingCategory>
+                <thing>ISA_RawGrapes</thing>
                 <countNeeded>50</countNeeded>
             </li>
         </ingredients>
