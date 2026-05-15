@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- Stew -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_RawToStew</defName>
+        <label>Cooking stew</label>
+        <description>Turns raw meat and vegetables to tasty stew.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Turns raw meat and vegetables to tasty stew</labelOverride>
+        <priorityInBillList>0</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_CookedStew</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thingCategory>FoodRaw</thingCategory>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>120000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_CookedStew</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+<!-- Soup -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_RawToSoup</defName>
+        <label>Cooking vegetables soup</label>
+        <description>Turns raw vegetables to tasty soup.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Turns raw vegetables to tasty soup</labelOverride>
+        <priorityInBillList>1</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_CookedSoup</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thingCategory>PlantFoodRaw</thingCategory>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>120000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_CookedSoup</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+<!-- Apple Jam -->
+
+    <PipeSystem.ProcessDef>
+        <defName>ISA_AppleToJam</defName>
+        <label>Cooking apple jam</label>
+        <description>Cook apples into jam.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Cook apples into jam</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_AppleJam</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thingCategory>ISA_RawApples</thingCategory>
+                <countNeeded>50</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>30000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_AppleJam</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+<!-- Berry Jam -->
+
+    <PipeSystem.ProcessDef>
+        <defName>ISA_BerryToJam</defName>
+        <label>Cooking berry jam</label>
+        <description>Cook berries into jam.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Cook berries into jam</labelOverride>
+        <priorityInBillList>3</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_BerryJam</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thingCategory>RawBerries</thingCategory>
+                <countNeeded>50</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>30000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_BerryJam</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+<!-- Grape Jam -->
+
+    <PipeSystem.ProcessDef>
+        <defName>ISA_GrapeToJam</defName>
+        <label>Cooking grape jam</label>
+        <description>Cook grapes into jam.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Cook grapes into jam</labelOverride>
+        <priorityInBillList>4</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_GrapeJam</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thingCategory>ISA_RawGrapes</thingCategory>
+                <countNeeded>50</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>30000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_GrapeJam</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+  
+</Defs>
