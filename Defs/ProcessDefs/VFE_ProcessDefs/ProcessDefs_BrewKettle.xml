@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- Paregoric -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_DistilParegoric</defName>
+        <label>Distilling paregoric</label>
+        <description>Distil paregoric from raw ingredients.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Distil paregoric from raw ingredients</labelOverride>
+        <priorityInBillList>0</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_Paregoric</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_Mindwort</thing>
+                <countNeeded>15</countNeeded>
+            </li>
+            <li>
+                <thing>ISA_Opium</thing>
+                <countNeeded>5</countNeeded>
+            </li>
+            <li>
+                <thing>ISA_RawHerb</thing>
+                <countNeeded>25</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>120000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_Paregoric</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+<!-- Rathix -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_DistilRathix</defName>
+        <label>Distilling rathix</label>
+        <description>Distil rathix from raw ingredients.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Distil rathix from raw ingredients</labelOverride>
+        <priorityInBillList>1</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_Rathix</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_FlyAgaric</thing>
+                <countNeeded>15</countNeeded>
+            </li>
+            <li>
+                <thing>DA_Sangonite</thing>
+                <countNeeded>25</countNeeded>
+            </li>
+            <li>
+                <thing>ISA_RawHerb</thing>
+                <countNeeded>75</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>120000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_Rathix</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+  <!-- Dravik -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_DistilDravik</defName>
+        <label>Distilling dravik</label>
+        <description>Distil dravik from raw ingredients.</description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Distil dravik from raw ingredients</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_Dravik</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_FlyAgaric</thing>
+                <countNeeded>15</countNeeded>
+            </li>
+            <li>
+                <thing>DA_RedTear</thing>
+                <countNeeded>5</countNeeded>
+            </li>
+            <li>
+                <thing>ISA_RawHerb</thing>
+                <countNeeded>50</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>120000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_Rathix</thing>
+                <count>10</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+  
+</Defs>
