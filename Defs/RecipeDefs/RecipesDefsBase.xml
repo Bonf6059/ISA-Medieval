@@ -5,7 +5,7 @@
 
   <!-- Cook Stew and Soup -->
 
-  <RecipeDef Name="ISA_CookStewBase" Abstract="True">
+  <!-- <RecipeDef Name="ISA_CookStewBase" Abstract="True">
     <fixedIngredientFilter>
       <specialFiltersToDisallow>
         <li>AllowPlantFood</li>
@@ -26,7 +26,7 @@
 	<researchPrerequisites>
 		<li>ISA_AdvancedCookingResearch</li>
 	</researchPrerequisites>
-  </RecipeDef>
+  </RecipeDef>	-->
 
   <!-- Alchemy -->
   
