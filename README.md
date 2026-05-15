@@ -13,8 +13,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 - Add greater compatibility to detvisor's "stoneborn cuisine"
 
-- CONVERTIRE TUTTO DA SYR.PROCESSOR FRAMEWORK A VANILLA EXPANDED PROCESSOR; COMPORTA REVAMPING FILE DEI PROCESSI E MODIFICA DEI COMP DELLE STRUTTURE - SE FATTO SI PUò TOGLIORE LA DEPENDENCIES (molte cose non avranno più bisogno del coso intermedio come il mosto delle pozioni e le zuppe crude quindi si possono togliere)
-
+- A SEGUITO DELLA CONVERSIONE DA SYR FRAMEWORK A VFE PIPE SYSTEM BISOGNA ELIMINARE TUTTE LE PARTI DUPLICATE O IN ECCESSO, AL MOMENTO LE HO SOLAMENTE NASCOSTE NEI COMMENTI (INCLUSI PROCESSORI E ITEMS)
+  
 # Old updates
 
 15/05/2026
