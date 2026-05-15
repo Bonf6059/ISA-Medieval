@@ -3,7 +3,7 @@
 
 <!-- Uncooked Stew -->
   
-	<ThingDef ParentName="MealBase">
+<!--	<ThingDef ParentName="MealBase">
 		<defName>ISA_UncookedStew</defName>
 		<label>uncooked stew</label>
 		<description>An uncooked stew. This needs to be cooked in a stew pot to be edible.</description>
@@ -61,7 +61,7 @@
 			<preferability>NeverForNutrition</preferability>			
 		</ingestible>
 		
-	</ThingDef>
+	</ThingDef>	-->
 	
 <!-- Cooked Stew -->
   
