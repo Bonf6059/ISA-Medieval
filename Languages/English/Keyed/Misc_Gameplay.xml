@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- notWorkingKey -->
+  
+	<ISA_PresserNotWorking>This presser is not working at the moment</ISA_PresserNotWorking>
+  <ISA_CookingPotNotWorking>This cooking pot is not working at the moment</ISA_CookingPotNotWorking>
+  <ISA_CrabBayNotWorking>This crab bay is not working at the moment</ISA_CrabBayNotWorking>
+  <ISA_BrewKettleNotWorking>This brewing kettle is not working at the moment</ISA_BrewKettleNotWorking>
+
+</LanguageData>
