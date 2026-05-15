@@ -17,6 +17,12 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 # Old updates
 
+15/05/2026
+- Converted all processors except for drying rack from "[SYR] Processor Framework" to "Vanilla Expanded Framework (Pipe.System)"
+- Removed intermediate steps for the production of most things (expect for alcoholic beverages)
+- Removed Cider
+- Replaced textures for all cakes
+
 13/05/2026
 - Added Apple, berry and grape Jam made in the cooking pot
 - Changed stats for apple trees
@@ -27,7 +33,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Stews are no longer vegetarian
 - Added compatibility to detvisor's "stoneborn cuisine" flour
 - Updated minerals trader stock and fixed for better compatibility
-- Replaced textures for all cakes
+
 
 05/05/2026
 - Brew Kettle can be rotated
