@@ -110,37 +110,4 @@
 		</stuffProps>
 	</ThingDef>
 
-<!--=============== Leviathan Crab ===============-->
-
-	<ThingDef ParentName="OrganicProductBase">
-		<defName>ISA_LeviathanRoe</defName>
-		<label>leviathan crab roe</label>
-		<description>Delicate crab eggs harvested from a smaller variant of leviathan crab, roe is prized for its briny, rich flavor and smooth texture.</description>
-		<graphicData>
-			<texPath>Items/Food/RawFood/AnimalProducts/Roe</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>50</MarketValue>
-			<Nutrition>0.05</Nutrition>
-			<Flammability>0.5</Flammability>
-			<Mass>0.1</Mass>
-		</statBases>
-		<tradeability>Sellable</tradeability>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>6</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-		<thingCategories>
-			<li>AnimalProductRaw</li>
-		</thingCategories>
-   		<ingestible>
-      		<preferability>RawTasty</preferability>
-      		<foodType>AnimalProduct</foodType>
-    	</ingestible>
-		<socialPropernessMatters>true</socialPropernessMatters>
-	</ThingDef>
-
 </Defs>
