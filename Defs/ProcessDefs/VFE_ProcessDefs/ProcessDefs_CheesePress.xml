@@ -6,7 +6,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_MilkIntoCheese</defName>
         <label>Pressing milk to make cheese</label>
-        <description>Press milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press milk to produce cheese</labelOverride>
         <priorityInBillList>0</priorityInBillList>
@@ -38,7 +38,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_SheepMilkIntoCheese</defName>
         <label>Pressing sheep milk to make cheese</label>
-        <description>Press sheep milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press sheep milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press sheep milk to produce cheese</labelOverride>
         <priorityInBillList>1</priorityInBillList>
@@ -70,7 +70,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_GoatMilkIntoCheese</defName>
         <label>Pressing goat milk to make cheese</label>
-        <description>Press goat milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press goat milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press goat milk to produce cheese</labelOverride>
         <priorityInBillList>2</priorityInBillList>
@@ -102,7 +102,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_RoxMilkIntoCheese</defName>
         <label>Pressing rox milk to make cheese</label>
-        <description>Press rox milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press rox milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press rox milk to produce cheese</labelOverride>
         <priorityInBillList>2</priorityInBillList>
@@ -134,7 +134,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_MufftonMilkIntoCheese</defName>
         <label>Pressing muffton milk to make cheese</label>
-        <description>Press muffton milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press muffton milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press muffton milk to produce cheese</labelOverride>
         <priorityInBillList>2</priorityInBillList>
@@ -166,7 +166,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_GoldiloxMilkIntoCheese</defName>
         <label>Pressing goldilox milk to make cheese</label>
-        <description>Press goldilox milk to make cheese. <!-- The longer it rests the better quality it will be --></description>
+        <description>Press goldilox milk to make cheese.<!-- The longer it rests the better quality it will be --></description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Press goldilox milk to produce cheese</labelOverride>
         <priorityInBillList>2</priorityInBillList>
