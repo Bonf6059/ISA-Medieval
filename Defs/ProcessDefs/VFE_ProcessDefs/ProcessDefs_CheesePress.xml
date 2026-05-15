@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<!-- Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_MilkIntoCheese</defName>
+        <label>Pressing milk to make cheese</label>
+        <description>Press milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press milk to produce cheese</labelOverride>
+        <priorityInBillList>0</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealCheese</ThingDef>
+            <ThingDef>Milk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>Milk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+  <!-- Sheep Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_SheepMilkIntoCheese</defName>
+        <label>Pressing sheep milk to make cheese</label>
+        <description>Press sheep milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press sheep milk to produce cheese</labelOverride>
+        <priorityInBillList>1</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealSheepCheese</ThingDef>
+            <ThingDef>ISA_SheepMilk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_SheepMilk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealSheepCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+  <!-- Goat Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_GoatMilkIntoCheese</defName>
+        <label>Pressing goat milk to make cheese</label>
+        <description>Press goat milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press goat milk to produce cheese</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealGoatCheese</ThingDef>
+            <ThingDef>ISA_GoatMilk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_GoatMilk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealGoatCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+    <!-- Rox Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_RoxMilkIntoCheese</defName>
+        <label>Pressing rox milk to make cheese</label>
+        <description>Press rox milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press rox milk to produce cheese</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealRoxCheese</ThingDef>
+            <ThingDef>ISA_RoxMilk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>ISA_RoxMilk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealRoxCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+    <!-- Muffton Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_MufftonMilkIntoCheese</defName>
+        <label>Pressing muffton milk to make cheese</label>
+        <description>Press muffton milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press muffton milk to produce cheese</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealMufftonCheese</ThingDef>
+            <ThingDef>DA_MufftonMilk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>DA_MufftonMilk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealMufftonCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+
+      <!-- Goldilox Cheese -->
+  
+    <PipeSystem.ProcessDef>
+        <defName>ISA_GoldiloxMilkIntoCheese</defName>
+        <label>Pressing goldilox milk to make cheese</label>
+        <description>Press goldilox milk to make cheese. <!-- The longer it rests the better quality it will be --> </description>
+        <spawnOnInteractionCell>true</spawnOnInteractionCell>
+        <labelOverride>Press goldilox milk to produce cheese</labelOverride>
+        <priorityInBillList>2</priorityInBillList>
+        <descriptionHyperlinks>
+            <ThingDef>ISA_MealGoldiloxCheese</ThingDef>
+            <ThingDef>DA_RegalMilk</ThingDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <thing>DA_RegalMilk</thing>
+                <countNeeded>10</countNeeded>
+            </li>
+        </ingredients>
+        <ticks>60000</ticks>  <!-- a day is 60,000 ticks -->
+        <results>
+            <li>
+                <thing>ISA_MealGoldiloxCheese</thing>
+                <count>5</count>
+            </li>
+        </results>
+        <useIngredients>true</useIngredients>
+        <autoExtract>false</autoExtract>
+        <effecterWhenWorking>false</effecterWhenWorking>  <!-- Utile per aggiungere effetti come il fumo usato nel Oven di StonebornCuisine -->
+        <sustainerWhenWorking>false</sustainerWhenWorking>  <!-- Utile per aggiungere suoni come usato nel Oven di StonebornCuisine -->
+    </PipeSystem.ProcessDef>
+  
+</Defs>
