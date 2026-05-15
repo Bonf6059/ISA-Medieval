@@ -27,6 +27,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Stews are no longer vegetarian
 - Added compatibility to detvisor's "stoneborn cuisine" flour
 - Updated minerals trader stock and fixed for better compatibility
+- Replaced textures for all cakes
 
 05/05/2026
 - Brew Kettle can be rotated
