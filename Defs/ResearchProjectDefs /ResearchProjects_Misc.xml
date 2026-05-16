@@ -87,7 +87,7 @@
 	
 	<ResearchProjectDef>
 		<defName>ISA_WarChemicals</defName>
-		<label>Alchemycal compound for war</label>
+		<label>Alchemycal war compounds</label>
 		<description>Learn how to make unstable compounds and how to reuse monsters body parts for war</description>
 		<baseCost>1200</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
