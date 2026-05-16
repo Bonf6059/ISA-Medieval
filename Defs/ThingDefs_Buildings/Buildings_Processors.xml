@@ -3,9 +3,257 @@
 
 <!-- Usa <minifiedDef>MinifiedThing</minifiedDef> per rendere le cose minifiable -->
 
-<!-- ======================= SYR Processor Framework ======================= -->
+	<!-- ===== Presser ===== -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_Presser</defName>
+		<label>cheese press</label>
+		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<drawSize>(2,2)</drawSize>
+			<texPath>Building/Production/CheesePress/CheesePress</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.75, 0.35, 0.33)</volume>
+			</shadowData>
+		</graphicData>
+		<neverMultiSelect>true</neverMultiSelect>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<hasInteractionCell>False</hasInteractionCell>
+		<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<size>(2,1)</size>
+		<thingClass>Building_WorkTable</thingClass>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>100</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_MilkIntoCheese</li>
+					<li>ISA_SheepMilkIntoCheese</li>
+					<li>ISA_GoatMilkIntoCheese</li>
+					<li>ISA_RoxMilkIntoCheese</li>
+					<li>ISA_MufftonMilkIntoCheese</li>
+					<li>ISA_GoldiloxMilkIntoCheese</li>
+				</processes>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>ISA_PresserResearch</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
+
+	<!-- ===== Cooking Pot ===== -->
 	
-  	<!-- Drying rack -->
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_CookingPot</defName>
+		<label>cooking pot</label>
+		<description>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.\n\nThis building gives off a significant amount of heat.\n\nStew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.\n\n\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Building/Production/StewPot/ISA_StewPot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>5</Mass>
+		</statBases>
+	        <building>
+	          <isMealSource>true</isMealSource>
+	          <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+	          <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+	        </building>
+		<tickerType>Normal</tickerType>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>30</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>false</dropIngredients>
+				<showProductIcon>false</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_Stew</li>
+					<li>ISA_Soup</li>
+					<li>ISA_AppleJamRecipe</li>
+					<li>ISA_BerryJamRecipe</li>
+					<li>ISA_GrapeJamRecipe</li>
+				</processes>
+			</li>	
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>3</fuelConsumptionRate>
+				<fuelCapacity>20.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>ISA_Coal</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			</li>
+			
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+				<heatPushMaxTemperature>36</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(244, 112, 42,0)</glowColor>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+    	  <li>BuildingsProduction</li>
+    	</thingCategories>
+	</ThingDef>
+
+	<!-- CrabBay -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>CrabBay</defName>
+		<label>crab bay</label>
+		<description>A small, closed-off area of water used to breed a domesticad variant of leviatan crabs, they are smaller in size and are bred specifically to be eaten. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<drawSize>(5,5)</drawSize>
+			<texPath>Building/Production/CrabBay/CrabBay</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsSpecial</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>400</WoodLog>
+			<DA_EmperorPearls>1</DA_EmperorPearls>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>Fishing</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Breakdownable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>100</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>false</dropIngredients>
+				<showProductIcon>false</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>ISA_CrabMeat</li>
+					<li>ISA_CrabChitin</li>
+					<li>ISA_CrabRoe</li>
+					<li>ISA_CrabPearl</li>
+				</processes>
+			</li>	
+		</comps>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+			<Mass>35</Mass>
+			<WorkToBuild>8000</WorkToBuild>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<size>(3, 3)</size>
+		<fillPercent>1.0</fillPercent>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+		<passability>Impassable</passability>
+		<rotatable>true</rotatable>
+		<canOverlapZones>true</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<tradeability>Sellable</tradeability>
+		<designationCategory>Production</designationCategory>
+	</ThingDef>
+
+  	<!--Drying rack-->
   
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_DryingRack_Small</defName>
@@ -73,7 +321,7 @@
     	</thingCategories>
 	</ThingDef>
 
-	<!-- Drying Rack 2x2 -->
+	<!-- Drying Rack 2x2-->
 	
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_DryingRack_Big</defName>
@@ -140,332 +388,7 @@
     	</thingCategories>
 	</ThingDef>
 
-	<!-- Presser -->
-	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_Presser</defName>
-		<label>cheese press</label>
-		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<drawSize>(2,2)</drawSize>
-			<texPath>Building/Production/CheesePress/CheesePress</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<shadowData>
-				<volume>(0.75, 0.35, 0.33)</volume>
-			</shadowData>
-		</graphicData>
-		<neverMultiSelect>true</neverMultiSelect>
-		<fillPercent>0.45</fillPercent>
-		<pathCost>60</pathCost>
-		<statBases>
-			<WorkToBuild>600</WorkToBuild>
-			<Mass>10</Mass>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
-		<hasInteractionCell>False</hasInteractionCell>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<building>
-			<buildingTags>
-				<li>Production</li>
-			</buildingTags>
-		</building>
-		<size>(2,1)</size>
-		<thingClass>Building_WorkTable</thingClass>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>100</capacity>
-				<independentProcesses>false</independentProcesses>
-				<parallelProcesses>false</parallelProcesses>
-				<dropIngredients>true</dropIngredients>
-				<showProductIcon>true</showProductIcon>
-				<barOffset>(0.0, 0.25)</barOffset>
-				<barScale>(1.0, 1.0)</barScale>
-				<colorCoded>false</colorCoded>
-				<processes>
-					<li>ISA_MilkIntoCheese</li>
-					<li>ISA_SheepMilkIntoCheese</li>
-					<li>ISA_GoatMilkIntoCheese</li>
-					<li>ISA_RoxMilkIntoCheese</li>
-					<li>ISA_MufftonMilkIntoCheese</li>
-					<li>ISA_GoldiloxMilkIntoCheese</li>
-				</processes>
-			</li>
-		</comps>
-		<tickerType>Rare</tickerType>
-		<designationCategory>Production</designationCategory>
-		<researchPrerequisites>
-			<li>ISA_PresserResearch</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>
-
-<!-- ======================= Vanilla Expanded Framework (Pipe system) ======================= -->
-
-	<!-- Presser -->
-	
-<!--	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_Presser</defName>
-		<label>cheese press</label>
-		<description>A wooden contraption to press selected items. Either to bring the juice out or whey from curds.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<drawSize>(2,2)</drawSize>
-			<texPath>Building/Production/CheesePress/CheesePress</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<shadowData>
-				<volume>(0.75, 0.35, 0.33)</volume>
-			</shadowData>
-		</graphicData>
-		<neverMultiSelect>true</neverMultiSelect>
-		<fillPercent>0.45</fillPercent>
-		<pathCost>60</pathCost>
-		<statBases>
-			<WorkToBuild>600</WorkToBuild>
-			<Mass>10</Mass>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-		</statBases>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<stuffCategories>
-			<li>Woody</li>
-		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
-		<hasInteractionCell>False</hasInteractionCell>-->
-		<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
-		<!--<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<building>
-			<buildingTags>
-				<li>Production</li>
-			</buildingTags>
-		</building>
-		<size>(2,1)</size>
-		<thingClass>Building_WorkTable</thingClass>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>ISA_PresserNotWorking</notWorkingKey>
-        		<processes>
-					<li>ISA_MilkIntoCheese</li>
-					<li>ISA_SheepMilkIntoCheese</li>
-					<li>ISA_GoatMilkIntoCheese</li>
-					<li>ISA_RoxMilkIntoCheese</li>
-					<li>ISA_MufftonMilkIntoCheese</li>
-					<li>ISA_GoldiloxMilkIntoCheese</li>
-        		</processes>
-        		<progressBarOffset>(0,2,-1)</progressBarOffset>
-        		<alwaysShowProgressBar>false</alwaysShowProgressBar>
-        		<inProgressTexture>Building/Production/CheesePress/CheesePressFilled</inProgressTexture>
-        		<finishedTexture>Building/Production/CheesePress/CheesePressFilled</finishedTexture>
-        		<hideSettings>false</hideSettings>
-			</li>
-		</comps>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
-		<tickerType>Rare</tickerType>
-		<designationCategory>Production</designationCategory>
-		<researchPrerequisites>
-			<li>ISA_PresserResearch</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>	-->
-	
-	<!--  Cooking Pot  -->
-	
-	<ThingDef ParentName="BuildingBase">
-		<defName>ISA_CookingPot</defName>
-		<label>cooking pot</label>
-		<description>A wood-fired stove with a top side perfectly indented for a large pot. The lack of need for electricity means this cooking apparatus is perfect for the rugged outdoorsman or medieval peasant alike. Stews are heartier and easier to cook than proper soups. Stews often meld into a singular flavor over long periods of time, perfect for gamey or “less enticing” meat products.\n\nThis building gives off a significant amount of heat.\n\nStew is slightly less nutrition-efficient than Soup, but requires only 2 days of cook time as opposed to Soup's 3.\n\n\As with most fueled buildings, this building consumes extra fuel when rained on. Keep it underneath a roof; remember that you can extend roofs past a wall without forming an enclosed room.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<texPath>Building/Production/StewPot/ISA_StewPot</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(1.5,1.5)</drawSize>
-			<shaderType>CutoutComplex</shaderType>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
-		<costList>
-			<WoodLog>20</WoodLog>
-			<Steel>10</Steel>
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<rotatable>true</rotatable>
-		<neverMultiSelect>true</neverMultiSelect>
-		<uiIconScale>0.8</uiIconScale>
-		<fillPercent>0.5</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<statBases>
-			<WorkToBuild>600</WorkToBuild>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<Mass>5</Mass>
-		</statBases>
-	        <building>
-				<isMealSource>true</isMealSource>
-				<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-				<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
-				<workTableRoomRole>Kitchen</workTableRoomRole>
-				<workTableNotInRoomRoleFactor>1</workTableNotInRoomRoleFactor>
-	        </building>
-		<tickerType>Normal</tickerType>
-		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>3</fuelConsumptionRate>
-				<fuelCapacity>20.0</fuelCapacity>
-				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
-				<fuelFilter>
-					<thingDefs>
-						<li>WoodLog</li>
-						<li>ISA_Coal</li>
-					</thingDefs>
-				</fuelFilter>
-				<initialFuelPercent>1</initialFuelPercent>
-				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-			</li>
-			<li Class="CompProperties_HeatPusher">
-				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>6</heatPerSecond>
-				<heatPushMaxTemperature>36</heatPushMaxTemperature>
-			</li>
-		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>ISA_CookingPotNotWorking</notWorkingKey>
-        		<processes>
-					<li>ISA_RawToStew</li>
-					<li>ISA_RawToSoup</li>
-					<li>ISA_AppleToJam</li>
-					<li>ISA_BerryToJam</li>
-					<li>ISA_GrapeToJam</li>
-        		</processes>
-        		<progressBarOffset>(0,4,-1)</progressBarOffset>
-        		<alwaysShowProgressBar>false</alwaysShowProgressBar>
-        		<inProgressTexture>Building/Production/StewPot/ISA_StewPotFilled</inProgressTexture>
-        		<finishedTexture>Building/Production/StewPot/ISA_StewPotFilled</finishedTexture>
-        		<hideSettings>false</hideSettings>
-			</li>
-      		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
-				<glowRadius>3</glowRadius>
-				<glowColor>(244, 112, 42,0)</glowColor>
-      		</li>
-		</comps>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-    	  <li>BuildingsProduction</li>
-    	</thingCategories>
-	</ThingDef>
-
-	<!-- CrabBay -->
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>CrabBay</defName>
-		<label>crab bay</label>
-		<description>A small, closed-off area of water used to breed a domesticad variant of leviatan crabs, they are smaller in size and are bred specifically to be eaten. The netting prevents any predators from snatching the crabs.\n\nMust be regularly replenished with kibble.</description>
-		<drawerType>MapMeshAndRealTime</drawerType>
-		<graphicData>
-			<drawSize>(5,5)</drawSize>
-			<texPath>Building/Production/CrabBay/CrabBay</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<thingCategories>
-			<li>BuildingsSpecial</li>
-		</thingCategories>
-		<costList>
-			<WoodLog>400</WoodLog>
-			<Kibble>100</Kibble>
-			<Cloth>100</Cloth>
-		</costList>
-		<building>
-			<destroySound>BuildingDestroyed_Wood_Big</destroySound>
-		</building>
-		<researchPrerequisites>
-			<li>Fishing</li>
-		</researchPrerequisites>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>ISA_CrabBayNotWorking</notWorkingKey>
-        		<processes>
-					<li>ISA_KibbleToCrabMeat</li>
-					<li>ISA_KibbleToCrabChitin</li>
-					<li>ISA_KibbleToCrabPearl</li>
-					<li>ISA_KibbleToCrabRoe</li>
-        		</processes>
-        		<!--<progressBarOffset>(0,4,-1)</progressBarOffset>-->
-        		<alwaysShowProgressBar>false</alwaysShowProgressBar>
-        		<inProgressTexture>Building/Production/CrabBay/CrabBay</inProgressTexture>
-        		<finishedTexture>Building/Production/CrabBay/CrabBay</finishedTexture>
-        		<hideSettings>false</hideSettings>
-			</li>
-		</comps>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MarketValue>1500</MarketValue>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<Beauty>-10</Beauty>
-			<Mass>35</Mass>
-			<WorkToBuild>8000</WorkToBuild>
-		</statBases>
-		<tickerType>Rare</tickerType>
-		<size>(3, 3)</size>
-		<fillPercent>1.0</fillPercent>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
-		<passability>Impassable</passability>
-		<rotatable>true</rotatable>
-		<canOverlapZones>true</canOverlapZones>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<tradeability>Sellable</tradeability>
-		<designationCategory>Production</designationCategory>
-	</ThingDef>
-
-<!--  Brew Kettle  -->
+<!-- ===== Brew Kettle ===== -->
 	
 	<ThingDef ParentName="BuildingBase">
     	<defName>ISA_BrewKettle</defName>
@@ -512,27 +435,22 @@
 			    <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
   				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
   			</li>
-		    <li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>ISA_BrewKettleNotWorking</notWorkingKey>
-        		<processes>
-					<li>ISA_DistilParegoric</li>
-					<li>ISA_DistilRathix</li>
-					<li>ISA_DistilDravik</li>
-        		</processes>
-        		<progressBarOffset>(0,4,-1)</progressBarOffset>
-        		<alwaysShowProgressBar>false</alwaysShowProgressBar>
-        		<inProgressTexture>Building/Production/BrewKettle/BrewKettle</inProgressTexture>
-        		<finishedTexture>Building/Production/BrewKettle/BrewKettle</finishedTexture>
-        		<hideSettings>false</hideSettings>
-			</li>
-      		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
-				<glowRadius>5</glowRadius>
-				<glowColor>(244, 112, 42,0)</glowColor>
-      		</li>
+  			<li Class="ProcessorFramework.CompProperties_Processor">
+    			<capacity>10</capacity>
+    			<independentProcesses>false</independentProcesses>
+    			<parallelProcesses>false</parallelProcesses>
+    			<dropIngredients>false</dropIngredients>
+    			<showProductIcon>false</showProductIcon>
+    			<barOffset>(0.0, -0.7)</barOffset>
+    			<barScale>(1.2, 1.2)</barScale>
+    			<colorCoded>true</colorCoded>
+    			<processes>
+      				<li>ISA_MushInParegoric</li>
+					<li>ISA_MushInRathix</li>
+					<li>ISA_MushInDravik</li>
+    			</processes>
+  			</li>
  		</comps>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
  		<tickerType>Rare</tickerType>
   		<rotatable>false</rotatable>
 		<designationCategory>Production</designationCategory>
@@ -551,5 +469,5 @@
       		<li>BuildingsProduction</li>
     	</thingCategories>
   	</ThingDef>
-	
+
 </Defs>
