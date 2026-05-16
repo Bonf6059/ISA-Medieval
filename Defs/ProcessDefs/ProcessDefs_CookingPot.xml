@@ -31,7 +31,7 @@
 		<thingDef>ISA_CookedStew</thingDef>
 		<ingredientFilter>
 			<categories>
-				<li>FoodRaw</li>
+				<li>MeatRaw</li>
 			</categories>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
@@ -52,7 +52,6 @@
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_RawApples</li>
-				<li>ISA_RawGrapes</li>
 			</thingDefs>
 		</ingredientFilter>
 		<processDays>0.5</processDays><!-- in days, a day is 60,000 ticks -->
