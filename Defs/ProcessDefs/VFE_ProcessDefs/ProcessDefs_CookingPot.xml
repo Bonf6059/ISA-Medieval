@@ -6,7 +6,7 @@
     <PipeSystem.ProcessDef>
         <defName>ISA_RawToStew</defName>
         <label>Cooking stew</label>
-        <description>Turns raw meat and vegetables to tasty stew.</description>
+        <description>Turns raw meat to tasty stew.</description>
         <spawnOnInteractionCell>true</spawnOnInteractionCell>
         <labelOverride>Turns raw meat and vegetables to tasty stew</labelOverride>
         <priorityInBillList>0</priorityInBillList>
@@ -15,7 +15,7 @@
         </descriptionHyperlinks>
         <ingredients>
             <li>
-                <thingCategory>FoodRaw</thingCategory>
+                <thingCategory>MeatRaw</thingCategory>
                 <countNeeded>10</countNeeded>
             </li>
         </ingredients>
