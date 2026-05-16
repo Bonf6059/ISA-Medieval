@@ -16,8 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 15/05/2026
-- Converted all processors except for drying rack from "[SYR] Processor Framework" to "Vanilla Expanded Framework (Pipe.System)"
-- Removed intermediate steps for the production of most things (expect for alcoholic beverages)
+- Removed uncooked soup and stew
 - Removed Cider and apple juice
 - Replaced textures for all cakes
 - Removed decorative buildings
