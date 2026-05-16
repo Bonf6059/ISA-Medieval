@@ -11,7 +11,7 @@
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>0.0</researchViewX>
-		<researchViewY>2.0</researchViewY>
+		<researchViewY>4.0</researchViewY>
 		<prerequisites>
 			<li>Stonecutting</li>
 		</prerequisites>
@@ -24,7 +24,7 @@
 		<baseCost>300</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>2</researchViewX>
+		<researchViewX>4.0</researchViewX>
 		<researchViewY>1.0</researchViewY>
 		<prerequisites>
 			<li>ComplexFurniture</li>
@@ -50,7 +50,7 @@
 		<baseCost>500</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>0.5</researchViewX>
+		<researchViewX>1.0</researchViewX>
 		<researchViewY>0.0</researchViewY>
 		<prerequisites>
 			<li>ISA_Agriculture</li>
@@ -64,7 +64,7 @@
 		<baseCost>700</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>1.0</researchViewX>
+		<researchViewX>2.0</researchViewX>
 		<researchViewY>0.0</researchViewY>
 		<prerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
@@ -78,7 +78,7 @@
 		<baseCost>1000</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>1.5</researchViewX>
+		<researchViewX>3.0</researchViewX>
 		<researchViewY>0.0</researchViewY>
 		<prerequisites>
 			<li>ISA_DrugsMaking</li>
@@ -92,8 +92,8 @@
 		<baseCost>1200</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>1.5</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewX>3.0</researchViewX>
+		<researchViewY>1.0</researchViewY>
 		<prerequisites>
 			<li>ISA_DrugsMaking</li>
 		</prerequisites>
@@ -107,8 +107,8 @@
 		<baseCost>500</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Neolithic</techLevel>
-		<researchViewX>0.0</researchViewX>
-		<researchViewY>1.0</researchViewY>
+		<researchViewX>1.0</researchViewX>
+		<researchViewY>2.0</researchViewY>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
@@ -121,8 +121,8 @@
 		<baseCost>400</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>1.0</researchViewX>
-		<researchViewY>1.0</researchViewY>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>2.0</researchViewY>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
@@ -150,7 +150,7 @@
 		<baseCost>700</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>1.0</researchViewX>
+		<researchViewX>2.0</researchViewX>
 		<researchViewY>3.0</researchViewY>
 		<prerequisites>
 			<li>Stonecutting</li>
@@ -164,7 +164,7 @@
 		<baseCost>500</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>2.0</researchViewX>
+		<researchViewX>1.0</researchViewX>
 		<researchViewY>3.0</researchViewY>
 		<prerequisites>
 			<li>Smithing</li>
