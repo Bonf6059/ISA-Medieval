@@ -32,6 +32,7 @@
 		<ingredientFilter>
 			<categories>
 				<li>MeatRaw</li>
+				<!--<li>PlantFoodRaw</li>-->		<!-- Funziona dato che è una lista ma non ero sicuro se farlo necessario o meno -->
 			</categories>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
