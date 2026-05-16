@@ -30,9 +30,9 @@
 		<defName>ISA_Stew</defName>
 		<thingDef>ISA_CookedStew</thingDef>
 		<ingredientFilter>
-			<thingDefs>
-				<li>ISA_UncookedStew</li>
-			</thingDefs>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
@@ -40,9 +40,9 @@
 		<defName>ISA_Soup</defName>
 		<thingDef>ISA_CookedSoup</thingDef>
 		<ingredientFilter>
-			<thingDefs>
-				<li>ISA_UncookedSoup</li>
-			</thingDefs>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
 
@@ -52,6 +52,7 @@
 		<ingredientFilter>
 			<thingDefs>
 				<li>ISA_RawApples</li>
+				<li>ISA_RawGrapes</li>
 			</thingDefs>
 		</ingredientFilter>
 		<processDays>0.5</processDays><!-- in days, a day is 60,000 ticks -->
