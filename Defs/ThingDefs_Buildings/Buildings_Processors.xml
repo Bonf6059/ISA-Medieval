@@ -99,9 +99,9 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
-		<costList>
+		<!--<costList>
 			<WoodLog>20</WoodLog>
-		</costList>
+		</costList>-->
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
 		<neverMultiSelect>true</neverMultiSelect>
@@ -130,7 +130,7 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="ProcessorFramework.CompProperties_Processor">
-				<capacity>30</capacity>
+				<capacity>20</capacity>
 				<independentProcesses>false</independentProcesses>
 				<parallelProcesses>false</parallelProcesses>
 				<dropIngredients>false</dropIngredients>
@@ -156,7 +156,7 @@
 						<li>ISA_Coal</li>
 					</thingDefs>
 				</fuelFilter>
-				<initialFuelPercent>1</initialFuelPercent>
+				<!--<initialFuelPercent>1</initialFuelPercent>-->
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 			</li>
