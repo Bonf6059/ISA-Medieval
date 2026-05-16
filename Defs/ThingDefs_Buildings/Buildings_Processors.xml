@@ -272,7 +272,7 @@
         		<alwaysShowProgressBar>false</alwaysShowProgressBar>
         		<inProgressTexture>Building/Production/CheesePress/CheesePressFilled</inProgressTexture>
         		<finishedTexture>Building/Production/CheesePress/CheesePressFilled</finishedTexture>
-        		<hideSettings>true</hideSettings>
+        		<hideSettings>false</hideSettings>
 			</li>
 		</comps>
 		<inspectorTabs>
@@ -377,7 +377,7 @@
         		<alwaysShowProgressBar>false</alwaysShowProgressBar>
         		<inProgressTexture>Building/Production/StewPot/ISA_StewPotFilled</inProgressTexture>
         		<finishedTexture>Building/Production/StewPot/ISA_StewPotFilled</finishedTexture>
-        		<hideSettings>true</hideSettings>
+        		<hideSettings>false</hideSettings>
 			</li>
       		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
 				<glowRadius>3</glowRadius>
@@ -437,7 +437,7 @@
         		<alwaysShowProgressBar>false</alwaysShowProgressBar>
         		<inProgressTexture>Building/Production/CrabBay/CrabBay</inProgressTexture>
         		<finishedTexture>Building/Production/CrabBay/CrabBay</finishedTexture>
-        		<hideSettings>true</hideSettings>
+        		<hideSettings>false</hideSettings>
 			</li>
 		</comps>
 		<inspectorTabs>
@@ -523,7 +523,7 @@
         		<alwaysShowProgressBar>false</alwaysShowProgressBar>
         		<inProgressTexture>Building/Production/BrewKettle/BrewKettle</inProgressTexture>
         		<finishedTexture>Building/Production/BrewKettle/BrewKettle</finishedTexture>
-        		<hideSettings>true</hideSettings>
+        		<hideSettings>false</hideSettings>
 			</li>
       		<li Class="PipeSystem.CompProperties_GlowerOnProcess">
 				<glowRadius>5</glowRadius>
