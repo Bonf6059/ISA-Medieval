@@ -24,8 +24,8 @@
 		<baseCost>300</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>4.0</researchViewX>
-		<researchViewY>1.0</researchViewY>
+		<researchViewX>1.0</researchViewX>
+		<researchViewY>4.0</researchViewY>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
