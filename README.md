@@ -14,6 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add greater compatibility to detvisor's "stoneborn cuisine"
 
 - Add new signs. texture already in the folder
+- Add new clothings texture in the misc apparel
   
 # Old updates
 
