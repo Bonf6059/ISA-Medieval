@@ -12,6 +12,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 - Add greater compatibility to detvisor's "stoneborn cuisine"
+
+- Add new signs. texture already in the folder
   
 # Old updates
 
