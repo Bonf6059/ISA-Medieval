@@ -123,5 +123,69 @@
 			<texPath>Building/Furnitures/Decorations/Signs/SignScribe</texPath>
 		</graphicData>
 	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Inn</defName>
+		<label>inn sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignBed</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_ArcheryRange</defName>
+		<label>archery range sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignBow</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Stable</defName>
+		<label>stable sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignHorse</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_FlopHouse</defName>
+		<label>flop house sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignMoon</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Quarry</defName>
+		<label>quarry sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignQuarry</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Market</defName>
+		<label>market sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignScale</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Magic</defName>
+		<label>magic sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignScroll</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_SignBase">
+		<defName>ISA_Sign_Armory</defName>
+		<label>armory sign</label>
+		<graphicData>
+			<texPath>Building/Furnitures/Decorations/Signs/SignSwords</texPath>
+		</graphicData>
+	</ThingDef>
 	
 </Defs>
