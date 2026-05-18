@@ -168,7 +168,7 @@
 		<defName>ISA_Sign_Market</defName>
 		<label>market sign</label>
 		<graphicData>
-			<texPath>Building/Furnitures/Decorations/Signs/SignScale</texPath>
+			<texPath>Building/Furnitures/Decorations/Signs/SignScales</texPath>
 		</graphicData>
 	</ThingDef>
 
