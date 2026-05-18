@@ -6,8 +6,7 @@
   <ThingDef ParentName="HatMakeableBase" Name="ISA_AnimalHood">
     <defName>ISA_WolfHood</defName>
     <label>wolf hood</label>
-    <description>This impressive looking hood is traditionally worn by tribal chiefs to impress outsiders.
-Gives small boosts in social interactions.</description>
+    <description>This hood is traditionally worn by tribal chiefs to impress outsiders. It boosts the wearer confidence but makes it easier to spot.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Pawn/HumanLike/Apparel/Headgear/Wolf/ArcticWolfHood</texPath>
@@ -40,8 +39,8 @@ Gives small boosts in social interactions.</description>
 	  <EquipDelay>1.2</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-	  	<SocialImpact>0.1</SocialImpact>
-		<HuntingStealth>-0.05</HuntingStealth>
+	  	<SocialImpact>0.2</SocialImpact>
+		<HuntingStealth>-0.1</HuntingStealth>
     </equippedStatOffsets>
     <generateCommonality>0.1</generateCommonality>
     <apparel>
@@ -70,8 +69,7 @@ Gives small boosts in social interactions.</description>
   <ThingDef ParentName="ISA_AnimalHood">
     <defName>ISA_DeerHood</defName>
     <label>deer hood</label>
-    <description>This hood is traditionally worn by hunters in a tribe to confuse prey.
-This hood is made from leather and carved animal bones to resemble a deer.</description>
+    <description>This hood is traditionally worn by hunters to confuse preys. While wearing this, the hunter is able to get much closer to the prey than usual.</description>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>Pawn/HumanLike/Apparel/Headgear/Deer/DeerHood</texPath>
@@ -87,7 +85,7 @@ This hood is made from leather and carved animal bones to resemble a deer.</desc
 	  <EquipDelay>1.2</EquipDelay>
     </statBases>
 	<equippedStatOffsets>
-		<HuntingStealth>0.1</HuntingStealth>
+		<HuntingStealth>0.2</HuntingStealth>
     </equippedStatOffsets>
     <generateCommonality>0.1</generateCommonality>
     <apparel>
