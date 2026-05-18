@@ -8,7 +8,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Add smoker
-- Update deer and wolf hood descriptions
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 - Add greater compatibility to detvisor's "stoneborn cuisine"
@@ -23,6 +22,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Replaced textures for all cakes
 - Removed decorative buildings
 - Added new signs
+- Updated deer and wolf hood descriptions
 
 13/05/2026
 - Added Apple, berry and grape Jam made in the cooking pot
