@@ -414,5 +414,106 @@
 			<li>ISA_DrugsMaking</li>
 		</researchPrerequisites>
 	</ThingDef>
+
+<!-- Smelter from medieval overhaul -->
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>ISA_Smelter</defName>
+		<label>smelter</label>
+		<description>A large steel smelter used to refine scrap and raw resources. Generates strong heat.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Building/Production/Smelter/Smelter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.75</uiIconScale>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>-30</Cleanliness>
+		</statBases>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<comps Inherit="false">
+			<!--<li Class="ProcessorFramework.CompProperties_Processor">
+				<capacity>200</capacity>
+				<independentProcesses>false</independentProcesses>
+				<parallelProcesses>false</parallelProcesses>
+				<dropIngredients>true</dropIngredients>
+				<showProductIcon>true</showProductIcon>
+				<barOffset>(0.0, 0.25)</barOffset>
+				<barScale>(1.0, 1.0)</barScale>
+				<colorCoded>false</colorCoded>
+				<processes>
+					<li>DankPyon_SmeltingOre_Iron</li>
+					<li>DankPyon_SmeltingOre_Steel</li>
+					<li>DankPyon_SmeltingOre_Silver</li>
+					<li>DankPyon_SmeltingOre_Gold</li>
+				</processes>
+			</li>-->
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>80.0</fuelConsumptionRate>
+				<fuelCapacity>80.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>ISA_Coal</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>9</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(244, 112, 42,0)</glowColor>
+			</li>
+		</comps>
+  		<modExtensions>
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
+				<inheritRecipesFrom>
+					<li>ElectricSmelter</li>
+				</inheritRecipesFrom>
+     		</li>
+		</modExtensions>
+		<tickerType>Rare</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<techLevel>Medieval</techLevel>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 	
 </Defs>
