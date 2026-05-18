@@ -13,7 +13,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
 - Add greater compatibility to detvisor's "stoneborn cuisine"
 
-- Add new signs. texture already in the folder
 - Add new clothings texture in the misc apparel
   
 # Old updates
@@ -23,6 +22,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Removed Cider and apple juice
 - Replaced textures for all cakes
 - Removed decorative buildings
+- Added new signs
 
 13/05/2026
 - Added Apple, berry and grape Jam made in the cooking pot
