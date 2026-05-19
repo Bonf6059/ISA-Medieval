@@ -6,7 +6,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 - Add Scribe table to make books (Add press to make wood pulp more efficient than crafting spot and scribe table that need leather and paper to make - vanilla - skill trainers with texture replaced to look like books
 - Add Tea made from herbs that increase (lower?) the mental break treshold; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
-- Add new floors (VersaillesTile; RuinedStoneTile; HerringboneTile)
 - Add smoker
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add griffon from medieval overhaul and hydra from biomes!Caverns
