@@ -16,6 +16,7 @@
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
+		<researchPrerequisites Inherit="False"/>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_PoppyBase">
@@ -33,6 +34,7 @@
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
+		<researchPrerequisites Inherit="False"/>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_FlyAgaricBase">
@@ -50,5 +52,6 @@
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
+		<researchPrerequisites Inherit="False"/>
 	</ThingDef>
 </Defs>
