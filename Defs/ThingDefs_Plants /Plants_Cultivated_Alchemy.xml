@@ -74,7 +74,7 @@
 			<texPath>Plants/FullGrown/FlyAgaricPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<description>A striking mushroom with a bright red cap adorned with white spots, known for its toxic properties. Despite its danger, it has been used in small doses in traditional remedies and rituals, though caution is always advised.</description>
+		<description>A striking mushroom with a bright red cap adorned with white spots, known for its toxic properties. Despite its danger, it has been used in small doses in traditional remedies and rituals, though caution is always advised. It will only grow in dark enviroments but won't die if exposed to light.</description>
 		<plant>
 			<growDays>7</growDays>
 			<sowWork>800</sowWork>
@@ -93,7 +93,7 @@
       	<growMinGlow>0</growMinGlow>
       	<growOptimalGlow>0</growOptimalGlow>
       	<cavePlant>true</cavePlant>
-      	<diesToLight>true</diesToLight>
+      	<diesToLight>false</diesToLight>
       	<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
 	</ThingDef>
 
