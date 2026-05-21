@@ -39,18 +39,9 @@
 				<li>Shoulders</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/LeatherTunic/Leather_Tunic</wornGraphicPath>
-			<!--<tags>
-				<li>DankPyon_Peasant</li>
-				<li>DankPyon_BrigandThug</li>
-				<li>DankPyon_Mercenary</li>
-				<li>DankPyon_MercenaryHeavy</li>
-				<li>DankPyon_Archer</li>
-				<li>DankPyon_Footman</li>
-				<li>DankPyon_Billman</li>
-				<li>DankPyon_Knight</li>
-				<li>DankPyon_HedgeKnight</li>
+			<tags>
 				<li>MedievalBasic</li>
-			</tags>-->
+			</tags>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -101,18 +92,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/Gambeson/Gambeson</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
-			<!--<tags>
-				<li>DankPyon_Peasant</li>
-				<li>DankPyon_BrigandThug</li>
-				<li>DankPyon_Mercenary</li>
-				<li>DankPyon_MercenaryHeavy</li>
-				<li>DankPyon_Archer</li>
-				<li>DankPyon_Footman</li>
-				<li>DankPyon_Billman</li>
-				<li>DankPyon_Knight</li>
-				<li>DankPyon_HedgeKnight</li>
+			<tags>
 				<li>MedievalMilitaryBasic</li>
-			</tags>-->
+			</tags>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -124,11 +106,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>ISA_Apparel_Sackcloth</defName>
-		<label>Sackcloth</label>
-		<description>A quickly made ragged piece of clothing, sewn from bits and pieces of various leathers.</description>
+		<defName>ISA_Apparel_PatchworkShirt</defName>
+		<label>patchwork shirt</label>
+		<description>A quickly made ragged piece of clothing, sewn from bits and pieces of various textiles.</description>
 		<graphicData>
-			<texPath>Pawn/HumanLike/Apparel/Misc/Sackcloth/Sackcloth</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Misc/PatchworkShirt/PatchworkShirt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -149,12 +131,12 @@
 			<li>Apparel</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
 			<Mass>0.25</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<apparel>
@@ -163,10 +145,8 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/Sackcloth/Sackcloth</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/PatchworkShirt/PatchworkShirt</wornGraphicPath>
 			<tags>
-				<!--<li>DankPyon_Peasant</li>
-				<li>DankPyon_BrigandThug</li>-->
 				<li>MedievalBasic</li>
 			</tags>
 			<layers>
