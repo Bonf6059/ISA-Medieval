@@ -15,6 +15,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 21/05/2026
 - Fly agaric can only be planted in the dark
+- Reduced fertility sensitivity for carrots
+- Removed min level to sow pumpkins and it can't be failed
+- Herbs are considered a spice and can be used both for cooking or alchemy
 
 15/05/2026
 - Removed uncooked soup and stew
