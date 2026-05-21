@@ -13,6 +13,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 # Old updates
 
+21/05/2026
+- Fly agaric can only be planted in the dark
+
 15/05/2026
 - Removed uncooked soup and stew
 - Removed Cider and apple juice
