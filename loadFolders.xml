@@ -6,6 +6,7 @@
 		<li IfModActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2</li>
 		<li IfModActive="ISA.RandomPatches,ISA.sbdelights">Mods/Traders/Minerals</li>
 		<li IfModActive="det.halffoot">Mods/HalfFoots</li>
+		<li IfModActive="det.sbcuisine">Mods/StonebornCuisine</li>
 		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/NotVFEM2</li>
 	</v1.6>
 </loadFolders>
