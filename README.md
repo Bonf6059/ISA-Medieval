@@ -18,6 +18,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Reduced fertility sensitivity for carrots
 - Removed min level to sow pumpkins and it can't be failed
 - Herbs are considered a spice and can be used both for cooking or alchemy
+- Added (predisposition for) compatibility to detvisor's "stoneborn cuisine" flour
+- Added compatibility to detvisor's "stoneborn cuisine" dwarven milk
+- Added muffton milk to the ingredients useable to make GalixPills
 
 15/05/2026
 - Removed uncooked soup and stew
@@ -35,7 +38,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added emperor pearls to the crab bay
 - Soups can only be made with vegetables and are recognized as vegetarian
 - Stews are no longer vegetarian
-- Added compatibility to detvisor's "stoneborn cuisine" flour
 - Updated minerals trader stock and fixed for better compatibility
 
 
