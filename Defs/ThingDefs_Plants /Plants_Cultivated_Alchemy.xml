@@ -67,7 +67,18 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="HealrootBase" Name="ISA_FlyAgaricBase">
+	<!--========== Mushrooms ==========-->
+
+	<ThingDef ParentName="HealrootBase" Name="ISA_HealMushroomBase">
+		<neverBlightable>true</neverBlightable>
+      	<growMinGlow>0</growMinGlow>
+      	<growOptimalGlow>0</growOptimalGlow>
+      	<cavePlant>true</cavePlant>
+      	<diesToLight>true</diesToLight>
+      	<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+	</ThingDef>
+	
+	<ThingDef ParentName="ISA_HealMushroomBase" Name="ISA_FlyAgaricBase">
 		<defName>ISA_Plant_FlyAgaric</defName>
 		<label>fly agaric</label>
 		<graphicData>
@@ -89,15 +100,11 @@
 		<researchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
 		</researchPrerequisites>
-		<neverBlightable>true</neverBlightable>
-      	<growMinGlow>0</growMinGlow>
-      	<growOptimalGlow>0</growOptimalGlow>
-      	<cavePlant>true</cavePlant>
-      	<diesToLight>false</diesToLight>
-      	<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		<diesToLight>false</diesToLight>
 	</ThingDef>
 
-	<!-- Herbs -->
+
+	<!--========== Herbs ==========-->
 	
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Herb</defName>
@@ -118,10 +125,6 @@
 		<pathCost>10</pathCost>
 		<ingestible/>
 		<plant>
-			<!--fertilityMin>0.70</fertilityMin
-			<sowResearchPrerequisites>
-				<li>DankPyon_IntermediateAgriculture</li>
-			</sowResearchPrerequisites>	-->
 			<fertilitySensitivity>0.50</fertilitySensitivity>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
@@ -134,7 +137,7 @@
 				<li>Hydroponic</li>
 			</sowTags>
 			<topWindExposure>0.1</topWindExposure>
-			<growDays>5.6</growDays>
+			<growDays>5</growDays>
 			<visualSizeRange>0.2~0.4</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
