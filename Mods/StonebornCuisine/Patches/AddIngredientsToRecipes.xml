@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Add dwarven milk to Galixpill -->
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <value>
+          <li>SC_DwarvenMilk</li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/fixedIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>SC_DwarvenMilk</li>
+        </value>
+      </Operation>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/defaultIngredientFilter/thingDefs</xpath>
+        <value>
+          <li>SC_DwarvenMilk</li>
+        </value>
+      </Operation>
+
+  <!-- Enable normal flour to be used for stoneborn recipes -->
+
+      <!--  <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="ISA_Flour"]/thingCategories</xpath>
+        <value>
+          <li>SC_FlourRaw</li>
+        </value>
+      </Operation>  -->
+
+</Patch>
