@@ -40,7 +40,10 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/LeatherTunic/Leather_Tunic</wornGraphicPath>
 			<tags>
+				<li>MedievalMilitaryBasic</li>
 				<li>MedievalBasic</li>
+				<li>MedievalMilitaryDecent</li>
+				<li>MedievalDecent</li>
 			</tags>
 			<layers>
 				<li>Middle</li>
@@ -94,6 +97,9 @@
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<tags>
 				<li>MedievalMilitaryBasic</li>
+				<li>MedievalBasic</li>
+				<li>MedievalMilitaryDecent</li>
+				<li>MedievalDecent</li>
 			</tags>
 			<layers>
 				<li>OnSkin</li>
@@ -158,6 +164,61 @@
 			</defaultOutfitTags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>ISA_Apparel_Shamanwear</defName>
+		<label>shamanwear</label>
+		<description>A lightweight protective garment layered with tautly stitched linens, between which a dense stuffing of oakum or wool sits. Often used by shamans and healers alike, it shows their authority and knowledge.</description>
+		<graphicData>
+			<texPath>Pawn/HumanLike/Apparel/Misc/Shamanwear/Shamanwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>70</costStuffCount>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>4</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Misc/Shamanwear/Shamanwear</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<tags>
+				<li>MedievalMilitaryBasic</li>
+				<li>MedievalBasic</li>
+				<li>MedievalMilitaryDecent</li>
+				<li>MedievalDecent</li>
+			</tags>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
 	</ThingDef>
 
 </Defs>
