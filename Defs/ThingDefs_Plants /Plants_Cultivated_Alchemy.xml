@@ -70,12 +70,14 @@
 	<!--========== Mushrooms ==========-->
 
 	<ThingDef ParentName="HealrootBase" Name="ISA_HealMushroomBase">
-		<neverBlightable>true</neverBlightable>
-      	<growMinGlow>0</growMinGlow>
-      	<growOptimalGlow>0</growOptimalGlow>
-      	<cavePlant>true</cavePlant>
-      	<diesToLight>true</diesToLight>
-      	<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		<plant>
+			<neverBlightable>true</neverBlightable>
+      		<growMinGlow>0</growMinGlow>
+      		<growOptimalGlow>0</growOptimalGlow>
+      		<cavePlant>true</cavePlant>
+      		<diesToLight>true</diesToLight>
+      		<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
 	</ThingDef>
 	
 	<ThingDef ParentName="ISA_HealMushroomBase" Name="ISA_FlyAgaricBase">
@@ -96,11 +98,12 @@
 			</sowTags>
 			<harvestedThingDef>ISA_FlyAgaric</harvestedThingDef>
 			<purpose>Health</purpose>
+			<diesToLight>false</diesToLight>
 		</plant>
 		<researchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
 		</researchPrerequisites>
-		<diesToLight>false</diesToLight>
+
 	</ThingDef>
 
 
