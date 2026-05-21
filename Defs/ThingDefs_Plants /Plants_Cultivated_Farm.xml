@@ -66,7 +66,7 @@
 		<pathCost>10</pathCost>
 		<ingestible/>
 		<plant>
-			<!--fertilityMin>0.6</fertilityMin-->
+			<fertilitySensitivity>0.6</fertilitySensitivity>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
 			<maxMeshCount>4</maxMeshCount>
@@ -318,7 +318,8 @@
 			<immatureGraphicPath>Plants/Immature/PumpkinPlant</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
-			<sowMinSkill>8</sowMinSkill>
+			<!--<sowMinSkill>8</sowMinSkill>-->
+			<harvestFailable>false</harvestFailable>
 			<vacuumResistant>true</vacuumResistant>
 		</plant>
 	</ThingDef>
