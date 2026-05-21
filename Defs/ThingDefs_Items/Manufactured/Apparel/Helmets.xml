@@ -40,12 +40,10 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/PaddedKettle/PaddedKettle</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<!--<tags>
-				<li>DankPyon_BrigandRaider</li>
-				<li>DankPyon_FootmanHelmet</li>
-				<li>DankPyon_BillmanHelmet</li>
-				<li>DankPyon_MercenaryHeavyHelmet</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryBasic</li>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -86,11 +84,10 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainNasal/ChainNasal</wornGraphicPath>
-			<!--<tags>
-				<li>DankPyon_BrigandLeader</li>
-				<li>DankPyon_FootmanHelmet</li>
-				<li>DankPyon_MercenaryHeavy</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryBasic</li>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -131,12 +128,10 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainNasalRed/ChainNasalRed</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<!--<tags>
-				<li>DankPyon_BrigandRaider</li>
-				<li>DankPyon_BrigandLeader</li>
-				<li>DankPyon_FootmanHelmet</li>
-				<li>DankPyon_MercenaryHeavy</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryBasic</li>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -176,11 +171,10 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/ChainKettle/ChainKettle</wornGraphicPath>
-			<!--<tags>
-				<li>DankPyon_BrigandLeader</li>
-				<li>DankPyon_FootmanHelmet</li>
-				<li>DankPyon_MercenaryHeavy</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryBasic</li>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -223,10 +217,9 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/SalletVisored/SalletVisored</wornGraphicPath>
-			<!--<tags>
-				<li>DankPyon_KnightHelmet</li>
-				<li>DankPyon_HedgeKnightHelmet</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -277,9 +270,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmAmboise/HeraldicHelmAmboise</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<!--<tags Inherit="False">
-				<li>ISA_HeraldicHelmAmboise</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryDecent</li>
+			</tags>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -299,9 +292,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmSoren/HeraldicHelmSoren</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<!--<tags Inherit="False">
-				<li>ISA_HeraldicHelmSoren</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryAdvanced</li>
+			</tags>
 		</apparel>
 	</ThingDef>
 
@@ -334,9 +327,9 @@
 		<apparel>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/HeraldicHelmRoxmont/HeraldicHelmRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<!--<tags Inherit="False">
-				<li>ISA_HeraldicHelmRoxmont</li>
-			</tags>-->
+			<tags>
+				<li>MedievalMilitaryAdvanced</li>
+			</tags>
 		</apparel>
 	</ThingDef>
 
