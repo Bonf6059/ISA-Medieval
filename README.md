@@ -21,6 +21,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added compatibility to detvisor's "stoneborn cuisine" dwarven milk
 - Added muffton milk to the ingredients useable to make GalixPills
 - Rebranded SackCloth to PatchworkShirt, replaced texture, and boosted stats
+- Added new apparels
+- Removed unused textures
 
 15/05/2026
 - Removed uncooked soup and stew
