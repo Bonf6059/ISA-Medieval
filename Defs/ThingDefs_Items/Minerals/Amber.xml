@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<!--=============== Amber ====================-->
+	<ThingDef ParentName="ISA_GemBase">
+		<defName>ISA_Amber</defName>
+		<label>amber</label>
+		<description>A fossilized resin from a tree that went extinct. It was often used for ornaments and decorations before alchemists found out its hidden properties, making it a cornerstone of modern alchemy. It can only be found in the deepest of mines.</description>
+		<graphicData>
+			<texPath>Items/Resources/Minerals/Amber</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.25</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffPower_Armor_Sharp>0.31</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.16</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.19</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+		</statBases>
+		<deepCommonality>0.4</deepCommonality>
+		<stuffProps>
+			<color>(184,108,64)</color>
+			<commonality>0.05</commonality>
+			<statOffsets>
+				<Beauty>12</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.13</MaxHitPoints>
+				<WorkToMake>0.4</WorkToMake>
+				<WorkToBuild>1.73</WorkToBuild>
+				<Beauty>2.7</Beauty>
+				<Flammability>0</Flammability>
+			</statFactors>
+		</stuffProps>
+    		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<soundInteract>ChunkRock_Drop</soundInteract>
+		<soundDrop>ChunkRock_Drop</soundDrop>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<deepCountPerPortion>8</deepCountPerPortion>
+		<deepLumpSizeRange>1~4</deepLumpSizeRange>
+		<stuffProps>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+		</stuffProps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
+</Defs>
