@@ -99,7 +99,7 @@
 
 <!-- Herbs -->
   
-  <ThingDef ParentName="RoughPlantBase">
+  <ThingDef ParentName="PlantFoodRawBase">
 		<defName>ISA_RawHerb</defName>
 		<label>raw herbs</label>
 		<description>A bundle of raw herbs. It's difficult to pinpoint what kind of herb they are. While commonly used in the kitchen for their unique flavour, they can be used in a variety of alchemical recipes due to their ability to absorb some types of toxins if paired with the right ingredients.</description>
@@ -120,9 +120,6 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-		<thingCategories>
-			<li>Foods</li>
-		</thingCategories>
 	</ThingDef>
 
     <ThoughtDef>
