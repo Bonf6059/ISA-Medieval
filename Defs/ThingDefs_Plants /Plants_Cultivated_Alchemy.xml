@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+<!-- CavePlantBase reference from the base game -->
+
+  <!--<ThingDef Name="CavePlantBase" ParentName="PlantBase" Abstract="True">
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <diesToLight>true</diesToLight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    </plant>
+  </ThingDef>-->
+	
 	
 	<!--========== Flowers ==========-->
 	
@@ -74,6 +89,12 @@
 		<researchPrerequisites>
 			<li>ISA_AlchemycalAgriculture</li>
 		</researchPrerequisites>
+		<neverBlightable>true</neverBlightable>
+      	<growMinGlow>0</growMinGlow>
+      	<growOptimalGlow>0</growOptimalGlow>
+      	<cavePlant>true</cavePlant>
+      	<diesToLight>true</diesToLight>
+      	<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
 	</ThingDef>
 
 	<!-- Herbs -->
