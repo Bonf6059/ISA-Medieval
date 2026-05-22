@@ -161,7 +161,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+						<li>DA_GoldiloxHorn</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -182,29 +182,19 @@
 				</filter>
 				<count>2</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RawHerb</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+				<li>DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
 				<li>ISA_Paregoric</li>
-				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				<li MayRequire="Van.Beasts">DA_GoldiloxHorn</li>
+				<li>DA_GoldiloxHorn</li>
 				<li>HemogenPack</li>
 				<li>ISA_Paregoric</li>
-				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
