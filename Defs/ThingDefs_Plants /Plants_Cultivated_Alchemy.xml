@@ -37,10 +37,10 @@
 			<harvestedThingDef>ISA_Mindwort</harvestedThingDef>
 			<purpose>Health</purpose>
 			<fertilitySensitivity>0</fertilitySensitivity>
+			<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
 		</plant>
-		<sowResearchPrerequisites Inherit="False">
-			<li>ISA_AlchemycalAgriculture</li>
-		</sowResearchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="HealrootBase" Name="ISA_PoppyBase">
@@ -61,10 +61,10 @@
 			</sowTags>
 			<harvestedThingDef>ISA_Poppy</harvestedThingDef>
 			<purpose>Health</purpose>
+			<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
 		</plant>
-		<sowResearchPrerequisites Inherit="False">
-			<li>ISA_AlchemycalAgriculture</li>
-		</sowResearchPrerequisites>
 	</ThingDef>
 
 	<!--========== Mushrooms ==========-->
@@ -99,10 +99,10 @@
 			<harvestedThingDef>ISA_FlyAgaric</harvestedThingDef>
 			<purpose>Health</purpose>
 			<diesToLight>false</diesToLight>
+			<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
 		</plant>
-		<sowResearchPrerequisites Inherit="False">
-			<li>ISA_AlchemycalAgriculture</li>
-		</sowResearchPrerequisites>
 	</ThingDef>
 
 </Defs>
