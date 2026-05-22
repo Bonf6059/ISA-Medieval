@@ -6,7 +6,7 @@
 		<label>rafflesia petals</label>
 		<description>Giant petals of the rafflesia flower. Smell like rotting flesh and are very likely to cause food poisoning when consumed raw. Rafflesia petals can be used for different alchemical recipes.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/RafflesiaLeaves</texPath>
+			<texPath>Items/Resources/Plants/Rafflesia/RafflesiaLeaves</texPath>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -36,7 +36,7 @@
 		<label>astragalus flowers</label>
 		<description>Small perennial wildflowers that grow in alpine climates. Astragalus flowers can be used for different alchemical recipes.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/AstragalusFlowers</texPath>
+			<texPath>Items/Resources/Plants/Astragalus/AstragalusFlowers</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>0.2</MarketValue>
@@ -64,7 +64,7 @@
 		<label>clivia petals</label>
 		<description>Petals of an unusual plant with tall, pretty flowers, called ‘bush lily’ by some. Clivia petals can be used for different alchemical recipes.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/CliviaPetals</texPath>
+			<texPath>Items/Resources/Plants/Clivia/CliviaPetals</texPath>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -95,7 +95,7 @@
 		<label>raw glowstool</label>
 		<description>Raw glowstool fungus obtained by harvesting glowstools growing in caves. Raw glowstool can be used for different alchemical recipes.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/RawGlowstool</texPath>
+			<texPath>Items/Resources/Plants/Glowstool/RawGlowstool</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
