@@ -10,13 +10,12 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>80</wildClusterWeight>
 			<growDays>10</growDays>
-
+			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
 			<sowMinSkill Inherit="False"/>
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
-		<sowResearchPrerequisites Inherit="False"/>
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_PoppyBase">
@@ -28,13 +27,13 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>80</wildClusterWeight>
 			<growDays>10</growDays>
-
+			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
 			<sowMinSkill Inherit="False"/>
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
-		<sowResearchPrerequisites Inherit="False"/>
+
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_FlyAgaricBase">
@@ -46,12 +45,11 @@
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>80</wildClusterWeight>
 			<growDays>10</growDays>
-
+			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
 			<sowMinSkill Inherit="False"/>
 			<sowTags Inherit="False"/>
 			<purpose Inherit="False"/>
 		</plant>
 	</ThingDef>
-	<sowResearchPrerequisites Inherit="False"/>
 </Defs>
