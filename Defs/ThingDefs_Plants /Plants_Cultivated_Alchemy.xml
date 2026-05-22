@@ -69,7 +69,7 @@
 
 	<!--========== Mushrooms ==========-->
 
-	<ThingDef ParentName="HealrootBase" Name="ISA_HealMushroomBase">
+	<ThingDef ParentName="HealrootBase" Name="ISA_HealMushroomBase" Abstract="True">
 		<plant>
 			<neverBlightable>true</neverBlightable>
       		<growMinGlow>0</growMinGlow>
