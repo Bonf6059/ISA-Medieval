@@ -364,7 +364,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_AstragalusFlowers</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -377,7 +377,7 @@
 				<li>EggArcticOwlcatFertilized</li>
 				<li>EggOwlcatUnfertilized</li>
 				<li>EggOwlcatFertilized</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_AstragalusFlowers</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -385,7 +385,7 @@
 				<li>ISA_Mindwort</li>
 				<li>EggArcticOwlcatUnfertilized</li>
 				<li>EggOwlcatUnfertilized</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_AstragalusFlowers</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -422,7 +422,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_AstragalusFlowers</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -435,7 +435,7 @@
 				<li>EggArcticOwlcatFertilized</li>
 				<li>EggOwlcatUnfertilized</li>
 				<li>EggOwlcatFertilized</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_AstragalusFlowers</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -443,7 +443,7 @@
 				<li>ISA_Mindwort</li>
 				<li>EggArcticOwlcatUnfertilized</li>
 				<li>EggOwlcatUnfertilized</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_AstragalusFlowers</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -481,7 +481,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_CliviaPetals</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -491,14 +491,14 @@
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_CliviaPetals</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_CliviaPetals</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -532,7 +532,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_CliviaPetals</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -542,14 +542,14 @@
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_CliviaPetals</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_Mindwort</li>
 				<li>ISA_Opium</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_CliviaPetals</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -585,24 +585,24 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_RafflesiaLeaves</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>15</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RafflesiaLeaves</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RafflesiaLeaves</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -636,24 +636,24 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_RafflesiaLeaves</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>75</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RafflesiaLeaves</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RafflesiaLeaves</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -689,24 +689,24 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_RawGlowstool</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RawGlowstool</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RawGlowstool</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -740,24 +740,24 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawHerb</li>
+						<li>ISA_RawGlowstool</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>50</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RawGlowstool</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawHerb</li>
+				<li>ISA_RawGlowstool</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
