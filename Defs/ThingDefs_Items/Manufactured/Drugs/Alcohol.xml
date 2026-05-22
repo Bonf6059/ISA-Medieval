@@ -9,7 +9,6 @@
 		<description>Crushed grapes. Needs to undergo fermentation in a rustic fermenting barrel in order to become wine.</description>
 		<graphicData>
 			<texPath>Items/Resources/Misc/MustWine</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<stackLimit>25</stackLimit>
