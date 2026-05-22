@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Fungal Gravel for everyone -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="FungalGravel"]/canGenerateDefaultDesignator</xpath>
+		<value>
+			<canGenerateDefaultDesignator>true</canGenerateDefaultDesignator>
+		</value>
+	</Operation>
+
+</Patch>
