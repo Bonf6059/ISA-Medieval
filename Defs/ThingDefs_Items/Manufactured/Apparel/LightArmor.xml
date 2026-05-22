@@ -40,16 +40,8 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/LightArmor/PaddedCoat/Padded_Coat</wornGraphicPath>
 			<tags>
-				<!--<li>DankPyon_Peasant</li>
-				<li>DankPyon_BrigandThug</li>
-				<li>DankPyon_Mercenary</li>
-				<li>DankPyon_MercenaryHeavy</li>
-				<li>DankPyon_Archer</li>
-				<li>DankPyon_Footman</li>
-				<li>DankPyon_Billman</li>
-				<li>DankPyon_Knight</li>
-				<li>DankPyon_HedgeKnight</li>-->
 				<li>MedievalMilitaryBasic</li>
+				<li>MedievalMilitaryDecent</li>
 			</tags>
 			<layers>
 				<li>OnSkin</li>
