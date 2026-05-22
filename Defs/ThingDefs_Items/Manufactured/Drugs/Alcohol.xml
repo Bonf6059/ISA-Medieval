@@ -8,7 +8,7 @@
 		<label>grape must</label>
 		<description>Crushed grapes. Needs to undergo fermentation in a rustic fermenting barrel in order to become wine.</description>
 		<graphicData>
-			<texPath>Items/Resources/Misc/MustWine</texPath>
+			<texPath>Items/Resources/Misc/MustWine/MustWine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<rotatable>false</rotatable>
