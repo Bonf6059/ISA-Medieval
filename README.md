@@ -17,6 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added ability to grow 4 plants from vanilla game and harvest them for resources
 - Modified most alchemical recipes
 - Added ability to build fungal gravel indipendently from ideoligion
+- Removed Padded Kettle helmet
 
 21/05/2026
 - Fly agaric can only be planted in the dark
