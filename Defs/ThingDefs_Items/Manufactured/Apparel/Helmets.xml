@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!-- ==================== Padded Helmets ==================== -->
 	
-	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
-		<defName>ISA_Headgear_PaddedKettleHelmet</defName>
-		<label>padded kettle</label>
-		<description>A wide-rimmed kettle helmet paired with a thick padded coif, offering good protection of the head.</description>
-		<graphicData>
-			<texPath>Pawn/HumanLike/Apparel/Headgear/PaddedKettle/PaddedKettle</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<recipeMaker>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-			<researchPrerequisites>
-				<li>Smithing</li>
-			</researchPrerequisites>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>12000</WorkToMake>
-			<MaxHitPoints>140</MaxHitPoints>
-			<Mass>2.75</Mass>
-			<StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-			<Insulation_Cold>9</Insulation_Cold>
-			<EquipDelay>4</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
-		</equippedStatOffsets>
-		<costStuffCount>55</costStuffCount>
-		<costList>
-			<Cloth>10</Cloth>
-		</costList>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Pawn/HumanLike/Apparel/Headgear/PaddedKettle/PaddedKettle</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
-				<li>MedievalMilitaryBasic</li>
-				<li>MedievalMilitaryDecent</li>
-			</tags>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel"/>
-	</ThingDef>
-
 	<!-- ==================== Heavy Helm ==================== -->
 	<ThingDef ParentName="ISA_ArmorHelmetMakeableBase">
 		<defName>ISA_Headgear_ChainNasalHelmet</defName>
