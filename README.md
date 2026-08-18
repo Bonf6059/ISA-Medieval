@@ -12,6 +12,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 # Old updates
 
+18/08/2026
+- Removed roe and jams
+
 22/05/2026
 - Removed unused assets
 - Added ability to grow 4 plants from vanilla game and harvest them for resources
