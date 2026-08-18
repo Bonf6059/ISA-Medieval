@@ -84,6 +84,8 @@
     </projectile>
   </ThingDef>
 
+<!-- WarBow -->
+	
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>ISA_WarBow</defName>
     <label>war bow</label>
@@ -165,7 +167,5 @@
       <speed>62</speed>
     </projectile>
   </ThingDef>
-
-<!-- Composite bow is missing -->
 
 </Defs>
