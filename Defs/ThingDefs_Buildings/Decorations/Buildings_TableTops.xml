@@ -194,35 +194,4 @@
 		</costList>
 	</ThingDef>
 	
-	<!-- Research and Alchemy Tools -->
-	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ResearchToolsGroup" Abstract="true">
-		<designatorDropdown>ISA_ResearchTools</designatorDropdown>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_ResearchToolsGroup">
-		<defName>ISA_OnTop_Research_Vials</defName>
-		<label>inert vials</label>
-		<description>Chemically inactive vials. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/AlchemyTools/Vials</texPath>
-		</graphicData>
-
-		<costList>
-			<WoodLog>15</WoodLog>
-		</costList>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_ResearchToolsGroup">
-		<defName>ISA_OnTop_Alchemy_MortarAndPestle</defName>
-		<label>ruined mortar and pestle</label>
-		<description>A mortar and pestle in poor condition. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/AlchemyTools/MortarAndPestle</texPath>
-		</graphicData>
-
-		<costList>
-			<WoodLog>15</WoodLog>
-		</costList>
-	</ThingDef>
-
 </Defs>
