@@ -141,9 +141,6 @@
 				<processes>
 					<li>ISA_Stew</li>
 					<li>ISA_Soup</li>
-					<li>ISA_AppleJamRecipe</li>
-					<li>ISA_BerryJamRecipe</li>
-					<li>ISA_GrapeJamRecipe</li>
 				</processes>
 			</li>	
 			<li Class="CompProperties_Refuelable">
@@ -226,7 +223,6 @@
 				<processes>
 					<li>ISA_CrabMeat</li>
 					<li>ISA_CrabChitin</li>
-					<li>ISA_CrabRoe</li>
 					<li>ISA_CrabPearl</li>
 				</processes>
 			</li>	
