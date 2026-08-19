@@ -13,7 +13,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 # Old updates
 
 18/08/2026
-- Removed roe and jams
+- Removed unused assets and more (roe, jams, some weapons and armors)
 
 22/05/2026
 - Removed unused assets
