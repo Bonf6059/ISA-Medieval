@@ -14,7 +14,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 18/08/2026
 - Removed unused assets and more (roe, jams, some weapons and armors)
-- Removed sweetrolls and added them to ISA-HornetKeeping
+- Moved sweetrolls to ISA-HornetKeeping
 
 22/05/2026
 - Removed unused assets
