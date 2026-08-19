@@ -98,19 +98,6 @@
 		</costList>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_BeveragesGroup" MayRequire="OskarPotocki.VFE.Medieval2">
-		<defName>ISA_OnTop_Bottle_Mead</defName>
-		<label>empty mead bottle</label>
-		<description>An empty mead bottle. Can be placed on top of tables for decoration.</description>
-		<graphicData>
-			<texPath>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Mead</texPath>
-		</graphicData>
-
-		<costList Inherit="false">
-			<VFEM2_Mead>1</VFEM2_Mead>
-		</costList>
-	</ThingDef>
-
 	<ThingDef ParentName="ISA_BeveragesGroup">
 		<defName>ISA_OnTop_Bottle_Wine</defName>
 		<label>empty wine bottle</label>
