@@ -112,5 +112,1091 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
+
+		<!--========================= Counters =============================-->
+
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>Tav_RackA</defName>
+		<label>tavern racks</label>
+		<description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</description>
+			<graphicData>
+				<texPath>Things/Building/Furniture/Racks/TavernRackA</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>(4.5,3)</drawSize>
+				<damageData>
+					<rectN>(0.1,0,1.8,1.5)</rectN>
+					<rectS>(0.1,0,1.8,1.5)</rectS>
+					<rectE>(0.05,0,0.9,2.245)</rectE>
+					<rectW>(0.05,0,0.9,2.245)</rectW>
+				</damageData>
+			</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+			<statBases>
+				<MaxHitPoints>160</MaxHitPoints>
+				<Mass>30</Mass>
+				<WorkToBuild>1200</WorkToBuild>
+				<Beauty>6</Beauty>
+				<Flammability>1.0</Flammability>
+			</statBases>
+			<altitudeLayer>Building</altitudeLayer>
+			<passability>PassThroughOnly</passability>
+			<fillPercent>0.6</fillPercent>
+			<castEdgeShadows>true</castEdgeShadows>
+			<pathCost>42</pathCost>
+			<stuffCategories>
+				<li>Woody</li>
+			</stuffCategories>
+			<costStuffCount>75</costStuffCount>
+			<defaultPlacingRot>South</defaultPlacingRot>
+			<size>(3,1)</size>
+			<staticSunShadowHeight>0.5</staticSunShadowHeight>
+			<surfaceType>Item</surfaceType>
+			<canOverlapZones>false</canOverlapZones>
+			<uiOrder>2075</uiOrder>
+			<researchPrerequisites>
+				<li>ComplexFurniture</li>
+			</researchPrerequisites>
+			<designationCategory>TavernFurniture</designationCategory>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Racks/TavernRackA</li>
+						<li>Things/Building/Furniture/Racks/TavernRackB</li>
+						<li>Things/Building/Furniture/Racks/TavernRackC</li>
+						<li>Things/Building/Furniture/Racks/TavernRackD</li>
+						<li>Things/Building/Furniture/Racks/TavernRackE</li>
+						<li>Things/Building/Furniture/Racks/TavernRackF</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+			<building>
+				<paintable>true</paintable>
+			</building>
+			<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="TavCounterGatherSpotBase">
+		<defName>Tav_1x2Counter</defName>
+		<label>counter (1x2)</label>
+			<graphicData>
+				<texPath>Things/Building/Furniture/Counters/TavernCounter1x2</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3,4)</drawSize>
+				<damageData>
+					<cornerTL>Damage/Corner</cornerTL>
+					<cornerTR>Damage/Corner</cornerTR>
+					<cornerBL>Damage/Corner</cornerBL>
+					<cornerBR>Damage/Corner</cornerBR>
+				</damageData>
+			</graphicData>
+		<uiIconScale>0.9</uiIconScale>
+		<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToBuild>750</WorkToBuild>
+		<Mass>10</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>2</Beauty>
+		</statBases>
+		<size>(1,2)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>true</rotatable>
+		<building>
+		<buildingSizeCategory>Medium</buildingSizeCategory>
+		</building>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x2</li>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x2A</li>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x2B</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavCounterGatherSpotBase">
+		<defName>Tav_1x3Counter</defName>
+		<label>counter (1x3)</label>
+			<graphicData>
+				<texPath>Things/Building/Furniture/Counters/TavernCounter1x3</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3,5)</drawSize>
+				<damageData>
+					<cornerTL>Damage/Corner</cornerTL>
+					<cornerTR>Damage/Corner</cornerTR>
+					<cornerBL>Damage/Corner</cornerBL>
+					<cornerBR>Damage/Corner</cornerBR>
+				</damageData>
+			</graphicData>
+		<uiIconScale>0.9</uiIconScale>
+		<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToBuild>1000</WorkToBuild>
+		<Mass>15</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>2</Beauty>
+		</statBases>
+		<size>(1,3)</size>
+		<costStuffCount>75</costStuffCount>
+		<rotatable>true</rotatable>
+		<building>
+		<buildingSizeCategory>Medium</buildingSizeCategory>
+		</building>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x3</li>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x3A</li>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x3B</li>
+						<li>Things/Building/Furniture/Counters/TavernCounter1x3C</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+		<!--========================= Chairs =============================-->
+
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>Tav_ChairA</defName>
+		<label>sturdy chair</label>
+		<description>Sturdy reinforced chair. Can be used at tables, work stations, and elsewhere.</description>
+			<graphicData>
+				<texPath>Things/Building/Furniture/Chairs/TavernChairA</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(1.1,1.1)</drawSize>
+				<damageData>
+					<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+					<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+					<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+					<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+				</damageData>
+				<shadowData>
+					<volume>(0.23, 0.26, 0.23)</volume>
+				</shadowData>
+			</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToBuild>6000</WorkToBuild>
+		<Mass>5</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>1</Beauty>
+		<Comfort>0.75</Comfort>
+		<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+		<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>65</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>0.35</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiOrder>2410</uiOrder>
+		<building>
+		<isSittable>true</isSittable>
+		<paintable>true</paintable>
+		</building>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+		<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/TavernChairA</li>
+						<li>Things/Building/Furniture/Chairs/TavernChairB</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>Tav_SoftChair</defName>
+		<label>soft chair</label>
+		<description>Soft upholstered chair. Can be used at tables, work stations, and elsewhere.</description>
+			<graphicData>
+				<texPath>Things/Building/Furniture/Chairs/SoftChair</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>(1.1,1.1)</drawSize>
+				<damageData>
+					<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+					<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+					<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+					<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+				</damageData>
+				<shadowData>
+					<volume>(0.23, 0.26, 0.23)</volume>
+				</shadowData>
+			</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>160</MaxHitPoints>
+		<WorkToBuild>8000</WorkToBuild>
+		<Mass>5</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>4</Beauty>
+		<Comfort>0.9</Comfort>
+		<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+		<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<TavPadding>10</TavPadding>
+		</costList>
+		<pathCost>30</pathCost>
+		<fillPercent>0.35</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiOrder>2410</uiOrder>
+		<building>
+		<isSittable>true</isSittable>
+		<paintable>true</paintable>
+		</building>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+		<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/SoftChair</li>
+						<li>Things/Building/Furniture/Chairs/SoftChairA</li>
+						<li>Things/Building/Furniture/Chairs/SoftChairB</li>
+						<li>Things/Building/Furniture/Chairs/SoftChairC</li>
+						<li>Things/Building/Furniture/Chairs/SoftChairD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Tav_StoolA</defName>
+		<label>sturdy stool</label>
+		<description>A rough and sturdy stool. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Chairs/TavernStoolA</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<damageData>
+			<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+			<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+			<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+			<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+		<shadowData>
+			<volume>(0.18, 0.23, 0.18)</volume>
+		</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>75</MaxHitPoints>
+		<WorkToBuild>450</WorkToBuild>
+		<Mass>2</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>0</Beauty>
+		<Comfort>0.5</Comfort>
+		<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+		<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc6</designationHotKey>
+		<uiOrder>2400</uiOrder>
+		<fillPercent>0.20</fillPercent>
+		<building>
+		<isSittable>true</isSittable>
+		<paintable>true</paintable>
+		</building>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/TavernStoolA</li>
+						<li>Things/Building/Furniture/Chairs/TavernStoolB</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Tav_TavernBench</defName>
+		<label>sturdy bench</label>
+		<description>A rough and sturdy bench. Not very comfortable, but much better than nothing. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Chairs/TavernBench</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawOffsetNorth>(0,0,-0.1)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
+		<drawOffsetWest>(0,0,-0.1)</drawOffsetWest>
+		<drawOffsetEast>(0,0,-0.1)</drawOffsetEast>
+		<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>120</MaxHitPoints>
+		<WorkToBuild>1500</WorkToBuild>
+		<Mass>6</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>2</Beauty>
+		<Comfort>0.6</Comfort>
+		</statBases>
+		<size>(2,1)</size>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+		<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<pathCost>30</pathCost>
+		<uiOrder>2400</uiOrder>
+		<fillPercent>0.20</fillPercent>
+		<building>
+		<isSittable>true</isSittable>
+		<multiSittable>true</multiSittable>
+		<paintable>true</paintable>
+		</building>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/TavernBench</li>
+						<li>Things/Building/Furniture/Chairs/TavernBenchA</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Tav_SoftStool</defName>
+		<label>soft stool</label>
+		<description>Soft upholstered stool. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Chairs/SoftStool</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+		<damageData>
+			<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+			<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+			<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+			<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+		<shadowData>
+			<volume>(0.18, 0.23, 0.18)</volume>
+		</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>90</MaxHitPoints>
+		<WorkToBuild>1500</WorkToBuild>
+		<Mass>3</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>4</Beauty>
+		<Comfort>0.85</Comfort>
+		<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+		<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<TavPadding>10</TavPadding>
+		</costList>
+		<pathCost>30</pathCost>
+		<uiOrder>2400</uiOrder>
+		<fillPercent>0.20</fillPercent>
+		<building>
+		<isSittable>true</isSittable>
+		<paintable>true</paintable>
+		</building>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/SoftStool</li>
+						<li>Things/Building/Furniture/Chairs/SoftStoolA</li>
+						<li>Things/Building/Furniture/Chairs/SoftStoolB</li>
+						<li>Things/Building/Furniture/Chairs/SoftStoolC</li>
+						<li>Things/Building/Furniture/Chairs/SoftStoolD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>Tav_SoftArmchair</defName>
+		<label>soft armchair</label>
+		<description>A large, soft upholstered seat. Great for relaxation. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Chairs/SoftArmchair</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3,3)</drawSize>
+		<damageData>
+			<rectN>(0,0,1,0.703125)</rectN>
+			<rectS>(0.09375,0,0.84375,1)</rectS>
+			<rectE>(0,0,0.84375,0.625)</rectE>
+			<rectW>(0.15625,0,0.84375,0.625)</rectW>
+		</damageData>
+		<shadowData>
+			<volume>(0.3, 0.33, 0.3)</volume>
+		</shadowData>
+		</graphicData>
+		<uiIconScale>0.9</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+		<MaxHitPoints>160</MaxHitPoints>
+		<WorkToBuild>10000</WorkToBuild>
+		<Mass>15</Mass>
+		<Flammability>1.0</Flammability>
+		<Beauty>8</Beauty>
+		<Comfort>1</Comfort>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+			<costList>
+				<TavPadding>50</TavPadding>
+				<WoodLog>75</WoodLog>
+			</costList>
+		<researchPrerequisites>
+		<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<pathCost>30</pathCost>
+		<fillPercent>0.40</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<uiOrder>2420</uiOrder>
+		<building>
+		<isSittable>true</isSittable>
+		<destroySound>BuildingDestroyed_Soft_Small</destroySound>
+		</building>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Chairs/SoftArmchair</li>
+						<li>Things/Building/Furniture/Chairs/SoftArmchairA</li>
+						<li>Things/Building/Furniture/Chairs/SoftArmchairB</li>
+						<li>Things/Building/Furniture/Chairs/SoftArmchairC</li>
+						<li>Things/Building/Furniture/Chairs/SoftArmchairD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		</comps>
+	</ThingDef>
+
+		<!--========================= Lights =============================-->
+
+	<ThingDef Name="TavWallLight" ParentName="BuildingBase" Abstract="True">
+		<category>Building</category>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<noRightClickDraftAttack>true</noRightClickDraftAttack>
+		<selectable>true</selectable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_GlowRadius</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_MeditationFocus">
+			<statDef>MeditationFocusStrength</statDef>
+			<focusTypes>
+				<li>Flame</li>
+			</focusTypes>
+			<offsets>
+				<li Class="FocusStrengthOffset_Lit">
+				<offset>0.1</offset>
+				</li>
+				<li Class="FocusStrengthOffset_BuildingDefsLit">
+				<defs>
+					<li>Campfire</li>
+					<li>TorchLamp</li>
+					<li>TorchWallLamp</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+					<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+				</defs>
+				<offsetPerBuilding>0.01</offsetPerBuilding>
+				<radius>9.9</radius>
+				<maxBuildings>8</maxBuildings>
+				<explanationKey>MeditationFocusPerFlame</explanationKey>
+				<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+				<drawRingRadius>false</drawRingRadius>
+				</li>
+			</offsets>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavWallLight">
+		<defName>Tav_Candleholder</defName>
+		<label>candleholder</label>
+		<description>A rustic wall-mounted candleholder that casts a warm glow. Creates a cozy atmosphere.</description>
+		<rotatable>true</rotatable>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Misc/CandleholderA</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<drawOffsetNorth>(0,0,0.8)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,-0.39)</drawOffsetSouth>
+		<drawOffsetWest>(-0.65,0,0.5)</drawOffsetWest>
+		<drawOffsetEast>(0.65,0,0.5)</drawOffsetEast>
+		<damageData>
+			<enabled>false</enabled>
+		</damageData>
+				<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/Misc/CandleholderA_MenuIcon</uiIconPath>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<pathCost>0</pathCost>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<TavTallow>10</TavTallow>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<building>
+		<paintable>true</paintable>
+		<isEdifice>false</isEdifice>
+		<isAttachment>true</isAttachment>
+		</building>
+		<statBases>
+		<Beauty>2</Beauty>
+		<MaxHitPoints>120</MaxHitPoints>
+		<WorkToBuild>300</WorkToBuild>
+		<Flammability>0</Flammability>
+		<Mass>4</Mass>
+		<MeditationFocusStrength>0.0</MeditationFocusStrength>
+		</statBases>
+		<uiOrder>2990</uiOrder>
+		<placeWorkers>
+		<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+		<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/CandleholderA</li>
+						<li>Things/Building/Furniture/Misc/CandleholderB</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+		<li Class="CompProperties_Glower">
+			<glowRadius>9</glowRadius>
+			<glowColor>(184,136,83,0)</glowColor>
+		</li>
+		<li Class="CompProperties_Refuelable">
+			<fuelConsumptionRate>1.0</fuelConsumptionRate>
+			<fuelCapacity>30.0</fuelCapacity>
+			<fuelConsumptionPerTickInRain>0</fuelConsumptionPerTickInRain>
+			<fuelFilter>
+			<thingDefs>
+				<li>TavTallow</li>
+				<li MayRequire="det.epochstallow">DV_Tallow</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tallow</li>
+			</thingDefs>
+			</fuelFilter>
+			<initialFuelPercent>1</initialFuelPercent>
+			<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			<functionsInVacuum>false</functionsInVacuum>
+		</li>
+		<li Class="CompProperties_HeatPusher">
+			<compClass>CompHeatPusherPowered</compClass>
+			<heatPerSecond>1.5</heatPerSecond>
+			<heatPushMaxTemperature>15</heatPushMaxTemperature>
+		</li>
+		</comps>
+	</ThingDef>
+
+		<!--========================= Decor =============================-->
+
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>Tav_DecTrophy</defName>
+		<label>trophy</label>
+		<description>A trophy that is usually hung on the wall. It looks pretty cute.</description>
+		<rotatable>true</rotatable>
+		<graphicData>
+		<texPath>Things/Building/Furniture/Misc/TrophyA</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<drawOffsetNorth>(0,0,0.8)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,-0.39)</drawOffsetSouth>
+		<drawOffsetWest>(-0.65,0,0.5)</drawOffsetWest>
+		<drawOffsetEast>(0.65,0,0.5)</drawOffsetEast>
+		<damageData>
+			<enabled>false</enabled>
+		</damageData>
+				<drawSize>(1.3,1.3)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/Furniture/Misc/Trophy_MenuIcon</uiIconPath>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+		<TavPadding>20</TavPadding>
+		</costList>
+		<statBases>
+		<Beauty>2</Beauty>
+		<WorkToBuild>600</WorkToBuild>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Mass>2</Mass>
+		</statBases>
+		<uiOrder>2991</uiOrder>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+		<paintable>true</paintable>
+		<isEdifice>false</isEdifice>
+		<isAttachment>true</isAttachment>
+		</building>
+		<designationCategory Inherit="False">TavernFurniture</designationCategory>
+		<placeWorkers>
+		<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TrophyA</li>
+						<li>Things/Building/Furniture/Misc/TrophyB</li>
+						<li>Things/Building/Furniture/Misc/TrophyC</li>
+						<li>Things/Building/Furniture/Misc/TrophyD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Tav_Dec2x1Flags</defName>
+		<label>flags (1x2)</label>
+		<description>A colorful set of hanging flags that adds a festive touch to any room.\n\nPerfect for celebrating your colony's achievements or adding a vibrant atmosphere to a tavern or great hall.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Misc/Flag2x1A</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.16,1.04)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<size>(2,1)</size>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.0</fillPercent>
+		<pathCost>0</pathCost>
+		<designationCategory>TavernFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+		<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+		<Beauty>2</Beauty>
+		<MaxHitPoints>20</MaxHitPoints>
+		<WorkToBuild>1000</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+		<Cloth>20</Cloth>
+		</costList>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+		<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		<isEdifice>false</isEdifice>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/Flag2x1A</li>
+						<li>Things/Building/Furniture/Misc/Flag2x1B</li>
+						<li>Things/Building/Furniture/Misc/Flag2x1C</li>
+					</randomGraphics>
+			<startAsRandom>true</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Tav_Dec3x1Flags</defName>
+		<label>flags (1x3)</label>
+		<description>A colorful set of hanging flags that adds a festive touch to any room.\n\nPerfect for celebrating your colony's achievements or adding a vibrant atmosphere to a tavern or great hall.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Misc/Flag3x1A</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.24,1.08)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<size>(3,1)</size>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.0</fillPercent>
+		<pathCost>0</pathCost>
+		<designationCategory>TavernFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+		<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+		<Beauty>3</Beauty>
+		<MaxHitPoints>20</MaxHitPoints>
+		<WorkToBuild>1000</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+		<Cloth>30</Cloth>
+		</costList>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+		<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		<isEdifice>false</isEdifice>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/Flag3x1A</li>
+						<li>Things/Building/Furniture/Misc/Flag3x1B</li>
+						<li>Things/Building/Furniture/Misc/Flag3x1C</li>
+					</randomGraphics>
+			<startAsRandom>true</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>Tav_Dec4x1Flags</defName>
+		<label>flags (1x4)</label>
+		<description>A colorful set of hanging flags that adds a festive touch to any room.\n\nPerfect for celebrating your colony's achievements or adding a vibrant atmosphere to a tavern or great hall.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Misc/Flag4x1A</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.32,1.08)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<size>(4,1)</size>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<passability>Standable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.0</fillPercent>
+		<pathCost>0</pathCost>
+		<designationCategory>TavernFurniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+		<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+		<Beauty>4</Beauty>
+		<MaxHitPoints>20</MaxHitPoints>
+		<WorkToBuild>1000</WorkToBuild>
+		<Mass>1</Mass>
+		<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+		<Cloth>40</Cloth>
+		</costList>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+		<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		<isEdifice>false</isEdifice>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/Flag4x1A</li>
+						<li>Things/Building/Furniture/Misc/Flag4x1B</li>
+						<li>Things/Building/Furniture/Misc/Flag4x1C</li>
+					</randomGraphics>
+			<startAsRandom>true</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+		<!--========================= Rugs =============================-->
+
+	<ThingDef Abstract="True" Name="TavFloorCoveringBase" ParentName="BuildingBase">
+		<altitudeLayer>FloorCoverings</altitudeLayer>
+		<wipesPlants>true</wipesPlants>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<designationCategory>TavernFurniture</designationCategory>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<blocksAltitudes>
+			<li>FloorCoverings</li>
+		</blocksAltitudes>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		</ThingDef>
+		
+		<ThingDef Abstract="True" Name="TavFloorCoveringMedium" ParentName="TavFloorCoveringBase">
+		<size>(3,3)</size>
+		<statBases>
+			<Beauty>15</Beauty>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>100</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_StrawRugA</defName>
+		<label>straw rug</label>
+		<description>A scattering of hay for floor decoration.</description>
+		<statBases>
+		<Beauty>0.5</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<graphicData>
+		<graphicClass>Graphic_Random</graphicClass>
+		<texPath>Things/Building/Furniture/RugStraw</texPath>
+		<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<uiIconScale>0.7</uiIconScale>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<costList>
+			<Hay>10</Hay>
+		</costList>
+		<size>(1,1)</size>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_RugA</defName>
+		<label>decorative round rug</label>
+		<description>Decorative rug with rustic pattern for floor decoration.</description>
+		<statBases>
+		<Beauty>6</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/Furniture/Misc/TavernRug</texPath>
+		<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<costList>
+		<TavPadding>20</TavPadding>
+		</costList>
+		<size>(2,2)</size>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TavernRug</li>
+						<li>Things/Building/Furniture/Misc/TavernRugA</li>
+						<li>Things/Building/Furniture/Misc/TavernRugB</li>
+						<li>Things/Building/Furniture/Misc/TavernRugC</li>
+						<li>Things/Building/Furniture/Misc/TavernRugD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_RugB</defName>
+		<label>rustic round rug</label>
+		<description>Simple woven rug, for decorating a floor.</description>
+		<statBases>
+		<Beauty>2</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<rotatable>false</rotatable>
+		<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/Furniture/Misc/TavernRugColor</texPath>
+		<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(2,2)</size>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TavernRugColor</li>
+						<li>Things/Building/Furniture/Misc/TavernRugColorA</li>
+						<li>Things/Building/Furniture/Misc/TavernRugColorB</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_RugSquareA</defName>
+		<label>decorative rug</label>
+		<description>Decorative rug with rustic pattern for floor decoration.</description>
+		<statBases>
+		<Beauty>6</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/Furniture/Misc/TavernRugSquare</texPath>
+		<drawSize>(2.7,2.7)</drawSize>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<costList>
+		<TavPadding>20</TavPadding>
+		</costList>
+		<size>(2,2)</size>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TavernRugSquare</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareA</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareB</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareC</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareD</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_RugSquareB</defName>
+		<label>rustic rug</label>
+		<description>Simple woven rug, for decorating a floor.</description>
+		<statBases>
+		<Beauty>2</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/Furniture/Misc/TavernRugSquareColor</texPath>
+		<drawSize>(2.7,2.7)</drawSize>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(2,2)</size>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareColor</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareColorA</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquareColorB</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="TavFloorCoveringMedium">
+		<defName>Tav_RugSquare4X2A</defName>
+		<label>rustic large rug</label>
+		<description>Simple woven rug, for decorating a floor.</description>
+		<statBases>
+		<Beauty>4</Beauty>
+		<Flammability>0.32</Flammability>
+		</statBases>
+		<graphicData>
+		<graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Building/Furniture/Misc/TavernRugSquare4x2ColorA</texPath>
+		<drawSize>(5.4,2.7)</drawSize>
+		</graphicData>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(4,2)</size>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Misc/TavernRugSquare4x2ColorA</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquare4x2ColorB</li>
+						<li>Things/Building/Furniture/Misc/TavernRugSquare4x2ColorC</li>
+					</randomGraphics>
+			<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
 	
 </Defs>
