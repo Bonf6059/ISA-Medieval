@@ -25,11 +25,11 @@
 	
 <!-- Replace Vanilla beds Texture -->
 
-  <Operation Class="PatchOperationReplace">
+ <!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Bed"]/graphicData</xpath>
     <value>
 		<graphicData>
-      		<texPath>Building/Furnitures/Beds/RusticBed/Green/RusticBed1x2_Green</texPath>
+      		<texPath>Building/Furnitures/Beds/RusticBed/Small/SoftDoubleBed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>
@@ -44,7 +44,7 @@
     <xpath>/Defs/ThingDef[defName="DoubleBed"]/graphicData</xpath>
     <value>
       <graphicData>
-			<texPath>Building/Furnitures/Beds/RusticBed/Green/RusticBed2x2_Green</texPath>
+			<texPath>Building/Furnitures/Beds/RusticBed/Big/RusticBed2x2_Green</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(4.1,4.1)</drawSize>
@@ -53,7 +53,7 @@
 			</damageData>
 		</graphicData>
     </value>
-  </Operation>
+  </Operation>	-->
 	
     <!-- Replace Vanilla dresser Texture -->
 
