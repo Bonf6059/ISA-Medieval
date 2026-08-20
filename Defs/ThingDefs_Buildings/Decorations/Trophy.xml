@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ArtableFurnitureBase">
+		<defName>ISA_DecTrophy</defName>
+		<label>trophy</label>
+		<description>A trophy that is usually hung on the wall. It looks pretty cute.</description>
+		<rotatable>true</rotatable>
+		<graphicData>
+		<texPath>Building/Furnitures/Decorations/Trophy/TrophyA</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<drawOffsetNorth>(0,0,0.8)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,-0.39)</drawOffsetSouth>
+		<drawOffsetWest>(-0.65,0,0.5)</drawOffsetWest>
+		<drawOffsetEast>(0.65,0,0.5)</drawOffsetEast>
+		<damageData>
+			<enabled>false</enabled>
+		</damageData>
+				<drawSize>(1.3,1.3)</drawSize>
+		</graphicData>
+		<uiIconPath>Building/Furnitures/Decorations/Trophy/Trophy_MenuIcon</uiIconPath>
+		<altitudeLayer>Blueprint</altitudeLayer>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+		<Cloth>20</Cloth>
+		</costList>
+		<statBases>
+		<Beauty>2</Beauty>
+		<WorkToBuild>600</WorkToBuild>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Mass>2</Mass>
+		</statBases>
+		<uiOrder>2991</uiOrder>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<overrideMinifiedRot>North</overrideMinifiedRot>
+		<minifiedDrawOffset>(0, 0, 0.2)</minifiedDrawOffset>
+		<building>
+		<paintable>true</paintable>
+		<isEdifice>false</isEdifice>
+		<isAttachment>true</isAttachment>
+		</building>
+		<placeWorkers>
+		<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+			<comps>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Building/Furnitures/Decorations/Trophy/TrophyA</li>
+						<li>Building/Furnitures/Decorations/Trophy/TrophyB</li>
+						<li>Building/Furnitures/Decorations/Trophy/TrophyC</li>
+						<li>Building/Furnitures/Decorations/Trophy/TrophyD</li>
+					</randomGraphics>
+					<startAsRandom>false</startAsRandom> 
+				</li>
+			</comps>
+	</ThingDef>
+
+</Defs>
