@@ -55,7 +55,7 @@
 			<WorkToBuild>650</WorkToBuild>
 			<Mass>30</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
-			<Comfort>0.7</Comfort>
+			<Comfort>0.65</Comfort>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -96,7 +96,7 @@
 			<Mass>50</Mass>
 			<Beauty>1</Beauty>
 			<BedRestEffectiveness>0.95</BedRestEffectiveness>
-			<Comfort>0.7</Comfort>
+			<Comfort>0.65</Comfort>
 		</statBases>
 		<costStuffCount>85</costStuffCount>
 		<costList>
