@@ -16,6 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Removed unused assets and more (roe, jams, some weapons and armors)
 - Moved sweetrolls to ISA-HornetKeeping
 - Replaced Dravik textures
+- Added new beds, wall trophies, armchairs and more
 
 22/05/2026
 - Removed unused assets
