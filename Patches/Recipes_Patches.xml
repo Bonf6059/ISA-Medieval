@@ -19,5 +19,33 @@
     	<workAmount>17,500</workAmount>
     </value>
   </Operation>
+
+<!-- inerita ricette dal electric smelter vanilla -->
 	
+	<Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "FueledSmithy"]</xpath>
+		<value>
+  			<modExtensions>
+				<li Class="VEF.Buildings.RecipeInheritanceExtension">
+					<inheritRecipesFrom>
+						<li>ElectricSmelter</li>
+					</inheritRecipesFrom>
+     			</li>
+			</modExtensions>
+		</value>
+	</Operation>
+
+    <Operation MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName= "ElectricSmithy"]</xpath>
+		<value>
+  			<modExtensions>
+				<li Class="VEF.Buildings.RecipeInheritanceExtension">
+					<inheritRecipesFrom>
+						<li>ElectricSmelter</li>
+					</inheritRecipesFrom>
+     			</li>
+			</modExtensions>
+		</value>
+	</Operation>
+
 </Patch>
