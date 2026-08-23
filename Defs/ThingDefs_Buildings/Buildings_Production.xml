@@ -313,11 +313,14 @@
 		</graphicData>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<uiIconScale>0.70</uiIconScale>
-		<size>(2,2)</size>
+		<size>(3,1)</size>
 		<stuffCategories>
 			<li>Stony</li>
 		</stuffCategories>
-		<costStuffCount>120</costStuffCount>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<WoodLog>80</WoodLog>
+		</costList>
 		<statBases>
 			<WorkToBuild>3000</WorkToBuild>
 			<MaxHitPoints>200</MaxHitPoints>
