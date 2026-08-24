@@ -92,7 +92,19 @@
 		<filledGraphicSuffix>FilledHay</filledGraphicSuffix>
 	</ProcessorFramework.ProcessDef>
 	
-	<!-- ========== Alchemy ========== -->
-	<!-- Alchemy -->
+	<!-- Dried Fish-->
+	<ProcessorFramework.ProcessDef ParentName="ISA_DryingRackBase" MayRequire="Ludeon.RimWorld.Odyssey">
+		<defName>ISA_DriedFishProcess</defName>
+		<thingDef>ISA_DriedFish</thingDef>
+		<ingredientFilter>
+			<categories>
+				<li>Fish</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>ISA_DriedFish</li>
+			</disallowedThingDefs>
+		</ingredientFilter>
+		<filledGraphicSuffix>FilledFish</filledGraphicSuffix>
+	</ProcessorFramework.ProcessDef>
 
 </Defs>
