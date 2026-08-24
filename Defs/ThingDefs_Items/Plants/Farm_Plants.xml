@@ -155,8 +155,8 @@
   
   <ThingDef ParentName="PlantFoodRawBase">
 		<defName>ISA_RawHerb</defName>
-		<label>raw herbs</label>
-		<description>A bundle of raw herbs. It's difficult to pinpoint what kind of herb they are. While commonly used in the kitchen for their unique flavour, they can occasionally be found in alchemical recipes due to their ability to absorb some types of toxins if paired with the right ingredients.</description>
+		<label>raw sleetherb</label>
+		<description>A bundle of raw sleetherb. They are commonly used in the kitchen for their unique flavour and the cooling sensation that it leaves in your mouth when eaten.</description>
 		<graphicData>
 			<texPath>Items/Food/RawFood/RawHerb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -183,12 +183,50 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
             <li>
-                <label>spicy!</label>
-                <description>I ate a meal with some kind of spice, delicious!</description>
+                <label>chilly!</label>
+                <description>I ate a meal with , chilly but delicious!</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
 
+<!-- Sagewick -->
+	
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>ISA_RawCinderwort</defName>
+        <label>raw sagewick</label>
+        <description>A bundle of raw sagewick. They are commonly used in the kitchen for their unique flavour and the hot sensation that it leaves in your mouth when eaten.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Cinderwort</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.2</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <specialThoughtAsIngredient>ISA_AteCinderwortIngredient</specialThoughtAsIngredient>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>80</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThoughtDef>
+        <defName>ISA_AteCinderwortIngredient</defName>
+        <durationDays>2</durationDays>
+        <stackLimit>3</stackLimit>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>fired up</label>
+                <description>I ate a meal with sagewick, spicy but delicious!</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 	
 </Defs>
