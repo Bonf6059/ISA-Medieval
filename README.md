@@ -12,6 +12,10 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 # Old updates
 
+24/08/2026
+- Reorganized files
+- Removed Drying rack and related items if stoneborn cuisin is active
+
 18/08/2026
 - Removed unused assets and more (roe, jams, some weapons and armors)
 - Moved sweetrolls to ISA-HornetKeeping
