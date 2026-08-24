@@ -217,7 +217,7 @@
 <!-- Sagewick -->
 	
     <ThingDef ParentName="PlantFoodRawBase">
-        <defName>ISA_RawCinderwort</defName>
+        <defName>ISA_RawSagewick</defName>
         <label>raw sagewick</label>
         <description>A bundle of raw sagewick. They are commonly used in the kitchen for their unique flavour and the hot sensation that it leaves in your mouth when eaten.</description>
         <graphicData>
