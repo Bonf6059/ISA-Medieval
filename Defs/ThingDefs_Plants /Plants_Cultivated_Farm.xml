@@ -363,50 +363,5 @@
 			<purpose>Food</purpose>
 		</plant>
 	</ThingDef>
-
-	<!--=========================== Fruit Trees ==============================-->
-
-	<!-- Apple tree -->
-	
-	<ThingDef ParentName="TreeBase">
-		<defName>ISA_Tree_Apple</defName>
-		<label>apple tree</label>
-		<description>A hardwood tree known for its wonderfully sweet, bright-red fruits, which are good both on their own and mixed into a variety of desserts.</description>
-		<descriptionHyperlinks>
-			<ThingDef>ISA_RawApples</ThingDef>
-		</descriptionHyperlinks>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Nutrition>1.5</Nutrition>
-		</statBases>
-		<graphicData>
-			<texPath>Plants/FullGrown/TreeApple</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<selectable>true</selectable>
-		<pathCost>10</pathCost>
-		<ingestible/>
-		<plant>
-			<dieIfLeafless>False</dieIfLeafless>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<fertilitySensitivity>0.7</fertilitySensitivity>
-			<growDays>30</growDays>
-			<harvestTag>Standard</harvestTag>
-			<harvestAfterGrowth>0.33</harvestAfterGrowth>
-			<harvestedThingDef>ISA_RawApples</harvestedThingDef>
-			<harvestYield>22</harvestYield>
-			<sowMinSkill>3</sowMinSkill>
-			<mustBeWildToSow>false</mustBeWildToSow>
-			<sowResearchPrerequisites Inherit="False">
-				<li>Cocoa</li>
-			</sowResearchPrerequisites>
-			<topWindExposure>0.1</topWindExposure>
-			<wildOrder>2</wildOrder>
-			<immatureGraphicPath>Plants/Immature/TreeApple</immatureGraphicPath>
-			<purpose>Food</purpose>
-		</plant>
-	</ThingDef>
 	
 </Defs>
