@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+<!-- =================== Baked =================== -->
+
+	<!-- Bread -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_Bread</defName>
+		<label>bread</label>
+		<description>Made from flour and water. A classic staple to start a day.</description>
+		<graphicData>
+			<texPath>Items/Food/Baked/Bread</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Mass>0.4</Mass>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-8</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps Inherit="False">
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>8</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_FoodPoisonable"/>
+		</comps>
+		<rotatable>false</rotatable>
+	</ThingDef>
+	
+  	<!-- Berry Pie -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_BerryPie</defName>
+		<label>berry pie</label>
+		<description>A delicious fruit-tart pie, consisting of a flakey sugar crust layer with a filling of pureed Berry.</description>
+		<graphicData>
+			<texPath>Items/Food/Baked/Cakes/BerryPie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealLavish</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteBerryPie</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+	<!-- Pumpkin Pie -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_PumpkinPie</defName>
+		<label>pumpking pie</label>
+		<description>A dense, rich pie made from mashed pumpkin mixed with strong spices, layered atop a sweet, flakey crust. A fall-favorite desert.</description>
+		<graphicData>
+			<texPath>Items/Food/Baked/Cakes/PumpkinPie</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>21</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<rotatable>false</rotatable>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AtePumpkinPie</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
+	</ThingDef>
+
+		<!-- Carrot Cake -->
+	
+	<ThingDef ParentName="MealCooked">
+		<defName>ISA_CarrotCake</defName>
+		<label>carrot cake</label>
+		<description>A moist and flavorful cake crafted from freshly grated carrots, infused with warm spices, and enveloped in a luscious cream cheese frosting. A classic indulgence perfect for any occasion.</description>
+		<graphicData>
+			<texPath>Items/Food/Baked/Cakes/CarrotCake</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>21</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.5</Mass>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-30</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<rotatable>false</rotatable>
+		<!--		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+				<ingestedThought>ISA_AteCarrotCake</ingestedThought>
+			</li>
+			<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+		</comps>	-->
+	</ThingDef>
+</Defs>
