@@ -158,7 +158,7 @@
         <label>raw alraun</label>
         <description>Raw alraun.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Mandrake</texPath>
+            <texPath>Items/Resources/Plants/Mandrake</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
@@ -221,7 +221,7 @@
         <label>raw sagewick</label>
         <description>A bundle of raw sagewick. They are commonly used in the kitchen for their unique flavour and the hot sensation that it leaves in your mouth when eaten.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/Cinderwort</texPath>
+            <texPath>Items/Resources/Plants/Cinderwort</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
