@@ -182,7 +182,7 @@
 		<label>raw sleetherb</label>
 		<description>A bundle of raw sleetherb. They are commonly used in the kitchen for their unique flavour and the cooling sensation that it leaves in your mouth when eaten.</description>
 		<graphicData>
-			<texPath>Items/Food/RawFood/RawHerb</texPath>
+			<texPath>Items/Resources/Plants/Herb/RawHerb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
