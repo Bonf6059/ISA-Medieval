@@ -207,8 +207,8 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
             <li>
-                <label>chilly!</label>
-                <description>I ate a meal with , chilly but delicious!</description>
+                <label>cool as a tool</label>
+                <description>I ate a meal with sleetherb, chilly but delicious!</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
         </stages>
