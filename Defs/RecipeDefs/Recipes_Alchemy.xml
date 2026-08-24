@@ -21,7 +21,7 @@
 						<li>ISA_Poppy</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>6</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -41,53 +41,13 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_HerbalExtract>1</ISA_HerbalExtract>
-		</products>
-	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_HerbalExtractBulk</defName>
-		<label>make herbal extract x5</label>
-		<description>Make herbal extract x5.</description>
-		<jobString>Making herbal extract x5.</jobString>
-		<workAmount>3000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>MedicineHerbal</li>
-						<li>ISA_Mindwort</li>
-						<li>ISA_FlyAgaric</li>
-						<li>ISA_Poppy</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>MedicineHerbal</li>
-				<li>ISA_Mindwort</li>
-				<li>ISA_FlyAgaric</li>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>MedicineHerbal</li>
-				<li>ISA_Mindwort</li>
-				<li>ISA_FlyAgaric</li>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_HerbalExtract>5</ISA_HerbalExtract>
+			<ISA_HerbalExtract>2</ISA_HerbalExtract>
 		</products>
 	</RecipeDef>
 
 <!-- Opium -->
 
-		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
 		<defName>ISA_Make_Opium</defName>
 		<label>make opium</label>
 		<description>Make opium.</description>
@@ -100,7 +60,7 @@
 						<li>ISA_Poppy</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>9</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -114,41 +74,10 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_Opium>1</ISA_Opium>
+			<ISA_Opium>3</ISA_Opium>
 		</products>
 	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_Opium_Bulk</defName>
-		<label>make opium x5</label>
-		<description>Make opium x5.</description>
-		<jobString>Making opium x5.</jobString>
-		<workAmount>500</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Poppy</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_Poppy</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_Opium>5</ISA_Opium>
-		</products>
-	</RecipeDef>
-
+	
 <!-- Crivice Scent -->
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
@@ -220,7 +149,7 @@
 						<li>ISA_RawGarlic</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -240,7 +169,7 @@
 						<li>ISA_RawHerb</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -267,69 +196,6 @@
 		</defaultIngredientFilter>
 		<products>
 			<ISA_GalixPill>5</ISA_GalixPill>
-		</products>
-	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_GalixPillBulk</defName>
-		<label>make galix pill x5</label>
-		<description>Make galix pill x5.</description>
-		<jobString>Making galix pill x5.</jobString>
-		<workAmount>750</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RawGarlic</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Milk</li>
-						<li>ISA_SheepMilk</li>
-						<li>ISA_GoatMilk</li>
-						<li>ISA_RoxMilk</li>
-						<li>DA_MufftonMilk</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RawHerb</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_RawGarlic</li>
-				<li>Milk</li>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-				<li>ISA_RoxMilk</li>
-				<li>DA_MufftonMilk</li>
-				<li>ISA_RawHerb</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_RawGarlic</li>
-				<li>Milk</li>
-				<li>ISA_SheepMilk</li>
-				<li>ISA_GoatMilk</li>
-				<li>ISA_RoxMilk</li>
-				<li>DA_MufftonMilk</li>
-				<li>ISA_RawHerb</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_GalixPill>25</ISA_GalixPill>
 		</products>
 	</RecipeDef>
 
@@ -393,64 +259,6 @@
 		</products>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_SilvarnBulk</defName>
-		<label>make silvarn x5</label>
-		<description>Make silvarn x5.</description>
-		<jobString>Making silvarn x5.</jobString>
-		<workAmount>1700</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Mindwort</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>EggArcticOwlcatUnfertilized</li>
-						<li>EggArcticOwlcatFertilized</li>
-						<li>EggOwlcatUnfertilized</li>
-						<li>EggOwlcatFertilized</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_AstragalusFlowers</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Mindwort</li>
-				<li>EggArcticOwlcatUnfertilized</li>
-				<li>EggArcticOwlcatFertilized</li>
-				<li>EggOwlcatUnfertilized</li>
-				<li>EggOwlcatFertilized</li>
-				<li>ISA_AstragalusFlowers</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_Mindwort</li>
-				<li>EggArcticOwlcatUnfertilized</li>
-				<li>EggOwlcatUnfertilized</li>
-				<li>ISA_AstragalusFlowers</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_Silvarn>10</ISA_Silvarn>
-		</products>
-	</RecipeDef>
-
 <!-- =============== Brew Kettle =============== -->
 
 	<!-- Paregoric Mush-->
@@ -503,57 +311,6 @@
 		</defaultIngredientFilter>
 		<products>
 			<ISA_ParegoricMush>5</ISA_ParegoricMush>
-		</products>
-	</RecipeDef>
-
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_ParegoricMushBulk</defName>
-		<label>make paregoric mush x5</label>
-		<description>Make paregoric mush x5.</description>
-		<jobString>Making paregoric mush x5.</jobString>
-		<workAmount>1000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Mindwort</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Opium</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_CliviaPetals</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Mindwort</li>
-				<li>ISA_Opium</li>
-				<li>ISA_CliviaPetals</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_Mindwort</li>
-				<li>ISA_Opium</li>
-				<li>ISA_CliviaPetals</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_ParegoricMush>25</ISA_ParegoricMush>
 		</products>
 	</RecipeDef>
 	
@@ -610,57 +367,7 @@
 		</products>
 	</RecipeDef>
 	
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_RathixMushBulk</defName>
-		<label>make rathix mush x5</label>
-		<description>Make rathix mush x5.</description>
-		<jobString>Making rathix mush x5.</jobString>
-		<workAmount>2850</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_FlyAgaric</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DA_Sangonite</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RafflesiaLeaves</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_FlyAgaric</li>
-				<li>DA_Sangonite</li>
-				<li>ISA_RafflesiaLeaves</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_FlyAgaric</li>
-				<li>DA_Sangonite</li>
-				<li>ISA_RafflesiaLeaves</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_RathixMush>25</ISA_RathixMush>
-		</products>
-	</RecipeDef>
-	
+
 <!-- Dravik Mush -->
 
 	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
@@ -714,54 +421,4 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
-		<defName>ISA_Make_DravikMushBulk</defName>
-		<label>make dravik mush x5</label>
-		<description>Make dravik mush x5.</description>
-		<jobString>Making dravik mush x5.</jobString>
-		<workAmount>2350</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_FlyAgaric</li>
-					</thingDefs>
-				</filter>
-				<count>35</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DA_RedTear</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RawGlowstool</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_FlyAgaric</li>
-				<li>DA_RedTear</li>
-				<li>ISA_RawGlowstool</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<thingDefs>
-				<li>ISA_FlyAgaric</li>
-				<li>DA_RedTear</li>
-				<li>ISA_RawGlowstool</li>
-			</thingDefs>
-		</defaultIngredientFilter>
-		<products>
-			<ISA_DravikMush>5</ISA_DravikMush>
-		</products>
-	</RecipeDef>	
 </Defs>
