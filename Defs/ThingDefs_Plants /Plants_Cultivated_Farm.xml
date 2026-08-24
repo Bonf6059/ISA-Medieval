@@ -335,7 +335,7 @@
             <Nutrition>0.175</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plant/Mandrake</texPath>
+            <texPath>Plants/FullGrown/MandrakePlant</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <selectable>true</selectable>
@@ -435,7 +435,7 @@
             <Nutrition>0.175</Nutrition>
         </statBases>
         <graphicData>
-            <texPath>Things/Plant/Cinderwort</texPath>
+            <texPath>Plants/FullGrown/CinderwortPlant</texPath>
             <graphicClass>Graphic_Random</graphicClass>
         </graphicData>
         <selectable>true</selectable>
