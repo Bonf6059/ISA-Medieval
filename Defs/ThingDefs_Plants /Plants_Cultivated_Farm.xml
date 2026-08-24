@@ -430,7 +430,10 @@
         <defName>ISA_Plant_Sagewick</defName>
         <label>sagewick</label>
         <description>A spicy tough herb. Sagewicks are a such a common-growing herb they're considered weeds in stoneborn farms, some say they grow so fast their stem can be heard hissing like a lit fuse, which is how they've earned their name.</description>
-        <statBases>
+		<descriptionHyperlinks>
+			<ThingDef>ISA_RawSagewick</ThingDef>
+		</descriptionHyperlinks>		
+		<statBases>
             <MaxHitPoints>85</MaxHitPoints>
             <Nutrition>0.175</Nutrition>
         </statBases>
