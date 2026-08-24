@@ -16,7 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Reorganized files
 - Removed Drying rack and related items if stoneborn cuisin is active
 - Moved textures to Mods "loadfolders" to lighten the load times
-- Removed bulk alchemical recipes 
+- Removed bulk alchemical recipes but increased base recipes output
 - Removed stone oven
 
 18/08/2026
