@@ -147,7 +147,7 @@
 					<li>FueledStove</li>
 					<li>ElectricStove</li>
 				</inheritRecipesFrom>
-     			</li>
+     		</li>
 		</modExtensions>
 		<comps>
 			<li Class="CompProperties_Refuelable">
