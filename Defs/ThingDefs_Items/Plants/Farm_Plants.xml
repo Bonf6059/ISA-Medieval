@@ -125,33 +125,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-
-<!-- Apples -->
-  
-	<ThingDef ParentName="PlantFoodRawBase">
-		<defName>ISA_RawApples</defName>
-		<label>apples</label>
-		<description>Raw apples.</description>
-		<graphicData>
-			<texPath>Items/Food/RawFood/RawApples</texPath>
-		</graphicData>
-		<statBases>
-			<MarketValue>1.1</MarketValue>
-			<Nutrition>0.05</Nutrition>
-		</statBases>
-		<ingestible Inherit="False">
-			<preferability>RawBad</preferability>
-			<ingestEffect>EatVegetarian</ingestEffect>
-			<ingestSound>RawVegetable_Eat</ingestSound>
-			<foodType>VegetableOrFruit</foodType>
-		</ingestible>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>15</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-	</ThingDef>
 	
 	<!-- Cabbages -->
 
