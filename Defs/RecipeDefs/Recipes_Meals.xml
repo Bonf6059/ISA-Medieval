@@ -10,7 +10,7 @@
 		<label>Cook bread</label>
 		<description>Mix flour and water to make bread.</description>
 		<jobString>Cooking bread.</jobString>
-    <workAmount>200</workAmount>
+    	<workAmount>200</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -32,6 +32,10 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
 	</RecipeDef>
 	
 <!-- Berry Pie -->
@@ -74,6 +78,10 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
 	</RecipeDef>
 
 <!-- Apple Pie -->
@@ -116,6 +124,10 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
 	</RecipeDef>
 
 <!-- Pumpkin Pie -->
@@ -158,6 +170,10 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
 	</RecipeDef>
 
 <!-- Carrot Cake -->
@@ -200,5 +216,10 @@
 		<researchPrerequisites>
 			<li>ISA_AdvancedCookingResearch</li>
 		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
 	</RecipeDef>
+
 </Defs>
