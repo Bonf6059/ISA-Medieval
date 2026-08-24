@@ -214,10 +214,10 @@
       <stages>
         <li>
 			<statFactors>
-				<HuntingStealth>1.10</HuntingStealth>
-				<ShootingAccuracyFactor_Long>1.05</ShootingAccuracyFactor_Long>
-    			<ShootingAccuracyFactor_Medium>1.10</ShootingAccuracyFactor_Medium>
-    			<ShootingAccuracyFactor_Short>1.15</ShootingAccuracyFactor_Short>
+				<HuntingStealth>1.20</HuntingStealth>
+				<ShootingAccuracyFactor_Long>1.10</ShootingAccuracyFactor_Long>
+    			<ShootingAccuracyFactor_Medium>1.15</ShootingAccuracyFactor_Medium>
+    			<ShootingAccuracyFactor_Short>1.20</ShootingAccuracyFactor_Short>
 			</statFactors>
 			<capMods>
 				<li>
@@ -284,17 +284,17 @@
 			<drugCategory>Medical</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-				<hediffDef>ISA_High_Dravik</hediffDef>
-				<severity>1.0</severity>
+					<hediffDef>ISA_High_Dravik</hediffDef>
+					<severity>1.0</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
 		
 		<comps>
-		<li Class="CompProperties_Drug">
-			<listOrder>1000</listOrder>
-			<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
-		</li>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+			</li>
 		</comps>
 	</ThingDef>
   
