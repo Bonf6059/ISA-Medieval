@@ -12,13 +12,14 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 # Old updates
 
-24/08/2026
+24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
-- Removed Drying rack and related items if stoneborn cuisine is active
+- Drying rack and related items are active only if stoneborn cuisine is not installed
 - Moved textures to Mods "loadfolders" to lighten the load times
 - Removed bulk alchemical recipes but increased base recipes output
 - Removed stone oven, everything can be crafted at the stove
-- Added bulk processes for baked goods to Stoneborn Cuisine oven if it's active
+- Baked food is active only if stoneborn cuisine is not installed
+- Removed apples and related stuff
 
 18/08/2026
 - Removed unused assets and more (roe, jams, some weapons and armors)
