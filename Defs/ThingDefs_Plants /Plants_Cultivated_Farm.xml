@@ -71,7 +71,7 @@
 			<harvestTag>Standard</harvestTag>
 			<maxMeshCount>4</maxMeshCount>
 			<harvestedThingDef>ISA_RawCarrots</harvestedThingDef>
-			<harvestYield>6</harvestYield>
+			<harvestYield>10</harvestYield>
 		<!--	<sowResearchPrerequisites>
 				<li>DankPyon_IntermediateAgriculture</li>
 			</sowResearchPrerequisites>	-->
@@ -86,7 +86,7 @@
 			<immatureGraphicPath>Plants/Immature/CarrotPlant</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
-			<sowMinSkill>4</sowMinSkill>
+			<sowMinSkill>3</sowMinSkill>
 		</plant>
 	</ThingDef>
 
