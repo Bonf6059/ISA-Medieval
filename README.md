@@ -20,6 +20,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Removed stone oven, everything can be crafted at the stove
 - Baked food is active only if stoneborn cuisine is not installed
 - Removed apples and related stuff
+- Boosted carrot harvest yield
 
 18/08/2026
 - Removed unused assets and more (roe, jams, some weapons and armors)
