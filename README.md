@@ -15,6 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 24/08/2026
 - Reorganized files
 - Removed Drying rack and related items if stoneborn cuisin is active
+- Moved textures to Mods "loadfolders" to lighten the load times
 
 18/08/2026
 - Removed unused assets and more (roe, jams, some weapons and armors)
