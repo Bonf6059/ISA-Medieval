@@ -84,52 +84,6 @@
 		</recipeUsers>
 	</RecipeDef>
 
-<!-- Apple Pie -->
-	
-	<RecipeDef ParentName="CookMealBase">
-		<defName>ISA_MakeApplePie</defName>
-		<label>Cook apple pie</label>
-		<description>Mix different ingredients to make a pie with apples.</description>
-		<jobString>Cooking apple pie.</jobString>
-    <workAmount>450</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Flour</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_RawApples</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Flour</li>
-			</thingDefs>
-			<thingDefs>
-				<li>ISA_RawApples</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ISA_ApplePie>5</ISA_ApplePie>
-		</products>
-		<researchPrerequisites>
-			<li>ISA_AdvancedCookingResearch</li>
-		</researchPrerequisites>
-		<recipeUsers>
-			<li>FueledStove</li>
-			<li>ElectricStove</li>
-		</recipeUsers>
-	</RecipeDef>
-
 <!-- Pumpkin Pie -->
 	
 	<RecipeDef ParentName="CookMealBase">
