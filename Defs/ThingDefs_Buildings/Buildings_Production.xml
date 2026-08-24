@@ -145,7 +145,6 @@
 			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>FueledStove</li>
-					<li>ElectricStove</li>
 				</inheritRecipesFrom>
      		</li>
 		</modExtensions>
