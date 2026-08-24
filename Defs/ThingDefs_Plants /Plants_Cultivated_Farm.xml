@@ -357,6 +357,10 @@
             <growMinGlow>0</growMinGlow>
             <growOptimalGlow>0</growOptimalGlow>
             <diesToLight>false</diesToLight>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
         </plant>
         <comps>
             <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
@@ -449,7 +453,7 @@
             <fertilityMin>0</fertilityMin>
             <fertilitySensitivity>0</fertilitySensitivity>
             <harvestTag>Standard</harvestTag>
-            <harvestedThingDef>ISA_RawCinderwort</harvestedThingDef>
+            <harvestedThingDef>ISA_RawSagewick</harvestedThingDef>
             <harvestYield>20</harvestYield>
             <topWindExposure>0</topWindExposure>
             <growDays>4</growDays>
@@ -461,6 +465,10 @@
             <growMinGlow>0</growMinGlow>
             <growOptimalGlow>0</growOptimalGlow>
             <diesToLight>false</diesToLight>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
         </plant>
         <comps>
             <li Class="CompProperties_Glower">
