@@ -151,6 +151,30 @@
 		</comps>
 	</ThingDef>
 
+	<!-- Alraun -->
+	
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>ISA_RawAlraun</defName>
+        <label>raw alraun</label>
+        <description>Raw alraun.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Mandrake</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>7</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
 <!-- Herbs -->
   
   <ThingDef ParentName="PlantFoodRawBase">
