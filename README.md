@@ -10,7 +10,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Need to remove VFEM2 plants
 - Need to update alchemy recipes
 - Add/change alchemy recipes to use Alraun and maybe sagewick
-- Add recipe and texture to preil potion
 - Add new clothings texture in the misc apparel
   
 # Old updates
@@ -18,7 +17,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 25/08/2026
 - Moved sagewick and Alraun to MOD folder
 - Made sleetherb more resistant to heat and sagewick to cold
-- Add new potion that lower psy sensitivity and consciusnes
+- Added new potion that lower psy sensitivity and consciusnes
+  
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
 - Drying rack and related items are active only if stoneborn cuisine is not installed
