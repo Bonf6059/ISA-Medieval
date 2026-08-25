@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Alraun -->
+	
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>ISA_RawAlraun</defName>
+        <label>raw alraun</label>
+        <description>Raw alraun.</description>
+        <graphicData>
+            <texPath>Items/Resources/Plants/Mandrake</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>7</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+<!-- Sagewick -->
+	
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>ISA_RawSagewick</defName>
+        <label>raw sagewick</label>
+        <description>A bundle of raw sagewick. They are commonly used in the kitchen for their unique flavour and the hot sensation that it leaves in your mouth when eaten.</description>
+        <graphicData>
+            <texPath>Items/Resources/Plants/Cinderwort</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.2</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <specialThoughtAsIngredient>ISA_AteCinderwortIngredient</specialThoughtAsIngredient>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>80</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThoughtDef>
+        <defName>ISA_AteCinderwortIngredient</defName>
+        <durationDays>2</durationDays>
+        <stackLimit>3</stackLimit>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>fired up</label>
+                <description>I ate a meal with sagewick, spicy but delicious!</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>
