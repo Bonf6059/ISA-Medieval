@@ -107,6 +107,7 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
+			<minGrowthTemperature>-25</minGrowthTemperature>
         </plant>
         <comps>
             <li Class="CompProperties_Glower">
