@@ -368,7 +368,8 @@
                 <message>An alraun has been harvested, and it emitted a psychic scream.</message>
             </li>
             <li Class="CompProperties_PlaySoundOnDestroy">
-                <sound>Plant_AlraunScream</sound>
+              <!--  <sound>Plant_AlraunScream</sound>	-->
+				<sound>AnimaTreeScream</sound>
             </li>
         </comps>
     </ThingDef>
