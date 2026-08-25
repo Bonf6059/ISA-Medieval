@@ -329,7 +329,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Herb</defName>
 		<label>sleetherb plant</label>
-		<description>A fragrant, leafy green plant which has an iota of uses inside the kitchen, but which is only useful to feed animals if used on its own.</description>
+		<description>A fragrant, leafy green plant which has an iota of uses inside the kitchen, but which is only useful to feed animals if used on its own. It gets its name from the white powdery substance that it forms on it's leaves to protect it from the heat.</description>
 		<descriptionHyperlinks>
 			<ThingDef>ISA_RawHerb</ThingDef>
 		</descriptionHyperlinks>
