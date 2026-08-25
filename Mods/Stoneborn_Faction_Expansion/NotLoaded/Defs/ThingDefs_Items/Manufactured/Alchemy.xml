@@ -5,7 +5,7 @@
 		<defName>ISA_PreilMush</defName>
 		<label>preil mush</label>
 		<graphicData>
-			<texPath>Items/Resources/Misc/AlchemyMush/PreilMush</texPath>
+			<texPath>Items/Resources/Misc/PreilMush</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
@@ -19,7 +19,7 @@
 		<possessionCount>10</possessionCount>
 		<descriptionHyperlinks><HediffDef>ISA_High_Preil</HediffDef></descriptionHyperlinks>
 		<graphicData>
-			<texPath>Items/Resources/Drugs/Preil</texPath>
+			<texPath>Items/Resources/Preil</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<socialPropernessMatters>false</socialPropernessMatters>
