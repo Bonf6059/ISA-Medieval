@@ -361,6 +361,7 @@
 			<visualSizeRange>0.2~0.4</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<maxGrowthTemperature>60</maxGrowthTemperature>
 		</plant>
 	</ThingDef>
 	
