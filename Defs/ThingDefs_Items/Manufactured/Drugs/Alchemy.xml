@@ -44,7 +44,7 @@
 
 	<ThingDef ParentName="ISA_AlchemyMushBase">
 		<defName>ISA_ParegoricMush</defName>
-		<label>dravik mush</label>
+		<label>paregoric mush</label>
 		<graphicData>
 			<texPath>Items/Resources/Misc/AlchemyMush/ParegoricMush</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
