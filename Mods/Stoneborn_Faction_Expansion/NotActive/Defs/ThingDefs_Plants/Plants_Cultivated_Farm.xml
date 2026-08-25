@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Alraun -->
+	
+    <ThingDef ParentName="PlantBase">
+        <defName>ISA_Plant_Alraun</defName>
+        <label>alraun</label>
+        <description>Head-sized vegetables with a thin psychic presence. Alrauns were engineered by stoneborn seers as a way to cripple psychic opponents, as when they're disturbed and ripped out of the soil, they emit a psychic pulse that can deafen and daze highly attuned psycasters.</description>
+        <statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+            <Nutrition>0.175</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Plants/FullGrown/MandrakePlant</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <pathCost>50</pathCost>
+        <ingestible />
+        <plant>
+            <fertilityMin>0</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>ISA_RawAlraun</harvestedThingDef>
+            <harvestYield>15</harvestYield>
+            <topWindExposure>0</topWindExposure>
+            <growDays>7</growDays>
+            <cavePlantWeight>0.1</cavePlantWeight>
+            <visualSizeRange>0.8~1.2</visualSizeRange>
+            <purpose>Food</purpose>
+            <humanFoodPlant>true</humanFoodPlant>
+            <maxMeshCount>4</maxMeshCount>
+            <growMinGlow>0</growMinGlow>
+            <growOptimalGlow>0</growOptimalGlow>
+            <diesToLight>false</diesToLight>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+        </plant>
+        <comps>
+            <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
+                <thought>ISA_AlraunScream</thought>
+                <message>An alraun has been harvested, and it emitted a psychic scream.</message>
+            </li>
+            <li Class="CompProperties_PlaySoundOnDestroy">
+              <!--  <sound>Plant_AlraunScream</sound>	-->
+				<sound>AnimaTreeScream</sound>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThoughtDef>
+        <defName>ISA_AlraunScream</defName>
+        <durationDays>2</durationDays>
+        <stackLimit>3</stackLimit>
+        <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>alraun scream</label>
+                <description>What an annoying scream, like chalk on a board...</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+	<!-- Sagewick -->
+	
+<ThingDef ParentName="PlantBase">
+    <defName>ISA_Plant_Sagewick</defName>
+    <label>sagewick</label>
+    <description>A spicy tough herb. Sagewicks are a such a common-growing herb they're considered weeds in stoneborn farms, some say they grow so fast their stem can be heard hissing like a lit fuse, which is how they've earned their name.</description>
+		<descriptionHyperlinks>
+			<ThingDef>ISA_RawSagewick</ThingDef>
+		</descriptionHyperlinks>		
+		<statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+            <Nutrition>0.175</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Plants/FullGrown/CinderwortPlant</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <pathCost>50</pathCost>
+        <tickerType>Normal</tickerType>
+        <ingestible />
+        <plant>
+            <fertilityMin>0</fertilityMin>
+            <fertilitySensitivity>0</fertilitySensitivity>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>ISA_RawSagewick</harvestedThingDef>
+            <harvestYield>20</harvestYield>
+            <topWindExposure>0</topWindExposure>
+            <growDays>4</growDays>
+            <cavePlantWeight>0</cavePlantWeight>
+            <visualSizeRange>0.8~1.2</visualSizeRange>
+            <purpose>Food</purpose>
+            <humanFoodPlant>true</humanFoodPlant>
+            <maxMeshCount>4</maxMeshCount>
+            <growMinGlow>0</growMinGlow>
+            <growOptimalGlow>0</growOptimalGlow>
+            <diesToLight>false</diesToLight>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+        </plant>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(207,118,27,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Effecter">
+                <effecterDef>ISA_SagewickSizzle</effecterDef>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
