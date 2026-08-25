@@ -11,6 +11,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Need to update alchemy recipes
 - Add/change alchemy recipes to use Alraun and maybe sagewick
 - Add same effect from sagewick to sleetherb just change colour
+- Make patch to add Preil recipe to brew kettle
 - Add new clothings texture in the misc apparel
   
 # Old updates
