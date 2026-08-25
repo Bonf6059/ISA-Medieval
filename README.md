@@ -10,6 +10,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Need to remove VFEM2 plants
 - Need to update alchemy recipes
 - Add/change alchemy recipes to use Alraun and maybe sagewick
+- Add same effect from sagewick to sleetherb just change colour
 - Add new clothings texture in the misc apparel
   
 # Old updates
