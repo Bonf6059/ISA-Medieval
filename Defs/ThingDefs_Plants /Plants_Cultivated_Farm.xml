@@ -170,9 +170,9 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 			<visualSizeRange>0.7~0.7</visualSizeRange>
-			<minGrowthTemperature>-18</minGrowthTemperature>
+			<minGrowthTemperature>-15</minGrowthTemperature>
 			<minOptimalGrowthTemperature>0</minOptimalGrowthTemperature>
-			<minOptimalGrowthTemperature>25</minOptimalGrowthTemperature>
+			<maxOptimalGrowthTemperature>25</maxOptimalGrowthTemperature>
 			<maxGrowthTemperature>35</maxGrowthTemperature>
 		</plant>
 	</ThingDef>
