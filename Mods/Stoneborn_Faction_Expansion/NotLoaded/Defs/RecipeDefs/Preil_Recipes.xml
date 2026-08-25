@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+<!-- =============== Brew Kettle =============== -->
+
+	<!-- Preil Mush recipe -->
+
+		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_PreilMush</defName>
+		<label>make preil mush</label>
+		<description>Make preil mush mush.</description>
+		<jobString>Making preil mush mush.</jobString>
+		<workAmount>375</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_Mindwort</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawAlraun</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawSagewick</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_RawAlraun</li>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_Mindwort</li>
+				<li>ISA_RawAlraun</li>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_PreilMush>5</ISA_PreilMush>
+		</products>
+	</RecipeDef>
+
+<!-- Preil Mush Process -->
+  
+	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
+		<defName>ISA_MushInPreil</defName>
+		<thingDef>ISA_Preil</thingDef>
+		<ingredientFilter>
+			<thingDefs>
+				<li>ISA_PreilMush</li>
+			</thingDefs>
+		</ingredientFilter>
+		<efficiency>3</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
+	</ProcessorFramework.ProcessDef>
+
+</Defs>
