@@ -7,9 +7,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Scribe table to make books
 - Add Tea made from herbs that increase mood +2; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
-- Need to remove VFEM2 plants
-- Need to update alchemy recipes
-- Add/change alchemy recipes to use Alraun and maybe sagewick
 - Add new clothings texture in the misc apparel
   
 # Old updates
@@ -18,6 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Moved sagewick and Alraun to MOD folder
 - Made sleetherb more resistant to heat and sagewick to cold
 - Added new potion that lower psy sensitivity and consciusnes
+- Removed plantable raflesia and glowstool
   
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
