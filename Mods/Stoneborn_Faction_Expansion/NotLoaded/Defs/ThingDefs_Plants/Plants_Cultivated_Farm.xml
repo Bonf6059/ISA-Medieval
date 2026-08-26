@@ -109,8 +109,10 @@
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
+				<li>Decorative</li>
 			</sowTags>
 			<minGrowthTemperature>-25</minGrowthTemperature>
+			<maxGrowthTemperature>30</maxGrowthTemperature>
         </plant>
         <comps>
             <li Class="CompProperties_Glower">
@@ -120,6 +122,11 @@
             <li Class="CompProperties_Effecter">
                 <effecterDef>ISA_SagewickSizzle</effecterDef>
             </li>
+      		<li Class="CompProperties_HeatPusher">
+        		<compClass>CompHeatPusherPowered</compClass>
+        		<heatPerSecond>15</heatPerSecond>
+        		<heatPushMaxTemperature>25</heatPushMaxTemperature>
+      		</li>
         </comps>
 		<sowResearchPrerequisites Inherit="False">
 			<li>ISA_AlchemycalAgriculture</li>
