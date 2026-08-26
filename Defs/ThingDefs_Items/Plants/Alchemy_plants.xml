@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="RoughPlantBase">
-		<defName>ISA_RafflesiaLeaves</defName>
-		<label>rafflesia petals</label>
-		<description>Giant petals of the rafflesia flower. Smell like rotting flesh and are very likely to cause food poisoning when consumed raw. Rafflesia petals can be used for different alchemical recipes.</description>
-		<graphicData>
-			<texPath>Items/Resources/Plants/Rafflesia/RafflesiaLeaves</texPath>
-		</graphicData>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>0.35</MarketValue>
-			<Flammability>1</Flammability>
-			<Nutrition>0.01</Nutrition>
-			<FoodPoisonChanceFixedHuman>0.16</FoodPoisonChanceFixedHuman>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>30</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-		<thingCategories>
-			<li>PlantMatter</li>
-		</thingCategories>
-		<socialPropernessMatters>true</socialPropernessMatters>
-		<ingestible>
-			<preferability>RawBad</preferability>
-			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
-		</ingestible>
-	</ThingDef>
-
   <ThingDef ParentName="RoughPlantBase">
 		<defName>ISA_AstragalusFlowers</defName>
 		<label>astragalus flowers</label>
@@ -88,33 +58,6 @@
 			<preferability>RawBad</preferability>
 			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
 		</ingestible>
-	</ThingDef>
-
-  <ThingDef ParentName="PlantFoodRawBase">
-		<defName>ISA_RawGlowstool</defName>
-		<label>raw glowstool</label>
-		<description>Raw glowstool fungus obtained by harvesting glowstools growing in caves. Raw glowstool can be used for different alchemical recipes.</description>
-		<graphicData>
-			<texPath>Items/Resources/Plants/Glowstool/RawGlowstool</texPath>
-		</graphicData>
-		<statBases>
-			<MarketValue>1.1</MarketValue>
-			<Mass>0.03</Mass>
-		</statBases>
-		<ingestible>
-			<foodType>Fungus</foodType>
-		</ingestible>
-		<ingredient>
-			<mergeCompatibilityTags>
-				<li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
-			</mergeCompatibilityTags>
-		</ingredient>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>40</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
 	</ThingDef>
 
 </Defs>
