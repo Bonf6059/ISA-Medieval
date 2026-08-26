@@ -8,6 +8,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase mood +2; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add new clothings texture in the misc apparel
+- Fix texture of barrel when Berry wine is being made, it is missing
   
 # Old updates
 
