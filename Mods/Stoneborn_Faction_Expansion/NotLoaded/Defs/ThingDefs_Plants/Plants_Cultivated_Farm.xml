@@ -49,6 +49,9 @@
 				<sound>AnimaTreeScream</sound>
             </li>
         </comps>
+		<sowResearchPrerequisites Inherit="False">
+			<li>ISA_AlchemycalAgriculture</li>
+		</sowResearchPrerequisites>
     </ThingDef>
 
     <ThoughtDef>
@@ -118,6 +121,9 @@
                 <effecterDef>ISA_SagewickSizzle</effecterDef>
             </li>
         </comps>
+		<sowResearchPrerequisites Inherit="False">
+			<li>ISA_AlchemycalAgriculture</li>
+		</sowResearchPrerequisites>
     </ThingDef>
 
 </Defs>
