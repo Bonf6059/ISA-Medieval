@@ -17,6 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added new potion that lower psy sensitivity and consciusnes
 - Removed plantable raflesia and glowstool
 - Modified alchemical mushes recipes
+- Sagewick and sleetherb are able to change temperature of rooms
   
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
