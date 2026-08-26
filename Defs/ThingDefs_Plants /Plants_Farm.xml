@@ -362,7 +362,15 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 			<maxGrowthTemperature>60</maxGrowthTemperature>
+			<minGrowthTemperature>10</minGrowthTemperature>
 		</plant>
+        <comps>
+      		<li Class="CompProperties_HeatPusher">
+        		<compClass>CompHeatPusherPowered</compClass>
+        		<heatPerSecond>-15</heatPerSecond>
+        		<heatPushMinTemperature>20</heatPushMinTemperature>
+      		</li>
+        </comps>
 	</ThingDef>
 	
 </Defs>
