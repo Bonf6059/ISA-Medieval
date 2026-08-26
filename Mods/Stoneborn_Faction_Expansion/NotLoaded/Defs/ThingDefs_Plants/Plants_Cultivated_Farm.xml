@@ -38,6 +38,9 @@
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
+			<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
         </plant>
         <comps>
             <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
@@ -49,9 +52,6 @@
 				<sound>AnimaTreeScream</sound>
             </li>
         </comps>
-		<sowResearchPrerequisites Inherit="False">
-			<li>ISA_AlchemycalAgriculture</li>
-		</sowResearchPrerequisites>
     </ThingDef>
 
     <ThoughtDef>
@@ -113,7 +113,10 @@
 			</sowTags>
 			<minGrowthTemperature>-25</minGrowthTemperature>
 			<maxGrowthTemperature>30</maxGrowthTemperature>
-        </plant>
+        	<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
+		</plant>
         <comps>
             <li Class="CompProperties_Glower">
                 <glowRadius>3</glowRadius>
@@ -128,9 +131,6 @@
         		<heatPushMaxTemperature>25</heatPushMaxTemperature>
       		</li>
         </comps>
-		<sowResearchPrerequisites Inherit="False">
-			<li>ISA_AlchemycalAgriculture</li>
-		</sowResearchPrerequisites>
     </ThingDef>
 
 </Defs>
