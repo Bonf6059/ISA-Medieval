@@ -342,7 +342,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RafflesiaLeaves</li>
+						<li>ISA_RawHerb</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -352,14 +352,14 @@
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RafflesiaLeaves</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_Sangonite</li>
-				<li>ISA_RafflesiaLeaves</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
@@ -396,7 +396,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ISA_RawGlowstool</li>
+						<li>ISA_RawHerb</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
@@ -406,14 +406,14 @@
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawGlowstool</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_FlyAgaric</li>
 				<li>DA_RedTear</li>
-				<li>ISA_RawGlowstool</li>
+				<li>ISA_RawHerb</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
