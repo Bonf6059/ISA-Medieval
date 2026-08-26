@@ -363,6 +363,11 @@
 			<purpose>Food</purpose>
 			<maxGrowthTemperature>60</maxGrowthTemperature>
 		</plant>
+        <comps>
+            <li Class="CompProperties_Effecter">
+                <effecterDef>ISA_SagewickSizzle</effecterDef>
+            </li>
+        </comps>
 	</ThingDef>
 	
 </Defs>
