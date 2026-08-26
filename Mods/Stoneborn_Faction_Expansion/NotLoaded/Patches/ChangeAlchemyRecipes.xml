@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--  Rathix Mush -->
+  
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_RathixMush"]/ingredients/li[3]/filter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+			  <li>ISA_RawAlraun</li>
+			</thingDefs>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_RathixMush"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawAlraun</li>
+			</thingDefs>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_RathixMush"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_Sangonite</li>
+				<li>ISA_RawAlraun</li>
+			</thingDefs>
+		</value>
+	</Operation>
+
+ <!--  Dravik Mush -->
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_DravikMush"]/ingredients/li[3]/filter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+			  <li>ISA_RawSagewick</li>
+			</thingDefs>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_DravikMush"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="ISA_Make_DravikMush"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<thingDefs>
+				<li>ISA_FlyAgaric</li>
+				<li>DA_RedTear</li>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</value>
+	</Operation>
+	
+</Patch>
