@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+  <!-- Sagewick -->
+
   <EffecterDef>
     <defName>ISA_SagewickSizzle</defName>
     <children>
@@ -23,6 +25,42 @@
       <texPath>Things/Mote/SparkThrown</texPath>
       <shaderType>MoteGlow</shaderType>
       <color>(229,118,46,255)</color>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <fadeInTime>0.34</fadeInTime>
+      <solidTime>0.33</solidTime>
+      <fadeOutTime>0.55</fadeOutTime>
+      <attachedDrawOffset>(0, 0, 0)</attachedDrawOffset>
+      <collide>true</collide>
+    </mote>
+  </ThingDef>
+
+<!-- SleetHerb -->
+  
+  <EffecterDef>
+    <defName>ISA_SleetherbSizzle</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+        <scale>0.1~0.22</scale>
+        <chancePerTick>0.01</chancePerTick>
+        <positionRadius>0.3</positionRadius>
+        <burstCount>1</burstCount>
+        <moteDef>ISA_Mote_SleetherbSpark</moteDef>
+        <speed>0.12</speed>
+        <rotation>0.1</rotation>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>ISA_Mote_SleetherbSpark</defName>
+    <graphicData>
+      <texPath>Things/Mote/SparkThrown</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <color>(46,118,229,255)</color>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
     <altitudeLayer>MetaOverlays</altitudeLayer>
