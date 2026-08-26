@@ -365,7 +365,7 @@
 		</plant>
         <comps>
             <li Class="CompProperties_Effecter">
-                <effecterDef>ISA_SagewickSizzle</effecterDef>
+                <effecterDef>ISA_SleetherbSizzle</effecterDef>
             </li>
         </comps>
 	</ThingDef>
