@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ISA_BrewKettle"]/comps/li[3]/processes</xpath>
+		<value>
+			<li>ISA_MushInPreil</li>
+		</value>
+	</Operation>
+	
+</Patch>
