@@ -3,7 +3,7 @@
 
 <!-- Rafflesia -->
 
-	<Operation Class="PatchOperationAdd">
+<!--	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_Rafflesia"]/plant</xpath>
 		<value>
 			<harvestYield>6</harvestYield>
@@ -18,7 +18,7 @@
 				<li>ISA_AlchemycalAgriculture</li>
 			</sowResearchPrerequisites>
 		</value>
-	</Operation>
+	</Operation>	-->
 
 <!-- Astragalus -->
   
@@ -67,7 +67,7 @@
 
 <!-- Glowstool -->
   
-  <Operation Class="PatchOperationReplace">
+<!--  <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Glowstool"]/plant/harvestedThingDef</xpath>
 		<value>
 			<harvestedThingDef>ISA_RawGlowstool</harvestedThingDef>
@@ -100,6 +100,6 @@
 				<li>ISA_AlchemycalAgriculture</li>
 			</sowResearchPrerequisites>
 		</value>
-	</Operation>
+	</Operation>	-->
 
 </Patch>
