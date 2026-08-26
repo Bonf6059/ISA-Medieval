@@ -13,6 +13,26 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
+		<ingestible>
+    		<foodType>Processed</foodType>
+			<nurseable>true</nurseable>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.21,0,0.05)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Apply {0}</ingestCommandString>
+			<ingestReportString>Applying {0}.</ingestReportString>
+			<preferability>NeverForNutrition</preferability>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+				<hediffDef>ISA_High_SagewickBalm</hediffDef>
+				<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
 	</ThingDef>
 
 <!-- =============== Preil =============== -->
