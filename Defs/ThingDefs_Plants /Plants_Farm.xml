@@ -361,13 +361,13 @@
 			<visualSizeRange>0.2~0.4</visualSizeRange>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
-			<maxGrowthTemperature>60</maxGrowthTemperature>
+			<maxGrowthTemperature>80</maxGrowthTemperature>
 			<minGrowthTemperature>10</minGrowthTemperature>
 		</plant>
         <comps>
       		<li Class="CompProperties_HeatPusher">
         		<compClass>CompHeatPusherPowered</compClass>
-        		<heatPerSecond>-15</heatPerSecond>
+        		<heatPerSecond>-5</heatPerSecond>
         		<heatPushMinTemperature>20</heatPushMinTemperature>
       		</li>
         </comps>
