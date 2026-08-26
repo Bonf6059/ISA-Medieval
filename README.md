@@ -16,6 +16,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Made sleetherb more resistant to heat and sagewick to cold
 - Added new potion that lower psy sensitivity and consciusnes
 - Removed plantable raflesia and glowstool
+- Modified alchemical mushes recipes
   
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
