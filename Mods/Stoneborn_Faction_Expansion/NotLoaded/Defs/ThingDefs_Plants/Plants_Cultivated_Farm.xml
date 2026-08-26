@@ -109,7 +109,6 @@
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
-				<li>Decorative</li>
 			</sowTags>
 			<minGrowthTemperature>-25</minGrowthTemperature>
 			<maxGrowthTemperature>30</maxGrowthTemperature>
