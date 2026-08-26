@@ -100,6 +100,35 @@
 		
       </stages>
   </HediffDef>
+
+<!-- Sleetherb Balm -->
+	
+	<ThingDef ParentName="DrugBase" Name="ISA_Balms">
+		<defName>ISA_SleetherbBalm</defName>
+		<label>sleetherb balm</label>
+		<description>A concentrated mixture of sleetherb essence. It leaves a cool sensation on the skin, helping with high temperatures and pain.</description>
+		<possessionCount>3</possessionCount>
+		<graphicData>
+			<texPath>Items/Resources/Drugs/SleetherbBalm/SleetherbBalm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<Mass>0.25</Mass>
+			<Flammability>1.3</Flammability>
+			<DeteriorationRate>6</DeteriorationRate>
+			<WorkToMake>400</WorkToMake>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+	</ThingDef>
 	
 </Defs>
 
