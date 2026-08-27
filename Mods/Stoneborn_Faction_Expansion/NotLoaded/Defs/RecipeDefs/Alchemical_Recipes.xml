@@ -20,15 +20,34 @@
 				</filter>
 				<count>15</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+						<li>ISA_Mindwort</li>
+						<li>ISA_FlyAgaric</li>
+						<li>ISA_Poppy</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>ISA_RawSagewick</li>
+				<li>MedicineHerbal</li>
+				<li>ISA_Mindwort</li>
+				<li>ISA_FlyAgaric</li>
+				<li>ISA_Poppy</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>ISA_RawSagewick</li>
+				<li>MedicineHerbal</li>
+				<li>ISA_Mindwort</li>
+				<li>ISA_FlyAgaric</li>
+				<li>ISA_Poppy</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
