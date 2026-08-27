@@ -8,7 +8,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add Tea made from herbs that increase mood +2; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add new clothings texture in the misc apparel
-- Fix texture of barrel when Berry wine is being made, it is missing
+- Verificare se la texture del fermenting barrel funziona correttamente quando produce roba, se funziona bisogna andare in BrewKettle, StewPot, Crab Bay e rimuovere la dicitura "filled" da "<filledGraphicSuffix>" cosi si possono eliminare tutte le texture "_filled" da queste strutture perchè tanto non c'è differenza tra la texture normale e la filled
   
 # Old updates
 
@@ -19,6 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Removed plantable raflesia and glowstool
 - Modified alchemical mushes recipes
 - Sagewick and sleetherb are able to change temperature of rooms
+- Fixed fermenting barrel texture
   
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
