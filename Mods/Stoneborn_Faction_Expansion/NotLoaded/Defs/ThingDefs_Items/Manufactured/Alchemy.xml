@@ -54,6 +54,7 @@
     		<statOffsets>
             	<ComfyTemperatureMin>-10</ComfyTemperatureMin>
     		</statOffsets>
+			<painFactor>0.95</painFactor>
         </li>
       </stages>
   </HediffDef>
