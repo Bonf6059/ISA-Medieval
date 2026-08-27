@@ -258,6 +258,39 @@
 			<ISA_Silvarn>2</ISA_Silvarn>
 		</products>
 	</RecipeDef>
+
+<!-- Sleetherb balm -->
+	
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_SleetherbBalm</defName>
+		<label>make sleetherb balm</label>
+		<description>Make sleetherb balm.</description>
+		<jobString>Making sleetherb balm.</jobString>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawHerb</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawHerb</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_SleetherbBalm>3</ISA_SleetherbBalm>
+		</products>
+	</RecipeDef>
 	
 <!-- =============== Brew Kettle =============== -->
 
