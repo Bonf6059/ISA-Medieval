@@ -149,6 +149,30 @@
 		</comps>
 		<allowedArchonexusCount>10</allowedArchonexusCount>
 	</ThingDef>
+
+  <HediffDef>
+    <defName>ISA_High_SleetherbBalm</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>sleetherb balm</label>
+    <description>A greenish blue balm made from sleetherb.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>	<!-- 24h / severityPerDay = how many hours it lasts -->
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+    	<li>
+    		<statOffsets>
+            	<ComfyTemperatureMax>10</ComfyTemperatureMax>
+    		</statOffsets>
+        </li>
+      </stages>
+  </HediffDef>
 	
 </Defs>
 
