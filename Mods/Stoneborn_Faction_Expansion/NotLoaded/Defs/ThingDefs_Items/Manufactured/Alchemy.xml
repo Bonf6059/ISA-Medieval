@@ -35,6 +35,30 @@
 		</ingestible>
 	</ThingDef>
 
+  <HediffDef>
+    <defName>ISA_High_SagewickBalm</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>sagewick balm</label>
+    <description>A reddish orange balm made from sagewick.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>	<!-- 24h / severityPerDay = how many hours it lasts -->
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+    	<li>
+    		<statOffsets>
+            	<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+    		</statOffsets>
+        </li>
+      </stages>
+  </HediffDef>
+	
 <!-- =============== Preil =============== -->
 	
 	<ThingDef ParentName="ISA_AlchemyMushBase">
@@ -108,16 +132,16 @@
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
-      <stages>
-        <li>
-	        <statOffsets>
-            <PsychicSensitivity>-0.75</PsychicSensitivity>
-          </statOffsets>
-          <capMods>
-				    <li>
-					    <capacity>Consciousness</capacity>
-					    <offset>-0.10</offset>
-				    </li>
+    <stages>
+    	<li>
+	    	<statOffsets>
+        		<PsychicSensitivity>-0.75</PsychicSensitivity>
+        	</statOffsets>
+          	<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>-0.10</offset>
+				</li>
         	</capMods>
         </li>
       </stages>
