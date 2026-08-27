@@ -48,6 +48,11 @@
         		<thingDef>ISA_GalixPill</thingDef>
         		<countRange>5~20</countRange>
       		</li>
+
+			<li Class="StockGenerator_SingleDef">
+        		<thingDef>ISA_SleetherbBalm</thingDef>
+        		<countRange>7~24</countRange>
+      		</li>
 			
 			<li Class="StockGenerator_SingleDef">
         		<thingDef>ISA_Paregoric</thingDef>
