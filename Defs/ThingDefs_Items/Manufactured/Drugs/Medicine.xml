@@ -169,6 +169,7 @@
     		<statOffsets>
             	<ComfyTemperatureMax>10</ComfyTemperatureMax>
     		</statOffsets>
+			<painFactor>0.95</painFactor>
         </li>
       </stages>
   </HediffDef>
