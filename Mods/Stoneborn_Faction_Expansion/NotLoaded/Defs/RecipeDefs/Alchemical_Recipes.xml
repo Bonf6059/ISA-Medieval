@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+<!-- =============== Alchemy Bench =============== -->
+	
+<!-- Sagewick balm -->
+	
+	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<defName>ISA_Make_SagewickBalm</defName>
+		<label>make sagewick balm</label>
+		<description>Make sagewick balm.</description>
+		<jobString>Making sagewick balm.</jobString>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ISA_RawSagewick</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ISA_RawSagewick</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ISA_SagewickBalm>3</ISA_SagewickBalm>
+		</products>
+	</RecipeDef>
 	
 <!-- =============== Brew Kettle =============== -->
 
