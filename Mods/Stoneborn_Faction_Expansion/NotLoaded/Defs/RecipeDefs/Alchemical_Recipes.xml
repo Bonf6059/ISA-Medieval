@@ -51,7 +51,7 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_SagewickBalm>3</ISA_SagewickBalm>
+			<ISA_SagewickBalm>5</ISA_SagewickBalm>
 		</products>
 	</RecipeDef>
 	
