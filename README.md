@@ -21,6 +21,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Sagewick and sleetherb are able to change temperature of rooms
 - Fixed fermenting barrel texture
 - Added Sagewick and Sleetherb balms
+- Updated alchemist trader
   
 24/08/2026 - "Optimization is the name of the game"
 - Reorganized files
