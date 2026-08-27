@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!-- Rafflesia -->
-
-<!--	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Plant_Rafflesia"]/plant</xpath>
-		<value>
-			<harvestYield>6</harvestYield>
-			<harvestedThingDef>ISA_RafflesiaLeaves</harvestedThingDef>
-			<harvestWork>300</harvestWork>
-			<harvestTag>Standard</harvestTag>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-			</sowTags>
-			<sowResearchPrerequisites Inherit="False">
-				<li>ISA_AlchemycalAgriculture</li>
-			</sowResearchPrerequisites>
-		</value>
-	</Operation>	-->
-
 <!-- Astragalus -->
   
 	<Operation Class="PatchOperationAdd">
@@ -64,42 +45,5 @@
 			</sowResearchPrerequisites>
 		</value>
 	</Operation>
-
-<!-- Glowstool -->
-  
-<!--  <Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Glowstool"]/plant/harvestedThingDef</xpath>
-		<value>
-			<harvestedThingDef>ISA_RawGlowstool</harvestedThingDef>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Glowstool"]/plant/harvestYield</xpath>
-		<value>
-			<harvestYield>8</harvestYield>
-		</value>
-	</Operation>
-
-  <Operation Class="PatchOperationReplace">
-	  <xpath>/Defs/ThingDef[defName="Glowstool"]/plant/growDays</xpath>
-		<value>
-			<growDays>10</growDays>
-	  </value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Glowstool"]/plant</xpath>
-		<value>
-			<sowTags>
-				<li>Ground</li>
-				<li>Hydroponic</li>
-        <li MayRequire="VanillaExpanded.VPlantsEMushrooms">VPE_Mushroom</li>
-			</sowTags>
-			<sowResearchPrerequisites Inherit="False">
-				<li>ISA_AlchemycalAgriculture</li>
-			</sowResearchPrerequisites>
-		</value>
-	</Operation>	-->
 
 </Patch>
