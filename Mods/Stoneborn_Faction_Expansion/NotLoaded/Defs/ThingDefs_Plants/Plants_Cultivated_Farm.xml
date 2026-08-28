@@ -95,7 +95,7 @@
             <fertilitySensitivity>0</fertilitySensitivity>
             <harvestTag>Standard</harvestTag>
             <harvestedThingDef>ISA_RawSagewick</harvestedThingDef>
-            <harvestYield>20</harvestYield>
+            <harvestYield>10</harvestYield>
             <topWindExposure>0</topWindExposure>
             <growDays>4</growDays>
             <cavePlantWeight>0</cavePlantWeight>
