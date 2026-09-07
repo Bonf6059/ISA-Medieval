@@ -15,7 +15,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Moved sagewick and Alraun to MOD folder
 - Made sleetherb more resistant to heat and sagewick to cold
 - Added new potion that lower psy sensitivity and consciusnes
-- Removed plantable raflesia and glowstool
+- Removed plantable raflesia and changes made to glowstool (stats and what it drops)
 - Modified alchemical mushes recipes
 - Sagewick and sleetherb are able to change temperature of rooms
 - Fixed fermenting barrel texture
