@@ -253,7 +253,7 @@
 	
 	<ThingDef ParentName="BuildingBase">
     	<defName>ISA_BrewKettle</defName>
-    	<label>brewing kettle</label>
+    	<label>distillery</label>
     	<description>A rustic brew kettle used to brew anything that comes to mind, this one looks like it has been modified to make alchemycal concoction.</description>
     	<drawerType>MapMeshAndRealTime</drawerType>
     	<graphicData>
