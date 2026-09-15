@@ -16,7 +16,7 @@
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<ingestible>
-			<preferability>MealLavish</preferability>
+			<preferability>MealFine</preferability>
 		</ingestible>
 
 	</ThingDef>
