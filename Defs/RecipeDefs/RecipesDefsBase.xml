@@ -14,20 +14,13 @@
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<recipeUsers>
 			<li>ISA_AlchemyTable</li>
-			<li>DrugLab</li>
 		</recipeUsers>
 		<researchPrerequisites>
 			<li>ISA_DrugsMaking</li>
 		</researchPrerequisites>		
 	</RecipeDef>
 
-	<RecipeDef Name="ISA_Make_AlchemyTable" Abstract="True">
-		<recipeUsers>
-			<li>ISA_AlchemyTable</li>
-		</recipeUsers>	
-	</RecipeDef>
-
-  	<RecipeDef Name="ISA_Make_DrugLab" Abstract="True">
+  	<RecipeDef ParentName="ISA_Make_DrugAlchemy" Name="ISA_Make_DrugLab" Abstract="True">
 		<recipeUsers>
 			<li>DrugLab</li>
 		</recipeUsers>
