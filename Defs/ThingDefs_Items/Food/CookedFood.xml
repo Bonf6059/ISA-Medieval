@@ -23,7 +23,7 @@
 
 	<!-- Cooked Soup -->
 	
-	<ThingDef ParentName="MealCooked">
+	<!--<ThingDef ParentName="MealCooked">
 		<defName>ISA_CookedSoup</defName>
 		<label>soup</label>
 		<description>A creamy soup made from finely pureed vegetables and a light assortment of spices.</description>
@@ -42,6 +42,6 @@
 			<ingestSound>Ingest_Drink</ingestSound>
 			<optimalityOffsetHumanlikes>17</optimalityOffsetHumanlikes>
 		</ingestible>
-	</ThingDef>
+	</ThingDef>-->
 
 </Defs>  
