@@ -296,7 +296,7 @@
 	<ThingDef ParentName="ISA_1X3WorkbenchBase">
 		<defName>ISA_AlchemyTable</defName>
 		<label>herbalist's table</label>
-		<description>A heavy table, secured with a layer of thick leather. Stocked with all sorts of thingamajigs, it’s useless to uneducated mind whilst perfectly functional for an adept herbalist. It’s everything an aspiring healer could wish for to mix ingredients and prepare oddly specific reagents.</description>
+		<description>A heavy table, secured with a layer of thick leather. Stocked with all sorts of thingamajigs, it's useless to an uneducated mind whilst perfectly functional for an adept herbalist. Use this to prepare basic herbal remedies, medicines, and potions.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Building/Production/AlchemyTable/AlchemyTable</texPath>
