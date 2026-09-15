@@ -59,7 +59,7 @@
 
 	<!-- Preil Mush recipe -->
 
-		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_PreilMush</defName>
 		<label>make preil mush</label>
 		<description>Make preil mush mush.</description>
