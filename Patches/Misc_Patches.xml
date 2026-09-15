@@ -11,14 +11,14 @@
 	</Operation>
 
 <!-- Change tech level of druglab to medieval -->
-  
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="DrugLab"]/techLevel</xpath>
-		<value>
-			<techLevel>
-				<li>Medieval</li>
-			<techLevel>
-		</value>
-	</Operation>	
+	
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DrugLab"]/costList/li[defName="ComponentIndustrial"]</xpath> 
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="DrugLab"]/costList/li[defName="ComponentIndustrial"]</xpath>
+    </match>
+  </Operation>
+
+
 	
 </Patch>
