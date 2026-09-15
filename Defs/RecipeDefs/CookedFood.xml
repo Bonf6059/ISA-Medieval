@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="CookMealBase">
+		<defName>ISA_MakeStew</defName>
+		<label>Cook stew</label>
+		<description>Mix raw ingredients and water to make stew.</description>
+		<jobString>Cooking stew.</jobString>
+    	<workAmount>200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+			    <categories>
+				    <li>MeatRaw</li>
+				    <li>PlantFoodRaw</li>
+			    </categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			  <categories>
+				   <li>MeatRaw</li>
+				   <li>PlantFoodRaw</li>
+			  </categories>
+		</fixedIngredientFilter>
+		<products>
+			<ISA_CookedStew>5</ISA_CookedStew>
+		</products>
+		<researchPrerequisites>
+			<li>ISA_AdvancedCookingResearch</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>
