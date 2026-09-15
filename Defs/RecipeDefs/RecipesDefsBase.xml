@@ -5,21 +5,28 @@
 
   <!-- Alchemy -->
   
-  <RecipeDef Name="ISA_Make_DrugAlchemy" Abstract="True">
+  	<RecipeDef Name="ISA_Make_DrugAlchemy" Abstract="True">
 		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 		<workSkill>Intellectual</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
-		<recipeUsers>
-			<!-- <li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_AlchemicalWorkbench</li> -->
-			<li>DrugLab</li>
-			<li>ISA_AlchemyTable</li>
-		</recipeUsers>
 		<researchPrerequisites>
 			<li>ISA_DrugsMaking</li>
 		</researchPrerequisites>		
+	</RecipeDef>
+
+	<RecipeDef Name="ISA_Make_AlchemyTable" Abstract="True">
+		<recipeUsers>
+			<li>ISA_AlchemyTable</li>
+		</recipeUsers>	
+	</RecipeDef>
+
+  	<RecipeDef Name="ISA_Make_DrugLab" Abstract="True">
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
 	</RecipeDef>
 
   <!-- Wine Wort; Alcohol -->
