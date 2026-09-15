@@ -12,6 +12,10 @@
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>1</targetCountAdjustment>
+		<recipeUsers>
+			<li>ISA_AlchemyTable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
 		<researchPrerequisites>
 			<li>ISA_DrugsMaking</li>
 		</researchPrerequisites>		
