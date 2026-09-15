@@ -9,5 +9,16 @@
 			<li>ISA_Coal</li>
 		</value>
 	</Operation>
+
+<!-- Change tech level of druglab to medieval -->
+  
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DrugLab"]/techLevel</xpath>
+		<value>
+			<techLevel>
+				<li>Medieval</li>
+			<techLevel>
+		</value>
+	</Operation>	
 	
 </Patch>
