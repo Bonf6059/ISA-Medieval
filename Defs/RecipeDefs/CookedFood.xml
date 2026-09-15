@@ -10,10 +10,10 @@
 		<ingredients>
 			<li>
 				<filter>
-			    <categories>
-				    <li>MeatRaw</li>
-				    <li>PlantFoodRaw</li>
-			    </categories>
+			    	<categories>
+				    	<li>MeatRaw</li>
+				    	<li>PlantFoodRaw</li>
+			    	</categories>
 				</filter>
 				<count>5</count>
 			</li>
