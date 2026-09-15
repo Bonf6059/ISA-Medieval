@@ -10,7 +10,7 @@
 		<label>make herbal extract</label>
 		<description>Make herbal extract.</description>
 		<jobString>Making herbal extract.</jobString>
-		<workAmount>600</workAmount>
+		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -41,7 +41,7 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ISA_HerbalExtract>2</ISA_HerbalExtract>
+			<ISA_HerbalExtract>3</ISA_HerbalExtract>
 		</products>
 	</RecipeDef>
 
@@ -141,7 +141,7 @@
 		<label>make galix pill</label>
 		<description>Make galix pill.</description>
 		<jobString>Making galix pill.</jobString>
-		<workAmount>150</workAmount>
+		<workAmount>250</workAmount>
 		<ingredients>
 			<li>
 				<filter>
