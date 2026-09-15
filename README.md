@@ -9,7 +9,6 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add new clothings texture in the misc apparel
 - Change the texture of bandages to make them hot/cold patches. They let you heal like herbal medicine but give you a heddiff that boosts temperature; they can be made with cotton or hardweave and sagewick/sleetherb
-- Make sure that drug lab is medieval tech level
   
 # Old updates
 
@@ -18,6 +17,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Renamed the label of "brew kettle" to "distillery"
 - Renamed the label of "alchemy table" to "herbalist's table"
 - Split recipes between herbalist table and drug lab
+- Changed drug lab tech level to medieval
 
 25/08/2026
 - Moved sagewick and Alraun to MOD folder
