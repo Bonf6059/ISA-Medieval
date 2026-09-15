@@ -222,12 +222,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<comps>
-			<li Class="CompProperties_CauseHediff_Apparel">
-				<hediff>ISA_SigilMood</hediff>
-				<part>Body</part>
-			</li>
-		</comps>
 	</ThingDef>
 
 </Defs>
