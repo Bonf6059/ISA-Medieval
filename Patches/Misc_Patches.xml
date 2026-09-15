@@ -10,13 +10,15 @@
 		</value>
 	</Operation>
 
-<!-- Change tech level of druglab to medieval -->
+<!-- Removed components from druglab to medieval -->
 	
-<Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="DrugLab"]/costList/li[defName="ComponentIndustrial"]</xpath> 
-    <match Class="PatchOperationRemove">
-      <xpath>Defs/ThingDef[defName="DrugLab"]/costList/li[defName="ComponentIndustrial"]</xpath>
-    </match>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="DrugLab"]/costList</xpath>
+	<value>
+		<costList>
+    		<Steel>75</Steel>
+    	</costList>
+	</value>
   </Operation>
 
 
