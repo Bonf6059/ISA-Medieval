@@ -16,6 +16,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Renamed the label of "alchemy table" to "herbalist's table"
 - Split recipes between herbalist table and drug lab
 - Changed drug lab tech level to medieval
+- Removed patchwork shirt
+- Added mood buff to faction's chain mail armors
 
 25/08/2026
 - Moved sagewick and Alraun to MOD folder
