@@ -80,7 +80,7 @@
 	
 <!-- Crivice Scent -->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+	<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_CriviceScent</defName>
 		<label>make crivice scent</label>
 		<description>Make crivice scent.</description>
@@ -201,7 +201,7 @@
 
 <!-- Silvarn -->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+	<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_Silvarn</defName>
 		<label>make silvarn</label>
 		<description>Make silvarn.</description>
@@ -315,7 +315,7 @@
 
 	<!-- Paregoric Mush-->
 
-		<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+		<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_ParegoricMush</defName>
 		<label>make paregoric mush</label>
 		<description>Make paregoric mush.</description>
@@ -368,7 +368,7 @@
 	
 <!-- Rathix mush-->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+	<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_RathixMush</defName>
 		<label>make rathix mush</label>
 		<description>Make rathix mush.</description>
@@ -422,7 +422,7 @@
 
 <!-- Dravik Mush -->
 
-	<RecipeDef ParentName="ISA_Make_DrugAlchemy">
+	<RecipeDef ParentName="ISA_Make_DrugLab">
 		<defName>ISA_Make_DravikMush</defName>
 		<label>make dravik mush</label>
 		<description>Make dravik mush.</description>
