@@ -21,6 +21,8 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Added mood buff to faction's chain mail armors
 - Removed stew pot and soup
 - Stew can be cooked at the stove
+- Changed work amount needed to produce Galix pills and herbal extract
+- Boosted output of herbal extract
 
 25/08/2026
 - Moved sagewick and Alraun to MOD folder
