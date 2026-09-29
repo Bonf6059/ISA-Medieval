@@ -13,6 +13,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 
 29/09/2026
 - Added compatibility for when Stoneborn_Faction_Expansion is loaded
+- Lowered MedicalQualityMax and MedicalPotency of ISA_HerbalExtract from 0.85 to 0.7
 
 15/09/2026
 - Added bandages textures
