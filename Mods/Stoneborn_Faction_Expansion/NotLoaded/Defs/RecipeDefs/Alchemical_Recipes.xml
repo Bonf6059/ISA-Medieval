@@ -110,17 +110,4 @@
 		</products>
 	</RecipeDef>
 
-<!-- Preil Mush Process -->
-  
-	<ProcessorFramework.ProcessDef ParentName="ISA_BrewKettleBase">
-		<defName>ISA_MushInPreil</defName>
-		<thingDef>ISA_Preil</thingDef>
-		<ingredientFilter>
-			<thingDefs>
-				<li>ISA_PreilMush</li>
-			</thingDefs>
-		</ingredientFilter>
-		<efficiency>3</efficiency>	<!-- (efficiency) = amount of output for each unit of input -->
-	</ProcessorFramework.ProcessDef>
-
 </Defs>
