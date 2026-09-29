@@ -361,7 +361,7 @@
 		<li>
 			<label>drank dravik</label>
 			<description>My heart is racing, my muscles are on fire. What was in that thing!</description>
-			<baseMoodEffect>-7</baseMoodEffect>
+			<baseMoodEffect>-9</baseMoodEffect>
 		</li>
 		</stages>
 	</ThoughtDef>
