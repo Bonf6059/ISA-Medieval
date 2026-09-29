@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Plant_Alraun"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
+    </value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="DV_Plant_Alraun"]/plant/growDays</xpath>
+	  <value>
+		  <growDays>7</growDays>
+	  </value>
+  </Operation>
+
+<!-- ==== -->
+  
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Plant_Cinderwort"]/plant</xpath>
+		<value>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<minGrowthTemperature>-25</minGrowthTemperature>
+			<maxGrowthTemperature>30</maxGrowthTemperature>
+        	<sowResearchPrerequisites Inherit="False">
+				<li>ISA_AlchemycalAgriculture</li>
+			</sowResearchPrerequisites>
+    </value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="DV_Plant_Cinderwort"]/plant/growDays</xpath>
+	  <value>
+		  <growDays>6</growDays>
+	  </value>
+  </Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Plant_Cinderwort"]/comps</xpath>
+		<value>
+      <li Class="CompProperties_HeatPusher">
+      	<compClass>CompHeatPusherPowered</compClass>
+      	<heatPerSecond>5</heatPerSecond>
+      	<heatPushMaxTemperature>25</heatPushMaxTemperature>
+      </li>
+    </value>
+	</Operation>
+
+</Patch>
