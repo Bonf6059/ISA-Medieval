@@ -5,20 +5,10 @@
 		<xpath>Defs/TraderKindDef[defName="ISA_Caravan_Medieval_Alchemist"]/stockGenerators</xpath>
 		<value>
 			
-      <li Class="StockGenerator_SingleDef">
-				<thingDef>ISA_RawSagewick</thingDef>
+      		<li Class="StockGenerator_SingleDef">
+				<thingDef>DV_RawCinderwort</thingDef>
 				<countRange>50~234</countRange>
-			</li>
-			
-      <li Class="StockGenerator_SingleDef">
-      	<thingDef>ISA_SagewickBalm</thingDef>
-      	<countRange>7~24</countRange>
-      </li>
-
-      <li Class="StockGenerator_SingleDef">
-      	<thingDef>ISA_Preil</thingDef>
-      	<countRange>7~24</countRange>
-      </li>
+	  		</li>
 
 		</value>
 	</Operation>
