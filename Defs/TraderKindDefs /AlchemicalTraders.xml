@@ -69,6 +69,17 @@
         		<countRange>7~24</countRange>
       		</li>
 
+			<li Class="StockGenerator_SingleDef">
+      			<thingDef>ISA_SagewickBalm</thingDef>
+      			<countRange>7~24</countRange>
+      		</li>
+
+      		<li Class="StockGenerator_SingleDef">
+      			<thingDef>ISA_Preil</thingDef>
+      			<countRange>7~24</countRange>
+      		</li>
+
+
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 				<countRange>2~4</countRange>
