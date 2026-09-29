@@ -432,10 +432,10 @@
     </comps>
       <stages>
         <li>
-			<painFactor>0.75</painFactor>
+			<painFactor>0.85</painFactor>
 			<statOffsets>
-				<InjuryHealingFactor>0.25</InjuryHealingFactor>
-				<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
+				<InjuryHealingFactor>0.3</InjuryHealingFactor>
+				<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
 			</statOffsets>
         </li>
 		
