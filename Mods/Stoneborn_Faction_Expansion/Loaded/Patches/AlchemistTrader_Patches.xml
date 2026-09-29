@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName="ISA_Caravan_Medieval_Alchemist"]/stockGenerators</xpath>
+		<value>
+			
+      <li Class="StockGenerator_SingleDef">
+				<thingDef>ISA_RawSagewick</thingDef>
+				<countRange>50~234</countRange>
+			</li>
+			
+      <li Class="StockGenerator_SingleDef">
+      	<thingDef>ISA_SagewickBalm</thingDef>
+      	<countRange>7~24</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+      	<thingDef>ISA_Preil</thingDef>
+      	<countRange>7~24</countRange>
+      </li>
+
+		</value>
+	</Operation>
+	
+</Patch>
