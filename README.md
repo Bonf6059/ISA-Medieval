@@ -19,7 +19,7 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
 - Renamed the label of "brew kettle" to "distillery"
 - Renamed the label of "alchemy table" to "herbalist's table"
 - Split recipes between herbalist table and drug lab
-- Changed drug lab tech level to medieval
+- Changed drug lab building materials
 - Removed patchwork shirt
 - Added mood buff to faction's chain mail armors
 - Removed stew pot and soup
