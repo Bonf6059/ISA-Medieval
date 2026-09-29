@@ -456,64 +456,6 @@
 		</li>
 		</stages>
 	</ThoughtDef>
-
-<!-- Sagewick Balm -->
-	
-	<ThingDef ParentName="ISA_Balms">
-		<defName>ISA_SagewickBalm</defName>
-		<label>sagewick balm</label>
-		<description>A concentrated mixture of sagewick essence. It leaves a warm sensation on the skin, helping with cold temperatures and pain.</description>
-		<possessionCount>3</possessionCount>
-		<graphicData>
-			<texPath>Items/Resources/Misc/SagewickBalm</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<ingestible>
-    		<foodType>Processed</foodType>
-			<nurseable>true</nurseable>
-			<ingestHoldOffsetStanding>
-				<northDefault>
-					<offset>(0.21,0,0.05)</offset>
-				</northDefault>
-			</ingestHoldOffsetStanding>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<ingestCommandString>Apply {0}</ingestCommandString>
-			<ingestReportString>Applying {0}.</ingestReportString>
-			<preferability>NeverForNutrition</preferability>
-			<outcomeDoers>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-				<hediffDef>ISA_High_SagewickBalm</hediffDef>
-				<severity>1.0</severity>
-				</li>
-			</outcomeDoers>
-		</ingestible>
-	</ThingDef>
-
-  <HediffDef>
-    <defName>ISA_High_SagewickBalm</defName>
-    <hediffClass>Hediff_High</hediffClass>
-    <label>sagewick balm</label>
-    <description>A reddish orange balm made from sagewick.</description>
-    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-    <scenarioCanAdd>true</scenarioCanAdd>
-    <maxSeverity>1.0</maxSeverity>
-    <isBad>false</isBad>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.5</severityPerDay>	<!-- 24h / severityPerDay = how many hours it lasts -->
-        <showHoursToRecover>true</showHoursToRecover>
-      </li>
-    </comps>
-    <stages>
-    	<li>
-    		<statOffsets>
-            	<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-    		</statOffsets>
-			<painFactor>0.95</painFactor>
-        </li>
-      </stages>
-  </HediffDef>
 	
 <!-- =============== Preil =============== -->
 	
