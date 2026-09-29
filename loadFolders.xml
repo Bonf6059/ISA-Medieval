@@ -9,6 +9,7 @@
 		<li IfModActive="ISA.RandomPatches,ISA.sbdelights">Mods/Traders/Minerals</li>
 		<li IfModActive="det.halffoot">Mods/HalfFoots</li>
 		<li IfModActive="det.sbcuisine">Mods/StonebornCuisine</li>
+		<li IfModActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/Loaded</li>
 
 		<!-- Mods Not Active -->
 		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2/NotLoaded</li>
