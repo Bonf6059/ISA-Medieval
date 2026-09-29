@@ -11,6 +11,9 @@ Just a bunch of patches and addons to various mods and some medieval stuff.
   
 # Old updates
 
+29/09/2026
+- Added compatibility for when Stoneborn_Faction_Expansion is loaded
+
 15/09/2026
 - Added bandages textures
 - Renamed the label of "brew kettle" to "distillery"
