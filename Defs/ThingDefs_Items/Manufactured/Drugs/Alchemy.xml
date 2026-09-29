@@ -662,34 +662,6 @@
       <li>RewardStandardCore</li>
     </thingSetMakerTags>
   </ThingDef>
-  
-  <RecipeDef>
-    <defName>AdministerCriviceScent</defName>
-    <label>administer crivice scent</label>
-    <description>Administer a crivice scent.</description>
-    <workerClass>Recipe_AdministerUsableItem</workerClass>
-    <jobString>Administering crivice scent.</jobString>
-    <targetsBodyPart>false</targetsBodyPart>
-    <anesthetize>false</anesthetize>
-    <workAmount>600</workAmount>
-    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
-    <surgeryOutcomeEffect IsNull="True"/>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ISA_CriviceScent</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>ISA_CriviceScent</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-  </RecipeDef>
 
 <!--  <ThingDef ParentName="ISA_CriviceScentBase">
     <defName>MechSerumResurrector</defName>
