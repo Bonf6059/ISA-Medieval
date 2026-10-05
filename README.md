@@ -9,6 +9,8 @@ Now with a wiki! (29/09/26)
 - Add Tea made from herbs that increase mood +2; it gives the heddif "Warm, relaxing feeling" and it let you withstand colder temperatures
 - Add desert specific stuff like a new medicine made with aloe vera and the plant aloe vera (texture from vanilla expanded plants more plants)
 - Add bandages, the texture is already there
+- Make Alraun liqueur, expensive, requires 5 alraun + 1/2 honey if ISA_Hornet/Jelly if Stoneborn cuisine, 3 mindwort/sleetherb to make 1 bottle description: 
+Originally crafted by expert brewers to honor warriors and psycasters-hunters who defended the realm from psycasters. Alraun Royale was a drink that soothed the mind after battle and protected against lingering psychic echoes. Over generations, however, the recipe has been bastardised. Modern bottles are far weaker than the originals. Still, nobles and wealthy merchants prize it as a status symbol, serving it at grand dinners to impress guests and demonstrate their refined taste. Few drinkers today understand its true purpose. Most simply enjoy the smooth flavor and the prestige of possessing such a rare vintage. The irony is not lost on those who remember what it once meant.
 
   
 # Old updates
