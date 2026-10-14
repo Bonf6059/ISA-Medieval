@@ -2,7 +2,6 @@
 	<v1.6>
 		<li>/</li>
 		<!--<li>1.6</li>-->	
-
 		<!-- Mods Active -->
 		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
 		<li IfModActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2</li>
@@ -10,11 +9,24 @@
 		<li IfModActive="det.halffoot">Mods/HalfFoots</li>
 		<li IfModActive="det.sbcuisine">Mods/StonebornCuisine</li>
 		<li IfModActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/Loaded</li>
-
 		<!-- Mods Not Active -->
 		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2/NotLoaded</li>
 		<li IfModNotActive="det.sbcuisine">Mods/StonebornCuisine/NotLoaded</li>
 		<li IfModNotActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/NotLoaded</li>
-		
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<!--<li>1.6</li>-->	
+		<!-- Mods Active -->
+		<li IfModActive="Ludeon.RimWorld.Ideology">Mods/Ideology</li>
+		<li IfModActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2</li>
+		<li IfModActive="ISA.RandomPatches,ISA.sbdelights">Mods/Traders/Minerals</li>
+		<li IfModActive="det.halffoot">Mods/HalfFoots</li>
+		<li IfModActive="det.sbcuisine">Mods/StonebornCuisine</li>
+		<li IfModActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/Loaded</li>
+		<!-- Mods Not Active -->
+		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2/NotLoaded</li>
+		<li IfModNotActive="det.sbcuisine">Mods/StonebornCuisine/NotLoaded</li>
+		<li IfModNotActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/NotLoaded</li>
+	</v1.7>
 </loadFolders>
