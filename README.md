@@ -15,6 +15,9 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
   
 # Old updates
 
+14/10/2026
+- Added 1.7 support
+
 29/09/2026
 - Added compatibility for when Stoneborn_Faction_Expansion is loaded
 - Lowered MedicalQualityMax and MedicalPotency of ISA_HerbalExtract from 0.85 to 0.7
