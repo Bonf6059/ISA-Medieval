@@ -114,7 +114,7 @@
 
 <!-- Rustic cooking table from medieval overhaul -->
   
-	<ThingDef ParentName="ISA_1X3WorkbenchBase">
+<!--	<ThingDef ParentName="ISA_1X3WorkbenchBase">
 		<defName>ISA_RusticCookingTable</defName>
 		<label>rustic cooking table</label>
 		<description>A wood-fueled oven with an attached countertop for preparing meals.</description>
@@ -139,9 +139,9 @@
 		<costStuffCount>20</costStuffCount>
 		<stuffCategories>
 			<li>Stony</li>
-		</stuffCategories>
+		</stuffCategories>-->
     <!--inherit recipes for mod compatibility-->
-  		<modExtensions>
+  		<!--<modExtensions>
 			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>FueledStove</li>
@@ -171,7 +171,7 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
 		</building>
-	</ThingDef>
+	</ThingDef>-->
 
 <!-- Mine shaft from medieval overhaul -->
 	<ThingDef ParentName="BuildingBase">
