@@ -148,5 +148,14 @@
             <texPath>Building/Production/ArtTable/TableSculpting</texPath>
         </value>
     </Operation>
+
+    <!-- Replace Vanilla Fueled stove texture -->
+	
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="FueledStove"]/graphicData/texPath</xpath>
+        <value>
+            <texPath>Building/Production/RusticCookingTable/RusticCookingTable</texPath>
+        </value>
+    </Operation>
 	
 </Patch>
