@@ -29,6 +29,9 @@
 		<li>syrchalis.processor.framework</li>
 		<li>Van.Beasts</li>
 	</loadAfter>
+	<!--<incompatibleWith>
+    	<li></li>
+  	</incompatibleWith>-->
 	<packageId>ISA.Medieval</packageId>
 	<description>Just a bunch of patches and addons to various mods and some medieval stuff.</description>
 </ModMetaData>
