@@ -112,67 +112,6 @@
 		<techLevel>Medieval</techLevel>
   </ThingDef>
 
-<!-- Rustic cooking table from medieval overhaul -->
-  
-<!--	<ThingDef ParentName="ISA_1X3WorkbenchBase">
-		<defName>ISA_RusticCookingTable</defName>
-		<label>rustic cooking table</label>
-		<description>A wood-fueled oven with an attached countertop for preparing meals.</description>
-		<thingClass>Building_WorkTable_HeatPush</thingClass>
-		<graphicData>
-			<texPath>Building/Production/RusticCookingTable/RusticCookingTable</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3.5,1.5)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<castEdgeShadows>true</castEdgeShadows>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<costList>
-			<WoodLog>60</WoodLog>
-		</costList>
-		<costStuffCount>20</costStuffCount>
-		<stuffCategories>
-			<li>Stony</li>
-		</stuffCategories>-->
-    <!--inherit recipes for mod compatibility-->
-  		<!--<modExtensions>
-			<li Class="VEF.Buildings.RecipeInheritanceExtension">
-				<inheritRecipesFrom>
-					<li>FueledStove</li>
-				</inheritRecipesFrom>
-     		</li>
-		</modExtensions>
-		<comps>
-			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>160.0</fuelConsumptionRate>
-				<fuelCapacity>50.0</fuelCapacity>
-				<fuelFilter>
-					<thingDefs>
-						<li>WoodLog</li>
-						<li>ISA_Coal</li>
-					</thingDefs>
-				</fuelFilter>
-				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-			</li>
-			<li Class="CompProperties_HeatPusher">
-				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>4</heatPerSecond>
-			</li>
-		</comps>
-		<building>
-			<isMealSource>true</isMealSource>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
-		</building>
-	</ThingDef>-->
-
 <!-- Mine shaft from medieval overhaul -->
 	<ThingDef ParentName="BuildingBase">
 		<defName>ISA_MineShaft</defName>
