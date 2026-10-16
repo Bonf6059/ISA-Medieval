@@ -13,6 +13,7 @@
 		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2/NotLoaded</li>
 		<li IfModNotActive="det.sbcuisine">Mods/StonebornCuisine/NotLoaded</li>
 		<li IfModNotActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/NotLoaded</li>
+		<li IfModNotActive="SereQ.RusticWorkbenches">Mods/RusticWorkbenches/NotLoaded</li>
 	</v1.6>
 	<v1.7>
 		<li>/</li>
@@ -28,5 +29,6 @@
 		<li IfModNotActive="OskarPotocki.VFE.Medieval2">Mods/VFEMedieval2/NotLoaded</li>
 		<li IfModNotActive="det.sbcuisine">Mods/StonebornCuisine/NotLoaded</li>
 		<li IfModNotActive="det.stonebornfaction">Mods/Stoneborn_Faction_Expansion/NotLoaded</li>
+		<li IfModNotActive="SereQ.RusticWorkbenches">Mods/RusticWorkbenches/NotLoaded</li>
 	</v1.7>
 </loadFolders>
