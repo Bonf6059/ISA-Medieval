@@ -182,7 +182,7 @@
 		<description>A concentrated mixture of sagewick essence. It leaves a warm sensation on the skin, helping with cold temperatures and pain.</description>
 		<possessionCount>3</possessionCount>
 		<graphicData>
-			<texPath>Textures/Items/Resources/Drugs/SagewickBalm/SagewickBalm</texPath>
+			<texPath>Items/Resources/Drugs/SagewickBalm/SagewickBalm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
