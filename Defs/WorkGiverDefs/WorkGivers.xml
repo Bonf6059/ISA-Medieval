@@ -18,7 +18,7 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 
-	<WorkGiverDef>
+	<!--<WorkGiverDef>
 		<defName>ISA_DoBillsCookRusticCookingTable</defName>
 		<label>cook meals at cooking table</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
@@ -33,6 +33,6 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
-	</WorkGiverDef>
+	</WorkGiverDef>-->
 	
 </Defs>
