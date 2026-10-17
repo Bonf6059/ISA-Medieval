@@ -13,7 +13,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Brewery"]/graphicData/texPath</xpath>
         <value>
-            <texPath>Building/Production/Brewery/TableBreweryStuffed</texPath>
+            <texPath>Building/Production/BreweryTable/TableBreweryStuffed</texPath>
         </value>
     </Operation>
 
