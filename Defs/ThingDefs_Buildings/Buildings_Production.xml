@@ -259,13 +259,13 @@
 			<li>Leathery</li>
 		</stuffCategories>
     <!--inherit recipes for mod compatibility-->
-  		<modExtensions>
+  		<!--<modExtensions>
 			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>DrugLab</li>
 				</inheritRecipesFrom>
      		</li>
-		</modExtensions>
+		</modExtensions>-->
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<paintable>true</paintable>
