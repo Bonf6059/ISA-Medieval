@@ -16,6 +16,7 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 03/11/2026
 - Removed chain nasal helmet
 - Removed unused textures
+- Fixed patches for stoneborn cuisine
 
 14/10/2026
 - Added 1.7 support
