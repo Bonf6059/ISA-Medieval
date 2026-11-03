@@ -17,6 +17,7 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 - Removed chain nasal helmet
 - Removed unused textures
 - Fixed patches for stoneborn cuisine
+- Changed Roxmont full plate techlevel from neolitich to medieval 
 
 14/10/2026
 - Added 1.7 support
