@@ -155,7 +155,7 @@
 						<li>Building/Furnitures/Beds/SoftBed/Small/SoftBedC</li>
 						<li>Building/Furnitures/Beds/SoftBed/Small/SoftBedD</li>
 					</randomGraphics>
-					<startAsRandom>false</startAsRandom> 
+					<startAsRandom>True</startAsRandom> 
 				</li>
 		</comps>
 		<techLevel>Medieval</techLevel>
@@ -206,7 +206,7 @@
 						<li>Building/Furnitures/Beds/SoftBed/Big/SoftDoubleBedC</li>
 						<li>Building/Furnitures/Beds/SoftBed/Big/SoftDoubleBedD</li>
 					</randomGraphics>
-					<startAsRandom>false</startAsRandom> 
+					<startAsRandom>True</startAsRandom> 
 				</li>
 		</comps>
 		<techLevel>Medieval</techLevel>
@@ -393,7 +393,7 @@
 						<li>Building/Furnitures/Armchair/SoftArmchairC</li>
 						<li>Building/Furnitures/Armchair/SoftArmchairD</li>
 					</randomGraphics>
-					<startAsRandom>false</startAsRandom> 
+					<startAsRandom>True</startAsRandom> 
 				</li>
 		</comps>
 	</ThingDef>
