@@ -13,6 +13,10 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
  
 # Old updates
 
+03/11/2026
+- Removed chain nasal helmet
+- Removed unused textures
+
 14/10/2026
 - Added 1.7 support
 - Removed rustic stove as a separate building and retextured fueled stove (also changed the materials needed to build it)
