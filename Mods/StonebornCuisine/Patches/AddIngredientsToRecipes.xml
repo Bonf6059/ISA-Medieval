@@ -4,21 +4,21 @@
 <!-- Add dwarven milk to Galixpill -->
 
       <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/ingredients/li[2]/filter/thingDefs</xpath>
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" <!--or defName="ISA_Make_GalixPillBulk"-->]/ingredients/li[2]/filter/thingDefs</xpath>
         <value>
           <li>SC_DwarvenMilk</li>
         </value>
       </Operation>
 
       <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/fixedIngredientFilter/thingDefs</xpath>
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" <!--or defName="ISA_Make_GalixPillBulk"-->]/fixedIngredientFilter/thingDefs</xpath>
         <value>
           <li>SC_DwarvenMilk</li>
         </value>
       </Operation>
 
       <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" or defName="ISA_Make_GalixPillBulk"]/defaultIngredientFilter/thingDefs</xpath>
+        <xpath>/Defs/RecipeDef[defName="ISA_Make_GalixPill" <!--or defName="ISA_Make_GalixPillBulk"-->]/defaultIngredientFilter/thingDefs</xpath>
         <value>
           <li>SC_DwarvenMilk</li>
         </value>
