@@ -58,7 +58,7 @@
 						<li>Building/Furnitures/Decorations/Trophy/TrophyC</li>
 						<li>Building/Furnitures/Decorations/Trophy/TrophyD</li>
 					</randomGraphics>
-					<startAsRandom>false</startAsRandom> 
+					<startAsRandom>True</startAsRandom> 
 				</li>
 			</comps>
 	</ThingDef>
