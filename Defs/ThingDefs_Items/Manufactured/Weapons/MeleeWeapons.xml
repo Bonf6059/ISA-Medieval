@@ -76,9 +76,9 @@
 	</modExtensions>
   </ThingDef>
 
-<!-- Ygeia's rod -->
+<!-- Ygeia's rod -->	<!-- I disabled it(and removed the texture that i stole from a greek style retexture)because I didn't like it anymore but it could be usefull as a reference-->
 	
-  <ThingDef ParentName="BasePsychicWeaponMelee">
+<!--  <ThingDef ParentName="BasePsychicWeaponMelee">
     <defName>ISA_YgeiaRod</defName>
     <label>ygeia's rod</label>
     <description>A shaped stick, with two serpents at one end. It is ruomored that only the best craftsman can make this rod. It has intricate decorations, difficult to replicate.</description>
@@ -86,7 +86,6 @@
       <texPath>Items/Weapons/Melee/Misc/ISA_YgeiaRod</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-   <!-- <uiIconScale>1.1</uiIconScale>	-->
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
@@ -151,7 +150,7 @@
 			</workGiverDefs>
 		</li>
 	</modExtensions>
-  </ThingDef>
+  </ThingDef>	-->
 	
 <!-- =========== Axes =========== -->
 	
