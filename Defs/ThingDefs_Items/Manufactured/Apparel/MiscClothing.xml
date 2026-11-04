@@ -142,6 +142,10 @@
 			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+		    <MedicalTendSpeed>0.25</MedicalTendSpeed>
+	  		<MedicalTendQuality>0.1</MedicalTendQuality>
+    	</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Neck</li>
