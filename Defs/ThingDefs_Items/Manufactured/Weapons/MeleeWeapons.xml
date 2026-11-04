@@ -76,7 +76,7 @@
 	</modExtensions>
   </ThingDef>
 
-<!-- Ygeia's rod -->	<!-- I disabled it(and removed the texture that i stole from a greek style retexture)because I didn't like it anymore but it could be usefull as a reference-->
+<!-- Ygeia's rod -->	<!-- I disabled it(and moved the texture in the wip folder)because I didn't like it anymore but it could be usefull as a reference-->
 	
 <!--  <ThingDef ParentName="BasePsychicWeaponMelee">
     <defName>ISA_YgeiaRod</defName>
