@@ -18,7 +18,9 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 - Removed unused textures
 - Fixed patches for stoneborn cuisine
 - Changed Roxmont full plate techlevel from neolitich to medieval
-- Set as True a bunch of radomizeable textures for decorations and furnitures 
+- Set as True a bunch of radomizeable textures for decorations and furnitures
+- Removed Igeya's rod
+- Buffed shamanwear so that it boosts medical tend quality and speed instead of Igeya's rod
 
 14/10/2026
 - Added 1.7 support
