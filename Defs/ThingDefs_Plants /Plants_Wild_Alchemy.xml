@@ -7,8 +7,8 @@
 		<description>A small, delicate herb with pale green leaves and tiny, yellow flowers, often used in crafting strong elixirs due to its potent properties.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>80</wildClusterWeight>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>160</wildClusterWeight>
 			<growDays>10</growDays>
 			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
@@ -24,8 +24,8 @@
 		<description>A vibrant plant with striking red flowers, known for its use in various medicinal and alchemical preparations, often valued for its potent effects.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>80</wildClusterWeight>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>160</wildClusterWeight>
 			<growDays>10</growDays>
 			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
@@ -42,8 +42,8 @@
 		<description>A striking mushroom with a bright red cap adorned with white spots, known for its toxic properties. Despite its danger, it has been used in small doses in traditional remedies and rituals, though caution is always advised.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<plant>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>80</wildClusterWeight>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>160</wildClusterWeight>
 			<growDays>10</growDays>
 			<sowResearchPrerequisites Inherit="False"/>
 			<sowWork Inherit="False"/>
