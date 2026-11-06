@@ -13,6 +13,9 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
  
 # Old updates
 
+06/11/2026
+- Adjusted commonality of wild alchemical plants
+
 03/11/2026
 - Removed chain nasal helmet
 - Removed unused textures
