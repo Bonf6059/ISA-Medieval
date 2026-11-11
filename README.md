@@ -15,6 +15,7 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 
 06/11/2026
 - Adjusted commonality of wild alchemical plants
+- Fatty (sivatherium) milk from ISA.RandomPatches can be used to make cheese
 
 03/11/2026
 - Removed chain nasal helmet
