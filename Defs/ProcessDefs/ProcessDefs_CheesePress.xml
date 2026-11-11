@@ -37,6 +37,7 @@
 		<ingredientFilter>
 			<thingDefs>
 				<li>Milk</li>
+				<li MayRequire="ISA.RandomPatches">SivatheriumMilk</li>
 			</thingDefs>
 		</ingredientFilter>
 	</ProcessorFramework.ProcessDef>
