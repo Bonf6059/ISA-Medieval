@@ -27,7 +27,7 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>1</Mass>
-			<WorkToBuild>10</WorkToBuild>
+			<WorkToBuild>0</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>3</Beauty>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
@@ -93,9 +93,9 @@
 			<texPath>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Ale</texPath>
 		</graphicData>
 
-		<costList Inherit="false">
+		<!--<costList Inherit="false">
 			<Beer>1</Beer>
-		</costList>
+		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
@@ -111,9 +111,9 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 
-		<costList Inherit="false">
+		<!--<costList Inherit="false">
 			<ISA_Wine>1</ISA_Wine>
-		</costList>
+		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
@@ -129,9 +129,9 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 
-		<costList Inherit="false">
+		<!--<costList Inherit="false">
 			<ISA_Wine_Berry>1</ISA_Wine_Berry>
-		</costList>
+		</costList>-->
 	</ThingDef>
 
 	<!-- Scribe Tools -->
@@ -147,10 +147,9 @@
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/StackPaper</texPath>
 		</graphicData>
 
-		<costList>
-		<!--	<ISA_Paper>25</ISA_Paper>	-->
+		<!--<costList>
 			<WoodLog>5</WoodLog>
-		</costList>
+		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ScribeToolsGroup">
@@ -161,10 +160,9 @@
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/ScrollAndQuill</texPath>
 		</graphicData>
 
-		<costList>
-		<!--	<ISA_Paper>25</ISA_Paper>	-->
+		<!--<costList>
 			<WoodLog>5</WoodLog>
-		</costList>
+		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ScribeToolsGroup">
@@ -175,10 +173,9 @@
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/Book</texPath>
 		</graphicData>
 
-		<costList>
-		<!--	<ISA_Paper>25</ISA_Paper>	-->
+		<!--<costList>
 			<WoodLog>10</WoodLog>
-		</costList>
+		</costList>-->
 	</ThingDef>
 	
 </Defs>
