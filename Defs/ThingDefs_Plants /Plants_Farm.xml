@@ -182,7 +182,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ISA_Plant_Wheat</defName>
 		<label>wheat plant</label>
-		<description>A tall, slow-growing crop that has a high yield of small yellow grains. These grains can be easily turned into flour with the slightest touch. Needs fertile soil to grow well.</description>
+		<description>A tall, slow-growing crop that has a high yield of small yellow grains, it's been bred specifically to withstand colder temperatures. These grains can be easily turned into flour with the slightest touch. Needs fertile soil to grow well.</description>
 		<descriptionHyperlinks>
 			<ThingDef>ISA_Flour</ThingDef>
 		<!--	<ThingDef>Hay</ThingDef>	-->
@@ -219,6 +219,10 @@
 			<immatureGraphicPath>Plants/Immature/PlantWheat</immatureGraphicPath>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
+			<minGrowthTemperature>-10</minGrowthTemperature>
+			<minOptimalGrowthTemperature>0</minOptimalGrowthTemperature>
+			<maxOptimalGrowthTemperature>25</maxOptimalGrowthTemperature>
+			<maxGrowthTemperature>35</maxGrowthTemperature>
 		</plant>
 			<!-- You can use the Vanilla framework expanded for the same thing -->
 	<!--	<modExtensions>			
