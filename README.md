@@ -13,6 +13,12 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
  
 # Old updates
 
+13/11/2026
+- Removed various decorative building
+
+      - All dividers (thin, thick, tall column and thick with a window)
+      - All trophies
+
 06/11/2026
 - Adjusted commonality of wild alchemical plants
 - Fatty (sivatherium) milk from ISA.RandomPatches can be used to make cheese
