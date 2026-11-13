@@ -61,7 +61,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorSmithableBase" Name="ISA_HeraldicHauberkBase">
+	<ThingDef ParentName="ArmorSmithableBase">
 		<defName>ISA_Apparel_Heraldic_Hauberk_Roxmont</defName>
 		<label>heraldic heavy hauberk (roxmont)</label>
 		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Roxmont.</description>
