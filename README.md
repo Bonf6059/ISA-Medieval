@@ -15,6 +15,7 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 
 13/11/2026
 - Consolidated duplicate patches in Add_To_Biomes.xml regarding wild plants and rox spawn rates
+- Removed patches loaded when VFE Medieval 2 is active
 - Removed various decorative building
 
       - All dividers (thin, thick, tall column and thick with a window)
