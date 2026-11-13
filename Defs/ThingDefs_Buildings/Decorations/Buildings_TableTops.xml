@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+<!-- Test -->
+	
+	<ThingDef ParentName="FurnitureBase">
+		<defName>ISA_OnTopDecorations</defName>
+		<label>random clutter</label>
+		<description>Assorted clutter to be used as decoration.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<uiIconOffset>(0, 0.25)</uiIconOffset>
+		<building>
+			<paintable>false</paintable>
+			<isEdifice>false</isEdifice>
+		</building>
+		<size>(1,1)</size>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<wipesPlants>true</wipesPlants>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<clearBuildingArea>false</clearBuildingArea>
+		<minifiedDef IsNull="True" />
+        <useHitPoints>false</useHitPoints>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>3</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+
+		<comps>
+			<li Class="CompProperties_Styleable" Inherit="False"/>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+                <randomGraphics>
+                    <li>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Ale</li>
+                    <li>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Wine</li>
+					<li>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_BerryWine</li>
+
+					<li>Building/Furnitures/Decorations/TableTop/ScribeTools/StackPaper</li>
+					<li>Building/Furnitures/Decorations/TableTop/ScribeTools/ScrollAndQuill</li>
+					<li>Building/Furnitures/Decorations/TableTop/ScribeTools/Book</li>
+                </randomGraphics>
+                <startAsRandom>false</startAsRandom>
+                <disableRandomButton>true</disableRandomButton>
+                <optionalNames>
+                    <li>Ale mug</li>
+                    <li>Wine bottle</li>
+					<li>Berry wine bottle</li>
+
+					<li>Stack of paper</li>
+					<li>ScrollAndQuill</li>
+					<li>Stack of books</li>
+                </optionalNames>
+            </li>
+		</comps>
+
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationCategory>Furniture</designationCategory>
+	</ThingDef>
+
+	
 	<!-- Placeable Furniture on Top of Tables Base-->
-	<ThingDef ParentName="FurnitureBase" Name="ISA_PlaceableFurnitureOnTopOfTables" Abstract="true">
+	<!--<ThingDef ParentName="FurnitureBase" Name="ISA_PlaceableFurnitureOnTopOfTables" Abstract="true">
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
@@ -41,7 +111,7 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<designationCategory>Furniture</designationCategory>
-	</ThingDef>
+	</ThingDef>-->
 
 	<!-- Cash register - Money Box -->
   
@@ -80,7 +150,7 @@
 	</ThingDef>
 	
 	<!-- Beverages -->
-	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_BeveragesGroup" Abstract="true">
+	<!--<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_BeveragesGroup" Abstract="true">
 		<designatorDropdown>ISA_Beverages</designatorDropdown>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 	</ThingDef>
@@ -92,10 +162,6 @@
 		<graphicData>
 			<texPath>Building/Furnitures/Decorations/TableTop/Bottles/Bottle_Ale</texPath>
 		</graphicData>
-
-		<!--<costList Inherit="false">
-			<Beer>1</Beer>
-		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
@@ -111,9 +177,6 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 
-		<!--<costList Inherit="false">
-			<ISA_Wine>1</ISA_Wine>
-		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_BeveragesGroup">
@@ -129,13 +192,10 @@
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 
-		<!--<costList Inherit="false">
-			<ISA_Wine_Berry>1</ISA_Wine_Berry>
-		</costList>-->
-	</ThingDef>
+	</ThingDef>-->
 
 	<!-- Scribe Tools -->
-	<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ScribeToolsGroup" Abstract="true">
+	<!--<ThingDef ParentName="ISA_PlaceableFurnitureOnTopOfTables" Name="ISA_ScribeToolsGroup" Abstract="true">
 		<designatorDropdown>ISA_ScribeTools</designatorDropdown>
 	</ThingDef>
 
@@ -146,10 +206,6 @@
 		<graphicData>
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/StackPaper</texPath>
 		</graphicData>
-
-		<!--<costList>
-			<WoodLog>5</WoodLog>
-		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ScribeToolsGroup">
@@ -159,10 +215,6 @@
 		<graphicData>
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/ScrollAndQuill</texPath>
 		</graphicData>
-
-		<!--<costList>
-			<WoodLog>5</WoodLog>
-		</costList>-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ScribeToolsGroup">
@@ -172,10 +224,6 @@
 		<graphicData>
 			<texPath>Building/Furnitures/Decorations/TableTop/ScribeTools/Book</texPath>
 		</graphicData>
-
-		<!--<costList>
-			<WoodLog>10</WoodLog>
-		</costList>-->
-	</ThingDef>
+	</ThingDef>-->
 	
 </Defs>
