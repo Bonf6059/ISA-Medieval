@@ -14,6 +14,7 @@ Originally crafted by expert brewers to honor warriors and psycasters-hunters wh
 # Old updates
 
 13/11/2026
+- Removed and compacted duplicate patches in Add_To_Biomes.xml regarding wild plants
 - Removed various decorative building
 
       - All dividers (thin, thick, tall column and thick with a window)
