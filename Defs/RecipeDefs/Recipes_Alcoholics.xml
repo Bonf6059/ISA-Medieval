@@ -3,15 +3,9 @@
 
 <!-- grape wine must -->
   
- 	<RecipeDef>
+ 	<RecipeDef ParentName="ISA_Make_MustBase">
 		<defName>ISA_MakeMustWine</defName>
 		<label>make grape must</label>
-		<description>Make grape must by crushing grapes. Needs to undergo fermentation in order to become wine.</description>
-		<jobString>Making grape must.</jobString>
-		<workAmount>1000</workAmount>
-		<recipeUsers>
-			<li>Brewery</li>
-		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -30,22 +24,13 @@
 		<products>
 			<ISA_MustWine>5</ISA_MustWine>
 		</products>
-		<researchPrerequisites>
-			<li>Brewing</li>
-		</researchPrerequisites>
 	</RecipeDef>
 
 <!-- Berry wine must -->
   
-  <RecipeDef>
+  <RecipeDef ParentName="ISA_Make_MustBase">
 		<defName>ISA_MakeMustBerry</defName>
 		<label>make berry must</label>
-		<description>Make berry must by crushing berries. Needs to undergo fermentation in order to become wine.</description>
-		<jobString>Making berry must.</jobString>
-		<workAmount>1000</workAmount>
-		<recipeUsers>
-			<li>Brewery</li>
-		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -64,9 +49,6 @@
 		<products>
 			<ISA_MustWine_Berry>5</ISA_MustWine_Berry>
 		</products>
-		<researchPrerequisites>
-			<li>Brewing</li>
-		</researchPrerequisites>
 	</RecipeDef>
 
 </Defs>
