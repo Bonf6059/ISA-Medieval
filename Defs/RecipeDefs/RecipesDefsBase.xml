@@ -26,18 +26,19 @@
 		</recipeUsers>
 	</RecipeDef>
 
-  <!-- Wine Wort; Alcohol -->
+  <!-- Wine must -->
   
-	<RecipeDef Name="ISA_Make_WortBase" Abstract="True">
-		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
-		<workSkill>Cooking</workSkill>
-		<effectWorking>Cook</effectWorking>
-		<soundWorking>Recipe_Brewing</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<targetCountAdjustment>1</targetCountAdjustment>
+	<RecipeDef Name="ISA_Make_MustBase" Abstract="True">
+ 	<RecipeDef>
+		<description>Make must by crushing fruits. Needs to undergo fermentation in order to become wine.</description>
+		<jobString>Making must.</jobString>
+		<workAmount>1000</workAmount>
 		<recipeUsers>
 			<li>Brewery</li>
 		</recipeUsers>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
   <!-- Mineshaft -->
