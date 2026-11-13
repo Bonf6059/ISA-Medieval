@@ -62,11 +62,11 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorSmithableBase" Name="ISA_HeraldicHauberkBase">
-		<defName>ISA_Apparel_Heraldic_HauberkAmboise</defName>
-		<label>heraldic heavy hauberk (Amboise)</label>
-		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Amboise.</description>
+		<defName>ISA_Apparel_Heraldic_Hauberk_Roxmont</defName>
+		<label>heraldic heavy hauberk (roxmont)</label>
+		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Roxmont.</description>
 		<graphicData>
-			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadAmboise/Chain_Mail_PadHeraldic3</texPath>
+			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -108,7 +108,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadAmboise/Chain_Mail_PadHeraldic3</wornGraphicPath>
+			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
 				<li>MedievalMilitaryDecent</li>
@@ -128,39 +128,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-
-	<ThingDef ParentName="ISA_HeraldicHauberkBase">
-		<defName>ISA_Apparel_Heraldic_HauberkSoren</defName>
-		<label>heraldic heavy hauberk (Soren)</label>
-		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Soren.</description>
-		<graphicData>
-			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadSoren/Chain_Mail_PadHeraldic2</texPath>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadSoren/Chain_Mail_PadHeraldic2</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
-				<li>MedievalMilitaryDecent</li>
-			</tags>
-		</apparel>
-	</ThingDef>
-	
-	<ThingDef ParentName="ISA_HeraldicHauberkBase">
-		<defName>ISA_Apparel_Heraldic_Hauberk_Roxmont</defName>
-		<label>heraldic heavy hauberk (roxmont)</label>
-		<description>A full-body suit of heavy chainmail reinforced in key places with additional sheets and links of metal. Quite fatiguing to wear, but very protective. \n\nThis heavy hauberk carries the colours of house Roxmont.</description>
-		<graphicData>
-			<texPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</texPath>
-		</graphicData>
-
-		<apparel>
-			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<tags>
-				<li>MedievalMilitaryDecent</li>
-			</tags>
-		</apparel>
-	</ThingDef>
-
 
 </Defs>
