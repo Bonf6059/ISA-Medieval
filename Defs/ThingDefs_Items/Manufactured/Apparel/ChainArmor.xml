@@ -111,7 +111,7 @@
 			<wornGraphicPath>Pawn/HumanLike/Apparel/Armor/ChainArmor/Chain_Mail_PadRoxmont/Chain_Mail_PadRoxmont</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<tags>
-				<li>MedievalMilitaryDecent</li>
+				<li>MedievalMilitaryAdvanced</li>
 			</tags>
 			<layers>
 				<li>Shell</li>
