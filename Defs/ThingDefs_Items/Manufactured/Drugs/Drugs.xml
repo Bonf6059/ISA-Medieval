@@ -63,7 +63,7 @@
 		<defName>ISA_OpiumHigh</defName>
 		<label>high on opium</label>
 		<labelNoun>an opium high</labelNoun>
-		<description>Active opium in the bloodstream. Dulls out pain completely.</description>
+		<description>Active opium in the bloodstream. Dulls out pain.</description>
 		<hediffClass>Hediff_High</hediffClass>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -77,7 +77,7 @@
 		</comps>
 		<stages>
 			<li>
-				<painFactor>0</painFactor>
+				<painFactor>0.33</painFactor>
 			</li>
 		</stages>
 	</HediffDef>
@@ -90,7 +90,7 @@
 			<li>
 				<label>high on opium</label>
 				<description>I feel no pain! Let's do this!</description>
-				<baseMoodEffect>20</baseMoodEffect>
+				<baseMoodEffect>15</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
