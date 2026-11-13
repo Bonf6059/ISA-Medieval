@@ -106,9 +106,6 @@
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
-		<!--	<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
-				<ingestedThought>ISA_DrankWine</ingestedThought>
-			</li>	-->
 			<li MayRequire="vanillaexpanded.vcooke" Class="VEF.Cooking.CompProperties_StackByQuality"/>
 		</comps>
 	</ThingDef>
@@ -118,7 +115,6 @@
 	<ThingDef ParentName="ISA_WineBase">
 		<defName>ISA_Wine_Berry</defName>
 		<label>berry wine</label>
-<!--		<description>Produced from the luscious bounty of berri, often associated with the mulberry tree's role in nurturing silk worms. Aged vintages whisper tales of sophistication, beckoning connoisseurs with their intricate flavors, a staple of esteemed gatherings and royal banquets.</description>	-->
 		<graphicData>
 			<texPath>Items/Drinks/BerryWine</texPath>
 		</graphicData>
