@@ -29,7 +29,6 @@
   <!-- Wine must -->
   
 	<RecipeDef Name="ISA_Make_MustBase" Abstract="True">
- 	<RecipeDef>
 		<description>Make must by crushing fruits. Needs to undergo fermentation in order to become wine.</description>
 		<jobString>Making must.</jobString>
 		<workAmount>1000</workAmount>
