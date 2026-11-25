@@ -11,11 +11,15 @@ Now with a (WIP) wiki! (29/09/26)
  
 # Old updates
 
+25/11/2026
+- Consolidated mythycal traders patches
+- Removed duplicated textures of RusticCookingTable, TableStonecutter and TailorsBench
+- Renamed texture for brewery table 
+
 13/11/2026
 - Consolidated duplicate patches in Add_To_Biomes.xml regarding wild plants and rox spawn rates
 - Removed patches loaded when VFE Medieval 2 is active
 - Removed armor sets by house Soren and Amboise
-- Consolidated mythycal traders patches
 - Removed various decorative building
 
       - All dividers (thin, thick, tall column and thick with a window)
