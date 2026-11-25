@@ -123,6 +123,10 @@
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<wildBiomes>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Grasslands>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.4</GlacialPlain>
+			</wildBiomes>
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>
