@@ -13,7 +13,7 @@ Now with a (WIP) wiki! (29/09/26)
 
 25/11/2026
 - Consolidated mythycal traders patches
-- Removed duplicated textures of RusticCookingTable, TableStonecutter and TailorsBench
+- Removed duplicated textures of RusticCookingTable, TableStonecutter, TailorsBench and Hardweave
 - Renamed texture for brewery table 
 
 13/11/2026
